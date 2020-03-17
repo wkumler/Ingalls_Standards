@@ -1,0 +1,133 @@
+---
+title: "Ingalls Standards Project"
+author: "R.Lionheart"
+date: "Start date: 3/17/2020"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+### Overview
+The most updated version of the Ingalls_Lab_Standards.csv lives in Katherine's github at the following link: 
+[Ingalls Lab Standards](https://github.com/kheal/Example_Untargeted_Metabolomics_Workflow)
+
+A new repository has been made for this project: [New Ingalls Lab Standards](https://github.com/IngallsLabUW/Ingalls_Standards)
+
+Currently the repository is mostly except for this script, but as the updating process is streamlined all information will be moved over to that repo.
+
+------
+
+#### Proposed short-term changes
+
+##### When enacted, this list will be organized and dates added.
+1. Enact consistent capitalization. 
+    + Use regex syntax to ignore case when matching to real data.
+    + Check on intra-comound capitalization, eg "1-stearoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine"
+    + Make sure compound capitalization doesn't interfere with the KEGG primary name.
+2. Remove symbols, such as question marks, dashes when they're not needed. 
+    + Keep/include any symbols that are part of the KEGG name.
+3. Standardize the notation for Internal Standards.
+    + Dashes vs commas.
+
+**Examples of Specific Compounds for first changes**
+
+*Dashes and Internal standards*  
+* Guanine, 13C-15N2  
+* Uracil, 15N2-D2  
+* Cytosine, 13C2-15N3   
+* Riboflavin-dioxopyrimidine, 13C4, 15N2  
+* 3 Indolebutyric Acid and 3 Indolepropionic Acid vs 3-Indoleacetonitrile, 3-Sulfopyruvic Acid, etc.  
+
+*Symbols*  
+* B-apo-8'-carotenal  
+* Keto-?-(methylthio)butyric acid  
+* N(e)-Acetyl-Lysine  
+* Trimethylammonium Propionate (TMAP)  
+
+*Capitalization*  
+See below for full details  
+* Dimethyl glycine, Dimethyl Glycine  
+* thiamine pyrophosphate, Thiamine pyrophosphate  
+
+*Others*  
+* RP B12, which exists in addition to plain B12                                         
+
+------
+
+#### Long-term Changes
+* Primary name column, how we refer to it in the lab and how it will be ID'd in analysis.
+* Include a column for syntactically correct names, which may or may not be the primary name.
+* Possibly include a column of annotation, depending on size/how much info is in that column.
+
+------
+
+### First look at original Ingalls_Lab_Standards csv
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+```
+
+```{r imports, include=FALSE}
+Kegg.compounds <- read.csv("data_raw/KEGGCompounds_withMasses.csv", stringsAsFactors = F)
+Ingalls.compounds <- read.csv("data_raw/Ingalls_Lab_Standards.csv", stringsAsFactors = F)
+
+kegg.names <- Kegg.compounds %>%
+  arrange(Kegg.compounds$Name) %>%
+  select(Name, AllNames)
+ingalls.names <- sort(unique(Ingalls.compounds$Compound.Name))
+```
+
+##### Compounds that are an exact match between KEGG compounds and Ingalls Standards compounds.
+```{r matched names, include = TRUE}
+matched <- Kegg.compounds %>% filter(Name %in% ingalls.names)
+knitr::kable(matched[, 4:6],caption="Current KEGG/Ingalls matched compounds", floating.environment="sidewaystable")
+```
+
+##### Compounds that are duplicated within the Ingalls_Lab_Standards csv, for HILIC ion mode or multiple run type detection.
+```{r duplicates, include=TRUE}
+duplicated.ingalls <- Ingalls.compounds %>%
+  group_by(Category = stringi::stri_trans_totitle(Compound.Name)) %>%
+  filter(n() > 1) %>%
+  arrange(Compound.Name)
+
+knitr::kable(duplicated.ingalls[c(2:3, 10, 16:17, 19, 22)], 
+             caption="Duplicated Ingalls Compounds", floating.environment="sidewaystable")
+```
+
+------
+
+### Code + Analysis begins here
+
+#### All Ingalls standards capitalized. 
+This doesn't account for those compounds that don't need to be capitalized, such as p-Coumaric acid, which now shows up as P-Coumaric Acid. This will be edited to reflect the KEGG compound primary name.
+```{r experimental, include=FALSE}
+CapitalizeWords <- function(x) {
+  s <- strsplit(x, " ")[[1]]
+   paste(toupper(substring(s, 1, 1)), substring(s, 2),
+       sep="", collapse=" ")
+}
+
+cmpds.capitalized <- as.data.frame(sapply(ingalls.names, CapitalizeWords)) %>% rownames_to_column()
+colnames(cmpds.capitalized) <- c("Original", "Capitalized")
+cmpds.changed <- cmpds.capitalized[, 1:2] %>%
+  mutate(Change = rowSums(cmpds.capitalized == cmpds.capitalized[, 1]) == ncol(cmpds.capitalized)) %>%
+  filter(Change == FALSE) %>%
+  select(-Change)
+```
+
+```{r capitalize, include=TRUE}
+knitr::kable(cmpds.changed, 
+             caption="All Compounds Capitalized", floating.environment="sidewaystable")
+```
+
+Check for improper changes against the KEGG compounds. This returns row locations of all matches. Will require some work to filter compounds correctly.
+```{r KEGG check, include=TRUE}
+
+ethanol.example <- sapply(colnames(kegg.names[]), 
+                          function(x) grep("ethanol", kegg.names[, x], ignore.case = TRUE))
+
+ethanol.example
+
+```
