@@ -29,9 +29,15 @@ Currently the repository is mostly except for this script, but as the updating p
 3. Standardize the notation for Internal Standards.
     + Dashes vs commas.
 
+
+
 **Examples of Specific Compounds for first changes**
+This will include the actual outcome for each compound that should be changed. It may be part of a larger sheet that includes a column of "Before" and "After" compound changes so the new names can be checked against legacy data. 
 
 *Dashes and Internal standards*  
+Replace any instances of D with 2H.
+These will need a consistent labeling scheme, not just fixing commas and dashes.
+
 * Guanine, 13C-15N2  
 * Uracil, 15N2-D2  
 * Cytosine, 13C2-15N3   
@@ -50,8 +56,7 @@ See below for full details
 * thiamine pyrophosphate, Thiamine pyrophosphate  
 
 *Others*  
-* RP B12, which exists in addition to plain B12                                         
-
+* RP B12, which exists in addition to plain B12. This should be Cyano b12 or Cyanocobalamin. This is a leftover mistake from replacing cyano to RP for the chromatography.                                     
 ------
 
 #### Long-term Changes
