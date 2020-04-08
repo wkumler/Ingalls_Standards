@@ -13,34 +13,17 @@ The most updated version of the Ingalls_Lab_Standards.csv lives in Katherine's g
 
 A new repository has been made for this project: [New Ingalls Lab Standards](https://github.com/IngallsLabUW/Ingalls_Standards)
 
-
 View the most recent Ingalls Standards in this repository, titled Ingalls_Standards_NEW.csv.
 
 ------
 
 #### Proposed short-term changes
 
-#### Internal Standard Changes: 
-1. Standardize the notation for Internal Standards. Potential changes completed by LTC on 04/02/20.
-    
-    
-2. Enact consistent capitalization. 
-    + Use regex syntax to ignore case when matching to real data.
-    + Check on intra-comound capitalization, eg "1-stearoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine"
-    + Make sure compound capitalization doesn't interfere with the KEGG primary name.
-3. Remove symbols, such as question marks, dashes when they're not needed. 
-    + Keep/include any symbols that are part of the KEGG name.
-
-**Suggested changes, April 1, 2020**
-
 1. Enact consistent capitalization. 
     + Use regex syntax to ignore case when matching to real data.
     + Change all capitalized "Acids" to lowercase to match KEGG compounds.
 2. Remove symbols, such as question marks, dashes when they're not needed. 
     + Keep/include any symbols that are part of the KEGG name.
-3. Standardize the notation for Internal Standards.
-    + Remove all dashes and replace with commas.
-    + Replace any instances of D with 2H.
 
 
 **Examples of Specific Compounds for First Changes**  
@@ -50,11 +33,6 @@ This will include the actual outcome for each compound that should be changed. I
 * Dimethyl glycine --> Dimethylglycine  
 * thiamine pyrophosphate --> Thiamine pyrophosphate, or Vitamin B1  
 * 3-Sulfopyruvic Acid --> 3-Sulfopyruvic acid  
-
-*Internal standards*  
-* Guanine, 13C-15N2 --> Guanine, 13C2, 15N2  
-* Uracil, 15N2-D2  --> Uracil, 15N2, 2H2  
-* Cytosine, 13C2-15N3 --> Cytosine, 13C2, 15N3
 
 *Symbols*  
 * B-apo-8'-carotenal  
@@ -70,9 +48,6 @@ This will include the actual outcome for each compound that should be changed. I
 * Glutamic acid v Glutamate  
 * Betaine v Glycine betaine  
 * Check on intra-compound capitalization, eg "1-stearoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine"  
-
-*Others*  
-* RP B12, which exists in addition to plain B12. This should be Cyano b12 or Cyanocobalamin. This is a leftover mistake from replacing cyano to RP for the chromatography.                                     
 
 ------
 
