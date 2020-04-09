@@ -97,9 +97,11 @@ knitr::kable(LauraEditsIS, caption="Changed Internal Standards", floating.enviro
 
 ```{r Incorporate IS changes, include=TRUE}
 Ingalls_Lab_Standards_IS <- Ingalls_Lab_Standards %>%
-  left_join(LauraEditsIS %>% rename(Compound.Name = Compound.Name_old)) %>%
-  mutate(Compound.Name = ifelse(is.na(Compound.Name_new), Compound.Name, Compound.Name_new)) %>%
-  select(-Compound.Name_new)
+  left_join(Ingalls_Lab_Standards_LauraEdit %>% rename(Compound.Name = Compound.Name_old)) %>%
+  rename(Compound.Name_old = Compound.Name,
+         Compound.Name = Compound.Name_new) %>%
+  select(Compound.Type, Column, Compound.Name, Compound.Name_old, everything()) %>%
+  mutate(Compound.Name_old = ifelse(Compound.Type == "Internal Standard", Compound.Name, NA))
 
 write.csv(Ingalls_Lab_Standards_IS, "Ingalls_Lab_Standards_NEW.csv")
 ```
