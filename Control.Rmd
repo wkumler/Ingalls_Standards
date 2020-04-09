@@ -19,16 +19,6 @@ View the most recent Ingalls Standards in this repository, titled Ingalls_Standa
 
 #### Proposed short-term changes
 
-1. Enact consistent capitalization. 
-    + Use regex syntax to ignore case when matching to real data.
-    + Change all capitalized "Acids" to lowercase to match KEGG compounds.
-2. Remove symbols, such as question marks, dashes when they're not needed. 
-    + Keep/include any symbols that are part of the KEGG name.
-
-
-**Examples of Specific Compounds for First Changes**  
-This will include the actual outcome for each compound that should be changed. It may be part of a larger sheet that includes a column of "Before" and "After" compound changes so the new names can be checked against legacy data. 
-
 *Capitalization*  
 * Dimethyl glycine --> Dimethylglycine  
 * thiamine pyrophosphate --> Thiamine pyrophosphate, or Vitamin B1  
@@ -41,15 +31,12 @@ This will include the actual outcome for each compound that should be changed. I
 * Trimethylammonium Propionate (TMAP)  
 * 3 Indolebutyric Acid and 3 Indolepropionic Acid vs 3-Indoleacetonitrile, 3-Sulfopyruvic Acid, etc.  
 
------  
-
 *Other changes*  
 * RP B12, which exists in addition to plain B12. This should be Cyano b12 or Cyanocobalamin. This is a leftover mistake from replacing cyano to RP for the chromatography.  
 * Glutamic acid v Glutamate  
 * Betaine v Glycine betaine  
 * Check on intra-compound capitalization, eg "1-stearoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine"  
 
-------
 
 #### Long-term Changes
 * Primary name column, how we refer to it in the lab and how it will be ID'd in analysis.
@@ -97,6 +84,30 @@ for (i in filenames) {
   assign(make.names(i), read.csv(filepath, stringsAsFactors = FALSE, fileEncoding = "latin1"))
 }
 ```
+
+```{r Change Internal Standards, include=TRUE}
+# View list of all changed Internal Standards.
+LauraEditsIS <- Ingalls_Lab_Standards_LauraEdit %>%
+  select(Compound.Type,Compound.Name_new, Compound.Name_old) %>%
+  filter(Compound.Type == "Internal Standard") %>%
+  filter(!Compound.Name_new == Compound.Name_old) # Remove compounds that don't change
+
+knitr::kable(LauraEditsIS, caption="Changed Internal Standards", floating.environment="sidewaystable")
+```
+
+```{r Incorporate IS changes, include=TRUE}
+Ingalls_Lab_Standards_IS <- Ingalls_Lab_Standards %>%
+  left_join(LauraEditsIS %>% rename(Compound.Name = Compound.Name_old)) %>%
+  mutate(Compound.Name = ifelse(is.na(Compound.Name_new), Compound.Name, Compound.Name_new)) %>%
+  select(-Compound.Name_new)
+
+write.csv(Ingalls_Lab_Standards_IS, "Ingalls_Lab_Standards_NEW.csv")
+```
+
+------
+
+### Experimental Code + Analysis begins here
+Everything below this point may or may not work, and does not reflect any changes that have or will be made to the Ingalls_Lab_Standards.csv.
 
 ##### Compounds that are an exact match between KEGG compounds primary name and Ingalls Standards compounds.
 ```{r matched names, include = TRUE}
@@ -197,10 +208,6 @@ duplicated.ingalls <- Ingalls.compounds %>%
 knitr::kable(duplicated.ingalls[c(2:3, 10, 16:17, 19, 22)],
              caption="Duplicated Ingalls Compounds", floating.environment="sidewaystable")
 ```
-
-------
-
-### Code + Analysis begins here
 
 #### All Ingalls standards capitalized.
 This doesn't account for those compounds that don't need to be capitalized, such as p-Coumaric acid, which now shows up as P-Coumaric Acid. This will be edited to reflect the KEGG compound primary name.

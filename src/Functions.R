@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ## Functions
 
 RemoveCsv <- function(full.filepaths) {
@@ -15,11 +14,3 @@ RemoveCsv <- function(full.filepaths) {
   
   return(no.path)
 }
-=======
-findKEGGName <- function(mycompound) {
-  
-  output <- filter(kegg.names, Name == mycompound)
-  
-  return(output)
-}
->>>>>>> 202f49e5590ecd139477542f69b30ddc3e450259
