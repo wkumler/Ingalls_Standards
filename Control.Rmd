@@ -66,16 +66,16 @@ library(tidyverse)
 
 ```{r imports, include=FALSE}
 # Complete datasets
-Kegg.compounds <- read.csv("data_raw/KEGGCompounds_withMasses.csv", stringsAsFactors = F)
-Ingalls.compounds <- read.csv("data_raw/Ingalls_Lab_Standards.csv", stringsAsFactors = F)
+Kegg.complete <- read.csv("data_raw/KEGGCompounds_withMasses.csv", stringsAsFactors = F)
+Ingalls.complete <- read.csv("data_raw/Ingalls_Lab_Standards.csv", stringsAsFactors = F)
 
 # All compound names isolated from each dataset
-Name <- gsub(";", "", as.character(Kegg.compounds$Name), n)
-kegg.names <- data.frame(Name, Kegg.compounds$AllNames) %>%
+Name <- gsub(";", "", as.character(Kegg.complete$Name), n)
+kegg.names <- data.frame(Name, Kegg.complete$AllNames) %>%
   arrange(Name) %>%
   mutate_all(as.character)
 
-ingalls.names <- as.data.frame(sort(unique(Ingalls.compounds$Compound.Name))) %>%
+ingalls.names <- as.data.frame(sort(unique(Ingalls.complete$Compound.Name))) %>%
   rename(Compound = 1) %>%
   mutate(Compound = as.character(Compound))
 ```
@@ -116,7 +116,8 @@ write.csv(Ingalls_Lab_Standards_IS, "Ingalls_Lab_Standards_NEW.csv")
 ## Abbreviations for long KEGG compounds
 ```{r Next experimental Laura, include = FALSE}
 Abbreviations <- Ingalls_Lab_Standards_LauraEdit %>%
-  select(Compound.Name_new, Compound.Name_old, Compound.Type) %>%
+  left_join(Ingalls_Lab_Standards_AlecEdit %>% rename(Compound.Name_Alec = Compound.Name)) %>%
+  select(Compound.Name_new, Compound.Name_Alec, Compound.Name_old, Compound.Type) %>%
   filter(!Compound.Type == "Internal Standard",
          !Compound.Name_new == Compound.Name_old) %>%
   mutate(letter.count = nchar(Compound.Name_old)) %>%
@@ -151,11 +152,11 @@ knitr::kable(exact.match, caption="Current KEGG/Ingalls matched compounds", floa
 
 ##### Compounds with and without current KEGGNAME matches in the existing Ingalls standards csv.
 ```{r imported ingalls matched, include = TRUE}
-no.match <- Ingalls.compounds %>%
+no.match <- Ingalls.complete %>%
   select(Compound.Name, KEGGNAME)
 no.match <- no.match[is.na(no.match$KEGGNAME),]
 
-yes.match <- Ingalls.compounds %>%
+yes.match <- Ingalls.complete %>%
   select(Compound.Name, KEGGNAME)
 yes.match <- yes.match[!is.na(yes.match$KEGGNAME),]
 yes.match <- yes.match %>% arrange(Compound.Name)
@@ -169,7 +170,7 @@ knitr::kable(no.match, caption="Ingalls compounds, no existing match", floating.
 
 ##### Compounds that are duplicated within the Ingalls_Lab_Standards csv, for HILIC ion mode or multiple run type detection.
 ```{r duplicates, include=TRUE}
-ingalls.duplicated <- Ingalls.compounds %>%
+ingalls.duplicated <- Ingalls.complete %>%
   select(Compound.Name, Column, z, Fraction1, Fraction2, KEGGNAME) %>%
   group_by(Category = stringi::stri_trans_totitle(Compound.Name)) %>% # ignores capitalization
   filter(n() > 1) %>%
@@ -182,14 +183,11 @@ knitr::kable(ingalls.duplicated, caption="Duplicated Ingalls Compounds", floatin
 
 ##### All current internal standards used in the Ingalls lab.
 ```{r internal standards, include=TRUE}
-internal.standards <- Ingalls.compounds %>%
+internal.standards <- Ingalls.complete %>%
   filter(Compound.Type == "Internal Standard")
 
 knitr::kable(internal.standards[, 2:3], caption="Existing Ingalls internal standards", floating.environment="sidewaystable")
 ```
-
-
-### Experimental Code and Analysis: Everything below this point is just exploratory.
 
 
 #### All Ingalls standards capitalized.
@@ -224,13 +222,13 @@ write.csv(Ingalls_Lab_Standards_IS, "Ingalls_Lab_Standards_NEW.csv")
 
 ##### Compounds that are an exact match between KEGG compounds and Ingalls Standards compounds.
 ```{r matched names, include = TRUE}
-matched <- Kegg.compounds %>% filter(Name %in% ingalls.names)
+matched <- Kegg.complete %>% filter(Name %in% ingalls.names)
 knitr::kable(matched[, 4:6],caption="Current KEGG/Ingalls matched compounds", floating.environment="sidewaystable")
 ```
 
 ##### Compounds that are duplicated within the Ingalls_Lab_Standards csv, for HILIC ion mode or multiple run type detection.
 ```{r duplicates, include=TRUE}
-duplicated.ingalls <- Ingalls.compounds %>%
+duplicated.ingalls <- Ingalls.complete %>%
   group_by(Category = stringi::stri_trans_totitle(Compound.Name)) %>%
   filter(n() > 1) %>%
   arrange(Compound.Name)
