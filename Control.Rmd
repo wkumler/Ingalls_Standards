@@ -31,6 +31,13 @@ View the most recent Ingalls Standards in this repository, titled Ingalls_Standa
 * Trimethylammonium Propionate (TMAP)  
 * 3 Indolebutyric Acid and 3 Indolepropionic Acid vs 3-Indoleacetonitrile, 3-Sulfopyruvic Acid, etc.  
 
+*Abbreviations*
+Some of the KEGG compound IDs are long and include potentially problematic symbols.
+Should we keep some abbreviations despite those not being the correct KEGG ID?
+* N-3-Oxo-dodecanoyl-L-homoserine lacton, instead continue calling it C12-HSL?  
+* 2-Heptyl-4(1H)-quinolone, instead continue calling it HHQ?  
+* etc...
+
 *Other changes*  
 * RP B12, which exists in addition to plain B12. This should be Cyano b12 or Cyanocobalamin. This is a leftover mistake from replacing cyano to RP for the chromatography.  
 * Glutamic acid v Glutamate  
@@ -46,7 +53,7 @@ View the most recent Ingalls Standards in this repository, titled Ingalls_Standa
 
 ------
 
-# Change Log
+## Change Log
 4/8/20: Internal standards updated to reflect consistent naming scheme.
 
 ```{r setup, include=FALSE}
@@ -106,10 +113,31 @@ Ingalls_Lab_Standards_IS <- Ingalls_Lab_Standards %>%
 write.csv(Ingalls_Lab_Standards_IS, "Ingalls_Lab_Standards_NEW.csv")
 ```
 
+## Abbreviations for long KEGG compounds
+```{r Next experimental Laura, include = FALSE}
+Abbreviations <- Ingalls_Lab_Standards_LauraEdit %>%
+  select(Compound.Name_new, Compound.Name_old, Compound.Type) %>%
+  filter(!Compound.Type == "Internal Standard",
+         !Compound.Name_new == Compound.Name_old) %>%
+  mutate(letter.count = nchar(Compound.Name_old)) %>%
+  arrange(letter.count) %>%
+  filter(nchar(Compound.Name_old) < 8,
+         nchar(Compound.Name_old) < 4 | str_detect(Compound.Name_old, "-"))
+```
+
+Potential name changes that lengthen the name, insted of shortening it. Should we continue to use the abbreviations for convenience?
+```{r View abbreviation table, include=TRUE}
+View.Abbreviations <- Abbreviations %>%
+  select(Compound.Type, Compound.Name_new, Compound.Name_old)
+
+knitr::kable(View.Abbreviations, caption="Potential Abbreviation Changes", floating.environment="sidewaystable")
+```
+
 ------
 
 ### Experimental Code + Analysis begins here
 Everything below this point may or may not work, and does not reflect any changes that have or will be made to the Ingalls_Lab_Standards.csv.
+
 
 ##### Compounds that are an exact match between KEGG compounds primary name and Ingalls Standards compounds.
 ```{r matched names, include = TRUE}
@@ -152,7 +180,7 @@ knitr::kable(ingalls.duplicated, caption="Duplicated Ingalls Compounds", floatin
 
 ------
 
-##### All current internal standards used in the Ingalls lab. 
+##### All current internal standards used in the Ingalls lab.
 ```{r internal standards, include=TRUE}
 internal.standards <- Ingalls.compounds %>%
   filter(Compound.Type == "Internal Standard")
@@ -164,7 +192,7 @@ knitr::kable(internal.standards[, 2:3], caption="Existing Ingalls internal stand
 ### Experimental Code and Analysis: Everything below this point is just exploratory.
 
 
-#### All Ingalls standards capitalized. 
+#### All Ingalls standards capitalized.
 This doesn't account for those compounds that don't need to be capitalized, such as p-Coumaric acid, which now shows up as P-Coumaric Acid. This will be edited to reflect the KEGG compound primary name.
 ```{r experimental, include=FALSE}
 CapitalizeWords <- function(x) {
