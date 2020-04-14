@@ -20,16 +20,10 @@ View the most recent Ingalls Standards in this repository, titled Ingalls_Standa
 #### Proposed short-term changes
 
 *Capitalization*  
-* Dimethyl glycine --> Dimethylglycine  
-* thiamine pyrophosphate --> Thiamine pyrophosphate, or Vitamin B1  
-* 3-Sulfopyruvic Acid --> 3-Sulfopyruvic acid  
-
-*Symbols*  
-* B-apo-8'-carotenal  
-* Keto-?-(methylthio)butyric acid  
-* N(e)-Acetyl-Lysine  
-* Trimethylammonium Propionate (TMAP)  
-* 3 Indolebutyric Acid and 3 Indolepropionic Acid vs 3-Indoleacetonitrile, 3-Sulfopyruvic Acid, etc.  
+* All "Acid"s will be changed to "acid", as per KEGG conventions. Example: 3-Sulfopyruvic Acid --> 3-Sulfopyruvic acid  
+* First appearance of compound in complete name will be capitalized. Example: 7-dehydrocholesterol --> 7-Dehydrocholesterol, thiamine pyrophosphate --> Thiamine pyrophosphate, or Vitamin B1   
+* "B-compoundName" will be changed to beta-CompoundName. Example: B-ionine --> beta_Ionine  
+* Second part of compound name lowercase. Example: Glutathione Disulfide --> Glutathione disulfide  
 
 *Abbreviations*
 Some of the KEGG compound IDs are long and include potentially problematic symbols.
@@ -38,12 +32,21 @@ Should we keep some abbreviations despite those not being the correct KEGG ID?
 * 2-Heptyl-4(1H)-quinolone, instead continue calling it HHQ?  
 * etc...
 
+*Symbols*  
+* B-apo-8'-carotenal  
+* Keto-?-(methylthio)butyric acid  
+* N(e)-Acetyl-Lysine  
+* Trimethylammonium Propionate (TMAP)  
+* 3 Indolebutyric Acid and 3 Indolepropionic Acid vs 3-Indoleacetonitrile, 3-Sulfopyruvic Acid, etc.  
+Part of working with symbols is remembering that will we have a syntactically correct column for CMAP and other uploads.
+
 *Other changes*  
 * RP B12, which exists in addition to plain B12. This should be Cyano b12 or Cyanocobalamin. This is a leftover mistake from replacing cyano to RP for the chromatography.  
 * Glutamic acid v Glutamate  
 * Betaine v Glycine betaine  
 * Check on intra-compound capitalization, eg "1-stearoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine"  
-
+* Dimethyl glycine --> Dimethylglycine  
+* All vitamins referred to as their KEGG names. Example: Vitamin B7 --> Biotin. 
 
 #### Long-term Changes
 * Primary name column, how we refer to it in the lab and how it will be ID'd in analysis.
@@ -64,21 +67,7 @@ library(stringr)
 library(tidyverse)
 ```
 
-```{r imports, include=FALSE}
-# Complete datasets
-Kegg.complete <- read.csv("data_raw/KEGGCompounds_withMasses.csv", stringsAsFactors = F)
-Ingalls.complete <- read.csv("data_raw/Ingalls_Lab_Standards.csv", stringsAsFactors = F)
-
-# All compound names isolated from each dataset
-Name <- gsub(";", "", as.character(Kegg.complete$Name), n)
-kegg.names <- data.frame(Name, Kegg.complete$AllNames) %>%
-  arrange(Name) %>%
-  mutate_all(as.character)
-
-ingalls.names <- as.data.frame(sort(unique(Ingalls.complete$Compound.Name))) %>%
-  rename(Compound = 1) %>%
-  mutate(Compound = as.character(Compound))
-```
+------
 
 ## Renaming of Internal Standards
 ```{r Import Internal Standards, include=FALSE}
@@ -113,35 +102,97 @@ Ingalls_Lab_Standards_IS <- Ingalls_Lab_Standards %>%
 write.csv(Ingalls_Lab_Standards_IS, "Ingalls_Lab_Standards_NEW.csv")
 ```
 
+-----
+
 ## Abbreviations for long KEGG compounds
 ```{r Next experimental Laura, include = FALSE}
 Abbreviations <- Ingalls_Lab_Standards_LauraEdit %>%
   left_join(Ingalls_Lab_Standards_AlecEdit %>% rename(Compound.Name_Alec = Compound.Name)) %>%
   select(Compound.Name_new, Compound.Name_Alec, Compound.Name_old, Compound.Type) %>%
-  filter(!Compound.Type == "Internal Standard",
-         !Compound.Name_new == Compound.Name_old) %>%
+  filter(Compound.Type != "Internal Standard",
+         Compound.Name_new != Compound.Name_old | Compound.Name_old != Compound.Name_Alec) %>% # Filters out the 30HC12-HSL
   mutate(letter.count = nchar(Compound.Name_old)) %>%
   arrange(letter.count) %>%
-  filter(nchar(Compound.Name_old) < 8,
-         nchar(Compound.Name_old) < 4 | str_detect(Compound.Name_old, "-"))
+  filter(nchar(Compound.Name_old) < 10,
+         nchar(Compound.Name_old) < 7 | str_detect(Compound.Name_old, "-"))
 ```
 
 Potential name changes that lengthen the name, insted of shortening it. Should we continue to use the abbreviations for convenience?
 ```{r View abbreviation table, include=TRUE}
 View.Abbreviations <- Abbreviations %>%
-  select(Compound.Type, Compound.Name_new, Compound.Name_old)
+  select(Compound.Type, Compound.Name_new, Compound.Name_Alec, Compound.Name_old)
+Abbreviations.ShortList <- Abbreviations %>%
+  select(Compound.Type, Compound.Name_new, Compound.Name_Alec, Compound.Name_old) %>%
+  slice(1, 7, 9, 13, 21:23, 26:27, 29:30)
+  
 
 knitr::kable(View.Abbreviations, caption="Potential Abbreviation Changes", floating.environment="sidewaystable")
+```
+
+-----
+
+### Capitalizations of compounds
+```{r Capitalizations, include=FALSE}
+Capitalizations <- Ingalls_Lab_Standards_LauraEdit %>%
+  left_join(Ingalls_Lab_Standards_AlecEdit %>% rename(Compound.Name_Alec = Compound.Name)) %>%
+  select(Compound.Name_new, Compound.Name_Alec, Compound.Name_old, Compound.Type) %>%
+  filter(Compound.Type != "Internal Standard",
+         Compound.Name_new != Compound.Name_old | Compound.Name_old != Compound.Name_Alec) %>%
+  filter(!str_detect(Compound.Name_new, regex("acid", ignore_case = TRUE)))
+```
+
+```{r View capitalization table, include=TRUE}
+View.Capitalizations <- Capitalizations %>%
+  select(-Compound.Type) %>%
+  arrange(Compound.Name_old)
+
+knitr::kable(View.Capitalizations, caption="Potential Capitalization Changes", floating.environment="sidewaystable")
+
+```
+
+-----
+
+### Symbols that (maybe) don't belong
+```{r Symbols, include=FALSE}
+Symbols <- Ingalls_Lab_Standards_LauraEdit %>%
+  left_join(Ingalls_Lab_Standards_AlecEdit %>% rename(Compound.Name_Alec = Compound.Name)) %>%
+  select(Compound.Name_new, Compound.Name_Alec, Compound.Name_old, Compound.Type) %>%
+  filter(Compound.Type != "Internal Standard",
+         Compound.Name_new != Compound.Name_old | Compound.Name_old != Compound.Name_Alec) %>%
+  filter_all(any_vars(str_detect(., "[^[:alnum:] ]")))
+
+```
+
+```{r View symbols table, include=TRUE}
+View.Symbols <- Symbols %>%
+  arrange(Compound.Name_old)
+
+knitr::kable(View.Symbols, caption="Potential Symbol Changes", floating.environment="sidewaystable")
+
 ```
 
 ------
 
 ### Experimental Code + Analysis begins here
 Everything below this point may or may not work, and does not reflect any changes that have or will be made to the Ingalls_Lab_Standards.csv.
+```{r imports, include=FALSE}
+# Complete datasets
+Kegg.complete <- read.csv("data_raw/KEGGCompounds_withMasses.csv", stringsAsFactors = F)
+Ingalls.complete <- read.csv("data_raw/Ingalls_Lab_Standards.csv", stringsAsFactors = F)
 
+# All compound names isolated from each dataset
+Name <- gsub(";", "", as.character(Kegg.complete$Name), n)
+kegg.names <- data.frame(Name, Kegg.complete$AllNames) %>%
+  arrange(Name) %>%
+  mutate_all(as.character)
+
+ingalls.names <- as.data.frame(sort(unique(Ingalls.complete$Compound.Name))) %>%
+  rename(Compound = 1) %>%
+  mutate(Compound = as.character(Compound))
+```
 
 ##### Compounds that are an exact match between KEGG compounds primary name and Ingalls Standards compounds.
-```{r matched names, include = TRUE}
+```{r matched names, include = FALSE}
 my.indices <- which(ingalls.names$Compound %in% kegg.names$Name, useNames = TRUE)
 exact.match <- as.data.frame(ingalls.names$Compound[my.indices]) %>%
   rename(Matched = 1) %>%
@@ -151,7 +202,7 @@ knitr::kable(exact.match, caption="Current KEGG/Ingalls matched compounds", floa
 ```
 
 ##### Compounds with and without current KEGGNAME matches in the existing Ingalls standards csv.
-```{r imported ingalls matched, include = TRUE}
+```{r imported ingalls matched, include = FALSE}
 no.match <- Ingalls.complete %>%
   select(Compound.Name, KEGGNAME)
 no.match <- no.match[is.na(no.match$KEGGNAME),]
@@ -169,7 +220,7 @@ knitr::kable(no.match, caption="Ingalls compounds, no existing match", floating.
 ------
 
 ##### Compounds that are duplicated within the Ingalls_Lab_Standards csv, for HILIC ion mode or multiple run type detection.
-```{r duplicates, include=TRUE}
+```{r duplicates, include=FALSE}
 ingalls.duplicated <- Ingalls.complete %>%
   select(Compound.Name, Column, z, Fraction1, Fraction2, KEGGNAME) %>%
   group_by(Category = stringi::stri_trans_totitle(Compound.Name)) %>% # ignores capitalization
@@ -180,62 +231,6 @@ knitr::kable(ingalls.duplicated, caption="Duplicated Ingalls Compounds", floatin
 ```
 
 ------
-
-##### All current internal standards used in the Ingalls lab.
-```{r internal standards, include=TRUE}
-internal.standards <- Ingalls.complete %>%
-  filter(Compound.Type == "Internal Standard")
-
-knitr::kable(internal.standards[, 2:3], caption="Existing Ingalls internal standards", floating.environment="sidewaystable")
-```
-
-
-#### All Ingalls standards capitalized.
-This doesn't account for those compounds that don't need to be capitalized, such as p-Coumaric acid, which now shows up as P-Coumaric Acid. This will be edited to reflect the KEGG compound primary name.
-```{r experimental, include=FALSE}
-CapitalizeWords <- function(x) {
-  s <- strsplit(x, " ")[[1]]
-   paste(toupper(substring(s, 1, 1)), substring(s, 2),
-       sep="", collapse=" ")
-}
-```
-
-```{r Rename Internal Standards, include=TRUE}
-# View list of all changed Internal Standards.
-LauraEditsIS <- Ingalls_Lab_Standards_LauraEdit %>%
-  select(Compound.Type,Compound.Name_new, Compound.Name_old) %>%
-  filter(Compound.Type == "Internal Standard") %>%
-  filter(!Compound.Name_new == Compound.Name_old) # Remove compounds that don't change
-
-knitr::kable(LauraEditsIS[c(2:3)],
-            caption="Renamed Ingalls Standards", floating.environment="sidewaystable")
-```
-
-```{r Incorporate IS changes, include=TRUE}
-Ingalls_Lab_Standards_IS <- Ingalls_Lab_Standards %>%
-  left_join(LauraEditsIS %>% rename(Compound.Name = Compound.Name_old)) %>%
-  mutate(Compound.Name = ifelse(is.na(Compound.Name_new), Compound.Name, Compound.Name_new))
-
-write.csv(Ingalls_Lab_Standards_IS, "Ingalls_Lab_Standards_NEW.csv")
-
-```
-
-##### Compounds that are an exact match between KEGG compounds and Ingalls Standards compounds.
-```{r matched names, include = TRUE}
-matched <- Kegg.complete %>% filter(Name %in% ingalls.names)
-knitr::kable(matched[, 4:6],caption="Current KEGG/Ingalls matched compounds", floating.environment="sidewaystable")
-```
-
-##### Compounds that are duplicated within the Ingalls_Lab_Standards csv, for HILIC ion mode or multiple run type detection.
-```{r duplicates, include=TRUE}
-duplicated.ingalls <- Ingalls.complete %>%
-  group_by(Category = stringi::stri_trans_totitle(Compound.Name)) %>%
-  filter(n() > 1) %>%
-  arrange(Compound.Name)
-
-knitr::kable(duplicated.ingalls[c(2:3, 10, 16:17, 19, 22)],
-             caption="Duplicated Ingalls Compounds", floating.environment="sidewaystable")
-```
 
 #### All Ingalls standards capitalized.
 This doesn't account for those compounds that don't need to be capitalized, such as p-Coumaric acid, which now shows up as P-Coumaric Acid. This will be edited to reflect the KEGG compound primary name.
@@ -254,17 +249,3 @@ cmpds.changed <- cmpds.capitalized[, 1:2] %>%
   select(-Change)
 ```
 
-```{r capitalize, include=TRUE}
-knitr::kable(cmpds.changed,
-             caption="All Compounds Capitalized", floating.environment="sidewaystable")
-```
-
-Check for improper changes against the KEGG compounds. This returns row locations of all matches. Will require some work to filter compounds correctly.
-```{r KEGG check, include=TRUE}
-
-ethanol.example <- sapply(colnames(kegg.names[]),
-                          function(x) grep("ethanol", kegg.names[, x], ignore.case = TRUE))
-
-ethanol.example
-
-```
