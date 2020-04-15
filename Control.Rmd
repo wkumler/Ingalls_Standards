@@ -46,7 +46,8 @@ Part of working with symbols is remembering that will we have a syntactically co
 * Betaine v Glycine betaine  
 * Check on intra-compound capitalization, eg "1-stearoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine"  
 * Dimethyl glycine --> Dimethylglycine  
-* All vitamins referred to as their KEGG names. Example: Vitamin B7 --> Biotin. 
+* All vitamins referred to as their KEGG names. Example: Vitamin B7 --> Biotin.  
+* Determine compound orientation (maybe go into lab?) and include that in the primary ID column (or add another).  
 
 #### Long-term Changes
 * Primary name column, how we refer to it in the lab and how it will be ID'd in analysis.
