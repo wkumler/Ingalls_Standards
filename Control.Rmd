@@ -168,6 +168,7 @@ Just.Capitals <- Capitalizations %>%
 
 ```
 
+### View "Acids", "Beta", and different-capitalization compounds.
 ```{r View capitalization tables, include=TRUE}
 knitr::kable(Acid.Capitals[1:10, ], caption="First 10 Capitalized 'Acid' Compounds", floating.environment="sidewaystable")
 knitr::kable(Beta.Capitals, caption="Transition from 'B-' to 'beta-", floating.environment="sidewaystable")
@@ -175,7 +176,7 @@ knitr::kable(Just.Capitals[1:10, ], caption="First 10 Compounds Non-case Matchin
 
 Complete.Caps <- Acid.Capitals %>%
   rbind(Beta.Capitals) %>%
-  rbind(Just.Capitals)s
+  rbind(Just.Capitals)
 ```
 
 ### Finalize changes of abbreviated compounds
