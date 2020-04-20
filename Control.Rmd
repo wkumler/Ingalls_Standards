@@ -59,6 +59,7 @@ Part of working with symbols is remembering that will we have a syntactically co
 
 ## Change Log
 4/8/20: Internal standards updated to reflect consistent naming scheme.
+4/20/20: Abbreviated compounds switched to full-length KEGG names.
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -106,7 +107,8 @@ write.csv(Ingalls_Lab_Standards_IS, "Ingalls_Lab_Standards_NEW.csv")
 ```
 
 -----
-## Identify potential abbreviation changes
+
+## Abbreviations
 ```{r Next experimental Laura, include=FALSE}
 Abbreviations <- Ingalls_Lab_Standards_LauraEdit %>%
   left_join(Ingalls_Lab_Standards_AlecEdit %>% rename(Compound.Name_Alec = Compound.Name)) %>%
@@ -119,7 +121,7 @@ Abbreviations <- Ingalls_Lab_Standards_LauraEdit %>%
          nchar(Compound.Name_old) < 7 | str_detect(Compound.Name_old, "-"))
 ```
 
-## Show list of compounds to be changed
+### Show list of abbreviated compounds to be changed
 ```{r View abbreviation table, include=TRUE}
 View.Abbreviations <- Abbreviations %>%
   select(Compound.Type, Compound.Name_new, Compound.Name_old)
@@ -128,7 +130,7 @@ write.csv(View.Abbreviations, "View_Abbreviations.csv")
 knitr::kable(View.Abbreviations, caption="Potential Abbreviation Changes", floating.environment="sidewaystable")
 ```
 
-## Finalize changes of abbreviated compounds
+### Finalize changes of abbreviated compounds
 ```{r Change abbreviated compounds, include=TRUE}
 Ingalls_Lab_Standards_Abbr <- Ingalls_Lab_Standards_IS %>%
   left_join(Abbreviations %>% select(Compound.Name_new, Compound.Name_old)) %>%
@@ -141,23 +143,50 @@ write.csv(Ingalls_Lab_Standards_IS, "Ingalls_Lab_Standards_NEW.csv")
 
 -----
 
-### Capitalizations of compounds
+### Isolate different capitalizations of compounds
 ```{r Capitalizations, include=FALSE}
 Capitalizations <- Ingalls_Lab_Standards_LauraEdit %>%
   left_join(Ingalls_Lab_Standards_AlecEdit %>% rename(Compound.Name_Alec = Compound.Name)) %>%
   select(Compound.Name_new, Compound.Name_Alec, Compound.Name_old, Compound.Type) %>%
-  filter(Compound.Type != "Internal Standard",
-         Compound.Name_new != Compound.Name_old | Compound.Name_old != Compound.Name_Alec) %>%
-  filter(!str_detect(Compound.Name_new, regex("acid", ignore_case = TRUE)))
+  filter(!Compound.Name_new %in% Ingalls_Lab_Standards_Abbr$Compound.Name, # drop commpounds already reassigned
+          Compound.Name_new != Compound.Name_old | Compound.Name_old != Compound.Name_Alec) # drop compounds that don't require renaming
 ```
 
-```{r View capitalization table, include=TRUE}
-View.Capitalizations <- Capitalizations %>%
-  select(-Compound.Type) %>%
-  arrange(Compound.Name_old)
+```{r View Capitalizations, include=TRUE}
+Acid.Capitals <- Capitalizations %>%
+  filter(str_detect(Compound.Name_new, regex("acid", ignore_case = TRUE))) %>%
+  select(Compound.Name_new, Compound.Name_old)
+Beta.Capitals <- Capitalizations %>%
+  filter(str_detect(Compound.Name_new, regex("beta-", ignore_case = TRUE))) %>%
+  select(Compound.Name_new, Compound.Name_old)
+Just.Capitals <- Capitalizations %>%
+  select(Compound.Name_new, Compound.Name_old) %>%
+  filter(!Compound.Name_new %in% c(Acid.Capitals$Compound.Name_new, Beta.Capitals$Compound.Name_new),
+         tolower(Compound.Name_new) == tolower(Compound.Name_old),
+         Compound.Name_new != Compound.Name_old) %>%
+  unique()
 
-knitr::kable(View.Capitalizations, caption="Potential Capitalization Changes", floating.environment="sidewaystable")
+```
 
+```{r View capitalization tables, include=TRUE}
+knitr::kable(Acid.Capitals[1:10, ], caption="First 10 Capitalized 'Acid' Compounds", floating.environment="sidewaystable")
+knitr::kable(Beta.Capitals, caption="Transition from 'B-' to 'beta-", floating.environment="sidewaystable")
+knitr::kable(Just.Capitals[1:10, ], caption="First 10 Compounds Non-case Matching", floating.environment="sidewaystable")
+
+Complete.Caps <- Acid.Capitals %>%
+  rbind(Beta.Capitals) %>%
+  rbind(Just.Capitals)s
+```
+
+### Finalize changes of abbreviated compounds
+```{r Change capitalized compounds, include=TRUE}
+Ingalls_Lab_Standards_Caps <- Ingalls_Lab_Standards_Abbr %>%
+  left_join(Complete.Caps) %>%
+  select(Compound.Name, Compound.Name_new, Compound.Name_old, Compound.Type, everything()) %>%
+  mutate(Compound.Name = ifelse(is.na(Compound.Name), Compound.Name_new, Compound.Name)) %>%
+  select(Compound.Type, Column, everything(), -Compound.Name_new)
+
+write.csv(Ingalls_Lab_Standards_Caps, "Ingalls_Lab_Standards_NEW.csv")
 ```
 
 -----
