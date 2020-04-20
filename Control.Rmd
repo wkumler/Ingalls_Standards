@@ -98,15 +98,16 @@ Ingalls_Lab_Standards_IS <- Ingalls_Lab_Standards %>%
   rename(Compound.Name_old = Compound.Name,
          Compound.Name = Compound.Name_new) %>%
   select(Compound.Type, Column, Compound.Name, Compound.Name_old, everything()) %>%
-  mutate(Compound.Name_old = ifelse(Compound.Type == "Internal Standard", Compound.Name, NA))
+  mutate(Compound.Name_old = ifelse(Compound.Type == "Internal Standard" & Compound.Name == Compound.Name_old, 
+                                    Compound.Name, Compound.Name_old)) %>%
+  mutate(Compound.Name = ifelse(Compound.Type == "Internal Standard", Compound.Name, NA))
 
 write.csv(Ingalls_Lab_Standards_IS, "Ingalls_Lab_Standards_NEW.csv")
 ```
 
 -----
-
-## Abbreviations for long KEGG compounds
-```{r Next experimental Laura, include = FALSE}
+## Identify potential abbreviation changes
+```{r Next experimental Laura, include=FALSE}
 Abbreviations <- Ingalls_Lab_Standards_LauraEdit %>%
   left_join(Ingalls_Lab_Standards_AlecEdit %>% rename(Compound.Name_Alec = Compound.Name)) %>%
   select(Compound.Name_new, Compound.Name_Alec, Compound.Name_old, Compound.Type) %>%
@@ -118,16 +119,24 @@ Abbreviations <- Ingalls_Lab_Standards_LauraEdit %>%
          nchar(Compound.Name_old) < 7 | str_detect(Compound.Name_old, "-"))
 ```
 
-Potential name changes that lengthen the name, insted of shortening it. Should we continue to use the abbreviations for convenience?
+## Show list of compounds to be changed
 ```{r View abbreviation table, include=TRUE}
 View.Abbreviations <- Abbreviations %>%
-  select(Compound.Type, Compound.Name_new, Compound.Name_Alec, Compound.Name_old)
-Abbreviations.ShortList <- Abbreviations %>%
-  select(Compound.Type, Compound.Name_new, Compound.Name_Alec, Compound.Name_old) %>%
-  slice(1, 7, 9, 13, 21:23, 26:27, 29:30)
+  select(Compound.Type, Compound.Name_new, Compound.Name_old)
   
-
+write.csv(View.Abbreviations, "View_Abbreviations.csv")
 knitr::kable(View.Abbreviations, caption="Potential Abbreviation Changes", floating.environment="sidewaystable")
+```
+
+## Finalize changes of abbreviated compounds
+```{r Change abbreviated compounds, include=TRUE}
+Ingalls_Lab_Standards_Abbr <- Ingalls_Lab_Standards_IS %>%
+  left_join(Abbreviations %>% select(Compound.Name_new, Compound.Name_old)) %>%
+  select(Compound.Name, Compound.Name_new, Compound.Name_old, Compound.Type, everything()) %>%
+  mutate(Compound.Name = ifelse(is.na(Compound.Name), Compound.Name_new, Compound.Name)) %>%
+  select(Compound.Type, Column, everything(), -Compound.Name_new)
+
+write.csv(Ingalls_Lab_Standards_IS, "Ingalls_Lab_Standards_NEW.csv")
 ```
 
 -----
