@@ -58,7 +58,7 @@ Part of working with symbols is remembering that will we have a syntactically co
 ------
 
 ## Change Log
-4/8/20: Internal standards updated to reflect consistent naming scheme.
+4/8/20: Internal standards updated to reflect consistent naming scheme.  
 4/20/20: Abbreviated compounds switched to full-length KEGG names.
 
 ```{r setup, include=FALSE}
@@ -185,36 +185,48 @@ Ingalls_Lab_Standards_Caps <- Ingalls_Lab_Standards_Abbr %>%
   left_join(Complete.Caps) %>%
   select(Compound.Name, Compound.Name_new, Compound.Name_old, Compound.Type, everything()) %>%
   mutate(Compound.Name = ifelse(is.na(Compound.Name), Compound.Name_new, Compound.Name)) %>%
-  select(Compound.Type, Column, everything(), -Compound.Name_new)
+  select(Compound.Type, Column, everything(), -Compound.Name_new) %>%
+  unique()
 
 write.csv(Ingalls_Lab_Standards_Caps, "Ingalls_Lab_Standards_NEW.csv")
 ```
 
 -----
 
-### Symbols that (maybe) don't belong
 ```{r Symbols, include=FALSE}
-Symbols <- Ingalls_Lab_Standards_LauraEdit %>%
+Symbols <- Ingalls_Lab_Standards_Caps %>%
   left_join(Ingalls_Lab_Standards_AlecEdit %>% rename(Compound.Name_Alec = Compound.Name)) %>%
-  select(Compound.Name_new, Compound.Name_Alec, Compound.Name_old, Compound.Type) %>%
-  filter(Compound.Type != "Internal Standard",
-         Compound.Name_new != Compound.Name_old | Compound.Name_old != Compound.Name_Alec) %>%
-  filter_all(any_vars(str_detect(., "[^[:alnum:] ]")))
+  left_join(Ingalls_Lab_Standards_LauraEdit) %>%
+  select(Compound.Name, Compound.Name_new, Compound.Name_Alec, Compound.Name_old, Compound.Type) %>%
+  filter(is.na(Compound.Name)) %>%
+  filter(Compound.Name_new != Compound.Name_old | Compound.Name_old != Compound.Name_Alec) %>%
+  select(Compound.Name_new, Compound.Name_old) %>%
+  filter_all(any_vars(str_detect(., "[^[:alnum:] ]"))) 
 
 ```
 
+### View Symbols that will be changed
 ```{r View symbols table, include=TRUE}
-View.Symbols <- Symbols %>%
-  arrange(Compound.Name_old)
-
-knitr::kable(View.Symbols, caption="Potential Symbol Changes", floating.environment="sidewaystable")
-
+knitr::kable(Symbols[1:10, ], caption="First 10 Symbol Changes", floating.environment="sidewaystable")
 ```
 
 ------
 
 ### Experimental Code + Analysis begins here
 Everything below this point may or may not work, and does not reflect any changes that have or will be made to the Ingalls_Lab_Standards.csv.
+
+
+```{r TEST SECTION, include=FALSE}
+test <- Ingalls_Lab_Standards_LauraEdit %>%
+  left_join(Ingalls_Lab_Standards_AlecEdit %>% rename(Compound.Name_Alec = Compound.Name)) %>%
+  select(Compound.Type, Compound.Name_new, Compound.Name_Alec, Compound.Name_old) %>%
+  filter(Compound.Name_new == Compound.Name_old | Compound.Name_old == Compound.Name_Alec) %>%
+  
+  filter(tolower(Compound.Name_new) == tolower(Compound.Name_old),
+         Compound.Name_new != Compound.Name_old) 
+
+```
+
 ```{r imports, include=FALSE}
 # Complete datasets
 Kegg.complete <- read.csv("data_raw/KEGGCompounds_withMasses.csv", stringsAsFactors = F)
