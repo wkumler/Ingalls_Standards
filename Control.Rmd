@@ -59,7 +59,9 @@ Part of working with symbols is remembering that will we have a syntactically co
 
 ## Change Log
 4/8/20: Internal standards updated to reflect consistent naming scheme.  
-4/20/20: Abbreviated compounds switched to full-length KEGG names.
+4/20/20: Abbreviated compounds switched to full-length KEGG names.  
+4/20/20: Adjusted compounds with incorrect capitalization.  
+4/22/20: Added or removed symbols as required by KEGG names.  
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -209,6 +211,19 @@ Symbols <- Ingalls_Lab_Standards_Caps %>%
 ```{r View symbols table, include=TRUE}
 knitr::kable(Symbols[1:10, ], caption="First 10 Symbol Changes", floating.environment="sidewaystable")
 ```
+
+### Finalize changes of compounds with symbols
+```{r Change compounds with symbols, include=TRUE}
+Ingalls_Lab_Standards_Symbols <- Ingalls_Lab_Standards_Caps %>%
+  left_join(Symbols) %>%
+  select(Compound.Name, Compound.Name_new, Compound.Name_old, Compound.Type, everything()) %>%
+  mutate(Compound.Name = ifelse(is.na(Compound.Name), Compound.Name_new, Compound.Name)) %>%
+  select(Compound.Type, Column, everything(), -Compound.Name_new) %>%
+  unique()
+
+write.csv(Ingalls_Lab_Standards_Symbols, "Ingalls_Lab_Standards_NEW.csv")
+```
+
 
 ------
 
