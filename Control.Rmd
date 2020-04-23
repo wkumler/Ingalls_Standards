@@ -63,6 +63,8 @@ Part of working with symbols is remembering that will we have a syntactically co
 4/20/20: Abbreviated compounds switched to full-length KEGG names.  
 4/20/20: Adjusted compounds with incorrect capitalization.  
 4/22/20: Added or removed symbols as required by KEGG names.  
+4/23/20: Update last compounds not falling into the above groups.
+4/23/20: Complete renaming of compounds, including those that didn't change from the original names.
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -88,12 +90,14 @@ for (i in filenames) {
 
 ```{r Change Internal Standards, include=TRUE}
 # View list of all changed Internal Standards.
+Ingalls_Lab_Standards_LauraEdit[Ingalls_Lab_Standards_LauraEdit == "O-Propanoylcarnitine"] <- "O-Propionylcarnitine"
+
 LauraEditsIS <- Ingalls_Lab_Standards_LauraEdit %>%
   select(Compound.Type,Compound.Name_new, Compound.Name_old) %>%
   filter(Compound.Type == "Internal Standard") %>%
   filter(!Compound.Name_new == Compound.Name_old) # Remove compounds that don't change
 
-knitr::kable(LauraEditsIS, caption="Changed Internal Standards", floating.environment="sidewaystable")
+knitr::kable(LauraEditsIS[1:10, ], caption="Changed Internal Standards", floating.environment="sidewaystable")
 ```
 
 ```{r Incorporate IS changes, include=TRUE}
@@ -136,7 +140,7 @@ knitr::kable(View.Abbreviations, caption="Potential Abbreviation Changes", float
 ### Finalize changes of abbreviated compounds
 ```{r Change abbreviated compounds, include=TRUE}
 Ingalls_Lab_Standards_Abbr <- Ingalls_Lab_Standards_IS %>%
-  left_join(Abbreviations %>% select(Compound.Name_new, Compound.Name_old)) %>%
+  left_join(Abbreviations %>% select(Compound.Name_new, Compound.Name_old) %>% unique()) %>%
   select(Compound.Name, Compound.Name_new, Compound.Name_old, Compound.Type, everything()) %>%
   mutate(Compound.Name = ifelse(is.na(Compound.Name), Compound.Name_new, Compound.Name)) %>%
   select(Compound.Type, Column, everything(), -Compound.Name_new)
@@ -204,7 +208,8 @@ Symbols <- Ingalls_Lab_Standards_Caps %>%
   filter(is.na(Compound.Name)) %>%
   filter(Compound.Name_new != Compound.Name_old | Compound.Name_old != Compound.Name_Alec) %>%
   select(Compound.Name_new, Compound.Name_old) %>%
-  filter_all(any_vars(str_detect(., "[^[:alnum:] ]"))) 
+  filter_all(any_vars(str_detect(., "[^[:alnum:] ]"))) %>%
+  unique()
 
 ```
 
@@ -254,6 +259,7 @@ Ingalls_Lab_Standards_ALL <- Ingalls_Lab_Standards_Symbols %>%
 
 write.csv(Ingalls_Lab_Standards_ALL, "Ingalls_Lab_Standards_NEW.csv")
 ```
+
 ------
 
 ### Experimental Code + Analysis begins here
