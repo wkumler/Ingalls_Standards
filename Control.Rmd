@@ -91,6 +91,7 @@ for (i in filenames) {
 ```{r Change Internal Standards, include=TRUE}
 # View list of all changed Internal Standards.
 Ingalls_Lab_Standards_LauraEdit[Ingalls_Lab_Standards_LauraEdit == "O-Propanoylcarnitine"] <- "O-Propionylcarnitine"
+Ingalls_Lab_Standards_LauraEdit[Ingalls_Lab_Standards_LauraEdit == "O-Acetyl-L-carnitine"] <- "O-Acetylcarnitine"
 
 LauraEditsIS <- Ingalls_Lab_Standards_LauraEdit %>%
   select(Compound.Type,Compound.Name_new, Compound.Name_old) %>%
