@@ -42,9 +42,7 @@ Part of working with symbols is remembering that will we have a syntactically co
 
 *Other changes*  
 * RP B12, which exists in addition to plain B12. This should be Cyano b12 or Cyanocobalamin. This is a leftover mistake from replacing cyano to RP for the chromatography.  
-* Glutamic acid v Glutamate  
 * Betaine v Glycine betaine  
-* Check on intra-compound capitalization, eg "1-stearoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine"  
 * Dimethyl glycine --> Dimethylglycine  
 * All vitamins referred to as their KEGG names. Example: Vitamin B7 --> Biotin.  
 * Determine compound orientation (maybe go into lab?) and include that in the primary ID column (or add another).  
@@ -53,7 +51,10 @@ Part of working with symbols is remembering that will we have a syntactically co
 * Primary name column, how we refer to it in the lab and how it will be ID'd in analysis.
 * Include a column for syntactically correct names, which may or may not be the primary name.
 * Possibly include a column of annotation, depending on size/how much info is in that column.
-* Set up system to keep note of changes to official KEGG compound names whether or not those changes are enacted.
+* Set up system to keep note of changes to official KEGG compound names whether or not those changes are enacted.  
+
+#### Columns to Add
+* List of all commonly used names for a compound (eg Glutamic acid == Glutamate)
 
 ------
 
@@ -224,7 +225,35 @@ Ingalls_Lab_Standards_Symbols <- Ingalls_Lab_Standards_Caps %>%
 write.csv(Ingalls_Lab_Standards_Symbols, "Ingalls_Lab_Standards_NEW.csv")
 ```
 
+------
 
+### All other compounds not yet changed
+```{r Currently unchanged compounds, include=FALSE}
+Unchanged <- Ingalls_Lab_Standards_Symbols %>%
+  left_join(Ingalls_Lab_Standards_LauraEdit) %>%
+  select(Compound.Name, Compound.Name_new, Compound.Name_old) %>%
+  filter(is.na(Compound.Name)) %>%
+  filter(Compound.Name_new != Compound.Name_old) 
+
+```
+
+```{r View last set of standard names, include=TRUE}
+knitr::kable(Unchanged, caption="Last Unchanged Compounds", floating.environment="sidewaystable")
+```
+
+
+### Finalize changes of compounds - Including those that remain as the original name.
+```{r Add unchanged compounds, include=TRUE}
+Ingalls_Lab_Standards_ALL <- Ingalls_Lab_Standards_Symbols %>%
+  left_join(Unchanged) %>%
+  select(Compound.Name, Compound.Name_new, Compound.Name_old, Compound.Type, everything()) %>%
+  mutate(Compound.Name = ifelse(is.na(Compound.Name), Compound.Name_new, Compound.Name)) %>%
+  mutate(Compound.Name = ifelse(is.na(Compound.Name), Compound.Name_old, Compound.Name)) %>%
+  select(Compound.Type, Column, everything(), -Compound.Name_new) %>%
+  unique()
+
+write.csv(Ingalls_Lab_Standards_ALL, "Ingalls_Lab_Standards_NEW.csv")
+```
 ------
 
 ### Experimental Code + Analysis begins here
