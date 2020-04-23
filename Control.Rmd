@@ -25,35 +25,27 @@ View the most recent Ingalls Standards in this repository, titled Ingalls_Standa
 * "B-compoundName" will be changed to beta-CompoundName. Example: B-ionine --> beta_Ionine  
 * Second part of compound name lowercase. Example: Glutathione Disulfide --> Glutathione disulfide  
 
-*Abbreviations*
-Some of the KEGG compound IDs are long and include potentially problematic symbols.
-Should we keep some abbreviations despite those not being the correct KEGG ID?
-* N-3-Oxo-dodecanoyl-L-homoserine lacton, instead continue calling it C12-HSL?  
-* 2-Heptyl-4(1H)-quinolone, instead continue calling it HHQ?  
-* etc...
+*Abbreviations*  
+To alleviate long commpound names, the primary ID will remain as the KEGG name but a more manageable name will go under the "Figure Names" column.
+
 
 *Symbols*  
-* B-apo-8'-carotenal  
-* Keto-?-(methylthio)butyric acid  
-* N(e)-Acetyl-Lysine  
-* Trimethylammonium Propionate (TMAP)  
-* 3 Indolebutyric Acid and 3 Indolepropionic Acid vs 3-Indoleacetonitrile, 3-Sulfopyruvic Acid, etc.  
-Part of working with symbols is remembering that will we have a syntactically correct column for CMAP and other uploads.
+All symbols that are part of the KEGG name will remain in place. A syntactically correct column will be added for upload to CMAP, etc.
 
 *Other changes*  
-* RP B12, which exists in addition to plain B12. This should be Cyano b12 or Cyanocobalamin. This is a leftover mistake from replacing cyano to RP for the chromatography.  
-* Betaine v Glycine betaine  
+* RP B12 --> Cyanocobalamin  
+* All B12s --> Methylcobalamin, Hydroxocobalamin, etc.  
+* Betaine --> Glycine betaine  
 * Dimethyl glycine --> Dimethylglycine  
-* All vitamins referred to as their KEGG names. Example: Vitamin B7 --> Biotin.  
-* Determine compound orientation (maybe go into lab?) and include that in the primary ID column (or add another).  
+* Vitamins are a mixed bag; some KEGG names are the Vitamin X and others are the the descriptive compound name. Stuck to KEGG conventions.
+
 
 #### Long-term Changes
-* Primary name column, how we refer to it in the lab and how it will be ID'd in analysis.
+* Add in a Figure Name column, or a column with more manageable IDs.
 * Include a column for syntactically correct names, which may or may not be the primary name.
 * Possibly include a column of annotation, depending on size/how much info is in that column.
 * Set up system to keep note of changes to official KEGG compound names whether or not those changes are enacted.  
-
-#### Columns to Add
+* Determine compound orientation (maybe go into lab?) and include that in the primary ID column (or add another).  
 * List of all commonly used names for a compound (eg Glutamic acid == Glutamate)
 
 ------
