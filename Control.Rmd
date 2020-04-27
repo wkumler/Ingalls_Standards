@@ -28,7 +28,6 @@ View the most recent Ingalls Standards in this repository, titled Ingalls_Standa
 *Abbreviations*  
 To alleviate long commpound names, the primary ID will remain as the KEGG name but a more manageable name will go under the "Figure Names" column.
 
-
 *Symbols*  
 All symbols that are part of the KEGG name will remain in place. A syntactically correct column will be added for upload to CMAP, etc.
 
@@ -37,7 +36,7 @@ All symbols that are part of the KEGG name will remain in place. A syntactically
 * All B12s --> Methylcobalamin, Hydroxocobalamin, etc.  
 * Betaine --> Glycine betaine  
 * Dimethyl glycine --> Dimethylglycine  
-* Vitamins are a mixed bag; some KEGG names are the Vitamin X and others are the the descriptive compound name. Stuck to KEGG conventions.
+* All Vitamins changed to their descriptive name: Vitamine B1 --> Thiamine, Vitamin B2 --> Riboflavin, etc.  
 
 
 #### Long-term Changes
@@ -240,9 +239,9 @@ knitr::kable(Unchanged, caption="Last Unchanged Compounds", floating.environment
 ```
 
 
-### Finalize changes of compounds - Including those that remain as the original name.
+### Add changes of still-unedited compounds - Including those that remain as the original name.
 ```{r Add unchanged compounds, include=TRUE}
-Ingalls_Lab_Standards_ALL <- Ingalls_Lab_Standards_Symbols %>%
+Ingalls_Lab_Standards_Extras <- Ingalls_Lab_Standards_Symbols %>%
   left_join(Unchanged) %>%
   select(Compound.Name, Compound.Name_new, Compound.Name_old, Compound.Type, everything()) %>%
   mutate(Compound.Name = ifelse(is.na(Compound.Name), Compound.Name_new, Compound.Name)) %>%
@@ -250,7 +249,23 @@ Ingalls_Lab_Standards_ALL <- Ingalls_Lab_Standards_Symbols %>%
   select(Compound.Type, Column, everything(), -Compound.Name_new) %>%
   unique()
 
-write.csv(Ingalls_Lab_Standards_ALL, "Ingalls_Lab_Standards_NEW.csv")
+write.csv(Ingalls_Lab_Standards_Extras, "Ingalls_Lab_Standards_NEW.csv")
+```
+
+### Adjust Vitamins to descriptive names
+```{r Vitamins, include=FALSE}
+Ingalls_Lab_Standards_Vitamins <- Ingalls_Lab_Standards_Extras %>%
+  #filter(str_detect(Compound.Name, regex("Vitamin", ignore_case = TRUE))) %>%
+  mutate(Compound.Name = recode(Compound.Name, 
+          "Vitamin B2, 13C4, 15N2" = "Riboflavin-dioxopyrimidine, 13C4, 15N2",
+         	"Vitamin B2" = "Riboflavin",
+          "Vitamin C" = "Ascorbic acid",
+          "Vitamin D2" = "Calciferol",
+          "Vitamin K1" = "Phytonadione",
+          "Vitamin K2" = "Menaquinone"))
+
+write.csv(Ingalls_Lab_Standards_Vitamins, "Ingalls_Lab_Standards_NEW.csv")
+
 ```
 
 ------
