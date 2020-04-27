@@ -116,17 +116,18 @@ Abbreviations <- Ingalls_Lab_Standards_LauraEdit %>%
          Compound.Name_new != Compound.Name_old | Compound.Name_old != Compound.Name_Alec) %>% # Filters out the 30HC12-HSL
   mutate(letter.count = nchar(Compound.Name_old)) %>%
   arrange(letter.count) %>%
-  filter(nchar(Compound.Name_old) < 10,
-         nchar(Compound.Name_old) < 7 | str_detect(Compound.Name_old, "-"))
+  filter(nchar(Compound.Name_old) < 10 | Compound.Name_old == "(3-Carboxypropyl)trimethylammonium (TMAB)",
+         nchar(Compound.Name_old) < 7 | str_detect(Compound.Name_old, "-")) %>%
+  mutate(Compound.Name_new = recode(Compound.Name_new,
+                                    "TMAB" = "(3-Carboxypropyl)trimethylammonium",
+                                    "cAMP" = "3',5'-Cyclic AMP",
+                                    "cGMP" = "3',5'-Cyclic GMP",
+                                    "Cys-Gly" = "L-Cysteinylglycine")) 
 ```
 
 ### Show list of abbreviated compounds to be changed
 ```{r View abbreviation table, include=TRUE}
-View.Abbreviations <- Abbreviations %>%
-  select(Compound.Type, Compound.Name_new, Compound.Name_old)
-  
-write.csv(View.Abbreviations, "View_Abbreviations.csv")
-knitr::kable(View.Abbreviations, caption="Potential Abbreviation Changes", floating.environment="sidewaystable")
+knitr::kable(Abbreviations, caption="Potential Abbreviation Changes", floating.environment="sidewaystable")
 ```
 
 ### Finalize changes of abbreviated compounds
@@ -135,7 +136,7 @@ Ingalls_Lab_Standards_Abbr <- Ingalls_Lab_Standards_IS %>%
   left_join(Abbreviations %>% select(Compound.Name_new, Compound.Name_old) %>% unique()) %>%
   select(Compound.Name, Compound.Name_new, Compound.Name_old, Compound.Type, everything()) %>%
   mutate(Compound.Name = ifelse(is.na(Compound.Name), Compound.Name_new, Compound.Name)) %>%
-  select(Compound.Type, Column, everything(), -Compound.Name_new)
+  select(Compound.Type, Column, everything(), -Compound.Name_new) 
 
 write.csv(Ingalls_Lab_Standards_IS, "Ingalls_Lab_Standards_NEW.csv")
 ```
