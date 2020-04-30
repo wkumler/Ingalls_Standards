@@ -56,6 +56,8 @@ All symbols that are part of the KEGG name will remain in place. A syntactically
 4/22/20: Added or removed symbols as required by KEGG names.  
 4/23/20: Update last compounds not falling into the above groups.
 4/23/20: Complete renaming of compounds, including those that didn't change from the original names.
+4/28/20: Adjust vitmins to descriptive names.
+4/29/30: Adjust abbreviations for consistency.
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -256,7 +258,6 @@ write.csv(Ingalls_Lab_Standards_Extras, "Ingalls_Lab_Standards_NEW.csv")
 ### Adjust Vitamins to descriptive names
 ```{r Vitamins, include=FALSE}
 Ingalls_Lab_Standards_Vitamins <- Ingalls_Lab_Standards_Extras %>%
-  #filter(str_detect(Compound.Name, regex("Vitamin", ignore_case = TRUE))) %>%
   mutate(Compound.Name = recode(Compound.Name, 
           "Vitamin B2, 13C4, 15N2" = "Riboflavin-dioxopyrimidine, 13C4, 15N2",
          	"Vitamin B2" = "Riboflavin",
@@ -273,6 +274,35 @@ write.csv(Ingalls_Lab_Standards_Vitamins, "Ingalls_Lab_Standards_NEW.csv")
 
 ### Experimental Code + Analysis begins here
 Everything below this point may or may not work, and does not reflect any changes that have or will be made to the Ingalls_Lab_Standards.csv.
+
+### Drop stereoisomer designations
+
+```{r Drop stereoisomers, include=TRUE}
+Stereoisomers <- Ingalls_Lab_Standards_Vitamins %>%
+  filter(str_detect(Compound.Name, "D-|L-|N-|N6-|O-|S-|N6,N6,N6-Trimethyl-L-lysine")) %>%
+  filter(!Compound.Name %in% c("2-O-alpha-D-Glucosylglycerol", "UDP-N-acetylglucosamine",
+  "Decarboxylated S-Adenosylmethionine", "Trimethylamine N-oxide")) %>%
+  filter(!str_detect(Compound.Name, "DL")) %>%
+  select(Compound.Type:Compound.Name_old)
+
+knitr::kable(Stereoisomers, caption="Potential Stereoisomer Changes", floating.environment="sidewaystable")
+```
+2-O-alpha-D-Glucosylglycerol
+Decarboxylated S-Adenosylmethionine
+
+
+### Drop Stereoisomer designations
+```{r Stereoisomers, include=FALSE}
+Ingalls_Lab_Standards_Stereoisomers <- Ingalls_Lab_Standards_Vitamins %>%
+  mutate(Compound.Name = ifelse(Compound.Name %in% Stereoisomers$Compound.Name,
+                                "yes", Compound.Name)) %>%
+  sort(Compound.Name)
+#sub("\\S+\\s+", "", tweetsdf$usertweet)
+
+
+#write.csv(Ingalls_Lab_Standards_Stereoisomers, "Ingalls_Lab_Standards_NEW.csv")
+
+```
 
 
 ```{r TEST SECTION, include=FALSE}
