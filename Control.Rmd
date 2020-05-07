@@ -114,6 +114,16 @@ write.csv(Ingalls_Lab_Standards_IS, "Ingalls_Lab_Standards_NEW.csv")
 Abbreviations <- Ingalls_Lab_Standards_LauraEdit %>%
   left_join(Ingalls_Lab_Standards_AlecEdit %>% rename(Compound.Name_Alec = Compound.Name)) %>%
   select(Compound.Name_new, Compound.Name_Alec, Compound.Name_old, Compound.Type) %>%
+  mutate(Compound.Name_new = recode(Compound.Name_new,
+                                    "DMSP" = "Dimethylsulfoniopropionate",
+                                    "ADP" = "Adenosine diphosphate",
+                                    "AMP" = "Adenosine monophosphate",
+                                    "ATP" = "Adenosine triphosphate",
+                                    "FAD" = "Flavin adenine dinucleotide",
+                                    "GMP" = "Guanosine monophosphate",
+                                    "GMP, 15N5" = "Guanosine monophosphate, 15N5",
+                                    "GTP" = "Guanosine triphosphate",
+                                    "PEP" = "Phosphoenolpyruvic acid")) %>%
   filter(Compound.Type != "Internal Standard",
          Compound.Name_new != Compound.Name_old | Compound.Name_old != Compound.Name_Alec) %>% # Filters out the 30HC12-HSL
   mutate(letter.count = nchar(Compound.Name_old)) %>%
@@ -264,7 +274,10 @@ Ingalls_Lab_Standards_Vitamins <- Ingalls_Lab_Standards_Extras %>%
           "Vitamin C" = "Ascorbic acid",
           "Vitamin D2" = "Calciferol",
           "Vitamin K1" = "Phytonadione",
-          "Vitamin K2" = "Menaquinone"))
+          "Vitamin K2" = "Menaquinone",
+          "AMP, 15N5" = "Adenosine monophosphate, 15N5",
+          "Methyl (indol-3-yl)acetate" = "Indole-3-methyl acetate")) %>%
+  mutate(Compound.Name = ifelse(Compound.Name_old == "Methyl indole 3 carboxylate", "Methyl indole-3-carboxylate", Compound.Name))
 
 write.csv(Ingalls_Lab_Standards_Vitamins, "Ingalls_Lab_Standards_NEW.csv")
 
