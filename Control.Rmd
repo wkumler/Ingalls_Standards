@@ -70,9 +70,7 @@ library(tidyverse)
 
 ------
 
-## Renaming of Internal Standards
 ```{r Import Internal Standards, include=FALSE}
-# Assign matching variable to 
 matching.variable = "Ingalls"
 filenames <- RemoveCsv(list.files(path = "data_raw", pattern = matching.variable))
 
@@ -82,26 +80,30 @@ for (i in filenames) {
 }
 ```
 
+## Import edits from LTC.
+### Renaming of typos/specific issues.
 ```{r Change Internal Standards, include=TRUE}
 # View list of all changed Internal Standards.
-Ingalls_Lab_Standards_LauraEdit[Ingalls_Lab_Standards_LauraEdit == "O-Propanoylcarnitine"] <- "O-Propionylcarnitine"
-Ingalls_Lab_Standards_LauraEdit[Ingalls_Lab_Standards_LauraEdit == "O-Acetyl-L-carnitine"] <- "O-Acetylcarnitine"
-
 LauraEditsIS <- Ingalls_Lab_Standards_LauraEdit %>%
   select(Compound.Type,Compound.Name_new, Compound.Name_old) %>%
   filter(Compound.Type == "Internal Standard") %>%
   filter(!Compound.Name_new == Compound.Name_old) # Remove compounds that don't change
 
+Ingalls_Lab_Standards_LauraEdit[Ingalls_Lab_Standards_LauraEdit == "O-Propanoylcarnitine"] <- "O-Propionylcarnitine"
+Ingalls_Lab_Standards_LauraEdit[Ingalls_Lab_Standards_LauraEdit == "O-Acetyl-L-carnitine"] <- "O-Acetylcarnitine"
+
 knitr::kable(LauraEditsIS[1:10, ], caption="Changed Internal Standards", floating.environment="sidewaystable")
 ```
 
+## Renaming of Internal Standards
 ```{r Incorporate IS changes, include=TRUE}
 Ingalls_Lab_Standards_IS <- Ingalls_Lab_Standards %>%
   left_join(Ingalls_Lab_Standards_LauraEdit %>% rename(Compound.Name = Compound.Name_old)) %>%
   rename(Compound.Name_old = Compound.Name,
          Compound.Name = Compound.Name_new) %>%
   select(Compound.Type, Column, Compound.Name, Compound.Name_old, everything()) %>%
-  mutate(Compound.Name_old = ifelse(Compound.Type == "Internal Standard" & Compound.Name == Compound.Name_old, 
+  mutate(Compound.Name_old = 
+           ifelse(Compound.Type == "Internal Standard" & Compound.Name == Compound.Name_old, 
                                     Compound.Name, Compound.Name_old)) %>%
   mutate(Compound.Name = ifelse(Compound.Type == "Internal Standard", Compound.Name, NA))
 
@@ -113,8 +115,7 @@ write.csv(Ingalls_Lab_Standards_IS, "Ingalls_Lab_Standards_NEW.csv")
 ## Abbreviations
 ```{r Next experimental Laura, include=FALSE}
 Abbreviations <- Ingalls_Lab_Standards_LauraEdit %>%
-  left_join(Ingalls_Lab_Standards_AlecEdit %>% rename(Compound.Name_Alec = Compound.Name)) %>%
-  select(Compound.Name_new, Compound.Name_Alec, Compound.Name_old, Compound.Type) %>%
+  select(Compound.Name_new, Compound.Name_old, Compound.Type) %>% 
   mutate(Compound.Name_new = recode(Compound.Name_new,
                                     "DMSP" = "Dimethylsulfoniopropionate",
                                     "ADP" = "Adenosine diphosphate",
@@ -124,18 +125,17 @@ Abbreviations <- Ingalls_Lab_Standards_LauraEdit %>%
                                     "GMP" = "Guanosine monophosphate",
                                     "GMP, 15N5" = "Guanosine monophosphate, 15N5",
                                     "GTP" = "Guanosine triphosphate",
-                                    "PEP" = "Phosphoenolpyruvic acid")) %>%
-  filter(Compound.Type != "Internal Standard",
-         Compound.Name_new != Compound.Name_old | Compound.Name_old != Compound.Name_Alec) %>% # Filters out the 30HC12-HSL
-  mutate(letter.count = nchar(Compound.Name_old)) %>%
-  arrange(letter.count) %>%
-  filter(nchar(Compound.Name_old) < 10 | Compound.Name_old == "(3-Carboxypropyl)trimethylammonium (TMAB)",
-         nchar(Compound.Name_old) < 7 | str_detect(Compound.Name_old, "-")) %>%
-  mutate(Compound.Name_new = recode(Compound.Name_new,
+                                    "PEP" = "Phosphoenolpyruvic acid",
                                     "TMAB" = "(3-Carboxypropyl)trimethylammonium",
                                     "cAMP" = "3',5'-Cyclic AMP",
                                     "cGMP" = "3',5'-Cyclic GMP",
-                                    "Cys-Gly" = "L-Cysteinylglycine")) 
+                                    "Cys-Gly" = "L-Cysteinylglycine")) %>%
+  filter(Compound.Type != "Internal Standard",
+         Compound.Name_new != Compound.Name_old) %>% 
+  mutate(letter.count = nchar(Compound.Name_old)) %>%
+  arrange(letter.count) %>%
+  filter(nchar(Compound.Name_old) < 10 | Compound.Name_old == "(3-Carboxypropyl)trimethylammonium (TMAB)",
+         nchar(Compound.Name_old) < 7 | str_detect(Compound.Name_old, "-"))
 ```
 
 ### Show list of abbreviated compounds to be changed
@@ -159,11 +159,11 @@ write.csv(Ingalls_Lab_Standards_IS, "Ingalls_Lab_Standards_NEW.csv")
 ### Isolate different capitalizations of compounds
 ```{r Capitalizations, include=FALSE}
 Capitalizations <- Ingalls_Lab_Standards_LauraEdit %>%
-  left_join(Ingalls_Lab_Standards_AlecEdit %>% rename(Compound.Name_Alec = Compound.Name)) %>%
-  select(Compound.Name_new, Compound.Name_Alec, Compound.Name_old, Compound.Type) %>%
-  filter(!Compound.Name_new %in% Ingalls_Lab_Standards_Abbr$Compound.Name, # drop commpounds already reassigned
-          Compound.Name_new != Compound.Name_old | Compound.Name_old != Compound.Name_Alec) # drop compounds that don't require renaming
+  select(Compound.Name_new, Compound.Name_old) %>%
+  filter(!Compound.Name_new %in% Ingalls_Lab_Standards_Abbr$Compound.Name, 
+          Compound.Name_new != Compound.Name_old) # drop commpounds already reassigned or matching originals
 ```
+
 
 ```{r View Capitalizations, include=TRUE}
 Acid.Capitals <- Capitalizations %>%
@@ -183,16 +183,12 @@ Just.Capitals <- Capitalizations %>%
 
 ### View "Acids", "Beta", and different-capitalization compounds.
 ```{r View capitalization tables, include=TRUE}
-knitr::kable(Acid.Capitals[1:10, ], caption="First 10 Capitalized 'Acid' Compounds", floating.environment="sidewaystable")
-knitr::kable(Beta.Capitals, caption="Transition from 'B-' to 'beta-", floating.environment="sidewaystable")
-knitr::kable(Just.Capitals[1:10, ], caption="First 10 Compounds Non-case Matching", floating.environment="sidewaystable")
-
 Complete.Caps <- Acid.Capitals %>%
   rbind(Beta.Capitals) %>%
   rbind(Just.Capitals)
 ```
 
-### Finalize changes of abbreviated compounds
+### Finalize changes of capitalized compounds
 ```{r Change capitalized compounds, include=TRUE}
 Ingalls_Lab_Standards_Caps <- Ingalls_Lab_Standards_Abbr %>%
   left_join(Complete.Caps) %>%
@@ -208,11 +204,10 @@ write.csv(Ingalls_Lab_Standards_Caps, "Ingalls_Lab_Standards_NEW.csv")
 
 ```{r Symbols, include=FALSE}
 Symbols <- Ingalls_Lab_Standards_Caps %>%
-  left_join(Ingalls_Lab_Standards_AlecEdit %>% rename(Compound.Name_Alec = Compound.Name)) %>%
   left_join(Ingalls_Lab_Standards_LauraEdit) %>%
-  select(Compound.Name, Compound.Name_new, Compound.Name_Alec, Compound.Name_old, Compound.Type) %>%
+  select(Compound.Name, Compound.Name_new, Compound.Name_old, Compound.Type) %>%
   filter(is.na(Compound.Name)) %>%
-  filter(Compound.Name_new != Compound.Name_old | Compound.Name_old != Compound.Name_Alec) %>%
+  filter(Compound.Name_new != Compound.Name_old) %>%
   select(Compound.Name_new, Compound.Name_old) %>%
   filter_all(any_vars(str_detect(., "[^[:alnum:] ]"))) %>%
   unique()
@@ -238,37 +233,10 @@ write.csv(Ingalls_Lab_Standards_Symbols, "Ingalls_Lab_Standards_NEW.csv")
 
 ------
 
-### All other compounds not yet changed
-```{r Currently unchanged compounds, include=FALSE}
-Unchanged <- Ingalls_Lab_Standards_Symbols %>%
-  left_join(Ingalls_Lab_Standards_LauraEdit) %>%
-  select(Compound.Name, Compound.Name_new, Compound.Name_old) %>%
-  filter(is.na(Compound.Name)) %>%
-  filter(Compound.Name_new != Compound.Name_old) 
-
-```
-
-```{r View last set of standard names, include=TRUE}
-knitr::kable(Unchanged, caption="Last Unchanged Compounds", floating.environment="sidewaystable")
-```
-
-
-### Add changes of still-unedited compounds - Including those that remain as the original name.
-```{r Add unchanged compounds, include=TRUE}
-Ingalls_Lab_Standards_Extras <- Ingalls_Lab_Standards_Symbols %>%
-  left_join(Unchanged) %>%
-  select(Compound.Name, Compound.Name_new, Compound.Name_old, Compound.Type, everything()) %>%
-  mutate(Compound.Name = ifelse(is.na(Compound.Name), Compound.Name_new, Compound.Name)) %>%
-  mutate(Compound.Name = ifelse(is.na(Compound.Name), Compound.Name_old, Compound.Name)) %>%
-  select(Compound.Type, Column, everything(), -Compound.Name_new) %>%
-  unique()
-
-write.csv(Ingalls_Lab_Standards_Extras, "Ingalls_Lab_Standards_NEW.csv")
-```
-
 ### Adjust Vitamins to descriptive names
 ```{r Vitamins, include=FALSE}
-Ingalls_Lab_Standards_Vitamins <- Ingalls_Lab_Standards_Extras %>%
+#Ingalls_Lab_Standards_Vitamins <- Ingalls_Lab_Standards_Extras %>% ORIGINAL
+Ingalls_Lab_Standards_Vitamins <- Ingalls_Lab_Standards_Symbols %>%
   mutate(Compound.Name = recode(Compound.Name, 
           "Vitamin B2, 13C4, 15N2" = "Riboflavin-dioxopyrimidine, 13C4, 15N2",
          	"Vitamin B2" = "Riboflavin",
@@ -284,123 +252,27 @@ write.csv(Ingalls_Lab_Standards_Vitamins, "Ingalls_Lab_Standards_NEW.csv")
 
 ```
 
-------
 
-### Experimental Code + Analysis begins here
-Everything below this point may or may not work, and does not reflect any changes that have or will be made to the Ingalls_Lab_Standards.csv.
-
-### Drop stereoisomer designations
-
-```{r Drop stereoisomers, include=TRUE}
-Stereoisomers <- Ingalls_Lab_Standards_Vitamins %>%
-  filter(str_detect(Compound.Name, "D-|L-|N-|N6-|O-|S-|N6,N6,N6-Trimethyl-L-lysine")) %>%
-  filter(!Compound.Name %in% c("2-O-alpha-D-Glucosylglycerol", "UDP-N-acetylglucosamine",
-  "Decarboxylated S-Adenosylmethionine", "Trimethylamine N-oxide")) %>%
-  filter(!str_detect(Compound.Name, "DL")) %>%
-  select(Compound.Type:Compound.Name_old)
-
-knitr::kable(Stereoisomers, caption="Potential Stereoisomer Changes", floating.environment="sidewaystable")
-```
-2-O-alpha-D-Glucosylglycerol
-Decarboxylated S-Adenosylmethionine
-
-
-### Drop Stereoisomer designations
-```{r Stereoisomers, include=FALSE}
-Ingalls_Lab_Standards_Stereoisomers <- Ingalls_Lab_Standards_Vitamins %>%
-  mutate(Compound.Name = ifelse(Compound.Name %in% Stereoisomers$Compound.Name,
-                                "yes", Compound.Name)) %>%
-  sort(Compound.Name)
-#sub("\\S+\\s+", "", tweetsdf$usertweet)
-
-
-#write.csv(Ingalls_Lab_Standards_Stereoisomers, "Ingalls_Lab_Standards_NEW.csv")
+### All other compounds not yet changed
+```{r Currently unchanged compounds, include=FALSE}
+Unchanged <- Ingalls_Lab_Standards_Vitamins %>%
+  left_join(Ingalls_Lab_Standards_LauraEdit) %>%
+  select(Compound.Name, Compound.Name_new, Compound.Name_old) %>%
+  filter(is.na(Compound.Name)) %>%
+  filter(Compound.Name_new != Compound.Name_old)
 
 ```
 
 
-```{r TEST SECTION, include=FALSE}
-test <- Ingalls_Lab_Standards_LauraEdit %>%
-  left_join(Ingalls_Lab_Standards_AlecEdit %>% rename(Compound.Name_Alec = Compound.Name)) %>%
-  select(Compound.Type, Compound.Name_new, Compound.Name_Alec, Compound.Name_old) %>%
-  filter(Compound.Name_new == Compound.Name_old | Compound.Name_old == Compound.Name_Alec) %>%
-  
-  filter(tolower(Compound.Name_new) == tolower(Compound.Name_old),
-         Compound.Name_new != Compound.Name_old) 
+### Add changes of still-unedited compounds - Including those that remain as the original name.
+```{r Add unchanged compounds, include=TRUE}
+Ingalls_Lab_Standards_Extras <- Ingalls_Lab_Standards_Vitamins %>%
+  left_join(Unchanged) %>%
+  select(Compound.Name, Compound.Name_new, Compound.Name_old, Compound.Type, everything()) %>%
+  mutate(Compound.Name = ifelse(is.na(Compound.Name), Compound.Name_new, Compound.Name)) %>%
+  mutate(Compound.Name = ifelse(is.na(Compound.Name), Compound.Name_old, Compound.Name)) %>%
+  select(Compound.Type, Column, everything(), -Compound.Name_new) %>%
+  unique()
 
+write.csv(Ingalls_Lab_Standards_Extras, "Ingalls_Lab_Standards_NEW.csv")
 ```
-
-```{r imports, include=FALSE}
-# Complete datasets
-Kegg.complete <- read.csv("data_raw/KEGGCompounds_withMasses.csv", stringsAsFactors = F)
-Ingalls.complete <- read.csv("data_raw/Ingalls_Lab_Standards.csv", stringsAsFactors = F)
-
-# All compound names isolated from each dataset
-Name <- gsub(";", "", as.character(Kegg.complete$Name), n)
-kegg.names <- data.frame(Name, Kegg.complete$AllNames) %>%
-  arrange(Name) %>%
-  mutate_all(as.character)
-
-ingalls.names <- as.data.frame(sort(unique(Ingalls.complete$Compound.Name))) %>%
-  rename(Compound = 1) %>%
-  mutate(Compound = as.character(Compound))
-```
-
-##### Compounds that are an exact match between KEGG compounds primary name and Ingalls Standards compounds.
-```{r matched names, include = FALSE}
-my.indices <- which(ingalls.names$Compound %in% kegg.names$Name, useNames = TRUE)
-exact.match <- as.data.frame(ingalls.names$Compound[my.indices]) %>%
-  rename(Matched = 1) %>%
-  mutate_all(as.character)
-
-knitr::kable(exact.match, caption="Current KEGG/Ingalls matched compounds", floating.environment="sidewaystable")
-```
-
-##### Compounds with and without current KEGGNAME matches in the existing Ingalls standards csv.
-```{r imported ingalls matched, include = FALSE}
-no.match <- Ingalls.complete %>%
-  select(Compound.Name, KEGGNAME)
-no.match <- no.match[is.na(no.match$KEGGNAME),]
-
-yes.match <- Ingalls.complete %>%
-  select(Compound.Name, KEGGNAME)
-yes.match <- yes.match[!is.na(yes.match$KEGGNAME),]
-yes.match <- yes.match %>% arrange(Compound.Name)
-
-knitr::kable(yes.match, caption="Existing KEGG pairs, NOT MATCHES", floating.environment="sidewaystable")
-knitr::kable(no.match, caption="Ingalls compounds, no existing match", floating.environment="sidewaystable")
-
-```
-
-------
-
-##### Compounds that are duplicated within the Ingalls_Lab_Standards csv, for HILIC ion mode or multiple run type detection.
-```{r duplicates, include=FALSE}
-ingalls.duplicated <- Ingalls.complete %>%
-  select(Compound.Name, Column, z, Fraction1, Fraction2, KEGGNAME) %>%
-  group_by(Category = stringi::stri_trans_totitle(Compound.Name)) %>% # ignores capitalization
-  filter(n() > 1) %>%
-  arrange(Compound.Name)
-
-knitr::kable(ingalls.duplicated, caption="Duplicated Ingalls Compounds", floating.environment="sidewaystable")
-```
-
-------
-
-#### All Ingalls standards capitalized.
-This doesn't account for those compounds that don't need to be capitalized, such as p-Coumaric acid, which now shows up as P-Coumaric Acid. This will be edited to reflect the KEGG compound primary name.
-```{r experimental, include=FALSE}
-CapitalizeWords <- function(x) {
-  s <- strsplit(x, " ")[[1]]
-   paste(toupper(substring(s, 1, 1)), substring(s, 2),
-       sep="", collapse=" ")
-}
-
-cmpds.capitalized <- as.data.frame(sapply(ingalls.names, CapitalizeWords)) %>% rownames_to_column()
-colnames(cmpds.capitalized) <- c("Original", "Capitalized")
-cmpds.changed <- cmpds.capitalized[, 1:2] %>%
-  mutate(Change = rowSums(cmpds.capitalized == cmpds.capitalized[, 1]) == ncol(cmpds.capitalized)) %>%
-  filter(Change == FALSE) %>%
-  select(-Change)
-```
-
