@@ -17,21 +17,21 @@ View the most recent Ingalls Standards in this repository, titled Ingalls_Standa
 
 ------
 
-#### Proposed short-term changes
+#### Changes made in v1.0
 
 *Capitalization*  
-* All "Acid"s will be changed to "acid", as per KEGG conventions. Example: 3-Sulfopyruvic Acid --> 3-Sulfopyruvic acid  
-* First appearance of compound in complete name will be capitalized. Example: 7-dehydrocholesterol --> 7-Dehydrocholesterol, thiamine pyrophosphate --> Thiamine pyrophosphate, or Vitamin B1   
-* "B-compoundName" will be changed to beta-CompoundName. Example: B-ionine --> beta_Ionine  
+* All "Acid"s changed to "acid", as per KEGG conventions. Example: 3-Sulfopyruvic Acid --> 3-Sulfopyruvic acid   
+* First appearance of compound in complete name capitalized. Example: 7-dehydrocholesterol --> 7-Dehydrocholesterol, thiamine pyrophosphate --> Thiamine pyrophosphate  
+* "B-compoundName" changed to beta-CompoundName. Example: B-ionine --> beta_Ionine  
 * Second part of compound name lowercase. Example: Glutathione Disulfide --> Glutathione disulfide  
 
 *Abbreviations*  
-To alleviate long commpound names, the primary ID will remain as the KEGG name but a more manageable name will go under the "Figure Names" column.
+To alleviate long commpound names, the primary ID will remain as the KEGG name or reasonable abbreviation but a more manageable name will go under the "Figure Names" column. 
 
 *Symbols*  
 All symbols that are part of the KEGG name will remain in place. A syntactically correct column will be added for upload to CMAP, etc.
 
-*Other changes*  
+*Other specific changes*  
 * RP B12 --> Cyanocobalamin  
 * All B12s --> Methylcobalamin, Hydroxocobalamin, etc.  
 * Betaine --> Glycine betaine  
@@ -40,12 +40,12 @@ All symbols that are part of the KEGG name will remain in place. A syntactically
 
 
 #### Long-term Changes
-* Add in a Figure Name column, or a column with more manageable IDs.
+* Add in a Figure Name column.  
 * Include a column for syntactically correct names, which may or may not be the primary name.
 * Possibly include a column of annotation, depending on size/how much info is in that column.
 * Set up system to keep note of changes to official KEGG compound names whether or not those changes are enacted.  
-* Determine compound orientation (maybe go into lab?) and include that in the primary ID column (or add another).  
-* List of all commonly used names for a compound (eg Glutamic acid == Glutamate)
+* Add stereoisomer orientation column.  
+* List of all commonly used names for a compound (eg Glutamic acid == Glutamate).  
 
 ------
 
@@ -57,7 +57,8 @@ All symbols that are part of the KEGG name will remain in place. A syntactically
 4/23/20: Update last compounds not falling into the above groups.
 4/23/20: Complete renaming of compounds, including those that didn't change from the original names.
 4/28/20: Adjust vitmins to descriptive names.
-4/29/30: Adjust abbreviations for consistency.
+4/29/20: Adjust abbreviations for consistency.
+5/8/20: FINAL NAMES DECIDED FOR PRIMARY ID.
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
