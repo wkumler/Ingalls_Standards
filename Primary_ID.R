@@ -9,6 +9,10 @@ LauraEditsIS <- Ingalls_Lab_Standards_LauraEdit %>%
 
 Ingalls_Lab_Standards_LauraEdit[Ingalls_Lab_Standards_LauraEdit == "O-Propanoylcarnitine"] <- "O-Propionylcarnitine"
 Ingalls_Lab_Standards_LauraEdit[Ingalls_Lab_Standards_LauraEdit == "O-Acetyl-L-carnitine"] <- "O-Acetylcarnitine"
+Ingalls_Lab_Standards_LauraEdit[Ingalls_Lab_Standards_LauraEdit == "Propanoyl-CoA"] <- "Propionyl-CoA"
+Ingalls_Lab_Standards_LauraEdit <- Ingalls_Lab_Standards_LauraEdit %>%
+  mutate(Compound.Name_new = ifelse(Compound.Name_old == "Tryptamine", "Tryptamine", Compound.Name_new))
+
 
 print(LauraEditsIS)
 
@@ -61,7 +65,7 @@ Ingalls_Lab_Standards_Abbr <- Ingalls_Lab_Standards_IS %>%
   mutate(Compound.Name = ifelse(is.na(Compound.Name), Compound.Name_new, Compound.Name)) %>%
   select(Compound.Type, Column, everything(), -Compound.Name_new) 
 
-#write.csv(Ingalls_Lab_Standards_IS, "Ingalls_Lab_Standards_NEW.csv")
+#write.csv(Ingalls_Lab_Standards_Abbr, "Ingalls_Lab_Standards_NEW.csv")
 
 ## Isolate different capitalizations of compounds
 Capitalizations <- Ingalls_Lab_Standards_LauraEdit %>%
@@ -120,19 +124,20 @@ Ingalls_Lab_Standards_Symbols <- Ingalls_Lab_Standards_Caps %>%
 
 #write.csv(Ingalls_Lab_Standards_Symbols, "Ingalls_Lab_Standards_NEW.csv")
 
-
 ## Adjust Vitamins to descriptive names
 Ingalls_Lab_Standards_Vitamins <- Ingalls_Lab_Standards_Symbols %>%
-  mutate(Compound.Name = recode(Compound.Name, 
-                                "Vitamin B2, 13C4, 15N2" = "Riboflavin-dioxopyrimidine, 13C4, 15N2",
-                                "Vitamin B2" = "Riboflavin",
-                                "Vitamin C" = "Ascorbic acid",
-                                "Vitamin D2" = "Calciferol",
-                                "Vitamin K1" = "Phytonadione",
-                                "Vitamin K2" = "Menaquinone",
-                                "AMP, 15N5" = "Adenosine monophosphate, 15N5",
-                                "Methyl (indol-3-yl)acetate" = "Indole-3-methyl acetate")) %>%
-  mutate(Compound.Name = ifelse(Compound.Name_old == "Methyl indole 3 carboxylate", "Methyl indole-3-carboxylate", Compound.Name))
+  mutate(Compound.Name = ifelse(Compound.Name_old == "Methyl indole 3 carboxylate", "Methyl indole-3-carboxylate", Compound.Name)) %>%
+  mutate(Compound.Name = ifelse(Compound.Name_old == "Vitamin B1", "Thiamine", Compound.Name)) %>%
+  mutate(Compound.Name = ifelse(Compound.Name_old == "Vitamin B2, 13C4, 15N2", "Riboflavin-dioxopyrimidine, 13C4, 15N2", Compound.Name)) %>%
+  mutate(Compound.Name = ifelse(Compound.Name_old == "Vitamin B2", "Riboflavin", Compound.Name)) %>%
+  mutate(Compound.Name = ifelse(Compound.Name_old == "Vitamin B6", "Pyridoxine", Compound.Name)) %>%
+  mutate(Compound.Name = ifelse(Compound.Name_old == "Vitamin B7", "Biotin", Compound.Name)) %>%
+  mutate(Compound.Name = ifelse(Compound.Name_old == "Vitamin C", "Ascorbic acid", Compound.Name)) %>%
+  mutate(Compound.Name = ifelse(Compound.Name_old == "Vitamin D2", "Calciferol", Compound.Name)) %>%
+  mutate(Compound.Name = ifelse(Compound.Name_old == "Vitamin K1", "Phytonadione", Compound.Name)) %>%
+  mutate(Compound.Name = ifelse(Compound.Name_old == "Vitamin K2", "Menaquinone", Compound.Name)) %>%
+  mutate(Compound.Name = ifelse(Compound.Name_old == "AMP, 15N5", "Adenosine monophosphate, 15N5", Compound.Name)) %>%
+  mutate(Compound.Name = ifelse(Compound.Name_old == "Indole 3 methyl acetate", "Indole-3-methyl acetate", Compound.Name))
 
 #write.csv(Ingalls_Lab_Standards_Vitamins, "Ingalls_Lab_Standards_NEW.csv")
 
