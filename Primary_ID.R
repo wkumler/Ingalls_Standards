@@ -14,7 +14,7 @@ Ingalls_Lab_Standards_LauraEdit <- Ingalls_Lab_Standards_LauraEdit %>%
   mutate(Compound.Name_new = ifelse(Compound.Name_old == "Tryptamine", "Tryptamine", Compound.Name_new))
 
 
-print(LauraEditsIS)
+print(LauraEditsIS, main = "testing")
 
 
 ## Renaming of Internal Standards
