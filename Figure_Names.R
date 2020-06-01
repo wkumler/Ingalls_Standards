@@ -149,4 +149,5 @@ figure.names <- complete.standards %>%
                                     "Pyridoxine" = "Vit B6",
                                     "Riboflavin" = "Vit B1",
                                     "Vitamin C" = "Vit C")) %>%
-  unique()
+  unique() %>%
+  mutate(new.letter.count = nchar(Compound.Name_figure))
