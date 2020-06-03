@@ -46,7 +46,7 @@ figure.names <- complete.standards %>%
                                     "Aminobutyric acid" = "GABA",
                                     "Amino Propanesulfonic acid" = "APA",
                                     "Arachidonic acid" = "ARA",
-                                    "Argininosuccinic acid" = "ASA",
+                                    "Argininosuccinic acid" = "Argininosuccinate",
                                     "B-ionylidene-acetaldehyde" = "b-Ionylidene acetaldehyde",
                                     "beta-Glutamic acid" = "b-Glutamic acid",
                                     "Cysteinesulfinic acid" = "CSA",
