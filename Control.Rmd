@@ -81,8 +81,18 @@ for (i in filenames) {
   filepath <- file.path("data_raw", paste(i, ".csv", sep = ""))
   assign(make.names(i), read.csv(filepath, stringsAsFactors = FALSE, fileEncoding = "latin1"))
 }
-source("Primary_ID.R")
+source("src/Primary_ID.R")
 
 write.csv(Ingalls_Lab_Standards_Extras, "Ingalls_Lab_Standards_NEW.csv")
+
+```
+
+-----
+
+```{r Source Figures Names code, incldue=TRUE}
+
+source("src/Figure_Names.R")
+
+write.csv(Ingalls_Lab_Standards_FigNames, "Ingalls_Lab_Standards_NEW.csv")
 
 ```

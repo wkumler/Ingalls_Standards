@@ -151,3 +151,10 @@ figure.names <- complete.standards %>%
                                     "Vitamin C" = "Vit C")) %>%
   unique() %>%
   mutate(new.letter.count = nchar(Compound.Name_figure))
+
+Ingalls_Lab_Standards_FigNames <- Ingalls_Lab_Standards_Extras %>%
+  left_join(figure.names) %>%
+  mutate(Compound.Name_figure = ifelse(Compound.Type == "Internal Standard", Compound.Name, Compound.Name_figure)) %>%
+  select(Compound.Type, Column, Compound.Name, Compound.Name_old, Compound.Name_figure, everything()) %>%
+  select(-old.letter.count, -new.letter.count) 
+  
