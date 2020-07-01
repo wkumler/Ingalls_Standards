@@ -62,6 +62,7 @@ All symbols that are part of the KEGG name will remain in place. A syntactically
 5/8/20: FINAL NAMES DECIDED FOR PRIMARY ID.
 5/28/20: Bug fixes in final names.
 5/28/20: First suggestions for Figure Name column.
+6/3/20: Final Figure Names decided.
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
