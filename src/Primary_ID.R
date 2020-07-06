@@ -13,9 +13,8 @@ Ingalls_Lab_Standards_LauraEdit[Ingalls_Lab_Standards_LauraEdit == "Propanoyl-Co
 Ingalls_Lab_Standards_LauraEdit <- Ingalls_Lab_Standards_LauraEdit %>%
   mutate(Compound.Name_new = ifelse(Compound.Name_old == "Tryptamine", "Tryptamine", Compound.Name_new))
 
-
-print(LauraEditsIS, main = "testing")
-
+print(LauraEditsIS)
+ggsave(path = "intermediate_tables/", filename = "LauraEdits_IS")
 
 ## Renaming of Internal Standards
 Ingalls_Lab_Standards_IS <- Ingalls_Lab_Standards %>%

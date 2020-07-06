@@ -8,10 +8,10 @@ output:
 ---
 
 ### Overview
-The most updated version of the Ingalls_Lab_Standards.csv lives in Katherine's github at the following link: 
+The original version of the Ingalls_Lab_Standards.csv lives in Katherine's GitHub at the following link: 
 [Ingalls Lab Standards](https://github.com/kheal/Example_Untargeted_Metabolomics_Workflow)
 
-A new repository has been made for this project: [New Ingalls Lab Standards](https://github.com/IngallsLabUW/Ingalls_Standards)
+A new repository has been made for this project: [New Ingalls Lab Standards](https://github.com/IngallsLabUW/Ingalls_Standards). This repository contains all the modifications and source code the Ingalls Standards csv, as well as all previous iterations of the csv.
 
 View the most recent Ingalls Standards in this repository, titled Ingalls_Standards_NEW.csv.
 
@@ -39,8 +39,13 @@ All symbols that are part of the KEGG name will remain in place. A syntactically
 * All Vitamins changed to their descriptive name: Vitamine B1 --> Thiamine, Vitamin B2 --> Riboflavin, etc.  
 
 
-#### Long-term Changes
+#### Changes made in v2.0
+
+*Figure Names column added*
 * Add in a Figure Name column.  
+
+
+#### Long-term Changes
 * Include a column for syntactically correct names, which may or may not be the primary name.
 * Possibly include a column of annotation, depending on size/how much info is in that column.
 * Set up system to keep note of changes to official KEGG compound names whether or not those changes are enacted.  
@@ -48,7 +53,6 @@ All symbols that are part of the KEGG name will remain in place. A syntactically
 * List of all commonly used names for a compound (eg Glutamic acid == Glutamate).  
 
 ------
-
 
 ## Change Log
 4/8/20: Internal standards updated to reflect consistent naming scheme.  
