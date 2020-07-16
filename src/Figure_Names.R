@@ -26,8 +26,6 @@ figure.names <- complete.standards %>%
                                     "Betaine" = "Glycine betaine",
                                     "N-Acetylserine" = "N-acetylserine",
                                     "RP B12" = "Cyano B12",
-                                    ###### Vitamins ######
-                                    "Ascorbic acid" = "Vitamin C",
                                     ###### Abbreviations ######
                                     "(3-Carboxypropyl)trimethylammonium (TMAB)" = "TMAB",
                                     #"3-Indoleacetonitrile" = "3-IAN",
@@ -139,16 +137,18 @@ figure.names <- complete.standards %>%
                                     "L-Pyroglutamic acid" = "Pidolic acid",
                                     "S-Farnesyl-L-cysteine Methyl Ester" = "S-Fcme",
                                     ###### Vitamins ######
+                                    "Ascorbic acid" = "Vit C",
                                     "Biotin" = "Vit B7",
                                     "Calciferol" = "Vit D2",
                                     "Folic acid" = "Vit B9",
                                     "Menaquinone" = "Vit K2",
-                                    "Nicotinic acid" = "Vit B2",
+                                    "Riboflavin" = "Vit B2",
+                                    "Nicotinic acid" = "Vit B3",
                                     "Pantothenic acid" = "Vit B5",
                                     "Phytonadione" = "Vit K1",
                                     "Pyridoxine" = "Vit B6",
-                                    "Riboflavin" = "Vit B1",
-                                    "Vitamin C" = "Vit C")) %>%
+                                    "Thiamine" = "Vit B1",
+                                    )) %>%
   unique() %>%
   mutate(new.letter.count = nchar(Compound.Name_figure))
 
