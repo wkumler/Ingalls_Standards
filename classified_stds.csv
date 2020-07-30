@@ -1,0 +1,1521 @@
+Compound.Name,Level,Classification
+2-Hydroxy-4-methylthiobutyric_acid,kingdom,Organic_compounds
+2-Hydroxy-4-methylthiobutyric_acid,superclass,Lipids_and_lipid-like_molecules
+2-Hydroxy-4-methylthiobutyric_acid,class,Fatty_Acyls
+2-Hydroxy-4-methylthiobutyric_acid,subclass,Fatty_acids_and_conjugates
+2-Hydroxy-4-methylthiobutyric_acid,level 5,Thia_fatty_acids
+2-Hydroxy-4-methylthiobutyric_acid,level 6,Thia_fatty_acids
+2-Hydroxy-4-methylthiobutyric_acid,level 7,Thia_fatty_acids
+2-Hydroxy-4-methylthiobutyric_acid,level 8,Thia_fatty_acids
+3-Sulfopyruvic_acid,kingdom,Organic_compounds
+3-Sulfopyruvic_acid,superclass,Organic_acids_and_derivatives
+3-Sulfopyruvic_acid,class,Keto_acids_and_derivatives
+3-Sulfopyruvic_acid,subclass,Alpha-keto_acids_and_derivatives
+3-Sulfopyruvic_acid,level 5,Alpha-keto_acids_and_derivatives
+3-Sulfopyruvic_acid,level 6,Alpha-keto_acids_and_derivatives
+3-Sulfopyruvic_acid,level 7,Alpha-keto_acids_and_derivatives
+3-Sulfopyruvic_acid,level 8,Alpha-keto_acids_and_derivatives
+Acetoacetyl-CoA,kingdom,Organic_compounds
+Acetoacetyl-CoA,superclass,Lipids_and_lipid-like_molecules
+Acetoacetyl-CoA,class,Fatty_Acyls
+Acetoacetyl-CoA,subclass,Fatty_acyl_thioesters
+Acetoacetyl-CoA,level 5,Acyl_CoAs
+Acetoacetyl-CoA,level 6,3-oxo-acyl_CoAs
+Acetoacetyl-CoA,level 7,3-oxo-acyl_CoAs
+Acetoacetyl-CoA,level 8,3-oxo-acyl_CoAs
+Acetyl-CoA,kingdom,Organic_compounds
+Acetyl-CoA,superclass,Lipids_and_lipid-like_molecules
+Acetyl-CoA,class,Fatty_Acyls
+Acetyl-CoA,subclass,Fatty_acyl_thioesters
+Acetyl-CoA,level 5,Acyl_CoAs
+Acetyl-CoA,level 6,Acyl_CoAs
+Acetyl-CoA,level 7,Acyl_CoAs
+Acetyl-CoA,level 8,Acyl_CoAs
+O-Acetylcarnitine,kingdom,Organic_compounds
+O-Acetylcarnitine,superclass,Lipids_and_lipid-like_molecules
+O-Acetylcarnitine,class,Fatty_Acyls
+O-Acetylcarnitine,subclass,Fatty_acid_esters
+O-Acetylcarnitine,level 5,Acyl_carnitines
+O-Acetylcarnitine,level 6,Acyl_carnitines
+O-Acetylcarnitine,level 7,Acyl_carnitines
+O-Acetylcarnitine,level 8,Acyl_carnitines
+cis-Aconitic_acid,kingdom,Organic_compounds
+cis-Aconitic_acid,superclass,Organic_acids_and_derivatives
+cis-Aconitic_acid,class,Carboxylic_acids_and_derivatives
+cis-Aconitic_acid,subclass,Tricarboxylic_acids_and_derivatives
+cis-Aconitic_acid,level 5,Tricarboxylic_acids_and_derivatives
+cis-Aconitic_acid,level 6,Tricarboxylic_acids_and_derivatives
+cis-Aconitic_acid,level 7,Tricarboxylic_acids_and_derivatives
+cis-Aconitic_acid,level 8,Tricarboxylic_acids_and_derivatives
+Adenine,kingdom,Organic_compounds
+Adenine,superclass,Organoheterocyclic_compounds
+Adenine,class,Imidazopyrimidines
+Adenine,subclass,Purines_and_purine_derivatives
+Adenine,level 5,6-aminopurines
+Adenine,level 6,6-aminopurines
+Adenine,level 7,6-aminopurines
+Adenine,level 8,6-aminopurines
+Adenosine,kingdom,Organic_compounds
+Adenosine,superclass,Nucleosides_nucleotides_and_analogues
+Adenosine,class,Purine_nucleosides
+Adenosine,subclass,Purine_nucleosides
+Adenosine,level 5,Purine_nucleosides
+Adenosine,level 6,Purine_nucleosides
+Adenosine,level 7,Purine_nucleosides
+Adenosine,level 8,Purine_nucleosides
+S-Adenosylhomocysteine,kingdom,Organic_compounds
+S-Adenosylhomocysteine,superclass,Nucleosides_nucleotides_and_analogues
+S-Adenosylhomocysteine,class,5-deoxyribonucleosides
+S-Adenosylhomocysteine,subclass,5-deoxy-5-thionucleosides
+S-Adenosylhomocysteine,level 5,5-deoxy-5-thionucleosides
+S-Adenosylhomocysteine,level 6,5-deoxy-5-thionucleosides
+S-Adenosylhomocysteine,level 7,5-deoxy-5-thionucleosides
+S-Adenosylhomocysteine,level 8,5-deoxy-5-thionucleosides
+S-Adenosylmethionine,kingdom,Organic_compounds
+S-Adenosylmethionine,superclass,Nucleosides_nucleotides_and_analogues
+S-Adenosylmethionine,class,5-deoxyribonucleosides
+S-Adenosylmethionine,subclass,5-deoxy-5-thionucleosides
+S-Adenosylmethionine,level 5,5-deoxy-5-thionucleosides
+S-Adenosylmethionine,level 6,5-deoxy-5-thionucleosides
+S-Adenosylmethionine,level 7,5-deoxy-5-thionucleosides
+S-Adenosylmethionine,level 8,5-deoxy-5-thionucleosides
+Adenosine_diphosphate,kingdom,Organic_compounds
+Adenosine_diphosphate,superclass,Nucleosides_nucleotides_and_analogues
+Adenosine_diphosphate,class,Purine_nucleotides
+Adenosine_diphosphate,subclass,Purine_ribonucleotides
+Adenosine_diphosphate,level 5,Purine_ribonucleoside_diphosphates
+Adenosine_diphosphate,level 6,Purine_ribonucleoside_diphosphates
+Adenosine_diphosphate,level 7,Purine_ribonucleoside_diphosphates
+Adenosine_diphosphate,level 8,Purine_ribonucleoside_diphosphates
+L-Alanine,kingdom,Organic_compounds
+L-Alanine,superclass,Organic_acids_and_derivatives
+L-Alanine,class,Carboxylic_acids_and_derivatives
+L-Alanine,subclass,Amino_acids_peptides_and_analogues
+L-Alanine,level 5,Amino_acids_and_derivatives
+L-Alanine,level 6,Alpha_amino_acids_and_derivatives
+L-Alanine,level 7,Alanine_and_derivatives
+L-Alanine,level 8,Alanine_and_derivatives
+Amino_Propanesulfonic_Acid,kingdom,Organic_compounds
+Amino_Propanesulfonic_Acid,superclass,Organic_acids_and_derivatives
+Amino_Propanesulfonic_Acid,class,Organic_sulfonic_acids_and_derivatives
+Amino_Propanesulfonic_Acid,subclass,Organosulfonic_acids_and_derivatives
+Amino_Propanesulfonic_Acid,level 5,Organosulfonic_acids
+Amino_Propanesulfonic_Acid,level 6,Organosulfonic_acids
+Amino_Propanesulfonic_Acid,level 7,Organosulfonic_acids
+Amino_Propanesulfonic_Acid,level 8,Organosulfonic_acids
+4-Aminobutyric_acid,kingdom,Organic_compounds
+4-Aminobutyric_acid,superclass,Organic_acids_and_derivatives
+4-Aminobutyric_acid,class,Carboxylic_acids_and_derivatives
+4-Aminobutyric_acid,subclass,Amino_acids_peptides_and_analogues
+4-Aminobutyric_acid,level 5,Amino_acids_and_derivatives
+4-Aminobutyric_acid,level 6,Gamma_amino_acids_and_derivatives
+4-Aminobutyric_acid,level 7,Gamma_amino_acids_and_derivatives
+4-Aminobutyric_acid,level 8,Gamma_amino_acids_and_derivatives
+Adenosine_monophosphate,kingdom,Organic_compounds
+Adenosine_monophosphate,superclass,Nucleosides_nucleotides_and_analogues
+Adenosine_monophosphate,class,Purine_nucleotides
+Adenosine_monophosphate,subclass,Purine_ribonucleotides
+Adenosine_monophosphate,level 5,Purine_ribonucleoside_monophosphates
+Adenosine_monophosphate,level 6,Purine_ribonucleoside_monophosphates
+Adenosine_monophosphate,level 7,Purine_ribonucleoside_monophosphates
+Adenosine_monophosphate,level 8,Purine_ribonucleoside_monophosphates
+L-Arginine,kingdom,Organic_compounds
+L-Arginine,superclass,Organic_acids_and_derivatives
+L-Arginine,class,Carboxylic_acids_and_derivatives
+L-Arginine,subclass,Amino_acids_peptides_and_analogues
+L-Arginine,level 5,Amino_acids_and_derivatives
+L-Arginine,level 6,Alpha_amino_acids_and_derivatives
+L-Arginine,level 7,Alpha_amino_acids
+L-Arginine,level 8,L-alpha-amino_acids
+L-Arginosuccinic_acid,kingdom,Organic_compounds
+L-Arginosuccinic_acid,superclass,Organic_acids_and_derivatives
+L-Arginosuccinic_acid,class,Carboxylic_acids_and_derivatives
+L-Arginosuccinic_acid,subclass,Amino_acids_peptides_and_analogues
+L-Arginosuccinic_acid,level 5,Amino_acids_and_derivatives
+L-Arginosuccinic_acid,level 6,Alpha_amino_acids_and_derivatives
+L-Arginosuccinic_acid,level 7,Aspartic_acid_and_derivatives
+L-Arginosuccinic_acid,level 8,Aspartic_acid_and_derivatives
+L-Asparagine,kingdom,Organic_compounds
+L-Asparagine,superclass,Organic_acids_and_derivatives
+L-Asparagine,class,Carboxylic_acids_and_derivatives
+L-Asparagine,subclass,Amino_acids_peptides_and_analogues
+L-Asparagine,level 5,Amino_acids_and_derivatives
+L-Asparagine,level 6,Alpha_amino_acids_and_derivatives
+L-Asparagine,level 7,Asparagine_and_derivatives
+L-Asparagine,level 8,Asparagine_and_derivatives
+L-Aspartic_acid,kingdom,Organic_compounds
+L-Aspartic_acid,superclass,Organic_acids_and_derivatives
+L-Aspartic_acid,class,Carboxylic_acids_and_derivatives
+L-Aspartic_acid,subclass,Amino_acids_peptides_and_analogues
+L-Aspartic_acid,level 5,Amino_acids_and_derivatives
+L-Aspartic_acid,level 6,Alpha_amino_acids_and_derivatives
+L-Aspartic_acid,level 7,Aspartic_acid_and_derivatives
+L-Aspartic_acid,level 8,Aspartic_acid_and_derivatives
+Adenosine_triphosphate,kingdom,Organic_compounds
+Adenosine_triphosphate,superclass,Nucleosides_nucleotides_and_analogues
+Adenosine_triphosphate,class,Purine_nucleotides
+Adenosine_triphosphate,subclass,Purine_ribonucleotides
+Adenosine_triphosphate,level 5,Purine_ribonucleoside_triphosphates
+Adenosine_triphosphate,level 6,Purine_ribonucleoside_triphosphates
+Adenosine_triphosphate,level 7,Purine_ribonucleoside_triphosphates
+Adenosine_triphosphate,level 8,Purine_ribonucleoside_triphosphates
+Glycine_betaine,kingdom,Organic_compounds
+Glycine_betaine,superclass,Organic_acids_and_derivatives
+Glycine_betaine,class,Carboxylic_acids_and_derivatives
+Glycine_betaine,subclass,Amino_acids_peptides_and_analogues
+Glycine_betaine,level 5,Amino_acids_and_derivatives
+Glycine_betaine,level 6,Alpha_amino_acids_and_derivatives
+Glycine_betaine,level 7,Alpha_amino_acids
+Glycine_betaine,level 8,Alpha_amino_acids
+Butyrylcarnitine,kingdom,Organic_compounds
+Butyrylcarnitine,superclass,Lipids_and_lipid-like_molecules
+Butyrylcarnitine,class,Fatty_Acyls
+Butyrylcarnitine,subclass,Fatty_acid_esters
+Butyrylcarnitine,level 5,Acyl_carnitines
+Butyrylcarnitine,level 6,Acyl_carnitines
+Butyrylcarnitine,level 7,Acyl_carnitines
+Butyrylcarnitine,level 8,Acyl_carnitines
+35-Cyclic_AMP,kingdom,Organic_compounds
+35-Cyclic_AMP,superclass,Nucleosides_nucleotides_and_analogues
+35-Cyclic_AMP,class,Purine_nucleotides
+35-Cyclic_AMP,subclass,Cyclic_purine_nucleotides
+35-Cyclic_AMP,level 5,35-cyclic_purine_nucleotides
+35-Cyclic_AMP,level 6,35-cyclic_purine_nucleotides
+35-Cyclic_AMP,level 7,35-cyclic_purine_nucleotides
+35-Cyclic_AMP,level 8,35-cyclic_purine_nucleotides
+Carnitine,kingdom,Organic_compounds
+Carnitine,superclass,Organic_nitrogen_compounds
+Carnitine,class,Organonitrogen_compounds
+Carnitine,subclass,Quaternary_ammonium_salts
+Carnitine,level 5,Carnitines
+Carnitine,level 6,Carnitines
+Carnitine,level 7,Carnitines
+Carnitine,level 8,Carnitines
+35-Cyclic_GMP,kingdom,Organic_compounds
+35-Cyclic_GMP,superclass,Nucleosides_nucleotides_and_analogues
+35-Cyclic_GMP,class,Purine_nucleotides
+35-Cyclic_GMP,subclass,Cyclic_purine_nucleotides
+35-Cyclic_GMP,level 5,35-cyclic_purine_nucleotides
+35-Cyclic_GMP,level 6,35-cyclic_purine_nucleotides
+35-Cyclic_GMP,level 7,35-cyclic_purine_nucleotides
+35-Cyclic_GMP,level 8,35-cyclic_purine_nucleotides
+Chitobiose,kingdom,Organic_compounds
+Chitobiose,superclass,Organic_oxygen_compounds
+Chitobiose,class,Organooxygen_compounds
+Chitobiose,subclass,Carbohydrates_and_carbohydrate_conjugates
+Chitobiose,level 5,Aminosaccharides
+Chitobiose,level 6,N-acyl-alpha-hexosamines
+Chitobiose,level 7,N-acyl-alpha-hexosamines
+Chitobiose,level 8,N-acyl-alpha-hexosamines
+Choline,kingdom,Organic_compounds
+Choline,superclass,Organic_nitrogen_compounds
+Choline,class,Organonitrogen_compounds
+Choline,subclass,Quaternary_ammonium_salts
+Choline,level 5,Cholines
+Choline,level 6,Cholines
+Choline,level 7,Cholines
+Choline,level 8,Cholines
+Citric_acid,kingdom,Organic_compounds
+Citric_acid,superclass,Organic_acids_and_derivatives
+Citric_acid,class,Carboxylic_acids_and_derivatives
+Citric_acid,subclass,Tricarboxylic_acids_and_derivatives
+Citric_acid,level 5,Tricarboxylic_acids_and_derivatives
+Citric_acid,level 6,Tricarboxylic_acids_and_derivatives
+Citric_acid,level 7,Tricarboxylic_acids_and_derivatives
+Citric_acid,level 8,Tricarboxylic_acids_and_derivatives
+Citrulline,kingdom,Organic_compounds
+Citrulline,superclass,Organic_acids_and_derivatives
+Citrulline,class,Carboxylic_acids_and_derivatives
+Citrulline,subclass,Amino_acids_peptides_and_analogues
+Citrulline,level 5,Amino_acids_and_derivatives
+Citrulline,level 6,Alpha_amino_acids_and_derivatives
+Citrulline,level 7,Alpha_amino_acids
+Citrulline,level 8,L-alpha-amino_acids
+Creatine,kingdom,Organic_compounds
+Creatine,superclass,Organic_acids_and_derivatives
+Creatine,class,Carboxylic_acids_and_derivatives
+Creatine,subclass,Amino_acids_peptides_and_analogues
+Creatine,level 5,Amino_acids_and_derivatives
+Creatine,level 6,Alpha_amino_acids_and_derivatives
+Creatine,level 7,Alpha_amino_acids_and_derivatives
+Creatine,level 8,Alpha_amino_acids_and_derivatives
+Crotonoyl-CoA,kingdom,Organic_compounds
+Crotonoyl-CoA,superclass,Lipids_and_lipid-like_molecules
+Crotonoyl-CoA,class,Fatty_Acyls
+Crotonoyl-CoA,subclass,Fatty_acyl_thioesters
+Crotonoyl-CoA,level 5,Enoyl_CoAs
+Crotonoyl-CoA,level 6,2-enoyl_CoAs
+Crotonoyl-CoA,level 7,2-enoyl_CoAs
+Crotonoyl-CoA,level 8,2-enoyl_CoAs
+35-Cyclic_diGMP,kingdom,Organic_compounds
+35-Cyclic_diGMP,superclass,Nucleosides_nucleotides_and_analogues
+35-Cyclic_diGMP,class,(3->5)-dinucleotides_and_analogues
+35-Cyclic_diGMP,subclass,(3->5)-cyclic_dinucleotides_and_analogues
+35-Cyclic_diGMP,level 5,(3->5)-cyclic_dinucleotides_and_analogues
+35-Cyclic_diGMP,level 6,(3->5)-cyclic_dinucleotides_and_analogues
+35-Cyclic_diGMP,level 7,(3->5)-cyclic_dinucleotides_and_analogues
+35-Cyclic_diGMP,level 8,(3->5)-cyclic_dinucleotides_and_analogues
+L-Cysteinylglycine,kingdom,Organic_compounds
+L-Cysteinylglycine,superclass,Organic_acids_and_derivatives
+L-Cysteinylglycine,class,Carboxylic_acids_and_derivatives
+L-Cysteinylglycine,subclass,Amino_acids_peptides_and_analogues
+L-Cysteinylglycine,level 5,Peptides
+L-Cysteinylglycine,level 6,Dipeptides
+L-Cysteinylglycine,level 7,Dipeptides
+L-Cysteinylglycine,level 8,Dipeptides
+Cys-Gly_oxidized,kingdom,Organic_compounds
+Cys-Gly_oxidized,superclass,Organic_acids_and_derivatives
+Cys-Gly_oxidized,class,Carboxylic_acids_and_derivatives
+Cys-Gly_oxidized,subclass,Amino_acids_peptides_and_analogues
+Cys-Gly_oxidized,level 5,Peptides
+Cys-Gly_oxidized,level 6,Dipeptides
+Cys-Gly_oxidized,level 7,Dipeptides
+Cys-Gly_oxidized,level 8,Dipeptides
+L-Cystathionine,kingdom,Organic_compounds
+L-Cystathionine,superclass,Organic_acids_and_derivatives
+L-Cystathionine,class,Carboxylic_acids_and_derivatives
+L-Cystathionine,subclass,Amino_acids_peptides_and_analogues
+L-Cystathionine,level 5,Amino_acids_and_derivatives
+L-Cystathionine,level 6,Alpha_amino_acids_and_derivatives
+L-Cystathionine,level 7,Cysteine_and_derivatives
+L-Cystathionine,level 8,L-cysteine-S-conjugates
+L-Cysteic_acid,kingdom,Organic_compounds
+L-Cysteic_acid,superclass,Organic_acids_and_derivatives
+L-Cysteic_acid,class,Carboxylic_acids_and_derivatives
+L-Cysteic_acid,subclass,Amino_acids_peptides_and_analogues
+L-Cysteic_acid,level 5,Amino_acids_and_derivatives
+L-Cysteic_acid,level 6,Alpha_amino_acids_and_derivatives
+L-Cysteic_acid,level 7,Alpha_amino_acids
+L-Cysteic_acid,level 8,L-alpha-amino_acids
+L-Cysteine,kingdom,Organic_compounds
+L-Cysteine,superclass,Organic_acids_and_derivatives
+L-Cysteine,class,Carboxylic_acids_and_derivatives
+L-Cysteine,subclass,Amino_acids_peptides_and_analogues
+L-Cysteine,level 5,Amino_acids_and_derivatives
+L-Cysteine,level 6,Alpha_amino_acids_and_derivatives
+L-Cysteine,level 7,Cysteine_and_derivatives
+L-Cysteine,level 8,Cysteine_and_derivatives
+L-Cystine,kingdom,Organic_compounds
+L-Cystine,superclass,Organic_acids_and_derivatives
+L-Cystine,class,Carboxylic_acids_and_derivatives
+L-Cystine,subclass,Amino_acids_peptides_and_analogues
+L-Cystine,level 5,Amino_acids_and_derivatives
+L-Cystine,level 6,Alpha_amino_acids_and_derivatives
+L-Cystine,level 7,Cysteine_and_derivatives
+L-Cystine,level 8,L-cysteine-S-conjugates
+Cytidine,kingdom,Organic_compounds
+Cytidine,superclass,Nucleosides_nucleotides_and_analogues
+Cytidine,class,Pyrimidine_nucleosides
+Cytidine,subclass,Pyrimidine_nucleosides
+Cytidine,level 5,Pyrimidine_nucleosides
+Cytidine,level 6,Pyrimidine_nucleosides
+Cytidine,level 7,Pyrimidine_nucleosides
+Cytidine,level 8,Pyrimidine_nucleosides
+Cytosine,kingdom,Organic_compounds
+Cytosine,superclass,Organoheterocyclic_compounds
+Cytosine,class,Diazines
+Cytosine,subclass,Pyrimidines_and_pyrimidine_derivatives
+Cytosine,level 5,Pyrimidones
+Cytosine,level 6,Pyrimidones
+Cytosine,level 7,Pyrimidones
+Cytosine,level 8,Pyrimidones
+Dihydroxyacetone_phosphate,kingdom,Organic_compounds
+Dihydroxyacetone_phosphate,superclass,Organic_oxygen_compounds
+Dihydroxyacetone_phosphate,class,Organooxygen_compounds
+Dihydroxyacetone_phosphate,subclass,Carbohydrates_and_carbohydrate_conjugates
+Dihydroxyacetone_phosphate,level 5,Monosaccharides
+Dihydroxyacetone_phosphate,level 6,Monosaccharide_phosphates
+Dihydroxyacetone_phosphate,level 7,Monosaccharide_phosphates
+Dihydroxyacetone_phosphate,level 8,Monosaccharide_phosphates
+R-23-Dihydroxypropane-1-sulfonate,kingdom,Organic_compounds
+R-23-Dihydroxypropane-1-sulfonate,superclass,Organic_acids_and_derivatives
+R-23-Dihydroxypropane-1-sulfonate,class,Organic_sulfonic_acids_and_derivatives
+R-23-Dihydroxypropane-1-sulfonate,subclass,Organosulfonic_acids_and_derivatives
+R-23-Dihydroxypropane-1-sulfonate,level 5,Organosulfonic_acids
+R-23-Dihydroxypropane-1-sulfonate,level 6,Organosulfonic_acids
+R-23-Dihydroxypropane-1-sulfonate,level 7,Organosulfonic_acids
+R-23-Dihydroxypropane-1-sulfonate,level 8,Organosulfonic_acids
+Dimethylglycine,kingdom,Organic_compounds
+Dimethylglycine,superclass,Organic_acids_and_derivatives
+Dimethylglycine,class,Carboxylic_acids_and_derivatives
+Dimethylglycine,subclass,Amino_acids_peptides_and_analogues
+Dimethylglycine,level 5,Amino_acids_and_derivatives
+Dimethylglycine,level 6,Alpha_amino_acids_and_derivatives
+Dimethylglycine,level 7,Alpha_amino_acids
+Dimethylglycine,level 8,Alpha_amino_acids
+Dimethylsulfoniopropionate,kingdom,Organic_compounds
+Dimethylsulfoniopropionate,superclass,Organic_acids_and_derivatives
+Dimethylsulfoniopropionate,class,Carboxylic_acids_and_derivatives
+Dimethylsulfoniopropionate,subclass,Carboxylic_acid_derivatives
+Dimethylsulfoniopropionate,level 5,Carboxylic_acid_salts
+Dimethylsulfoniopropionate,level 6,Carboxylic_acid_salts
+Dimethylsulfoniopropionate,level 7,Carboxylic_acid_salts
+Dimethylsulfoniopropionate,level 8,Carboxylic_acid_salts
+Ectoine,kingdom,Organic_compounds
+Ectoine,superclass,Organic_acids_and_derivatives
+Ectoine,class,Carboxylic_acids_and_derivatives
+Ectoine,subclass,Amino_acids_peptides_and_analogues
+Ectoine,level 5,Amino_acids_and_derivatives
+Ectoine,level 6,Alpha_amino_acids_and_derivatives
+Ectoine,level 7,Alpha_amino_acids
+Ectoine,level 8,L-alpha-amino_acids
+5-Hydroxyectoine,kingdom,Organic_compounds
+5-Hydroxyectoine,superclass,Organic_acids_and_derivatives
+5-Hydroxyectoine,class,Carboxylic_acids_and_derivatives
+5-Hydroxyectoine,subclass,Amino_acids_peptides_and_analogues
+5-Hydroxyectoine,level 5,Amino_acids_and_derivatives
+5-Hydroxyectoine,level 6,Alpha_amino_acids_and_derivatives
+5-Hydroxyectoine,level 7,Alpha_amino_acids
+5-Hydroxyectoine,level 8,L-alpha-amino_acids
+Ethanesulfonic_acid,kingdom,Organic_compounds
+Ethanesulfonic_acid,superclass,Organic_acids_and_derivatives
+Ethanesulfonic_acid,class,Organic_sulfonic_acids_and_derivatives
+Ethanesulfonic_acid,subclass,Organosulfonic_acids_and_derivatives
+Ethanesulfonic_acid,level 5,Organosulfonic_acids
+Ethanesulfonic_acid,level 6,Organosulfonic_acids
+Ethanesulfonic_acid,level 7,Organosulfonic_acids
+Ethanesulfonic_acid,level 8,Organosulfonic_acids
+Ethyl_aminobenzoate,kingdom,Organic_compounds
+Ethyl_aminobenzoate,superclass,Benzenoids
+Ethyl_aminobenzoate,class,Benzene_and_substituted_derivatives
+Ethyl_aminobenzoate,subclass,Benzoic_acids_and_derivatives
+Ethyl_aminobenzoate,level 5,Benzoic_acid_esters
+Ethyl_aminobenzoate,level 6,Benzoic_acid_esters
+Ethyl_aminobenzoate,level 7,Benzoic_acid_esters
+Ethyl_aminobenzoate,level 8,Benzoic_acid_esters
+Ethyl_dihydroxybenzoate,kingdom,Organic_compounds
+Ethyl_dihydroxybenzoate,superclass,Benzenoids
+Ethyl_dihydroxybenzoate,class,Benzene_and_substituted_derivatives
+Ethyl_dihydroxybenzoate,subclass,Benzoic_acids_and_derivatives
+Ethyl_dihydroxybenzoate,level 5,Benzoic_acid_esters
+Ethyl_dihydroxybenzoate,level 6,m-Hydroxybenzoic_acid_esters
+Ethyl_dihydroxybenzoate,level 7,m-Hydroxybenzoic_acid_esters
+Ethyl_dihydroxybenzoate,level 8,m-Hydroxybenzoic_acid_esters
+Flavin_adenine_dinucleotide,kingdom,Organic_compounds
+Flavin_adenine_dinucleotide,superclass,Nucleosides_nucleotides_and_analogues
+Flavin_adenine_dinucleotide,class,Flavin_nucleotides
+Flavin_adenine_dinucleotide,subclass,Flavin_nucleotides
+Flavin_adenine_dinucleotide,level 5,Flavin_nucleotides
+Flavin_adenine_dinucleotide,level 6,Flavin_nucleotides
+Flavin_adenine_dinucleotide,level 7,Flavin_nucleotides
+Flavin_adenine_dinucleotide,level 8,Flavin_nucleotides
+D-Fructose_6-phosphate,kingdom,Organic_compounds
+D-Fructose_6-phosphate,superclass,Organic_oxygen_compounds
+D-Fructose_6-phosphate,class,Organooxygen_compounds
+D-Fructose_6-phosphate,subclass,Carbohydrates_and_carbohydrate_conjugates
+D-Fructose_6-phosphate,level 5,Monosaccharides
+D-Fructose_6-phosphate,level 6,Hexoses
+D-Fructose_6-phosphate,level 7,Hexose_phosphates
+D-Fructose_6-phosphate,level 8,Hexose_phosphates
+Fumaric_acid,kingdom,Organic_compounds
+Fumaric_acid,superclass,Organic_acids_and_derivatives
+Fumaric_acid,class,Carboxylic_acids_and_derivatives
+Fumaric_acid,subclass,Dicarboxylic_acids_and_derivatives
+Fumaric_acid,level 5,Dicarboxylic_acids_and_derivatives
+Fumaric_acid,level 6,Dicarboxylic_acids_and_derivatives
+Fumaric_acid,level 7,Dicarboxylic_acids_and_derivatives
+Fumaric_acid,level 8,Dicarboxylic_acids_and_derivatives
+D-Gluconic_acid,kingdom,Organic_compounds
+D-Gluconic_acid,superclass,Organic_oxygen_compounds
+D-Gluconic_acid,class,Organooxygen_compounds
+D-Gluconic_acid,subclass,Carbohydrates_and_carbohydrate_conjugates
+D-Gluconic_acid,level 5,Sugar_acids_and_derivatives
+D-Gluconic_acid,level 6,Sugar_acids_and_derivatives
+D-Gluconic_acid,level 7,Sugar_acids_and_derivatives
+D-Gluconic_acid,level 8,Sugar_acids_and_derivatives
+Glucosamine,kingdom,Organic_compounds
+Glucosamine,superclass,Organic_oxygen_compounds
+Glucosamine,class,Organooxygen_compounds
+Glucosamine,subclass,Carbohydrates_and_carbohydrate_conjugates
+Glucosamine,level 5,Monosaccharides
+Glucosamine,level 6,Hexoses
+Glucosamine,level 7,Hexoses
+Glucosamine,level 8,Hexoses
+D-Glucose_1-phosphate,kingdom,Organic_compounds
+D-Glucose_1-phosphate,superclass,Organic_oxygen_compounds
+D-Glucose_1-phosphate,class,Organooxygen_compounds
+D-Glucose_1-phosphate,subclass,Carbohydrates_and_carbohydrate_conjugates
+D-Glucose_1-phosphate,level 5,Monosaccharides
+D-Glucose_1-phosphate,level 6,Monosaccharide_phosphates
+D-Glucose_1-phosphate,level 7,Monosaccharide_phosphates
+D-Glucose_1-phosphate,level 8,Monosaccharide_phosphates
+D-Glucose_6-phosphate,kingdom,Organic_compounds
+D-Glucose_6-phosphate,superclass,Organic_oxygen_compounds
+D-Glucose_6-phosphate,class,Organooxygen_compounds
+D-Glucose_6-phosphate,subclass,Carbohydrates_and_carbohydrate_conjugates
+D-Glucose_6-phosphate,level 5,Monosaccharides
+D-Glucose_6-phosphate,level 6,Monosaccharide_phosphates
+D-Glucose_6-phosphate,level 7,Monosaccharide_phosphates
+D-Glucose_6-phosphate,level 8,Monosaccharide_phosphates
+2-O-alpha-D-Glucosylglycerol,kingdom,Organic_compounds
+2-O-alpha-D-Glucosylglycerol,superclass,Lipids_and_lipid-like_molecules
+2-O-alpha-D-Glucosylglycerol,class,Glycerolipids
+2-O-alpha-D-Glucosylglycerol,subclass,Glycosylglycerols
+2-O-alpha-D-Glucosylglycerol,level 5,Glycosylglycerols
+2-O-alpha-D-Glucosylglycerol,level 6,Glycosylglycerols
+2-O-alpha-D-Glucosylglycerol,level 7,Glycosylglycerols
+2-O-alpha-D-Glucosylglycerol,level 8,Glycosylglycerols
+L-Glutamic_acid,kingdom,Organic_compounds
+L-Glutamic_acid,superclass,Organic_acids_and_derivatives
+L-Glutamic_acid,class,Carboxylic_acids_and_derivatives
+L-Glutamic_acid,subclass,Amino_acids_peptides_and_analogues
+L-Glutamic_acid,level 5,Amino_acids_and_derivatives
+L-Glutamic_acid,level 6,Alpha_amino_acids_and_derivatives
+L-Glutamic_acid,level 7,Glutamic_acid_and_derivatives
+L-Glutamic_acid,level 8,Glutamic_acid_and_derivatives
+L-Glutamine,kingdom,Organic_compounds
+L-Glutamine,superclass,Organic_acids_and_derivatives
+L-Glutamine,class,Carboxylic_acids_and_derivatives
+L-Glutamine,subclass,Amino_acids_peptides_and_analogues
+L-Glutamine,level 5,Amino_acids_and_derivatives
+L-Glutamine,level 6,Alpha_amino_acids_and_derivatives
+L-Glutamine,level 7,Alpha_amino_acids
+L-Glutamine,level 8,L-alpha-amino_acids
+Glutathione,kingdom,Organic_compounds
+Glutathione,superclass,Organic_acids_and_derivatives
+Glutathione,class,Carboxylic_acids_and_derivatives
+Glutathione,subclass,Amino_acids_peptides_and_analogues
+Glutathione,level 5,Peptides
+Glutathione,level 6,Peptides
+Glutathione,level 7,Peptides
+Glutathione,level 8,Peptides
+Glutathione_disulfide,kingdom,Organic_compounds
+Glutathione_disulfide,superclass,Organic_acids_and_derivatives
+Glutathione_disulfide,class,Carboxylic_acids_and_derivatives
+Glutathione_disulfide,subclass,Amino_acids_peptides_and_analogues
+Glutathione_disulfide,level 5,Peptides
+Glutathione_disulfide,level 6,Peptides
+Glutathione_disulfide,level 7,Peptides
+Glutathione_disulfide,level 8,Peptides
+Glycerophosphoric_acid,kingdom,Organic_compounds
+Glycerophosphoric_acid,superclass,Lipids_and_lipid-like_molecules
+Glycerophosphoric_acid,class,Glycerophospholipids
+Glycerophosphoric_acid,subclass,Glycerophosphates
+Glycerophosphoric_acid,level 5,Glycerophosphates
+Glycerophosphoric_acid,level 6,Glycerophosphates
+Glycerophosphoric_acid,level 7,Glycerophosphates
+Glycerophosphoric_acid,level 8,Glycerophosphates
+Glycerophosphocholine,kingdom,Organic_compounds
+Glycerophosphocholine,superclass,Lipids_and_lipid-like_molecules
+Glycerophosphocholine,class,Glycerophospholipids
+Glycerophosphocholine,subclass,Glycerophosphocholines
+Glycerophosphocholine,level 5,Glycerophosphocholines
+Glycerophosphocholine,level 6,Glycerophosphocholines
+Glycerophosphocholine,level 7,Glycerophosphocholines
+Glycerophosphocholine,level 8,Glycerophosphocholines
+Glycine,kingdom,Organic_compounds
+Glycine,superclass,Organic_acids_and_derivatives
+Glycine,class,Carboxylic_acids_and_derivatives
+Glycine,subclass,Amino_acids_peptides_and_analogues
+Glycine,level 5,Amino_acids_and_derivatives
+Glycine,level 6,Alpha_amino_acids_and_derivatives
+Glycine,level 7,Alpha_amino_acids
+Glycine,level 8,Alpha_amino_acids
+Guanosine_monophosphate,kingdom,Organic_compounds
+Guanosine_monophosphate,superclass,Nucleosides_nucleotides_and_analogues
+Guanosine_monophosphate,class,Purine_nucleotides
+Guanosine_monophosphate,subclass,Purine_ribonucleotides
+Guanosine_monophosphate,level 5,Purine_ribonucleoside_monophosphates
+Guanosine_monophosphate,level 6,Purine_ribonucleoside_monophosphates
+Guanosine_monophosphate,level 7,Purine_ribonucleoside_monophosphates
+Guanosine_monophosphate,level 8,Purine_ribonucleoside_monophosphates
+Guanosine_triphosphate,kingdom,Organic_compounds
+Guanosine_triphosphate,superclass,Nucleosides_nucleotides_and_analogues
+Guanosine_triphosphate,class,Purine_nucleotides
+Guanosine_triphosphate,subclass,Purine_ribonucleotides
+Guanosine_triphosphate,level 5,Purine_ribonucleoside_triphosphates
+Guanosine_triphosphate,level 6,Purine_ribonucleoside_triphosphates
+Guanosine_triphosphate,level 7,Purine_ribonucleoside_triphosphates
+Guanosine_triphosphate,level 8,Purine_ribonucleoside_triphosphates
+Guanine,kingdom,Organic_compounds
+Guanine,superclass,Organoheterocyclic_compounds
+Guanine,class,Imidazopyrimidines
+Guanine,subclass,Purines_and_purine_derivatives
+Guanine,level 5,Purines_and_purine_derivatives
+Guanine,level 6,Purines_and_purine_derivatives
+Guanine,level 7,Purines_and_purine_derivatives
+Guanine,level 8,Purines_and_purine_derivatives
+Guanosine,kingdom,Organic_compounds
+Guanosine,superclass,Nucleosides_nucleotides_and_analogues
+Guanosine,class,Purine_nucleosides
+Guanosine,subclass,Purine_nucleosides
+Guanosine,level 5,Purine_nucleosides
+Guanosine,level 6,Purine_nucleosides
+Guanosine,level 7,Purine_nucleosides
+Guanosine,level 8,Purine_nucleosides
+L-Histidine,kingdom,Organic_compounds
+L-Histidine,superclass,Organic_acids_and_derivatives
+L-Histidine,class,Carboxylic_acids_and_derivatives
+L-Histidine,subclass,Amino_acids_peptides_and_analogues
+L-Histidine,level 5,Amino_acids_and_derivatives
+L-Histidine,level 6,Alpha_amino_acids_and_derivatives
+L-Histidine,level 7,Histidine_and_derivatives
+L-Histidine,level 8,Histidine_and_derivatives
+Homarine,kingdom,Organic_compounds
+Homarine,superclass,Organoheterocyclic_compounds
+Homarine,class,Pyridines_and_derivatives
+Homarine,subclass,Pyridinecarboxylic_acids_and_derivatives
+Homarine,level 5,Pyridinecarboxylic_acids
+Homarine,level 6,Pyridinecarboxylic_acids
+Homarine,level 7,Pyridinecarboxylic_acids
+Homarine,level 8,Pyridinecarboxylic_acids
+Homocysteine_thiolactone,kingdom,Organic_compounds
+Homocysteine_thiolactone,superclass,Organic_acids_and_derivatives
+Homocysteine_thiolactone,class,Carboxylic_acids_and_derivatives
+Homocysteine_thiolactone,subclass,Amino_acids_peptides_and_analogues
+Homocysteine_thiolactone,level 5,Amino_acids_and_derivatives
+Homocysteine_thiolactone,level 6,Alpha_amino_acids_and_derivatives
+Homocysteine_thiolactone,level 7,Alpha_amino_acids_and_derivatives
+Homocysteine_thiolactone,level 8,Alpha_amino_acids_and_derivatives
+L-Homocystine,kingdom,Organic_compounds
+L-Homocystine,superclass,Organic_acids_and_derivatives
+L-Homocystine,class,Carboxylic_acids_and_derivatives
+L-Homocystine,subclass,Amino_acids_peptides_and_analogues
+L-Homocystine,level 5,Amino_acids_and_derivatives
+L-Homocystine,level 6,Alpha_amino_acids_and_derivatives
+L-Homocystine,level 7,Alpha_amino_acids
+L-Homocystine,level 8,L-alpha-amino_acids
+L-Homoserine,kingdom,Organic_compounds
+L-Homoserine,superclass,Organic_acids_and_derivatives
+L-Homoserine,class,Carboxylic_acids_and_derivatives
+L-Homoserine,subclass,Amino_acids_peptides_and_analogues
+L-Homoserine,level 5,Amino_acids_and_derivatives
+L-Homoserine,level 6,Alpha_amino_acids_and_derivatives
+L-Homoserine,level 7,Alpha_amino_acids
+L-Homoserine,level 8,L-alpha-amino_acids
+S-3-Hydroxybutyryl-CoA,kingdom,Organic_compounds
+S-3-Hydroxybutyryl-CoA,superclass,Lipids_and_lipid-like_molecules
+S-3-Hydroxybutyryl-CoA,class,Fatty_Acyls
+S-3-Hydroxybutyryl-CoA,subclass,Fatty_acyl_thioesters
+S-3-Hydroxybutyryl-CoA,level 5,Acyl_CoAs
+S-3-Hydroxybutyryl-CoA,level 6,3-hydroxyacyl_CoAs
+S-3-Hydroxybutyryl-CoA,level 7,(S)-3-hydroxyacyl_CoAs
+S-3-Hydroxybutyryl-CoA,level 8,(S)-3-hydroxyacyl_CoAs
+L-Hydroxylysine,kingdom,Organic_compounds
+L-Hydroxylysine,superclass,Organic_acids_and_derivatives
+L-Hydroxylysine,class,Carboxylic_acids_and_derivatives
+L-Hydroxylysine,subclass,Amino_acids_peptides_and_analogues
+L-Hydroxylysine,level 5,Amino_acids_and_derivatives
+L-Hydroxylysine,level 6,Alpha_amino_acids_and_derivatives
+L-Hydroxylysine,level 7,Alpha_amino_acids
+L-Hydroxylysine,level 8,L-alpha-amino_acids
+Hypotaurine,kingdom,Organic_compounds
+Hypotaurine,superclass,Organic_acids_and_derivatives
+Hypotaurine,class,Sulfinic_acids_and_derivatives
+Hypotaurine,subclass,Sulfinic_acids
+Hypotaurine,level 5,Sulfinic_acids
+Hypotaurine,level 6,Sulfinic_acids
+Hypotaurine,level 7,Sulfinic_acids
+Hypotaurine,level 8,Sulfinic_acids
+Indole-3-carbinol,kingdom,Organic_compounds
+Indole-3-carbinol,superclass,Organoheterocyclic_compounds
+Indole-3-carbinol,class,Indoles_and_derivatives
+Indole-3-carbinol,subclass,Indoles
+Indole-3-carbinol,level 5,3-alkylindoles
+Indole-3-carbinol,level 6,3-alkylindoles
+Indole-3-carbinol,level 7,3-alkylindoles
+Indole-3-carbinol,level 8,3-alkylindoles
+Indolepyruvic_acid,kingdom,Organic_compounds
+Indolepyruvic_acid,superclass,Organoheterocyclic_compounds
+Indolepyruvic_acid,class,Indoles_and_derivatives
+Indolepyruvic_acid,subclass,Indolyl_carboxylic_acids_and_derivatives
+Indolepyruvic_acid,level 5,Indolyl_carboxylic_acids_and_derivatives
+Indolepyruvic_acid,level 6,Indolyl_carboxylic_acids_and_derivatives
+Indolepyruvic_acid,level 7,Indolyl_carboxylic_acids_and_derivatives
+Indolepyruvic_acid,level 8,Indolyl_carboxylic_acids_and_derivatives
+Isethionic_acid,kingdom,Organic_compounds
+Isethionic_acid,superclass,Organic_acids_and_derivatives
+Isethionic_acid,class,Organic_sulfonic_acids_and_derivatives
+Isethionic_acid,subclass,Organosulfonic_acids_and_derivatives
+Isethionic_acid,level 5,Organosulfonic_acids
+Isethionic_acid,level 6,Organosulfonic_acids
+Isethionic_acid,level 7,Organosulfonic_acids
+Isethionic_acid,level 8,Organosulfonic_acids
+Isocitric_acid,kingdom,Organic_compounds
+Isocitric_acid,superclass,Organic_acids_and_derivatives
+Isocitric_acid,class,Carboxylic_acids_and_derivatives
+Isocitric_acid,subclass,Tricarboxylic_acids_and_derivatives
+Isocitric_acid,level 5,Tricarboxylic_acids_and_derivatives
+Isocitric_acid,level 6,Tricarboxylic_acids_and_derivatives
+Isocitric_acid,level 7,Tricarboxylic_acids_and_derivatives
+Isocitric_acid,level 8,Tricarboxylic_acids_and_derivatives
+L-Isoleucine,kingdom,Organic_compounds
+L-Isoleucine,superclass,Organic_acids_and_derivatives
+L-Isoleucine,class,Carboxylic_acids_and_derivatives
+L-Isoleucine,subclass,Amino_acids_peptides_and_analogues
+L-Isoleucine,level 5,Amino_acids_and_derivatives
+L-Isoleucine,level 6,Alpha_amino_acids_and_derivatives
+L-Isoleucine,level 7,Isoleucine_and_derivatives
+L-Isoleucine,level 8,Isoleucine_and_derivatives
+2-keto-4-methylthiobutyric_acid,kingdom,Organic_compounds
+2-keto-4-methylthiobutyric_acid,superclass,Lipids_and_lipid-like_molecules
+2-keto-4-methylthiobutyric_acid,class,Fatty_Acyls
+2-keto-4-methylthiobutyric_acid,subclass,Fatty_acids_and_conjugates
+2-keto-4-methylthiobutyric_acid,level 5,Thia_fatty_acids
+2-keto-4-methylthiobutyric_acid,level 6,Thia_fatty_acids
+2-keto-4-methylthiobutyric_acid,level 7,Thia_fatty_acids
+2-keto-4-methylthiobutyric_acid,level 8,Thia_fatty_acids
+2-Ketoglutaric_acid,kingdom,Organic_compounds
+2-Ketoglutaric_acid,superclass,Organic_acids_and_derivatives
+2-Ketoglutaric_acid,class,Keto_acids_and_derivatives
+2-Ketoglutaric_acid,subclass,Gamma-keto_acids_and_derivatives
+2-Ketoglutaric_acid,level 5,Gamma-keto_acids_and_derivatives
+2-Ketoglutaric_acid,level 6,Gamma-keto_acids_and_derivatives
+2-Ketoglutaric_acid,level 7,Gamma-keto_acids_and_derivatives
+2-Ketoglutaric_acid,level 8,Gamma-keto_acids_and_derivatives
+L-Kynurenine,kingdom,Organic_compounds
+L-Kynurenine,superclass,Organic_oxygen_compounds
+L-Kynurenine,class,Organooxygen_compounds
+L-Kynurenine,subclass,Carbonyl_compounds
+L-Kynurenine,level 5,Ketones
+L-Kynurenine,level 6,Aryl_ketones
+L-Kynurenine,level 7,Phenylketones
+L-Kynurenine,level 8,Alkyl-phenylketones
+L-Leucine,kingdom,Organic_compounds
+L-Leucine,superclass,Organic_acids_and_derivatives
+L-Leucine,class,Carboxylic_acids_and_derivatives
+L-Leucine,subclass,Amino_acids_peptides_and_analogues
+L-Leucine,level 5,Amino_acids_and_derivatives
+L-Leucine,level 6,Alpha_amino_acids_and_derivatives
+L-Leucine,level 7,Leucine_and_derivatives
+L-Leucine,level 8,Leucine_and_derivatives
+L-Homocysteine,kingdom,Organic_compounds
+L-Homocysteine,superclass,Organic_acids_and_derivatives
+L-Homocysteine,class,Carboxylic_acids_and_derivatives
+L-Homocysteine,subclass,Amino_acids_peptides_and_analogues
+L-Homocysteine,level 5,Amino_acids_and_derivatives
+L-Homocysteine,level 6,Alpha_amino_acids_and_derivatives
+L-Homocysteine,level 7,Alpha_amino_acids
+L-Homocysteine,level 8,L-alpha-amino_acids
+Lipoic_acid,kingdom,Organic_compounds
+Lipoic_acid,superclass,Organoheterocyclic_compounds
+Lipoic_acid,class,Dithiolanes
+Lipoic_acid,subclass,Lipoic_acids_and_derivatives
+Lipoic_acid,level 5,Lipoic_acids_and_derivatives
+Lipoic_acid,level 6,Lipoic_acids_and_derivatives
+Lipoic_acid,level 7,Lipoic_acids_and_derivatives
+Lipoic_acid,level 8,Lipoic_acids_and_derivatives
+5-Oxoproline,kingdom,Organic_compounds
+5-Oxoproline,superclass,Organic_acids_and_derivatives
+5-Oxoproline,class,Carboxylic_acids_and_derivatives
+5-Oxoproline,subclass,Amino_acids_peptides_and_analogues
+5-Oxoproline,level 5,Amino_acids_and_derivatives
+5-Oxoproline,level 6,Alpha_amino_acids_and_derivatives
+5-Oxoproline,level 7,Alpha_amino_acids_and_derivatives
+5-Oxoproline,level 8,Alpha_amino_acids_and_derivatives
+L-Lysine,kingdom,Organic_compounds
+L-Lysine,superclass,Organic_acids_and_derivatives
+L-Lysine,class,Carboxylic_acids_and_derivatives
+L-Lysine,subclass,Amino_acids_peptides_and_analogues
+L-Lysine,level 5,Amino_acids_and_derivatives
+L-Lysine,level 6,Alpha_amino_acids_and_derivatives
+L-Lysine,level 7,Alpha_amino_acids
+L-Lysine,level 8,L-alpha-amino_acids
+Malic_acid,kingdom,Organic_compounds
+Malic_acid,superclass,Organic_acids_and_derivatives
+Malic_acid,class,Hydroxy_acids_and_derivatives
+Malic_acid,subclass,Beta_hydroxy_acids_and_derivatives
+Malic_acid,level 5,Beta_hydroxy_acids_and_derivatives
+Malic_acid,level 6,Beta_hydroxy_acids_and_derivatives
+Malic_acid,level 7,Beta_hydroxy_acids_and_derivatives
+Malic_acid,level 8,Beta_hydroxy_acids_and_derivatives
+Malonyl-CoA,kingdom,Organic_compounds
+Malonyl-CoA,superclass,Lipids_and_lipid-like_molecules
+Malonyl-CoA,class,Fatty_Acyls
+Malonyl-CoA,subclass,Fatty_acyl_thioesters
+Malonyl-CoA,level 5,Acyl_CoAs
+Malonyl-CoA,level 6,Acyl_CoAs
+Malonyl-CoA,level 7,Acyl_CoAs
+Malonyl-CoA,level 8,Acyl_CoAs
+Maltotetraose,kingdom,Organic_compounds
+Maltotetraose,superclass,Organic_oxygen_compounds
+Maltotetraose,class,Organooxygen_compounds
+Maltotetraose,subclass,Carbohydrates_and_carbohydrate_conjugates
+Maltotetraose,level 5,Oligosaccharides
+Maltotetraose,level 6,Oligosaccharides
+Maltotetraose,level 7,Oligosaccharides
+Maltotetraose,level 8,Oligosaccharides
+Maltotriose,kingdom,Organic_compounds
+Maltotriose,superclass,Organic_oxygen_compounds
+Maltotriose,class,Organooxygen_compounds
+Maltotriose,subclass,Carbohydrates_and_carbohydrate_conjugates
+Maltotriose,level 5,Oligosaccharides
+Maltotriose,level 6,Oligosaccharides
+Maltotriose,level 7,Oligosaccharides
+Maltotriose,level 8,Oligosaccharides
+Sodium_2-mercaptoethanesulfonate,kingdom,Organic_compounds
+Sodium_2-mercaptoethanesulfonate,superclass,Organic_acids_and_derivatives
+Sodium_2-mercaptoethanesulfonate,class,Organic_sulfonic_acids_and_derivatives
+Sodium_2-mercaptoethanesulfonate,subclass,Organosulfonic_acids_and_derivatives
+Sodium_2-mercaptoethanesulfonate,level 5,Organosulfonic_acids
+Sodium_2-mercaptoethanesulfonate,level 6,Organosulfonic_acids
+Sodium_2-mercaptoethanesulfonate,level 7,Organosulfonic_acids
+Sodium_2-mercaptoethanesulfonate,level 8,Organosulfonic_acids
+L-Methionine,kingdom,Organic_compounds
+L-Methionine,superclass,Organic_acids_and_derivatives
+L-Methionine,class,Carboxylic_acids_and_derivatives
+L-Methionine,subclass,Amino_acids_peptides_and_analogues
+L-Methionine,level 5,Amino_acids_and_derivatives
+L-Methionine,level 6,Alpha_amino_acids_and_derivatives
+L-Methionine,level 7,Methionine_and_derivatives
+L-Methionine,level 8,Methionine_and_derivatives
+L-Methionine_S-oxide,kingdom,Organic_compounds
+L-Methionine_S-oxide,superclass,Organic_acids_and_derivatives
+L-Methionine_S-oxide,class,Carboxylic_acids_and_derivatives
+L-Methionine_S-oxide,subclass,Amino_acids_peptides_and_analogues
+L-Methionine_S-oxide,level 5,Amino_acids_and_derivatives
+L-Methionine_S-oxide,level 6,Alpha_amino_acids_and_derivatives
+L-Methionine_S-oxide,level 7,Alpha_amino_acids
+L-Methionine_S-oxide,level 8,L-alpha-amino_acids
+D-Methylmalonyl-CoA,kingdom,Organic_compounds
+D-Methylmalonyl-CoA,superclass,Lipids_and_lipid-like_molecules
+D-Methylmalonyl-CoA,class,Fatty_Acyls
+D-Methylmalonyl-CoA,subclass,Fatty_acyl_thioesters
+D-Methylmalonyl-CoA,level 5,Acyl_CoAs
+D-Methylmalonyl-CoA,level 6,Acyl_CoAs
+D-Methylmalonyl-CoA,level 7,Acyl_CoAs
+D-Methylmalonyl-CoA,level 8,Acyl_CoAs
+Methylphosphonic_acid,kingdom,Organic_compounds
+Methylphosphonic_acid,superclass,Organic_acids_and_derivatives
+Methylphosphonic_acid,class,Organic_phosphonic_acids_and_derivatives
+Methylphosphonic_acid,subclass,Organic_phosphonic_acids
+Methylphosphonic_acid,level 5,Organic_phosphonic_acids
+Methylphosphonic_acid,level 6,Organic_phosphonic_acids
+Methylphosphonic_acid,level 7,Organic_phosphonic_acids
+Methylphosphonic_acid,level 8,Organic_phosphonic_acids
+Muramic_acid,kingdom,Organic_compounds
+Muramic_acid,superclass,Organic_oxygen_compounds
+Muramic_acid,class,Organooxygen_compounds
+Muramic_acid,subclass,Carbohydrates_and_carbohydrate_conjugates
+Muramic_acid,level 5,Sugar_acids_and_derivatives
+Muramic_acid,level 6,Sugar_acids_and_derivatives
+Muramic_acid,level 7,Sugar_acids_and_derivatives
+Muramic_acid,level 8,Sugar_acids_and_derivatives
+N6-Acetyl-L-lysine,kingdom,Organic_compounds
+N6-Acetyl-L-lysine,superclass,Organic_acids_and_derivatives
+N6-Acetyl-L-lysine,class,Carboxylic_acids_and_derivatives
+N6-Acetyl-L-lysine,subclass,Amino_acids_peptides_and_analogues
+N6-Acetyl-L-lysine,level 5,Amino_acids_and_derivatives
+N6-Acetyl-L-lysine,level 6,Alpha_amino_acids_and_derivatives
+N6-Acetyl-L-lysine,level 7,Alpha_amino_acids
+N6-Acetyl-L-lysine,level 8,L-alpha-amino_acids
+O-Acetyl-L-serine,kingdom,Organic_compounds
+O-Acetyl-L-serine,superclass,Organic_acids_and_derivatives
+O-Acetyl-L-serine,class,Carboxylic_acids_and_derivatives
+O-Acetyl-L-serine,subclass,Amino_acids_peptides_and_analogues
+O-Acetyl-L-serine,level 5,Amino_acids_and_derivatives
+O-Acetyl-L-serine,level 6,Alpha_amino_acids_and_derivatives
+O-Acetyl-L-serine,level 7,Alpha_amino_acids
+O-Acetyl-L-serine,level 8,L-alpha-amino_acids
+N-Acetyltaurine,kingdom,Organic_compounds
+N-Acetyltaurine,superclass,Organic_acids_and_derivatives
+N-Acetyltaurine,class,Organic_sulfonic_acids_and_derivatives
+N-Acetyltaurine,subclass,Organosulfonic_acids_and_derivatives
+N-Acetyltaurine,level 5,Organosulfonic_acids
+N-Acetyltaurine,level 6,Organosulfonic_acids
+N-Acetyltaurine,level 7,Organosulfonic_acids
+N-Acetyltaurine,level 8,Organosulfonic_acids
+NAD,kingdom,Organic_compounds
+NAD,superclass,Nucleosides_nucleotides_and_analogues
+NAD,class,(5->5)-dinucleotides
+NAD,subclass,(5->5)-dinucleotides
+NAD,level 5,(5->5)-dinucleotides
+NAD,level 6,(5->5)-dinucleotides
+NAD,level 7,(5->5)-dinucleotides
+NAD,level 8,(5->5)-dinucleotides
+NADH,kingdom,Organic_compounds
+NADH,superclass,Nucleosides_nucleotides_and_analogues
+NADH,class,(5->5)-dinucleotides
+NADH,subclass,(5->5)-dinucleotides
+NADH,level 5,(5->5)-dinucleotides
+NADH,level 6,(5->5)-dinucleotides
+NADH,level 7,(5->5)-dinucleotides
+NADH,level 8,(5->5)-dinucleotides
+NADP,kingdom,Organic_compounds
+NADP,superclass,Nucleosides_nucleotides_and_analogues
+NADP,class,(5->5)-dinucleotides
+NADP,subclass,(5->5)-dinucleotides
+NADP,level 5,(5->5)-dinucleotides
+NADP,level 6,(5->5)-dinucleotides
+NADP,level 7,(5->5)-dinucleotides
+NADP,level 8,(5->5)-dinucleotides
+NADPH,kingdom,Organic_compounds
+NADPH,superclass,Nucleosides_nucleotides_and_analogues
+NADPH,class,(5->5)-dinucleotides
+NADPH,subclass,(5->5)-dinucleotides
+NADPH,level 5,(5->5)-dinucleotides
+NADPH,level 6,(5->5)-dinucleotides
+NADPH,level 7,(5->5)-dinucleotides
+NADPH,level 8,(5->5)-dinucleotides
+N-Methyltaurine,kingdom,Organic_compounds
+N-Methyltaurine,superclass,Organic_acids_and_derivatives
+N-Methyltaurine,class,Organic_sulfonic_acids_and_derivatives
+N-Methyltaurine,subclass,Organosulfonic_acids_and_derivatives
+N-Methyltaurine,level 5,Organosulfonic_acids
+N-Methyltaurine,level 6,Organosulfonic_acids
+N-Methyltaurine,level 7,Organosulfonic_acids
+N-Methyltaurine,level 8,Organosulfonic_acids
+Ophthalmic_acid,kingdom,Organic_compounds
+Ophthalmic_acid,superclass,Organic_acids_and_derivatives
+Ophthalmic_acid,class,Carboxylic_acids_and_derivatives
+Ophthalmic_acid,subclass,Amino_acids_peptides_and_analogues
+Ophthalmic_acid,level 5,Peptides
+Ophthalmic_acid,level 6,Oligopeptides
+Ophthalmic_acid,level 7,Oligopeptides
+Ophthalmic_acid,level 8,Oligopeptides
+L-Ornithine,kingdom,Organic_compounds
+L-Ornithine,superclass,Organic_acids_and_derivatives
+L-Ornithine,class,Carboxylic_acids_and_derivatives
+L-Ornithine,subclass,Amino_acids_peptides_and_analogues
+L-Ornithine,level 5,Amino_acids_and_derivatives
+L-Ornithine,level 6,Alpha_amino_acids_and_derivatives
+L-Ornithine,level 7,Alpha_amino_acids
+L-Ornithine,level 8,L-alpha-amino_acids
+Orotic_acid,kingdom,Organic_compounds
+Orotic_acid,superclass,Organoheterocyclic_compounds
+Orotic_acid,class,Diazines
+Orotic_acid,subclass,Pyrimidines_and_pyrimidine_derivatives
+Orotic_acid,level 5,Pyrimidinecarboxylic_acids_and_derivatives
+Orotic_acid,level 6,Pyrimidinecarboxylic_acids
+Orotic_acid,level 7,Pyrimidinecarboxylic_acids
+Orotic_acid,level 8,Pyrimidinecarboxylic_acids
+Oxalic_acid,kingdom,Organic_compounds
+Oxalic_acid,superclass,Organic_acids_and_derivatives
+Oxalic_acid,class,Carboxylic_acids_and_derivatives
+Oxalic_acid,subclass,Dicarboxylic_acids_and_derivatives
+Oxalic_acid,level 5,Dicarboxylic_acids_and_derivatives
+Oxalic_acid,level 6,Dicarboxylic_acids_and_derivatives
+Oxalic_acid,level 7,Dicarboxylic_acids_and_derivatives
+Oxalic_acid,level 8,Dicarboxylic_acids_and_derivatives
+Phosphoenolpyruvic_acid,kingdom,Organic_compounds
+Phosphoenolpyruvic_acid,superclass,Organic_acids_and_derivatives
+Phosphoenolpyruvic_acid,class,Organic_phosphoric_acids_and_derivatives
+Phosphoenolpyruvic_acid,subclass,Phosphate_esters
+Phosphoenolpyruvic_acid,level 5,Phosphate_esters
+Phosphoenolpyruvic_acid,level 6,Phosphate_esters
+Phosphoenolpyruvic_acid,level 7,Phosphate_esters
+Phosphoenolpyruvic_acid,level 8,Phosphate_esters
+3-Phosphoglycerate,kingdom,Organic_compounds
+3-Phosphoglycerate,superclass,Organic_oxygen_compounds
+3-Phosphoglycerate,class,Organooxygen_compounds
+3-Phosphoglycerate,subclass,Carbohydrates_and_carbohydrate_conjugates
+3-Phosphoglycerate,level 5,Sugar_acids_and_derivatives
+3-Phosphoglycerate,level 6,Sugar_acids_and_derivatives
+3-Phosphoglycerate,level 7,Sugar_acids_and_derivatives
+3-Phosphoglycerate,level 8,Sugar_acids_and_derivatives
+2-Heptyl-3-hydroxy-quinolone,kingdom,Organic_compounds
+2-Heptyl-3-hydroxy-quinolone,superclass,Organoheterocyclic_compounds
+2-Heptyl-3-hydroxy-quinolone,class,Quinolines_and_derivatives
+2-Heptyl-3-hydroxy-quinolone,subclass,Quinolones_and_derivatives
+2-Heptyl-3-hydroxy-quinolone,level 5,Hydroxyquinolones
+2-Heptyl-3-hydroxy-quinolone,level 6,Hydroxyquinolones
+2-Heptyl-3-hydroxy-quinolone,level 7,Hydroxyquinolones
+2-Heptyl-3-hydroxy-quinolone,level 8,Hydroxyquinolones
+L-Proline,kingdom,Organic_compounds
+L-Proline,superclass,Organic_acids_and_derivatives
+L-Proline,class,Carboxylic_acids_and_derivatives
+L-Proline,subclass,Amino_acids_peptides_and_analogues
+L-Proline,level 5,Amino_acids_and_derivatives
+L-Proline,level 6,Alpha_amino_acids_and_derivatives
+L-Proline,level 7,Proline_and_derivatives
+L-Proline,level 8,Proline_and_derivatives
+1-Propanesulfonate,kingdom,Organic_compounds
+1-Propanesulfonate,superclass,Organic_acids_and_derivatives
+1-Propanesulfonate,class,Organic_sulfonic_acids_and_derivatives
+1-Propanesulfonate,subclass,Organosulfonic_acids_and_derivatives
+1-Propanesulfonate,level 5,Organosulfonic_acids
+1-Propanesulfonate,level 6,Organosulfonic_acids
+1-Propanesulfonate,level 7,Organosulfonic_acids
+1-Propanesulfonate,level 8,Organosulfonic_acids
+Propanoyl-CoA,kingdom,Organic_compounds
+Propanoyl-CoA,superclass,Lipids_and_lipid-like_molecules
+Propanoyl-CoA,class,Fatty_Acyls
+Propanoyl-CoA,subclass,Fatty_acyl_thioesters
+Propanoyl-CoA,level 5,Acyl_CoAs
+Propanoyl-CoA,level 6,Acyl_CoAs
+Propanoyl-CoA,level 7,Acyl_CoAs
+Propanoyl-CoA,level 8,Acyl_CoAs
+O-Propionylcarnitine,kingdom,Organic_compounds
+O-Propionylcarnitine,superclass,Lipids_and_lipid-like_molecules
+O-Propionylcarnitine,class,Fatty_Acyls
+O-Propionylcarnitine,subclass,Fatty_acid_esters
+O-Propionylcarnitine,level 5,Acyl_carnitines
+O-Propionylcarnitine,level 6,Acyl_carnitines
+O-Propionylcarnitine,level 7,Acyl_carnitines
+O-Propionylcarnitine,level 8,Acyl_carnitines
+25-Dihydroxybenzoic_acid,kingdom,Organic_compounds
+25-Dihydroxybenzoic_acid,superclass,Benzenoids
+25-Dihydroxybenzoic_acid,class,Benzene_and_substituted_derivatives
+25-Dihydroxybenzoic_acid,subclass,Benzoic_acids_and_derivatives
+25-Dihydroxybenzoic_acid,level 5,Hydroxybenzoic_acid_derivatives
+25-Dihydroxybenzoic_acid,level 6,Hydroxybenzoic_acid_derivatives
+25-Dihydroxybenzoic_acid,level 7,Hydroxybenzoic_acid_derivatives
+25-Dihydroxybenzoic_acid,level 8,Hydroxybenzoic_acid_derivatives
+Riboflavin-5-phosphate,kingdom,Organic_compounds
+Riboflavin-5-phosphate,superclass,Nucleosides_nucleotides_and_analogues
+Riboflavin-5-phosphate,class,Flavin_nucleotides
+Riboflavin-5-phosphate,subclass,Flavin_nucleotides
+Riboflavin-5-phosphate,level 5,Flavin_nucleotides
+Riboflavin-5-phosphate,level 6,Flavin_nucleotides
+Riboflavin-5-phosphate,level 7,Flavin_nucleotides
+Riboflavin-5-phosphate,level 8,Flavin_nucleotides
+D-Ribose_5-phosphate,kingdom,Organic_compounds
+D-Ribose_5-phosphate,superclass,Organic_oxygen_compounds
+D-Ribose_5-phosphate,class,Organooxygen_compounds
+D-Ribose_5-phosphate,subclass,Carbohydrates_and_carbohydrate_conjugates
+D-Ribose_5-phosphate,level 5,Monosaccharides
+D-Ribose_5-phosphate,level 6,Pentoses
+D-Ribose_5-phosphate,level 7,Pentose_phosphates
+D-Ribose_5-phosphate,level 8,Pentose_phosphates
+Salicylic_acid,kingdom,Organic_compounds
+Salicylic_acid,superclass,Benzenoids
+Salicylic_acid,class,Benzene_and_substituted_derivatives
+Salicylic_acid,subclass,Benzoic_acids_and_derivatives
+Salicylic_acid,level 5,Hydroxybenzoic_acid_derivatives
+Salicylic_acid,level 6,Salicylic_acid_and_derivatives
+Salicylic_acid,level 7,Salicylic_acids
+Salicylic_acid,level 8,Salicylic_acids
+Sarcosine,kingdom,Organic_compounds
+Sarcosine,superclass,Organic_acids_and_derivatives
+Sarcosine,class,Carboxylic_acids_and_derivatives
+Sarcosine,subclass,Amino_acids_peptides_and_analogues
+Sarcosine,level 5,Amino_acids_and_derivatives
+Sarcosine,level 6,Alpha_amino_acids_and_derivatives
+Sarcosine,level 7,Alpha_amino_acids
+Sarcosine,level 8,Alpha_amino_acids
+L-Serine,kingdom,Organic_compounds
+L-Serine,superclass,Organic_acids_and_derivatives
+L-Serine,class,Carboxylic_acids_and_derivatives
+L-Serine,subclass,Amino_acids_peptides_and_analogues
+L-Serine,level 5,Amino_acids_and_derivatives
+L-Serine,level 6,Alpha_amino_acids_and_derivatives
+L-Serine,level 7,Serine_and_derivatives
+L-Serine,level 8,Serine_and_derivatives
+S-Farnesyl-L-cysteine_methyl_ester,kingdom,Organic_compounds
+S-Farnesyl-L-cysteine_methyl_ester,superclass,Lipids_and_lipid-like_molecules
+S-Farnesyl-L-cysteine_methyl_ester,class,Prenol_lipids
+S-Farnesyl-L-cysteine_methyl_ester,subclass,Sesquiterpenoids
+S-Farnesyl-L-cysteine_methyl_ester,level 5,Sesquiterpenoids
+S-Farnesyl-L-cysteine_methyl_ester,level 6,Sesquiterpenoids
+S-Farnesyl-L-cysteine_methyl_ester,level 7,Sesquiterpenoids
+S-Farnesyl-L-cysteine_methyl_ester,level 8,Sesquiterpenoids
+Shikimic_acid,kingdom,Organic_compounds
+Shikimic_acid,superclass,Organic_oxygen_compounds
+Shikimic_acid,class,Organooxygen_compounds
+Shikimic_acid,subclass,Alcohols_and_polyols
+Shikimic_acid,level 5,Cyclic_alcohols_and_derivatives
+Shikimic_acid,level 6,Cyclitols_and_derivatives
+Shikimic_acid,level 7,Shikimic_acids_and_derivatves
+Shikimic_acid,level 8,Shikimic_acids_and_derivatves
+Proline_betaine,kingdom,Organic_compounds
+Proline_betaine,superclass,Organic_acids_and_derivatives
+Proline_betaine,class,Carboxylic_acids_and_derivatives
+Proline_betaine,subclass,Amino_acids_peptides_and_analogues
+Proline_betaine,level 5,Amino_acids_and_derivatives
+Proline_betaine,level 6,Alpha_amino_acids_and_derivatives
+Proline_betaine,level 7,Proline_and_derivatives
+Proline_betaine,level 8,Proline_and_derivatives
+Succinic_acid,kingdom,Organic_compounds
+Succinic_acid,superclass,Organic_acids_and_derivatives
+Succinic_acid,class,Carboxylic_acids_and_derivatives
+Succinic_acid,subclass,Dicarboxylic_acids_and_derivatives
+Succinic_acid,level 5,Dicarboxylic_acids_and_derivatives
+Succinic_acid,level 6,Dicarboxylic_acids_and_derivatives
+Succinic_acid,level 7,Dicarboxylic_acids_and_derivatives
+Succinic_acid,level 8,Dicarboxylic_acids_and_derivatives
+Succinyl-CoA,kingdom,Organic_compounds
+Succinyl-CoA,superclass,Lipids_and_lipid-like_molecules
+Succinyl-CoA,class,Fatty_Acyls
+Succinyl-CoA,subclass,Fatty_acyl_thioesters
+Succinyl-CoA,level 5,Acyl_CoAs
+Succinyl-CoA,level 6,Acyl_CoAs
+Succinyl-CoA,level 7,Acyl_CoAs
+Succinyl-CoA,level 8,Acyl_CoAs
+Sucrose,kingdom,Organic_compounds
+Sucrose,superclass,Organic_oxygen_compounds
+Sucrose,class,Organooxygen_compounds
+Sucrose,subclass,Carbohydrates_and_carbohydrate_conjugates
+Sucrose,level 5,Glycosyl_compounds
+Sucrose,level 6,O-glycosyl_compounds
+Sucrose,level 7,O-glycosyl_compounds
+Sucrose,level 8,O-glycosyl_compounds
+Sulfoacetic_acid,kingdom,Organic_compounds
+Sulfoacetic_acid,superclass,Organic_acids_and_derivatives
+Sulfoacetic_acid,class,Organic_sulfonic_acids_and_derivatives
+Sulfoacetic_acid,subclass,Organosulfonic_acids_and_derivatives
+Sulfoacetic_acid,level 5,Organosulfonic_acids
+Sulfoacetic_acid,level 6,Organosulfonic_acids
+Sulfoacetic_acid,level 7,Organosulfonic_acids
+Sulfoacetic_acid,level 8,Organosulfonic_acids
+Sulfolactic_Acid,kingdom,Organic_compounds
+Sulfolactic_Acid,superclass,Organic_acids_and_derivatives
+Sulfolactic_Acid,class,Hydroxy_acids_and_derivatives
+Sulfolactic_Acid,subclass,Alpha_hydroxy_acids_and_derivatives
+Sulfolactic_Acid,level 5,Alpha_hydroxy_acids_and_derivatives
+Sulfolactic_Acid,level 6,Alpha_hydroxy_acids_and_derivatives
+Sulfolactic_Acid,level 7,Alpha_hydroxy_acids_and_derivatives
+Sulfolactic_Acid,level 8,Alpha_hydroxy_acids_and_derivatives
+Taurine,kingdom,Organic_compounds
+Taurine,superclass,Organic_acids_and_derivatives
+Taurine,class,Organic_sulfonic_acids_and_derivatives
+Taurine,subclass,Organosulfonic_acids_and_derivatives
+Taurine,level 5,Organosulfonic_acids
+Taurine,level 6,Organosulfonic_acids
+Taurine,level 7,Organosulfonic_acids
+Taurine,level 8,Organosulfonic_acids
+Thiamine_monophosphate,kingdom,Organic_compounds
+Thiamine_monophosphate,superclass,Organoheterocyclic_compounds
+Thiamine_monophosphate,class,Diazines
+Thiamine_monophosphate,subclass,Pyrimidines_and_pyrimidine_derivatives
+Thiamine_monophosphate,level 5,Thiamines
+Thiamine_monophosphate,level 6,Thiamine_phosphates
+Thiamine_monophosphate,level 7,Thiamine_phosphates
+Thiamine_monophosphate,level 8,Thiamine_phosphates
+Thiamine_diphosphate,kingdom,Organic_compounds
+Thiamine_diphosphate,superclass,Organoheterocyclic_compounds
+Thiamine_diphosphate,class,Diazines
+Thiamine_diphosphate,subclass,Pyrimidines_and_pyrimidine_derivatives
+Thiamine_diphosphate,level 5,Thiamines
+Thiamine_diphosphate,level 6,Thiamine_phosphates
+Thiamine_diphosphate,level 7,Thiamine_phosphates
+Thiamine_diphosphate,level 8,Thiamine_phosphates
+L-Threonine,kingdom,Organic_compounds
+L-Threonine,superclass,Organic_acids_and_derivatives
+L-Threonine,class,Carboxylic_acids_and_derivatives
+L-Threonine,subclass,Amino_acids_peptides_and_analogues
+L-Threonine,level 5,Amino_acids_and_derivatives
+L-Threonine,level 6,Alpha_amino_acids_and_derivatives
+L-Threonine,level 7,Alpha_amino_acids
+L-Threonine,level 8,L-alpha-amino_acids
+Thymidine,kingdom,Organic_compounds
+Thymidine,superclass,Nucleosides_nucleotides_and_analogues
+Thymidine,class,Pyrimidine_nucleosides
+Thymidine,subclass,Pyrimidine_2-deoxyribonucleosides
+Thymidine,level 5,Pyrimidine_2-deoxyribonucleosides
+Thymidine,level 6,Pyrimidine_2-deoxyribonucleosides
+Thymidine,level 7,Pyrimidine_2-deoxyribonucleosides
+Thymidine,level 8,Pyrimidine_2-deoxyribonucleosides
+Thymine,kingdom,Organic_compounds
+Thymine,superclass,Organoheterocyclic_compounds
+Thymine,class,Diazines
+Thymine,subclass,Pyrimidines_and_pyrimidine_derivatives
+Thymine,level 5,Hydroxypyrimidines
+Thymine,level 6,Hydroxypyrimidines
+Thymine,level 7,Hydroxypyrimidines
+Thymine,level 8,Hydroxypyrimidines
+Hydroxyproline,kingdom,Organic_compounds
+Hydroxyproline,superclass,Organic_acids_and_derivatives
+Hydroxyproline,class,Carboxylic_acids_and_derivatives
+Hydroxyproline,subclass,Amino_acids_peptides_and_analogues
+Hydroxyproline,level 5,Amino_acids_and_derivatives
+Hydroxyproline,level 6,Alpha_amino_acids_and_derivatives
+Hydroxyproline,level 7,Proline_and_derivatives
+Hydroxyproline,level 8,Proline_and_derivatives
+Trehalose,kingdom,Organic_compounds
+Trehalose,superclass,Organic_oxygen_compounds
+Trehalose,class,Organooxygen_compounds
+Trehalose,subclass,Carbohydrates_and_carbohydrate_conjugates
+Trehalose,level 5,Glycosyl_compounds
+Trehalose,level 6,O-glycosyl_compounds
+Trehalose,level 7,O-glycosyl_compounds
+Trehalose,level 8,O-glycosyl_compounds
+Trigonelline,kingdom,Organic_compounds
+Trigonelline,superclass,Alkaloids_and_derivatives
+Trigonelline,class,Alkaloids_and_derivatives
+Trigonelline,subclass,Alkaloids_and_derivatives
+Trigonelline,level 5,Alkaloids_and_derivatives
+Trigonelline,level 6,Alkaloids_and_derivatives
+Trigonelline,level 7,Alkaloids_and_derivatives
+Trigonelline,level 8,Alkaloids_and_derivatives
+Trimethylamine,kingdom,Organic_compounds
+Trimethylamine,superclass,Organic_nitrogen_compounds
+Trimethylamine,class,Organonitrogen_compounds
+Trimethylamine,subclass,Amines
+Trimethylamine,level 5,Tertiary_amines
+Trimethylamine,level 6,Trialkylamines
+Trimethylamine,level 7,Trialkylamines
+Trimethylamine,level 8,Trialkylamines
+Trimethylamine_N-oxide,kingdom,Organic_compounds
+Trimethylamine_N-oxide,superclass,Organic_nitrogen_compounds
+Trimethylamine_N-oxide,class,Organonitrogen_compounds
+Trimethylamine_N-oxide,subclass,Aminoxides
+Trimethylamine_N-oxide,level 5,Trialkyl_amine_oxides
+Trimethylamine_N-oxide,level 6,Trialkyl_amine_oxides
+Trimethylamine_N-oxide,level 7,Trialkyl_amine_oxides
+Trimethylamine_N-oxide,level 8,Trialkyl_amine_oxides
+L-Tyrosine,kingdom,Organic_compounds
+L-Tyrosine,superclass,Organic_acids_and_derivatives
+L-Tyrosine,class,Carboxylic_acids_and_derivatives
+L-Tyrosine,subclass,Amino_acids_peptides_and_analogues
+L-Tyrosine,level 5,Amino_acids_and_derivatives
+L-Tyrosine,level 6,Alpha_amino_acids_and_derivatives
+L-Tyrosine,level 7,Tyrosine_and_derivatives
+L-Tyrosine,level 8,Tyrosine_and_derivatives
+UDP-N-acetylglucosamine,kingdom,Organic_compounds
+UDP-N-acetylglucosamine,superclass,Nucleosides_nucleotides_and_analogues
+UDP-N-acetylglucosamine,class,Pyrimidine_nucleotides
+UDP-N-acetylglucosamine,subclass,Pyrimidine_nucleotide_sugars
+UDP-N-acetylglucosamine,level 5,Pyrimidine_nucleotide_sugars
+UDP-N-acetylglucosamine,level 6,Pyrimidine_nucleotide_sugars
+UDP-N-acetylglucosamine,level 7,Pyrimidine_nucleotide_sugars
+UDP-N-acetylglucosamine,level 8,Pyrimidine_nucleotide_sugars
+UDP-glucose,kingdom,Organic_compounds
+UDP-glucose,superclass,Nucleosides_nucleotides_and_analogues
+UDP-glucose,class,Pyrimidine_nucleotides
+UDP-glucose,subclass,Pyrimidine_nucleotide_sugars
+UDP-glucose,level 5,Pyrimidine_nucleotide_sugars
+UDP-glucose,level 6,Pyrimidine_nucleotide_sugars
+UDP-glucose,level 7,Pyrimidine_nucleotide_sugars
+UDP-glucose,level 8,Pyrimidine_nucleotide_sugars
+Uracil,kingdom,Organic_compounds
+Uracil,superclass,Organoheterocyclic_compounds
+Uracil,class,Diazines
+Uracil,subclass,Pyrimidines_and_pyrimidine_derivatives
+Uracil,level 5,Pyrimidones
+Uracil,level 6,Pyrimidones
+Uracil,level 7,Pyrimidones
+Uracil,level 8,Pyrimidones
+Uridine,kingdom,Organic_compounds
+Uridine,superclass,Nucleosides_nucleotides_and_analogues
+Uridine,class,Pyrimidine_nucleosides
+Uridine,subclass,Pyrimidine_nucleosides
+Uridine,level 5,Pyrimidine_nucleosides
+Uridine,level 6,Pyrimidine_nucleosides
+Uridine,level 7,Pyrimidine_nucleosides
+Uridine,level 8,Pyrimidine_nucleosides
+L-Valine,kingdom,Organic_compounds
+L-Valine,superclass,Organic_acids_and_derivatives
+L-Valine,class,Carboxylic_acids_and_derivatives
+L-Valine,subclass,Amino_acids_peptides_and_analogues
+L-Valine,level 5,Amino_acids_and_derivatives
+L-Valine,level 6,Alpha_amino_acids_and_derivatives
+L-Valine,level 7,Valine_and_derivatives
+L-Valine,level 8,Valine_and_derivatives
+Nicotinic_acid,kingdom,Organic_compounds
+Nicotinic_acid,superclass,Organoheterocyclic_compounds
+Nicotinic_acid,class,Pyridines_and_derivatives
+Nicotinic_acid,subclass,Pyridinecarboxylic_acids_and_derivatives
+Nicotinic_acid,level 5,Pyridinecarboxylic_acids
+Nicotinic_acid,level 6,Pyridinecarboxylic_acids
+Nicotinic_acid,level 7,Pyridinecarboxylic_acids
+Nicotinic_acid,level 8,Pyridinecarboxylic_acids
+Dimethylsulfonioacetate,kingdom,Organic_compounds
+Dimethylsulfonioacetate,superclass,Organic_acids_and_derivatives
+Dimethylsulfonioacetate,class,Carboxylic_acids_and_derivatives
+Dimethylsulfonioacetate,subclass,Carboxylic_acid_derivatives
+Dimethylsulfonioacetate,level 5,Carboxylic_acid_salts
+Dimethylsulfonioacetate,level 6,Carboxylic_acid_salts
+Dimethylsulfonioacetate,level 7,Carboxylic_acid_salts
+Dimethylsulfonioacetate,level 8,Carboxylic_acid_salts
+Gonyol,kingdom,Organic_compounds
+Gonyol,superclass,Organic_acids_and_derivatives
+Gonyol,class,Hydroxy_acids_and_derivatives
+Gonyol,subclass,Beta_hydroxy_acids_and_derivatives
+Gonyol,level 5,Beta_hydroxy_acids_and_derivatives
+Gonyol,level 6,Beta_hydroxy_acids_and_derivatives
+Gonyol,level 7,Beta_hydroxy_acids_and_derivatives
+Gonyol,level 8,Beta_hydroxy_acids_and_derivatives
+Turicine,kingdom,Organic_compounds
+Turicine,superclass,Organic_acids_and_derivatives
+Turicine,class,Carboxylic_acids_and_derivatives
+Turicine,subclass,Amino_acids_peptides_and_analogues
+Turicine,level 5,Amino_acids_and_derivatives
+Turicine,level 6,Alpha_amino_acids_and_derivatives
+Turicine,level 7,Proline_and_derivatives
+Turicine,level 8,Proline_and_derivatives
+Betonicine,kingdom,Organic_compounds
+Betonicine,superclass,Organic_acids_and_derivatives
+Betonicine,class,Carboxylic_acids_and_derivatives
+Betonicine,subclass,Amino_acids_peptides_and_analogues
+Betonicine,level 5,Amino_acids_and_derivatives
+Betonicine,level 6,Alpha_amino_acids_and_derivatives
+Betonicine,level 7,Proline_and_derivatives
+Betonicine,level 8,Proline_and_derivatives
+O-Methylmalonyl-L-carnitine,kingdom,Organic_compounds
+O-Methylmalonyl-L-carnitine,superclass,Lipids_and_lipid-like_molecules
+O-Methylmalonyl-L-carnitine,class,Fatty_Acyls
+O-Methylmalonyl-L-carnitine,subclass,Fatty_acid_esters
+O-Methylmalonyl-L-carnitine,level 5,Acyl_carnitines
+O-Methylmalonyl-L-carnitine,level 6,Acyl_carnitines
+O-Methylmalonyl-L-carnitine,level 7,Acyl_carnitines
+O-Methylmalonyl-L-carnitine,level 8,Acyl_carnitines
+Succinic_semialdehyde,kingdom,Organic_compounds
+Succinic_semialdehyde,superclass,Lipids_and_lipid-like_molecules
+Succinic_semialdehyde,class,Fatty_Acyls
+Succinic_semialdehyde,subclass,Fatty_acids_and_conjugates
+Succinic_semialdehyde,level 5,Straight_chain_fatty_acids
+Succinic_semialdehyde,level 6,Straight_chain_fatty_acids
+Succinic_semialdehyde,level 7,Straight_chain_fatty_acids
+Succinic_semialdehyde,level 8,Straight_chain_fatty_acids
+Arsenobetaine,kingdom,Organic_compounds
+Arsenobetaine,superclass,Organometallic_compounds
+Arsenobetaine,class,Organometalloid_compounds
+Arsenobetaine,subclass,Organoarsenic_compounds
+Arsenobetaine,level 5,Tetraorganoarsonium_salts
+Arsenobetaine,level 6,Tetraorganoarsonium_salts
+Arsenobetaine,level 7,Tetraorganoarsonium_salts
+Arsenobetaine,level 8,Tetraorganoarsonium_salts
+Dexpanthenol,kingdom,Organic_compounds
+Dexpanthenol,superclass,Organic_oxygen_compounds
+Dexpanthenol,class,Organooxygen_compounds
+Dexpanthenol,subclass,Alcohols_and_polyols
+Dexpanthenol,level 5,Secondary_alcohols
+Dexpanthenol,level 6,Secondary_alcohols
+Dexpanthenol,level 7,Secondary_alcohols
+Dexpanthenol,level 8,Secondary_alcohols
+Sulfanilic_acid,kingdom,Organic_compounds
+Sulfanilic_acid,superclass,Benzenoids
+Sulfanilic_acid,class,Benzene_and_substituted_derivatives
+Sulfanilic_acid,subclass,Benzenesulfonic_acids_and_derivatives
+Sulfanilic_acid,level 5,Benzenesulfonic_acids_and_derivatives
+Sulfanilic_acid,level 6,Benzenesulfonic_acids_and_derivatives
+Sulfanilic_acid,level 7,Benzenesulfonic_acids_and_derivatives
+Sulfanilic_acid,level 8,Benzenesulfonic_acids_and_derivatives
+Inosine,kingdom,Organic_compounds
+Inosine,superclass,Nucleosides_nucleotides_and_analogues
+Inosine,class,Purine_nucleosides
+Inosine,subclass,Purine_nucleosides
+Inosine,level 5,Purine_nucleosides
+Inosine,level 6,Purine_nucleosides
+Inosine,level 7,Purine_nucleosides
+Inosine,level 8,Purine_nucleosides
+Hordenine,kingdom,Organic_compounds
+Hordenine,superclass,Benzenoids
+Hordenine,class,Benzene_and_substituted_derivatives
+Hordenine,subclass,Phenethylamines
+Hordenine,level 5,Phenethylamines
+Hordenine,level 6,Phenethylamines
+Hordenine,level 7,Phenethylamines
+Hordenine,level 8,Phenethylamines
+Allopurinol,kingdom,Organic_compounds
+Allopurinol,superclass,Organoheterocyclic_compounds
+Allopurinol,class,Pyrazolopyrimidines
+Allopurinol,subclass,Pyrazolo[34-d]pyrimidines
+Allopurinol,level 5,Pyrazolo[34-d]pyrimidines
+Allopurinol,level 6,Pyrazolo[34-d]pyrimidines
+Allopurinol,level 7,Pyrazolo[34-d]pyrimidines
+Allopurinol,level 8,Pyrazolo[34-d]pyrimidines
+Urocanic_acid,kingdom,Organic_compounds
+Urocanic_acid,superclass,Organoheterocyclic_compounds
+Urocanic_acid,class,Azoles
+Urocanic_acid,subclass,Imidazoles
+Urocanic_acid,level 5,Substituted_imidazoles
+Urocanic_acid,level 6,Imidazolyl_carboxylic_acids_and_derivatives
+Urocanic_acid,level 7,Imidazolyl_carboxylic_acids_and_derivatives
+Urocanic_acid,level 8,Imidazolyl_carboxylic_acids_and_derivatives
+Hydroxyisoleucine,kingdom,Organic_compounds
+Hydroxyisoleucine,superclass,Organic_acids_and_derivatives
+Hydroxyisoleucine,class,Carboxylic_acids_and_derivatives
+Hydroxyisoleucine,subclass,Amino_acids_peptides_and_analogues
+Hydroxyisoleucine,level 5,Amino_acids_and_derivatives
+Hydroxyisoleucine,level 6,Alpha_amino_acids_and_derivatives
+Hydroxyisoleucine,level 7,Isoleucine_and_derivatives
+Hydroxyisoleucine,level 8,Isoleucine_and_derivatives
+Deoxyadenosine,kingdom,Organic_compounds
+Deoxyadenosine,superclass,Nucleosides_nucleotides_and_analogues
+Deoxyadenosine,class,Purine_nucleosides
+Deoxyadenosine,subclass,Purine_2-deoxyribonucleosides
+Deoxyadenosine,level 5,Purine_2-deoxyribonucleosides
+Deoxyadenosine,level 6,Purine_2-deoxyribonucleosides
+Deoxyadenosine,level 7,Purine_2-deoxyribonucleosides
+Deoxyadenosine,level 8,Purine_2-deoxyribonucleosides
+beta-Alanine,kingdom,Organic_compounds
+beta-Alanine,superclass,Organic_acids_and_derivatives
+beta-Alanine,class,Carboxylic_acids_and_derivatives
+beta-Alanine,subclass,Amino_acids_peptides_and_analogues
+beta-Alanine,level 5,Amino_acids_and_derivatives
+beta-Alanine,level 6,Beta_amino_acids_and_derivatives
+beta-Alanine,level 7,Beta_amino_acids_and_derivatives
+beta-Alanine,level 8,Beta_amino_acids_and_derivatives
+Melamine,kingdom,Organic_compounds
+Melamine,superclass,Organoheterocyclic_compounds
+Melamine,class,Triazines
+Melamine,subclass,135-triazines
+Melamine,level 5,135-triazines
+Melamine,level 6,135-triazines
+Melamine,level 7,135-triazines
+Melamine,level 8,135-triazines
+Maltose,kingdom,Organic_compounds
+Maltose,superclass,Organic_oxygen_compounds
+Maltose,class,Organooxygen_compounds
+Maltose,subclass,Carbohydrates_and_carbohydrate_conjugates
+Maltose,level 5,Glycosyl_compounds
+Maltose,level 6,O-glycosyl_compounds
+Maltose,level 7,O-glycosyl_compounds
+Maltose,level 8,O-glycosyl_compounds
+Lactose,kingdom,Organic_compounds
+Lactose,superclass,Organic_oxygen_compounds
+Lactose,class,Organooxygen_compounds
+Lactose,subclass,Carbohydrates_and_carbohydrate_conjugates
+Lactose,level 5,Glycosyl_compounds
+Lactose,level 6,O-glycosyl_compounds
+Lactose,level 7,O-glycosyl_compounds
+Lactose,level 8,O-glycosyl_compounds
+Acetylcholine,kingdom,Organic_compounds
+Acetylcholine,superclass,Organic_nitrogen_compounds
+Acetylcholine,class,Organonitrogen_compounds
+Acetylcholine,subclass,Quaternary_ammonium_salts
+Acetylcholine,level 5,Cholines
+Acetylcholine,level 6,Acyl_cholines
+Acetylcholine,level 7,Acyl_cholines
+Acetylcholine,level 8,Acyl_cholines
+L-Cysteinesulfinic_acid,kingdom,Organic_compounds
+L-Cysteinesulfinic_acid,superclass,Organic_acids_and_derivatives
+L-Cysteinesulfinic_acid,class,Carboxylic_acids_and_derivatives
+L-Cysteinesulfinic_acid,subclass,Amino_acids_peptides_and_analogues
+L-Cysteinesulfinic_acid,level 5,Amino_acids_and_derivatives
+L-Cysteinesulfinic_acid,level 6,Alpha_amino_acids_and_derivatives
+L-Cysteinesulfinic_acid,level 7,Alpha_amino_acids
+L-Cysteinesulfinic_acid,level 8,L-alpha-amino_acids
+beta-Alaninebetaine,kingdom,Organic_compounds
+beta-Alaninebetaine,superclass,Organic_nitrogen_compounds
+beta-Alaninebetaine,class,Organonitrogen_compounds
+beta-Alaninebetaine,subclass,Quaternary_ammonium_salts
+beta-Alaninebetaine,level 5,Tetraalkylammonium_salts
+beta-Alaninebetaine,level 6,Tetraalkylammonium_salts
+beta-Alaninebetaine,level 7,Tetraalkylammonium_salts
+beta-Alaninebetaine,level 8,Tetraalkylammonium_salts
+5-Methylcytosine,kingdom,Organic_compounds
+5-Methylcytosine,superclass,Organoheterocyclic_compounds
+5-Methylcytosine,class,Diazines
+5-Methylcytosine,subclass,Pyrimidines_and_pyrimidine_derivatives
+5-Methylcytosine,level 5,Hydroxypyrimidines
+5-Methylcytosine,level 6,Hydroxypyrimidines
+5-Methylcytosine,level 7,Hydroxypyrimidines
+5-Methylcytosine,level 8,Hydroxypyrimidines
+N6-Methyladenine,kingdom,Organic_compounds
+N6-Methyladenine,superclass,Organoheterocyclic_compounds
+N6-Methyladenine,class,Imidazopyrimidines
+N6-Methyladenine,subclass,Purines_and_purine_derivatives
+N6-Methyladenine,level 5,6-aminopurines
+N6-Methyladenine,level 6,6-alkylaminopurines
+N6-Methyladenine,level 7,6-alkylaminopurines
+N6-Methyladenine,level 8,6-alkylaminopurines
+Carnosine,kingdom,Organic_compounds
+Carnosine,superclass,Organic_acids_and_derivatives
+Carnosine,class,Peptidomimetics
+Carnosine,subclass,Hybrid_peptides
+Carnosine,level 5,Hybrid_peptides
+Carnosine,level 6,Hybrid_peptides
+Carnosine,level 7,Hybrid_peptides
+Carnosine,level 8,Hybrid_peptides
+N-Acetyl-D-glucosamine,kingdom,Organic_compounds
+N-Acetyl-D-glucosamine,superclass,Organic_oxygen_compounds
+N-Acetyl-D-glucosamine,class,Organooxygen_compounds
+N-Acetyl-D-glucosamine,subclass,Carbohydrates_and_carbohydrate_conjugates
+N-Acetyl-D-glucosamine,level 5,Aminosaccharides
+N-Acetyl-D-glucosamine,level 6,Amino_sugars
+N-Acetyl-D-glucosamine,level 7,Acylaminosugars
+N-Acetyl-D-glucosamine,level 8,Acylaminosugars
+N6N6N6-Trimethyl-L-lysine,kingdom,Organic_compounds
+N6N6N6-Trimethyl-L-lysine,superclass,Organic_acids_and_derivatives
+N6N6N6-Trimethyl-L-lysine,class,Carboxylic_acids_and_derivatives
+N6N6N6-Trimethyl-L-lysine,subclass,Amino_acids_peptides_and_analogues
+N6N6N6-Trimethyl-L-lysine,level 5,Amino_acids_and_derivatives
+N6N6N6-Trimethyl-L-lysine,level 6,Alpha_amino_acids_and_derivatives
+N6N6N6-Trimethyl-L-lysine,level 7,Alpha_amino_acids
+N6N6N6-Trimethyl-L-lysine,level 8,L-alpha-amino_acids
+beta-Glutamic_acid,kingdom,Organic_compounds
+beta-Glutamic_acid,superclass,Lipids_and_lipid-like_molecules
+beta-Glutamic_acid,class,Fatty_Acyls
+beta-Glutamic_acid,subclass,Fatty_acids_and_conjugates
+beta-Glutamic_acid,level 5,Amino_fatty_acids
+beta-Glutamic_acid,level 6,Amino_fatty_acids
+beta-Glutamic_acid,level 7,Amino_fatty_acids
+beta-Glutamic_acid,level 8,Amino_fatty_acids
+Anserine,kingdom,Organic_compounds
+Anserine,superclass,Organic_acids_and_derivatives
+Anserine,class,Peptidomimetics
+Anserine,subclass,Hybrid_peptides
+Anserine,level 5,Hybrid_peptides
+Anserine,level 6,Hybrid_peptides
+Anserine,level 7,Hybrid_peptides
+Anserine,level 8,Hybrid_peptides
+N-Acetylmuramic_acid,kingdom,Organic_compounds
+N-Acetylmuramic_acid,superclass,Organic_oxygen_compounds
+N-Acetylmuramic_acid,class,Organooxygen_compounds
+N-Acetylmuramic_acid,subclass,Carbohydrates_and_carbohydrate_conjugates
+N-Acetylmuramic_acid,level 5,Aminosaccharides
+N-Acetylmuramic_acid,level 6,Amino_sugars
+N-Acetylmuramic_acid,level 7,Acylaminosugars
+N-Acetylmuramic_acid,level 8,Acylaminosugars
+Hypoxanthine,kingdom,Organic_compounds
+Hypoxanthine,superclass,Organoheterocyclic_compounds
+Hypoxanthine,class,Imidazopyrimidines
+Hypoxanthine,subclass,Purines_and_purine_derivatives
+Hypoxanthine,level 5,Purinones
+Hypoxanthine,level 6,Hypoxanthines
+Hypoxanthine,level 7,Hypoxanthines
+Hypoxanthine,level 8,Hypoxanthines
+Threonic_acid,kingdom,Organic_compounds
+Threonic_acid,superclass,Organic_oxygen_compounds
+Threonic_acid,class,Organooxygen_compounds
+Threonic_acid,subclass,Carbohydrates_and_carbohydrate_conjugates
+Threonic_acid,level 5,Sugar_acids_and_derivatives
+Threonic_acid,level 6,Sugar_acids_and_derivatives
+Threonic_acid,level 7,Sugar_acids_and_derivatives
+Threonic_acid,level 8,Sugar_acids_and_derivatives
+Propionylglycine,kingdom,Organic_compounds
+Propionylglycine,superclass,Organic_acids_and_derivatives
+Propionylglycine,class,Carboxylic_acids_and_derivatives
+Propionylglycine,subclass,Amino_acids_peptides_and_analogues
+Propionylglycine,level 5,Amino_acids_and_derivatives
+Propionylglycine,level 6,Alpha_amino_acids_and_derivatives
+Propionylglycine,level 7,N-acyl-alpha_amino_acids_and_derivatives
+Propionylglycine,level 8,N-acyl-alpha_amino_acids
+Succinylglycine,kingdom,Organic_compounds
+Succinylglycine,superclass,Organic_acids_and_derivatives
+Succinylglycine,class,Carboxylic_acids_and_derivatives
+Succinylglycine,subclass,Amino_acids_peptides_and_analogues
+Succinylglycine,level 5,Amino_acids_and_derivatives
+Succinylglycine,level 6,Alpha_amino_acids_and_derivatives
+Succinylglycine,level 7,N-acyl-alpha_amino_acids_and_derivatives
+Succinylglycine,level 8,N-acyl-alpha_amino_acids
+Acetylglycine,kingdom,Organic_compounds
+Acetylglycine,superclass,Organic_acids_and_derivatives
+Acetylglycine,class,Carboxylic_acids_and_derivatives
+Acetylglycine,subclass,Amino_acids_peptides_and_analogues
+Acetylglycine,level 5,Amino_acids_and_derivatives
+Acetylglycine,level 6,Alpha_amino_acids_and_derivatives
+Acetylglycine,level 7,N-acyl-alpha_amino_acids_and_derivatives
+Acetylglycine,level 8,N-acyl-alpha_amino_acids
+Butyrylglycine,kingdom,Organic_compounds
+Butyrylglycine,superclass,Organic_acids_and_derivatives
+Butyrylglycine,class,Carboxylic_acids_and_derivatives
+Butyrylglycine,subclass,Amino_acids_peptides_and_analogues
+Butyrylglycine,level 5,Amino_acids_and_derivatives
+Butyrylglycine,level 6,Alpha_amino_acids_and_derivatives
+Butyrylglycine,level 7,N-acyl-alpha_amino_acids_and_derivatives
+Butyrylglycine,level 8,N-acyl-alpha_amino_acids
+Ergothioneine,kingdom,Organic_compounds
+Ergothioneine,superclass,Organic_acids_and_derivatives
+Ergothioneine,class,Carboxylic_acids_and_derivatives
+Ergothioneine,subclass,Amino_acids_peptides_and_analogues
+Ergothioneine,level 5,Amino_acids_and_derivatives
+Ergothioneine,level 6,Alpha_amino_acids_and_derivatives
+Ergothioneine,level 7,Histidine_and_derivatives
+Ergothioneine,level 8,Histidine_and_derivatives
+23-Pyridinedicarboxylic_acid,kingdom,Organic_compounds
+23-Pyridinedicarboxylic_acid,superclass,Organoheterocyclic_compounds
+23-Pyridinedicarboxylic_acid,class,Pyridines_and_derivatives
+23-Pyridinedicarboxylic_acid,subclass,Pyridinecarboxylic_acids_and_derivatives
+23-Pyridinedicarboxylic_acid,level 5,Pyridinecarboxylic_acids
+23-Pyridinedicarboxylic_acid,level 6,Pyridinecarboxylic_acids
+23-Pyridinedicarboxylic_acid,level 7,Pyridinecarboxylic_acids
+23-Pyridinedicarboxylic_acid,level 8,Pyridinecarboxylic_acids
+Glutamylphenylalanine,kingdom,Organic_compounds
+Glutamylphenylalanine,superclass,Organic_acids_and_derivatives
+Glutamylphenylalanine,class,Carboxylic_acids_and_derivatives
+Glutamylphenylalanine,subclass,Amino_acids_peptides_and_analogues
+Glutamylphenylalanine,level 5,Amino_acids_and_derivatives
+Glutamylphenylalanine,level 6,Alpha_amino_acids_and_derivatives
+Glutamylphenylalanine,level 7,Phenylalanine_and_derivatives
+Glutamylphenylalanine,level 8,Phenylalanine_and_derivatives
+N-Acetyl-L-glutamic_acid,kingdom,Organic_compounds
+N-Acetyl-L-glutamic_acid,superclass,Organic_acids_and_derivatives
+N-Acetyl-L-glutamic_acid,class,Carboxylic_acids_and_derivatives
+N-Acetyl-L-glutamic_acid,subclass,Amino_acids_peptides_and_analogues
+N-Acetyl-L-glutamic_acid,level 5,Amino_acids_and_derivatives
+N-Acetyl-L-glutamic_acid,level 6,Alpha_amino_acids_and_derivatives
+N-Acetyl-L-glutamic_acid,level 7,Glutamic_acid_and_derivatives
+N-Acetyl-L-glutamic_acid,level 8,Glutamic_acid_and_derivatives
