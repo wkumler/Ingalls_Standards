@@ -1,0 +1,383 @@
+﻿,Compound.Type,Column,Compound.Name,,IUPAC.Name,InChI.Key.Name,Canon.SMILES.Name
+1,Phospholipid synthesis,RP,1-Palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine,,[(2R)-3-hexadecanoyloxy-2-[(Z)-octadec-9-enoyl]oxypropyl] 2-(trimethylazaniumyl)ethyl phosphate,WTJKGGKOPKCXLL-VYOBOKEXSA-N,CCCCCCCCCCCCCCCC(=O)OCC(COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCC=CCCCCCCCC
+2,Phospholipid synthesis,RP,1-Stearoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine,,[(2R)-3-[2-aminoethoxy(hydroxy)phosphoryl]oxy-2-[(Z)-octadec-9-enoyl]oxypropyl] octadecanoate,JQKOHRZNEOQNJE-DJEJVYNPSA-N,CCCCCCCCCCCCCCCCCC(=O)OCC(COP(=O)(O)OCCN)OC(=O)CCCCCCCC=CCCCCCCCC
+3,PUA,RP,"2,4-Decadienal",,"(2E,4E)-deca-2,4-dienal",JZQKTMZYLHNFPL-BLHCBFLLSA-N,CCCCCC=CC=CC=O
+4,PUA,RP,"2,4-Octadienal",,,,
+5,Phytohormone,RP,N6-Dimethylallyladenine,,N-(3-methylbut-2-enyl)-7H-purin-6-amine,HYVABZIGRDEKCD-UHFFFAOYSA-N,CC(=CCNC1=NC=NC2=C1NC=N2)C
+6,Phytohormone,RP,Indolebutyric acid,,4-(1H-indol-3-yl)butanoic acid,JTEDVYBZBROSJT-UHFFFAOYSA-N,C1=CC=C2C(=C1)C(=CN2)CCCC(=O)O
+7,Phytohormone,RP,3-Indolepropionic acid,,3-(1H-indol-3-yl)propanoic acid,GOLXRNDWAUTYKT-UHFFFAOYSA-N,C1=CC=C2C(=C1)C(=CN2)CCC(=O)O
+8,Lignin,RP,"3,4-Dihydroxybenzoic acid",,"3,4-dihydroxybenzoic acid",YQUVCSBJEUQKSH-UHFFFAOYSA-N,C1=CC(=C(C=C1C(=O)O)O)O
+9,Phytohormone,RP,3-Indoleacetonitrile,,2-(1H-indol-3-yl)acetonitrile,DMCPFOBLJMLSNX-UHFFFAOYSA-N,C1=CC=C2C(=C1)C(=CN2)CC#N
+10,Quorum sensing,RP,N-(3-Oxodecanoyl)homoserine lactone,,,,
+11,Quorum sensing,RP,N-(3-Oxododecanoyl)homoserine lactone,,3-oxo-N-(2-oxooxolan-3-yl)dodecanamide,PHSRRHGYXQCRPU-UHFFFAOYSA-N,CCCCCCCCCC(=O)CC(=O)NC1CCOC1=O
+12,Quorum sensing,RP,N-(3-Oxohexanoyl)homoserine lactone,,3-oxo-N-(2-oxooxolan-3-yl)hexanamide,YRYOXRMDHALAFL-UHFFFAOYSA-N,CCCC(=O)CC(=O)NC1CCOC1=O
+13,Quorum sensing,RP,N-(3-Oxooctanoyl)homoserine lactone,,3-oxo-N-[(3S)-2-oxooxolan-3-yl]octanamide,FXCMGCFNLNFLSH-JTQLQIEISA-N,CCCCCC(=O)CC(=O)NC1CCOC1=O
+14,Quorum sensing,RP,3OHC12-HSL,,,,
+15,Lignin,RP,4-Hydroxybenzaldehyde,,4-hydroxybenzaldehyde,RGHHSNMVTDWUBI-UHFFFAOYSA-N,C1=CC(=CC=C1C=O)O
+16,Sterol,RP,7-Dehydrocholesterol,,"(3S,9S,10R,13R,14R,17R)-10,13-dimethyl-17-[(2R)-6-methylheptan-2-yl]-2,3,4,9,11,12,14,15,16,17-decahydro-1H-cyclopenta[a]phenanthren-3-ol",UCTLRSWJYQTBFZ-DDPQNLDTSA-N,CC(C)CCCC(C)C1CCC2C1(CCC3C2=CC=C4C3(CCC(C4)O)C)C
+17,Phytohormone,RP,Abscisic acid,,"(2Z,4E)-5-[(1S)-1-hydroxy-2,6,6-trimethyl-4-oxocyclohex-2-en-1-yl]-3-methylpenta-2,4-dienoic acid",JLIDBLDQVAYHNE-YKALOCIXSA-N,CC1=CC(=O)CC(C1(C=CC(=CC(=O)O)C)O)(C)C
+18,Lignin,RP,Acetosyringone,,"1-(4-hydroxy-3,5-dimethoxyphenyl)ethanone",OJOBTAOGJIWAGB-UHFFFAOYSA-N,CC(=O)C1=CC(=C(C(=C1)OC)O)OC
+19,Lignin,RP,Acetovanillone,,1-(4-hydroxy-3-methoxyphenyl)ethanone,DFYRUELUNQRZTB-UHFFFAOYSA-N,CC(=O)C1=CC(=C(C=C1)O)OC
+20,New2,RP,O-Acetylcarnitine,,(3R)-3-acetyloxy-4-(trimethylazaniumyl)butanoate,RDHQFKQIGNGIED-MRVPVSSYSA-N,CC(=O)OC(CC(=O)[O-])C[N+](C)(C)C
+21,Amino Acid synthesis,RP,S-Adenosylhomocysteine,,"(2S)-2-amino-4-[[(2S,3S,4R,5R)-5-(6-aminopurin-9-yl)-3,4-dihydroxyoxolan-2-yl]methylsulfanyl]butanoic acid",ZJUKTBDSGOFHSH-WFMPWKQPSA-N,C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)CSCCC(C(=O)O)N)O)O)N
+22,Amino Acid synthesis,RP,S-Adenosylmethionine,,"(2S)-2-amino-4-[[(2S,3S,4R,5R)-5-(6-aminopurin-9-yl)-3,4-dihydroxyoxolan-2-yl]methyl-methylsulfonio]butanoate",MEFKEPWMEQBLKI-AIRLBKTGSA-N,C[S+](CCC(C(=O)[O-])N)CC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)O
+23,New2,RP,Agmatine,,2-(4-aminobutyl)guanidine,QYPPJABKJHAVHS-UHFFFAOYSA-N,C(CCN=C(N)N)CN
+24,Internal Standard,RP,"alpha-Tocopherol, 2H6",,,,
+25,Lignin,RP,4-Aminobenzoic acid,,4-aminobenzoic acid,ALYNCZNDIQEVRV-UHFFFAOYSA-N,C1=CC(=CC=C1C(=O)O)N
+26,Fatty Acid,RP,Arachidonic acid,,"(5Z,8Z,11Z,14Z)-icosa-5,8,11,14-tetraenoic acid",YZXBAPSDXZZRGB-DOFZRALJSA-N,CCCCCC=CCC=CCC=CCC=CCCCC(=O)O
+27,Internal Standard,RP,"Arachidonic acid, 2H8",,,,
+28,New2,RP,beta-Apo-8'-carotenal,,"2-(2,6,6-trimethylcyclohexen-1-yl)acetaldehyde",VHTFHZGAMYUZEP-UHFFFAOYSA-N,CC1=C(C(CCC1)(C)C)CC=O
+29,New2,RP,beta-Cyclocitral,,"2,6,6-trimethylcyclohexene-1-carbaldehyde",MOQGCGNUWBPGTQ-UHFFFAOYSA-N,CC1=C(C(CCC1)(C)C)C=O
+30,Amino Acid derivative,RP,Glycine betaine,,2-(trimethylazaniumyl)acetate,KWIUHFFTVRNATP-UHFFFAOYSA-N,C[N+](C)(C)CC(=O)[O-]
+32,New2,RP,beta-Ionine,,,,
+33,New2,RP,beta-Ionylidene acetaldehyde,,"(2E,4E)-3-methyl-5-(2,6,6-trimethylcyclohexen-1-yl)penta-2,4-dienal",OPSSCPNCFKJCFR-ANKZSMJWSA-N,CC1=C(C(CCC1)(C)C)C=CC(=CC=O)C
+34,New2,RP,Butyrylcarnitine,,(3R)-3-butanoyloxy-4-(trimethylazaniumyl)butanoate,QWYFHHGCZUCMBN-SECBINFHSA-N,CCCC(=O)OC(CC(=O)[O-])C[N+](C)(C)C
+35,Quorum sensing,RP,N-Decanoyl-L-homoserine lactone,,N-[(3S)-2-oxooxolan-3-yl]decanamide,TZWZKDULKILUPV-LBPRGKRZSA-N,CCCCCCCCCC(=O)NC1CCOC1=O
+36,Quorum sensing,RP,N-3-Oxo-dodecanoyl-L-homoserine lactone,,3-oxo-N-[(3S)-2-oxooxolan-3-yl]dodecanamide,PHSRRHGYXQCRPU-AWEZNQCLSA-N,CCCCCCCCCC(=O)CC(=O)NC1CCOC1=O
+37,Quorum sensing,RP,N-Tetradecanoyl-DL-homoserine lactone,,N-(2-oxooxolan-3-yl)tetradecanamide,ZQAYHOXXVBVXPZ-UHFFFAOYSA-N,CCCCCCCCCCCCCC(=O)NC1CCOC1=O
+38,Quorum sensing,RP,N-Butyryl-L-homoserine lactone,,N-[(3S)-2-oxooxolan-3-yl]butanamide,VFFNZZXXTGXBOG-LURJTMIESA-N,CCCC(=O)NC1CCOC1=O
+39,Quorum sensing,RP,N-Hexanoyl-L-homoserine lactone,,N-[(3S)-2-oxooxolan-3-yl]hexanamide,ZJFKKPDLNLCPNP-QMMMGPOBSA-N,CCCCCC(=O)NC1CCOC1=O
+40,Quorum sensing,RP,N-Octanoyl-L-homoserine lactone,,N-[(3S)-2-oxooxolan-3-yl]octanamide,JKEJEOJPJVRHMQ-JTQLQIEISA-N,CCCCCCCC(=O)NC1CCOC1=O
+41,Lignin,RP,Caffeic acid,,"(E)-3-(3,4-dihydroxyphenyl)prop-2-enoic acid",QAIPRVGONGVQAS-DUXPYHPUSA-N,C1=CC(=C(C=C1C=CC(=O)O)O)O
+42,Purine,RP,Caffeine,,"1,3,7-trimethylpurine-2,6-dione",RYYVLZVUVIJVGH-UHFFFAOYSA-N,CN1C=NC2=C1C(=O)N(C(=O)N2C)C
+43,Phytohormone,RP,Camalexin,,"2-(1H-indol-3-yl)-1,3-thiazole",IYODIJVWGPRBGQ-UHFFFAOYSA-N,C1=CC=C2C(=C1)C(=CN2)C3=NC=CS3
+44,Antioxidant pigment,RP,beta-Carotene,,"1,3,3-trimethyl-2-[(1E,3E,5E,7E,9E,11E,13E,15E,17E)-3,7,12,16-tetramethyl-18-(2,6,6-trimethylcyclohexen-1-yl)octadeca-1,3,5,7,9,11,13,15,17-nonaenyl]cyclohexene",OENHQHLEOONYIE-JLTXGRSLSA-N,CC1=C(C(CCC1)(C)C)C=CC(=CC=CC(=CC=CC=C(C)C=CC=C(C)C=CC2=C(CCCC2(C)C)C)C)C
+45,Sterol,RP,Cholesterol,,"(3S,8S,9S,10R,13R,14S,17R)-10,13-dimethyl-17-[(2R)-6-methylheptan-2-yl]-2,3,4,7,8,9,11,12,14,15,16,17-dodecahydro-1H-cyclopenta[a]phenanthren-3-ol",HVYWMOMLDIMFJA-DPAQBDIFSA-N,CC(C)CCCC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)O)C)C
+46,Vitamin (B-like),RP,Choline,,2-hydroxyethyl(trimethyl)azanium,OEYIOHPDSNJKLS-UHFFFAOYSA-N,C[N+](C)(C)CCO
+47,Quorum sensing,RP,"2-(3,5-Dichlorophenylcarbamoyl)-1,2-dimethylcyclopropane-1-carboxylic acid",,"2-[(3,5-dichlorophenyl)carbamoyl]-1,2-dimethylcyclopropane-1-carboxylic acid",KIHJEJVWUXTXPZ-UHFFFAOYSA-N,CC1(CC1(C)C(=O)O)C(=O)NC2=CC(=CC(=C2)Cl)Cl
+48,Vitamin B12,RP,Adenosylcobalamin,,"(2R,3R,4S,5R)-2-(6-aminopurin-9-yl)-5-methanidyloxolane-3,4-diol;cobalt;[(2R,3S,4R,5S)-5-(5,6-dimethylbenzimidazol-1-yl)-4-hydroxy-2-(hydroxymethyl)oxolan-3-yl] [(2R)-1-[3-[(1R,2R,3R,4Z,7S,9Z,12S,13S,14Z,17S,18S,19R)-2,13,18-tris(2-amino-2-oxoethyl)-7,12,17-tris(3-amino-3-oxopropyl)-3,5,8,8,13,15,18,19-octamethyl-2,7,12,17-tetrahydro-1H-corrin-21-id-3-yl]propanoylamino]propan-2-yl] phosphate",DFDCDQDATCDZSO-OUCXYWSSSA-L,CC1=CC2=C(C=C1C)N(C=N2)C3C(C(C(O3)CO)OP(=O)([O-])OC(C)CNC(=O)CCC4(C(C5C6(C(C(C(=N6)C(=C7C(C(C(=N7)C=C8C(C(C(=N8)C(=C4[N-]5)C)CCC(=O)N)(C)C)CCC(=O)N)(C)CC(=O)N)C)CCC(=O)N)(C)CC(=O)N)C)CC(=O)N)C)O.[CH2-]C1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)O.[Co]
+49,Quinone,RP,Coenzyme Q1,,"2,3-dimethoxy-5-methyl-6-(3-methylbut-2-enyl)cyclohexa-2,5-diene-1,4-dione",SOECUQMRSRVZQQ-UHFFFAOYSA-N,CC1=C(C(=O)C(=C(C1=O)OC)OC)CC=C(C)C
+50,Quinone,RP,Coenzyme Q10,,"2-[(2E,6E,10E,14E,18E,22E,26E,30E,34E)-3,7,11,15,19,23,27,31,35,39-decamethyltetraconta-2,6,10,14,18,22,26,30,34,38-decaenyl]-5,6-dimethoxy-3-methylcyclohexa-2,5-diene-1,4-dione",ACTIUHUUMQJHFO-UPTCCGCDSA-N,CC1=C(C(=O)C(=C(C1=O)OC)OC)CC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)C
+51,New,RP,L-Cysteinylglycine,,2-[[(2R)-2-amino-3-sulfanylpropanoyl]amino]acetic acid,ZUKPVRWZDMRIEO-VKHMYHEASA-N,C(C(C(=O)NCC(=O)O)N)S
+52,New2,RP,Decarboxylated S-Adenosylmethionine,,"3-aminopropyl-[[(2S,3S,4R,5R)-5-(6-aminopurin-9-yl)-3,4-dihydroxyoxolan-2-yl]methyl]-methylsulfanium",ZUNBITIXDCPNSD-LSRJEVITSA-N,C[S+](CCCN)CC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)O
+53,Vitamin,RP,Desthiobiotin,,6-(5-methyl-2-oxoimidazolidin-4-yl)hexanoic acid,AUTOLBMXDDTRRT-UHFFFAOYSA-N,CC1C(NC(=O)N1)CCCCCC(=O)O
+54,Fatty Acid,RP,Docosahexaenoic acid,,"(4Z,7Z,10Z,13Z,16Z,19Z)-docosa-4,7,10,13,16,19-hexaenoic acid",MBMBGCFOFBJSGT-KUBAVDMBSA-N,CCC=CCC=CCC=CCC=CCC=CCC=CCCC(=O)O
+55,Phytohormone,RP,Dihydrozeatin,,2-methyl-4-(7H-purin-6-ylamino)butan-1-ol,XXFACTAYGKKOQB-UHFFFAOYSA-N,CC(CCNC1=NC=NC2=C1NC=N2)CO
+56,Amino Acid derivative,RP,Dimethylglycine,,2-(dimethylamino)acetic acid,FFDGPVCHZBVARC-UHFFFAOYSA-N,CN(C)CC(=O)O
+57,Vitamin synthesis,RP,Dimethylbenzimidazole,,"5,6-dimethyl-1H-benzimidazole",LJUQGASMPRMWIW-UHFFFAOYSA-N,CC1=CC2=C(C=C1C)N=CN2
+58,Internal Standard,RP,"Docosahexaenoic acid, 2H5",,,,
+59,Toxin ,RP,Domoic acid,,"(2S,3S,4S)-4-[(2Z,4E,6R)-6-carboxyhepta-2,4-dien-2-yl]-3-(carboxymethyl)pyrrolidine-2-carboxylic acid",VZFRNCSOCOPNDB-AOKDLOFSSA-N,CC(C=CC=C(C)C1CNC(C1CC(=O)O)C(=O)O)C(=O)O
+60,Internal Standard,RP,"Eicosapentaenoic acid, 2H5",,,,
+61,Fatty Acid,RP,Eicosapentaenoic acid,,"(5Z,8Z,11Z,14Z,17Z)-icosa-5,8,11,14,17-pentaenoic acid",JAZBEHYOTPTENJ-JLNKQSITSA-N,CCC=CCC=CCC=CCC=CCC=CCCCC(=O)O
+62,Sterol,RP,Ergosterol,,"(3S,9S,10R,13R,14R,17R)-17-[(E,2R,5R)-5,6-dimethylhept-3-en-2-yl]-10,13-dimethyl-2,3,4,9,11,12,14,15,16,17-decahydro-1H-cyclopenta[a]phenanthren-3-ol",DNVPQKQSNYMLRS-APGDWVJJSA-N,CC(C)C(C)C=CC(C)C1CCC2C1(CCC3C2=CC=C4C3(CCC(C4)O)C)C
+63,Lignin,RP,Ethyl aminobenzoate,,ethyl 4-aminobenzoate,BLFLLBZGZJTVJG-UHFFFAOYSA-N,CCOC(=O)C1=CC=C(C=C1)N
+65,Lignin,RP,Ferulic acid,,(E)-3-(4-hydroxy-3-methoxyphenyl)prop-2-enoic acid,KSEBMYQBYZTDHS-HWKANZROSA-N,COC1=C(C=CC(=C1)C=CC(=O)O)O
+66,Phytohormone,RP,Gibberellin A3,,"(1R,2R,5S,8S,9S,10R,11S,12S)-5,12-dihydroxy-11-methyl-6-methylidene-16-oxo-15-oxapentacyclo[9.3.2.15,8.01,10.02,8]heptadec-13-ene-9-carboxylic acid",IXORZMNAPKEEDV-OBDJNFEBSA-N,CC12C(C=CC3(C1C(C45C3CCC(C4)(C(=C)C5)O)C(=O)O)OC2=O)O
+67,Phytohormone,RP,Gibberellin A4,,"(1R,2R,5R,8R,9S,10R,11S,12S)-12-hydroxy-11-methyl-6-methylidene-16-oxo-15-oxapentacyclo[9.3.2.15,8.01,10.02,8]heptadecane-9-carboxylic acid",RSQSQJNRHICNNH-NFMPGMCNSA-N,CC12C(CCC3(C1C(C45C3CCC(C4)C(=C)C5)C(=O)O)OC2=O)O
+68,New2,RP,Glucosamine,,"(3R,4R,5S,6R)-3-amino-6-(hydroxymethyl)oxane-2,4,5-triol",MSWZFWKMSRAUBD-IVMDWMLBSA-N,C(C1C(C(C(C(O1)O)N)O)O)O
+69,Antioxidant,RP,Glutathione,,(2S)-2-amino-5-[[(2R)-1-(carboxymethylamino)-1-oxo-3-sulfanylpropan-2-yl]amino]-5-oxopentanoic acid,RWSXRVCMGQZWBV-WDSKDSINSA-N,C(CC(=O)NC(CS)C(=O)NCC(=O)O)C(C(=O)O)N
+70,Sulfur,RP,Glutathione disulfide,,(2S)-2-amino-5-[[(2R)-3-[[(2R)-2-[[(4S)-4-amino-4-carboxybutanoyl]amino]-3-(carboxymethylamino)-3-oxopropyl]disulfanyl]-1-(carboxymethylamino)-1-oxopropan-2-yl]amino]-5-oxopentanoic acid,YPZRWBKMTBYPTK-BJDJZHNGSA-N,C(CC(=O)NC(CSSCC(C(=O)NCC(=O)O)NC(=O)CCC(C(=O)O)N)C(=O)NCC(=O)O)C(C(=O)O)N
+71,New2,RP,Glycerophosphocholine,,"[(2R)-2,3-dihydroxypropyl] 2-(trimethylazaniumyl)ethyl phosphate",SUHOQUVVVLNYQR-MRVPVSSYSA-N,C[N+](C)(C)CCOP(=O)([O-])OCC(CO)O
+72,Quorum sensing,RP,2-Heptyl-4(1H)-quinolone,,2-heptyl-1H-quinolin-4-one,UYRHHBXYXSYGHA-UHFFFAOYSA-N,CCCCCCCC1=CC(=O)C2=CC=CC=C2N1
+73,New2,RP,Homoserine lactone,,3-aminooxolan-2-one,QJPWUUJVYOJNMH-UHFFFAOYSA-N,C1COC(=O)C1N
+74,Vitamin B12,RP,Hydroxocobalamin,,"cobalt(2+);[5-(5,6-dimethylbenzimidazol-1-yl)-4-hydroxy-2-(hydroxymethyl)oxolan-3-yl] [(2S)-1-[3-[(2R,3R,4Z,7S,9Z,12S,13S,14Z,17S,18S,19R)-2,13,18-tris(2-amino-2-oxoethyl)-7,12,17-tris(3-amino-3-oxopropyl)-3,5,8,8,13,15,18,19-octamethyl-2,7,12,17-tetrahydro-1H-corrin-21-id-3-yl]propanoylamino]propan-2-yl] phosphate;hydrate",DQOCFCZRZOAIBN-IQFXPAJWSA-L,CC1=CC2=C(C=C1C)N(C=N2)C3C(C(C(O3)CO)OP(=O)([O-])OC(C)CNC(=O)CCC4(C(C5C6(C(C(C(=N6)C(=C7C(C(C(=N7)C=C8C(C(C(=N8)C(=C4[N-]5)C)CCC(=O)N)(C)C)CCC(=O)N)(C)CC(=O)N)C)CCC(=O)N)(C)CC(=O)N)C)CC(=O)N)C)O.O.[Co+2]
+75,Phytohormone,RP,Indole-3-acetic acid,,2-(1H-indol-3-yl)acetic acid,SEOVTRFCIGRIMH-UHFFFAOYSA-N,C1=CC=C2C(=C1)C(=CN2)CC(=O)O
+76,Phytohormone,RP,Indole-3-acetamide,,2-(1H-indol-3-yl)acetamide,ZOAMBXDOGPRZLP-UHFFFAOYSA-N,C1=CC=C2C(=C1)C(=CN2)CC(=O)N
+77,Internal Standard,RP,"Indole-3-acetic acid, 2H5",,,,
+78,Phytohormone,RP,Indole-3-carboxylic acid,,1H-indole-3-carboxylic acid,KMAKOBLIOCQGJP-UHFFFAOYSA-N,C1=CC=C2C(=C1)C(=CN2)C(=O)O
+79,Phytohormone,RP,Indolelactate,,2-hydroxy-3-(1H-indol-3-yl)propanoic acid,XGILAAMKEQUXLS-UHFFFAOYSA-N,C1=CC=C2C(=C1)C(=CN2)CC(C(=O)O)O
+80,Phytohormone,RP,Indole-3-methyl acetate,,methyl 2-(1H-indol-3-yl)acetate,KTHADMDGDNYQRX-UHFFFAOYSA-N,COC(=O)CC1=CNC2=CC=CC=C21
+81,New2,RP,Indoleacrylic acid,,3-(1H-indol-3-yl)prop-2-enoic acid,PLVPPLCLBIEYEA-UHFFFAOYSA-N,C1=CC=C2C(=C1)C(=CN2)C=CC(=O)O
+82,New2,RP,Isobutyryl-carnitine,,(3R)-3-(2-methylpropanoyloxy)-4-(trimethylazaniumyl)butanoate,LRCNOZRCYBNMEP-SECBINFHSA-N,CC(C)C(=O)OC(CC(=O)[O-])C[N+](C)(C)C
+83,Phytohormone,RP,Kinetin,,N-(furan-2-ylmethyl)-7H-purin-6-amine,QANMHLXAZMSUEX-UHFFFAOYSA-N,C1=COC(=C1)CNC2=NC=NC3=C2NC=N3
+84,Amino Acid,RP,L-Kynurenine,,(2S)-2-amino-4-(2-aminophenyl)-4-oxobutanoic acid,YGPSJZOEDVAXAB-QMMMGPOBSA-N,C1=CC=C(C(=C1)C(=O)CC(C(=O)O)N)N
+85,Internal Standard,RP,"L-Phenylalanine, 2H8",,,,
+86,Internal Standard,RP,"L-Tryptophan, 2H3",,,,
+87,Circadian,RP,Melatonin,,N-[2-(5-methoxy-1H-indol-3-yl)ethyl]acetamide,DRLFMBDRBRZALE-UHFFFAOYSA-N,CC(=O)NCCC1=CNC2=C1C=C(C=C2)OC
+88,Vitamin B12,RP,Methylcobalamin,,"carbanide;cobalt(3+);[(2R,3S,4R,5S)-5-(5,6-dimethylbenzimidazol-1-yl)-4-hydroxy-2-(hydroxymethyl)oxolan-3-yl] 1-[3-[(1R,2R,3R,5Z,7S,10Z,12S,13S,15Z,17S,18S,19R)-2,13,18-tris(2-amino-2-oxoethyl)-7,12,17-tris(3-amino-3-oxopropyl)-3,5,8,8,13,15,18,19-octamethyl-2,7,12,17-tetrahydro-1H-corrin-24-id-3-yl]propanoylamino]propan-2-yl phosphate",ZFLASALABLFSNM-WYVZQNDMSA-L,[CH3-].CC1=CC2=C(C=C1C)N(C=N2)C3C(C(C(O3)CO)OP(=O)([O-])OC(C)CNC(=O)CCC4(C(C5C6(C(C(C(=C(C7=NC(=CC8=NC(=C(C4=N5)C)C(C8(C)C)CCC(=O)N)C(C7(C)CC(=O)N)CCC(=O)N)C)[N-]6)CCC(=O)N)(C)CC(=O)N)C)CC(=O)N)C)O.[Co+3]
+89,Phytohormone,RP,Methyl indole-3-carboxylate,,methyl 1H-indole-3-carboxylate,QXAUTQFAWKKNLM-UHFFFAOYSA-N,COC(=O)C1=CNC2=CC=CC=C21
+90,Sulfur,RP,Methylthioadenosine,,"(2R,3R,4S,5S)-2-(6-aminopurin-9-yl)-5-(methylsulfanylmethyl)oxolane-3,4-diol",WUUGFSXJNOTRMR-IOSLPCCCSA-N,CSCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)O
+91,Antibiotic,RP,Monesin,,"(2S,3S,4R)-4-[(2S,7S,8R,9S)-2-[(2R,5S)-5-ethyl-5-[(2R,3S,5R)-5-[(2S,3S,5R,6R)-6-hydroxy-6-(hydroxymethyl)-3,5-dimethyloxan-2-yl]-3-methyloxolan-2-yl]oxolan-2-yl]-7-hydroxy-2,8-dimethyl-1,10-dioxaspiro[4.5]decan-9-yl]-3-methoxy-2-methylpentanoic acid",GAOZTHIDHYLHMS-QVJPPVPRSA-N,CCC1(CCC(O1)C2(CCC3(O2)CC(C(C(O3)C(C)C(C(C)C(=O)O)OC)C)O)C)C4C(CC(O4)C5C(CC(C(O5)(CO)O)C)C)C
+92,New2,RP,Ophthalmic acid,,(2S)-2-amino-5-[[(2S)-1-(carboxymethylamino)-1-oxobutan-2-yl]amino]-5-oxopentanoic acid,JCMUOFQHZLPHQP-BQBZGAKWSA-N,CCC(C(=O)NCC(=O)O)NC(=O)CCC(C(=O)O)N
+93,Lignin,RP,p-Coumaric acid,,(E)-3-(4-hydroxyphenyl)prop-2-enoic acid,NGSWKAQJJWESNS-ZZXKWVIFSA-N,C1=CC(=CC=C1C=CC(=O)O)O
+94,Quorum sensing,RP,N-(4-Coumaroyl)-L-homoserine lactone,,3-(4-hydroxyphenyl)-N-[(3S)-2-oxooxolan-3-yl]prop-2-enamide,CCIXZFJYFQJTGK-NSHDSACASA-N,C1COC(=O)C1NC(=O)C=CC2=CC=C(C=C2)O
+95,Amino Acid,RP,L-Phenylalanine,,(2S)-2-amino-3-phenylpropanoic acid,COLNVLDHVKWLRT-QMMMGPOBSA-N,C1=CC=C(C=C1)CC(C(=O)O)N
+96,New2,RP,O-Propionylcarnitine,,3-propanoyloxy-4-(trimethylazaniumyl)butanoate,UFAHZIUFPNSHSL-UHFFFAOYSA-N,CCC(=O)OC(CC(=O)[O-])C[N+](C)(C)C
+97,Vitamin,RP,Pyridoxal,,3-hydroxy-5-(hydroxymethyl)-2-methylpyridine-4-carbaldehyde,RADKZDMFGJYCBB-UHFFFAOYSA-N,CC1=NC=C(C(=C1O)C=O)CO
+98,Vitamin,RP,Pyridoxal phosphate,,(4-formyl-5-hydroxy-6-methylpyridin-3-yl)methyl dihydrogen phosphate,NGVDGCNFYWLIFO-UHFFFAOYSA-N,CC1=NC=C(C(=C1O)C=O)COP(=O)(O)O
+99,Internal Standard,RP,"Pyridoxal, 2H3",,,,
+100,Vitamin,RP,Pyridoxamine,,4-(aminomethyl)-5-(hydroxymethyl)-2-methylpyridin-3-ol,NHZMQXZHNVQTQA-UHFFFAOYSA-N,CC1=NC=C(C(=C1O)CN)CO
+101,Vitamin rhodopsin,RP,Retinoic acid,,"(2E,4E,6E,8E)-3,7-dimethyl-9-(2,6,6-trimethylcyclohexen-1-yl)nona-2,4,6,8-tetraenoic acid",SHGAZHPCJJPHSC-YCNIQYBTSA-N,CC1=C(C(CCC1)(C)C)C=CC(=CC=CC(=CC(=O)O)C)C
+102,Redox,RP,Riboflavin-5-phosphate,,"[(2R,3S,4S)-5-(7,8-dimethyl-2,4-dioxobenzo[g]pteridin-10-yl)-2,3,4-trihydroxypentyl] dihydrogen phosphate",FVTCRASFADXXNN-SCRDCRAPSA-N,CC1=CC2=C(C=C1C)N(C3=NC(=O)NC(=O)C3=N2)CC(C(C(COP(=O)(O)O)O)O)O
+103,Redox,RP,Riboflavin-5-phosphate,,,,
+104,Internal Standard,RP,"Riboflavin-dioxopyrimidine, 13C4, 15N2",,,,
+105,Vitamin B12,RP,Cyanocobalamin,,"cobalt(3+);[(2R,3S,4R,5S)-5-(5,6-dimethylbenzimidazol-1-yl)-4-hydroxy-2-(hydroxymethyl)oxolan-3-yl] [(2R)-1-[3-[(1R,2R,3R,5Z,7S,10Z,12S,13S,15Z,17S,18S,19R)-2,13,18-tris(2-amino-2-oxoethyl)-7,12,17-tris(3-amino-3-oxopropyl)-3,5,8,8,13,15,18,19-octamethyl-2,7,12,17-tetrahydro-1H-corrin-24-id-3-yl]propanoylamino]propan-2-yl] phosphate;cyanide",FDJOLVPMNUYSCM-WZHZPDAFSA-L,CC1=CC2=C(C=C1C)N(C=N2)C3C(C(C(O3)CO)OP(=O)([O-])OC(C)CNC(=O)CCC4(C(C5C6(C(C(C(=C(C7=NC(=CC8=NC(=C(C4=N5)C)C(C8(C)C)CCC(=O)N)C(C7(C)CC(=O)N)CCC(=O)N)C)[N-]6)CCC(=O)N)(C)CC(=O)N)C)CC(=O)N)C)O.[C-]#N.[Co+3]
+106,New2,RP,S-Farnesyl-L-cysteine methyl ester,,"methyl (2R)-2-amino-3-[(2E,6E)-3,7,11-trimethyldodeca-2,6,10-trienyl]sulfanylpropanoate",SIEHZFPZQUNSAS-GCVUPTOQSA-N,CC(=CCCC(=CCCC(=CCSCC(C(=O)OC)N)C)C)C
+107,Lignin,RP,Sinapic acid,,"(E)-3-(4-hydroxy-3,5-dimethoxyphenyl)prop-2-enoic acid",PCMORTLOPMLEFB-ONEGZZNKSA-N,COC1=CC(=CC(=C1O)OC)C=CC(=O)O
+108,Sterol precursor,RP,Squalene,,"(6E,10E,14E,18E)-2,6,10,15,19,23-hexamethyltetracosa-2,6,10,14,18,22-hexaene",YYGNTYWPHWGJRM-AAJYLUCBSA-N,CC(=CCCC(=CCCC(=CCCC=C(C)CCC=C(C)CCC=C(C)C)C)C)C
+109,Vitamin,RP,5-(2-Hydroxyethyl)-4-methylthiazole,,"2-(4-methyl-1,3-thiazol-5-yl)ethanol",BKAWJIRCKVUVED-UHFFFAOYSA-N,CC1=C(SC=N1)CCO
+110,Lignin,RP,Syringaldehyde,,"4-hydroxy-3,5-dimethoxybenzaldehyde",KCDXJAYRVLXPFO-UHFFFAOYSA-N,COC1=CC(=CC(=C1O)OC)C=O
+111,Lignin,RP,Syringic acid,,"4-hydroxy-3,5-dimethoxybenzoic acid",JMSVCTWVEWCHDZ-UHFFFAOYSA-N,COC1=CC(=CC(=C1O)OC)C(=O)O
+112,Internal Standard,RP,"Thiamine, 13C3",,,,
+113,Vitamin (B1-derivative),RP,Thiamine monophosphate,,"2-[3-[(4-amino-2-methylpyrimidin-5-yl)methyl]-4-methyl-1,3-thiazol-3-ium-5-yl]ethyl dihydrogen phosphate",HZSAJDVWZRBGIF-UHFFFAOYSA-O,CC1=C(SC=[N+]1CC2=CN=C(N=C2N)C)CCOP(=O)(O)O
+114,Vitamin (B1-derivative),RP,Thiamine diphosphate,,"2-[3-[(4-amino-2-methylpyrimidin-5-yl)methyl]-4-methyl-1,3-thiazol-3-ium-5-yl]ethyl phosphono hydrogen phosphate",AYEKOFBPNLCAJY-UHFFFAOYSA-O,CC1=C(SC=[N+]1CC2=CN=C(N=C2N)C)CCOP(=O)(O)OP(=O)(O)O
+115,Vitamin (fat soluble),RP,alpha-Tocopherol,,"(2R)-2,5,7,8-tetramethyl-2-[(4R,8R)-4,8,12-trimethyltridecyl]-3,4-dihydrochromen-6-ol",GVJHHUAWPYXKBD-IEOSBIPESA-N,CC1=C(C2=C(CCC(O2)(C)CCCC(C)CCCC(C)CCCC(C)C)C(=C1O)C)C
+116,Vitamin (fat soluble),RP,alpha-Tocotrienol,,"(2R)-2,5,7,8-tetramethyl-2-[(3E,7E)-4,8,12-trimethyltrideca-3,7,11-trienyl]-3,4-dihydrochromen-6-ol",RZFHLOLGZPDCHJ-XZXLULOTSA-N,CC1=C(C2=C(CCC(O2)(C)CCC=C(C)CCC=C(C)CCC=C(C)C)C(=C1O)C)C
+117,Lignin,RP,trans-Cinnamic acid,,(E)-3-phenylprop-2-enoic acid,WBYWAXJHAXSJNI-VOTSOKGWSA-N,C1=CC=C(C=C1)C=CC(=O)O
+118,Vitamin rhodopsin,RP,Retinal,,"(2E,4E,6E,8E)-3,7-dimethyl-9-(2,6,6-trimethylcyclohexen-1-yl)nona-2,4,6,8-tetraenal",NCYCYZXNIZJOKI-OVSJKPMPSA-N,CC1=C(C(CCC1)(C)C)C=CC(=CC=CC(=CC=O)C)C
+119,Antioxidant,RP,Trolox,,"6-hydroxy-2,5,7,8-tetramethyl-3,4-dihydrochromene-2-carboxylic acid",GLEVLJDDWXEYCO-UHFFFAOYSA-N,CC1=C(C2=C(CCC(O2)(C)C(=O)O)C(=C1O)C)C
+120,Antibiotic,RP,Thiotropocin,,"8-sulfanylcyclohepta[c]oxathiole-3,4-dione",RWJXTYSZCDAMCD-UHFFFAOYSA-N,C1=CC(=O)C2=C(C(=C1)S)SOC2=O
+121,Phytohormone,RP,Tryptophol,,2-(1H-indol-3-yl)ethanol,MBBOMCVGYCRMEA-UHFFFAOYSA-N,C1=CC=C2C(=C1)C(=CN2)CCO
+122,Internal Standard,RP,"Tryptamine, 2H4",,,,
+123,Amino Acid,RP,L-Tryptophan,,(2S)-2-amino-3-(1H-indol-3-yl)propanoic acid,QIVBCDIJIAJPQS-VIFPVBQESA-N,C1=CC=C2C(=C1)C(=CN2)CC(C(=O)O)N
+124,Phytohormone,RP,Tryptophol,,2-(1H-indol-3-yl)ethanol,MBBOMCVGYCRMEA-UHFFFAOYSA-N,C1=CC=C2C(=C1)C(=CN2)CCO
+125,Amino Acid,RP,L-Tyrosine,,(2S)-2-amino-3-(4-hydroxyphenyl)propanoic acid,OUYCCCASQSFEME-QMMMGPOBSA-N,C1=CC(=CC=C1CC(C(=O)O)N)O
+126,Lignin,RP,Vanillic acid,,4-hydroxy-3-methoxybenzoic acid,WKOLLVMJNQIZCI-UHFFFAOYSA-N,COC1=C(C=CC(=C1)C(=O)O)O
+127,Lignin,RP,Vanillin,,4-hydroxy-3-methoxybenzaldehyde,MWOOGOJBHIARFG-UHFFFAOYSA-N,COC1=C(C=CC(=C1)C=O)O
+128,Vitamin,RP,Thiamine,,"2-[3-[(4-amino-2-methylpyrimidin-5-yl)methyl]-4-methyl-1,3-thiazol-3-ium-5-yl]ethanol",JZRWCGZRTZMZEH-UHFFFAOYSA-N,CC1=C(SC=[N+]1CC2=CN=C(N=C2N)C)CCO
+129,Vitamin,RP,Vitamin B2,,"7,8-dimethyl-10-[(2S,3S,4R)-2,3,4,5-tetrahydroxypentyl]benzo[g]pteridine-2,4-dione",AUNGANRZJHBGPY-SCRDCRAPSA-N,CC1=CC2=C(C=C1C)N(C3=NC(=O)NC(=O)C3=N2)CC(C(C(CO)O)O)O
+130,Vitamin,RP,Nicotinic acid,,pyridine-3-carboxylic acid,PVNIIMVLHYAWGP-UHFFFAOYSA-N,C1=CC(=CN=C1)C(=O)O
+131,Vitamin,RP,Pantothenic acid,,"3-[[(2R)-2,4-dihydroxy-3,3-dimethylbutanoyl]amino]propanoic acid",GHOKWGTUZJEAQD-ZETCQYMHSA-N,CC(C)(CO)C(C(=O)NCCC(=O)O)O
+132,Vitamin,RP,Pyridoxol,,"4,5-bis(hydroxymethyl)-2-methylpyridin-3-ol",LXNHXLLTXMVWPM-UHFFFAOYSA-N,CC1=NC=C(C(=C1O)CO)CO
+133,Vitamin,RP,Biotin,,"5-[(3aS,4S,6aR)-2-oxo-1,3,3a,4,6,6a-hexahydrothieno[3,4-d]imidazol-4-yl]pentanoic acid",YBJHBAHKTGYVGT-ZKWXMUAHSA-N,C1C2C(C(S1)CCCCC(=O)O)NC(=O)N2
+134,Vitamin,RP,Folic acid,,(2S)-2-[[4-[(2-amino-4-oxo-3H-pteridin-6-yl)methylamino]benzoyl]amino]pentanedioic acid,OVBPIULPVIDEAO-LBPRGKRZSA-N,C1=CC(=CC=C1C(=O)NC(CCC(=O)O)C(=O)O)NCC2=CN=C3C(=N2)C(=O)NC(=N3)N
+135,Vitamin,RP,Vitamin C,,"(2R)-2-[(1S)-1,2-dihydroxyethyl]-3,4-dihydroxy-2H-furan-5-one",CIWBSHSKHKDKBQ-JLAZNSOCSA-N,C(C(C1C(=C(C(=O)O1)O)O)O)O
+136,Vitamin (fat soluble),RP,Vitamin D2,,"(1S,3Z)-3-[(2E)-2-[(1R,3aS,7aR)-1-[(E,2R,5R)-5,6-dimethylhept-3-en-2-yl]-7a-methyl-2,3,3a,5,6,7-hexahydro-1H-inden-4-ylidene]ethylidene]-4-methylidenecyclohexan-1-ol",MECHNRXZTMCUDQ-RKHKHRCZSA-N,CC(C)C(C)C=CC(C)C1CCC2C1(CCCC2=CC=C3CC(CCC3=C)O)C
+137,Quinone,RP,Vitamin K1,,"2-methyl-3-[(E,7R,11R)-3,7,11,15-tetramethylhexadec-2-enyl]naphthalene-1,4-dione",MBWXNTAXLNYFJB-NKFFZRIASA-N,CC1=C(C(=O)C2=CC=CC=C2C1=O)CC=C(C)CCCC(C)CCCC(C)CCCC(C)C
+138,Quinone,RP,Vitamin K2,,"2-methyl-3-[(2E,6E,10E)-3,7,11,15-tetramethylhexadeca-2,6,10,14-tetraenyl]naphthalene-1,4-dione",DKHGMERMDICWDU-GHDNBGIDSA-N,CC1=C(C(=O)C2=CC=CC=C2C1=O)CC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)C
+139,Purine,RP,Xanthine,,"3,7-dihydropurine-2,6-dione",LRFVTYWOQMYALW-UHFFFAOYSA-N,C1=NC2=C(N1)C(=O)NC(=O)N2
+140,Phytohormone,RP,Zeatin,,(E)-2-methyl-4-(7H-purin-6-ylamino)but-2-en-1-ol,UZKQTCBAMSWPJD-FARCUNLSSA-N,CC(=CCNC1=NC=NC2=C1NC=N2)CO
+141,New,HILIC,2-Hydroxy-4-(methylthio)butyric acid,,2-hydroxy-4-methylsulfanylbutanoic acid,ONFOSYPQQXJWGS-UHFFFAOYSA-N,CSCCC(C(=O)O)O
+142,Sulfur,HILIC,3-Sulfopyruvic acid,,2-oxo-3-sulfopropanoic acid,BUTHMSUEBYPMKJ-UHFFFAOYSA-N,C(C(=O)C(=O)O)S(=O)(=O)O
+143,Co-enzyme A,HILIC,Acetoacetyl-CoA,,"S-[2-[3-[[(2R)-4-[[[(2R,3S,4R,5R)-5-(6-aminopurin-9-yl)-4-hydroxy-3-phosphonooxyoxolan-2-yl]methoxy-hydroxyphosphoryl]oxy-hydroxyphosphoryl]oxy-2-hydroxy-3,3-dimethylbutanoyl]amino]propanoylamino]ethyl] 3-oxobutanethioate",OJFDKHTZOUZBOS-CITAKDKDSA-N,CC(=O)CC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O
+144,Co-enzyme A,HILIC,Acetyl-CoA,,"S-[2-[3-[[(2R)-4-[[[(2R,3S,4R,5R)-5-(6-aminopurin-9-yl)-4-hydroxy-3-phosphonooxyoxolan-2-yl]methoxy-hydroxyphosphoryl]oxy-hydroxyphosphoryl]oxy-2-hydroxy-3,3-dimethylbutanoyl]amino]propanoylamino]ethyl] ethanethioate",ZSLZBFCDCINBPY-ZSJPKINUSA-N,CC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O
+145,Internal Standard,HILIC,"Acetyl-CoA, 13C2",,,,
+146,New2,HILIC,O-Acetylcarnitine,,[(2S)-2-acetyloxy-3-carboxypropyl]-trimethylazanium  ,RDHQFKQIGNGIED-QMMMGPOBSA-O  ,CC(=O)OC(CC(=O)O)C[N+](C)(C)C
+147,Organic Acid,HILIC,cis-Aconitic acid,,"(Z)-prop-1-ene-1,2,3-tricarboxylic acid",GTZCVFVGUGFEME-IWQZZHSRSA-N,C(C(=CC(=O)O)C(=O)O)C(=O)O
+148,Nucleic Acid,HILIC,Adenine,,7H-purin-6-amine,GFFGJBXGBJISGV-UHFFFAOYSA-N,C1=NC2=NC=NC(=C2N1)N
+149,Nucleic Acid,HILIC,Adenine,,,,
+150,Nucleoside,HILIC,Adenosine,,"(2R,3R,4S,5R)-2-(6-aminopurin-9-yl)-5-(hydroxymethyl)oxolane-3,4-diol",OIRDTQYFTABQOQ-KQYNXXCUSA-N,C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)CO)O)O)N
+151,Nucleoside,HILIC,Adenosine,,,,
+152,Internal Standard,HILIC,"Adenosine monophosphate, 15N5",,,,
+153,Amino Acid synthesis,HILIC,S-Adenosylhomocysteine,,"(2S)-2-amino-4-[[(2S,3S,4R,5R)-5-(6-aminopurin-9-yl)-3,4-dihydroxyoxolan-2-yl]methylsulfanyl]butanoic acid",ZJUKTBDSGOFHSH-WFMPWKQPSA-N,C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)CSCCC(C(=O)O)N)O)O)N
+154,Amino Acid synthesis,HILIC,S-Adenosylmethionine,,"(2S)-2-amino-4-[[(2S,3S,4R,5R)-5-(6-aminopurin-9-yl)-3,4-dihydroxyoxolan-2-yl]methyl-methylsulfonio]butanoate",MEFKEPWMEQBLKI-AIRLBKTGSA-N,C[S+](CCC(C(=O)[O-])N)CC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)O
+155,Energy charge,HILIC,Adenosine diphosphate,,"[(2R,3S,4R,5R)-5-(6-aminopurin-9-yl)-3,4-dihydroxyoxolan-2-yl]methyl phosphono hydrogen phosphate",XTWYTFMLZFPYCI-KQYNXXCUSA-N,C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)(O)OP(=O)(O)O)O)O)N
+156,Amino Acid,HILIC,L-Alanine,,(2S)-2-aminopropanoic acid,QNAYBMKLOCPYGJ-REOHCLBHSA-N,CC(C(=O)O)N
+157,Sulfur,HILIC,Amino Propanesulfonic Acid,,3-aminopropane-1-sulfonate,SNKZJIOFVMKAOJ-UHFFFAOYSA-M,C(CN)CS(=O)(=O)[O-]
+158,Amino Acid - degraded,HILIC,4-Aminobutyric acid,,4-aminobutanoic acid,BTCSSZJGUNDROE-UHFFFAOYSA-N,C(CC(=O)O)CN
+159,Energy charge,HILIC,Adenosine monophosphate,,"[(2R,3S,4R,5R)-5-(6-aminopurin-9-yl)-3,4-dihydroxyoxolan-2-yl]methyl dihydrogen phosphate",UDMBCSSLTHHNCD-KQYNXXCUSA-N,C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)(O)O)O)O)N
+160,Amino Acid,HILIC,L-Arginine,,(2S)-2-amino-5-(diaminomethylideneamino)pentanoic acid,ODKSFYDXXFIFQN-BYPYZUCNSA-N,C(CC(C(=O)O)N)CN=C(N)N
+161,New,HILIC, L-Arginosuccinic acid,,(2S)-2-[[N'-[(4S)-4-amino-4-carboxybutyl]carbamimidoyl]amino]butanedioic acid,KDZOASGQNOPSCU-WDSKDSINSA-N,C(CC(C(=O)O)N)CN=C(N)NC(CC(=O)O)C(=O)O
+162,Amino Acid,HILIC,L-Asparagine,,"(2S)-2,4-diamino-4-oxobutanoic acid",DCXYFEDJOCDNAF-REOHCLBHSA-N,C(C(C(=O)O)N)C(=O)N
+163,Amino Acid,HILIC,L-Aspartic acid,,(2S)-2-aminobutanedioic acid,CKLJMWTZIZZHCS-REOHCLBHSA-N,C(C(C(=O)O)N)C(=O)O
+164,Energy charge,HILIC,Adenosine triphosphate,,"[[(2R,3S,4R,5R)-5-(6-aminopurin-9-yl)-3,4-dihydroxyoxolan-2-yl]methoxy-hydroxyphosphoryl] phosphono hydrogen phosphate",ZKHQWZAMYRWXGA-KQYNXXCUSA-N,C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O)O)N
+165,Amino Acid derivative,HILIC,Glycine betaine,,2-(trimethylazaniumyl)acetate,KWIUHFFTVRNATP-UHFFFAOYSA-N,C[N+](C)(C)CC(=O)[O-]
+167,New2,HILIC,Butyrylcarnitine,,(3R)-3-butanoyloxy-4-(trimethylazaniumyl)butanoate,QWYFHHGCZUCMBN-SECBINFHSA-N,CCCC(=O)OC(CC(=O)[O-])C[N+](C)(C)C
+168,Intracellular signaling,HILIC,"3',5'-Cyclic AMP",,"(4aR,6R,7R,7aS)-6-(6-aminopurin-9-yl)-2-hydroxy-2-oxo-4a,6,7,7a-tetrahydro-4H-furo[3,2-d][1,3,2]dioxaphosphinin-7-ol",IVOMOUWHDPKRLL-KQYNXXCUSA-N,C1C2C(C(C(O2)N3C=NC4=C(N=CN=C43)N)O)OP(=O)(O1)O
+169,New,HILIC,Carnitine,,3-hydroxy-4-(trimethylazaniumyl)butanoate,PHIQHXFUZVPYII-UHFFFAOYSA-N,C[N+](C)(C)CC(CC(=O)[O-])O
+170,Intracellular signaling,HILIC,"3',5'-Cyclic GMP",,"9-[(4aR,6R,7R,7aS)-7-hydroxy-2-oxido-2-oxo-4a,6,7,7a-tetrahydro-4H-furo[3,2-d][1,3,2]dioxaphosphinin-6-yl]-2-amino-1H-purin-6-one",ZOOGRGPOEVQQDX-UUOKFMHZSA-M,C1C2C(C(C(O2)N3C=NC4=C3N=C(NC4=O)N)O)OP(=O)(O1)[O-]
+171,Amino sugar,HILIC,Chitobiose,,"N-[(2S,3R,4R,5S,6R)-2-[(2R,3S,4R,5R)-5-acetamido-1,2,4-trihydroxy-6-oxohexan-3-yl]oxy-4,5-dihydroxy-6-(hydroxymethyl)oxan-3-yl]acetamide",PLJAKLUDUPBLGD-VLWZLFBZSA-N,CC(=O)NC1C(C(C(OC1OC(C(CO)O)C(C(C=O)NC(=O)C)O)CO)O)O
+172,Vitamin (B-like),HILIC,Choline,,2-hydroxyethyl(trimethyl)azanium,OEYIOHPDSNJKLS-UHFFFAOYSA-N,C[N+](C)(C)CCO
+173,Organic Acid,HILIC,Citric acid,,"2-hydroxypropane-1,2,3-tricarboxylic acid",KRKNYBCHXYNGOX-UHFFFAOYSA-N,C(C(=O)O)C(CC(=O)O)(C(=O)O)O
+174,New,HILIC,Citrulline,,(2S)-2-amino-5-(carbamoylamino)pentanoic acid,RHGKLRLOHDJJDR-BYPYZUCNSA-N,C(CC(C(=O)O)N)CNC(=O)N
+175,Organic Acid - nitrogenous,HILIC,Creatine,,2-[carbamimidoyl(methyl)amino]acetic acid,CVSVTCORWBXHQV-UHFFFAOYSA-N,CN(CC(=O)O)C(=N)N
+176,Co-enzyme A,HILIC,Crotonoyl-CoA,,"S-[2-[3-[[(2R)-4-[[[(2R,3S,4R,5R)-5-(6-aminopurin-9-yl)-4-hydroxy-3-phosphonooxyoxolan-2-yl]methoxy-hydroxyphosphoryl]oxy-hydroxyphosphoryl]oxy-2-hydroxy-3,3-dimethylbutanoyl]amino]propanoylamino]ethyl] (E)-but-2-enethioate",KFWWCMJSYSSPSK-PAXLJYGASA-N,CC=CC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O
+177,Intracellular signaling,HILIC,"3',5'-Cyclic diGMP",,"2-amino-9-[(1S,6R,8R,9R,10S,15R,17R,18R)-17-(2-amino-6-oxo-1H-purin-9-yl)-3,9,12,18-tetrahydroxy-3,12-dioxo-2,4,7,11,13,16-hexaoxa-3λ5,12λ5-diphosphatricyclo[13.3.0.06,10]octadecan-8-yl]-1H-purin-6-one",PKFDLKSEZWEFGL-MHARETSRSA-N,C1C2C(C(C(O2)N3C=NC4=C3N=C(NC4=O)N)O)OP(=O)(OCC5C(C(C(O5)N6C=NC7=C6N=C(NC7=O)N)O)OP(=O)(O1)O)O
+178,New,HILIC,L-Cysteinylglycine,,2-[[(2R)-2-amino-3-sulfanylpropanoyl]amino]acetic acid,ZUKPVRWZDMRIEO-VKHMYHEASA-N,C(C(C(=O)NCC(=O)O)N)S
+179,New,HILIC,"Cys-Gly, oxidized",,2-[[2-amino-3-[[2-amino-3-(carboxymethylamino)-3-oxopropyl]disulfanyl]propanoyl]amino]acetic acid,KDJVKDYFFTWHBO-UHFFFAOYSA-N,C(C(C(=O)NCC(=O)O)N)SSCC(C(=O)NCC(=O)O)N
+180,Amino Acid synthesis,HILIC,L-Cystathionine,,(2S)-2-amino-4-[(2R)-2-amino-2-carboxyethyl]sulfanylbutanoic acid,ILRYLPWNYFXEMH-WHFBIAKZSA-N,C(CSCC(C(=O)O)N)C(C(=O)O)N
+181,Sulfur,HILIC,L-Cysteic acid,,(2R)-2-amino-3-sulfopropanoic acid,XVOYSCVBGLVSOL-REOHCLBHSA-N,C(C(C(=O)O)N)S(=O)(=O)O
+182,Amino Acid,HILIC,L-Cysteine,,(2R)-2-amino-3-sulfanylpropanoic acid,XUJNEKJLAYXESH-REOHCLBHSA-N,C(C(C(=O)O)N)S
+183,Amino Acid,HILIC,L-Cystine,,(2R)-2-amino-3-[[(2R)-2-amino-2-carboxyethyl]disulfanyl]propanoic acid,LEVWYRKDKASIDU-IMJSIDKUSA-N,C(C(C(=O)O)N)SSCC(C(=O)O)N
+184,Nucleoside,HILIC,Cytidine,,"4-amino-1-[(2R,3R,4S,5R)-3,4-dihydroxy-5-(hydroxymethyl)oxolan-2-yl]pyrimidin-2-one",UHDGCWIWMRVCDJ-XVFCMESISA-N,C1=CN(C(=O)N=C1N)C2C(C(C(O2)CO)O)O
+185,Nucleoside,HILIC,Cytidine,,,,
+186,Nucleic Acid,HILIC,Cytosine,,6-amino-1H-pyrimidin-2-one,OPTASPLRGRRNAP-UHFFFAOYSA-N,C1=C(NC(=O)N=C1)N
+187,Nucleic Acid,HILIC,Cytosine,,,,
+188,Calvin cycle intermediate,HILIC,Dihydroxyacetone phosphate,,(3-hydroxy-2-oxopropyl) dihydrogen phosphate,GNGACRATGGDKBX-UHFFFAOYSA-N,C(C(=O)COP(=O)(O)O)O
+189,Sulfur,HILIC,"(R)-2,3-Dihydroxypropane-1-sulfonate",,"(2R)-2,3-dihydroxypropane-1-sulfonic acid",YPFUJZAAZJXMIP-GSVOUGTGSA-N,C(C(CS(=O)(=O)O)O)O
+190,Amino Acid derivative,HILIC,Dimethylglycine,,2-(dimethylamino)acetic acid,FFDGPVCHZBVARC-UHFFFAOYSA-N,CN(C)CC(=O)O
+191,Internal Standard,HILIC,"DL-Alanine, 2H3",,,,
+192,Internal Standard,HILIC,"DL-Histidine, 15N",,,,
+193,Internal Standard,HILIC,"DL-Proline, 2H7",,,,
+194,Internal Standard,HILIC,"DL-Valine, 2H8",,,,
+195,Sulfur,HILIC,Dimethylsulfoniopropionate,,3-dimethylsulfoniopropanoate,DFPOZTRSOAQFIK-UHFFFAOYSA-N,C[S+](C)CCC(=O)[O-]
+196,Osmolyte,HILIC,Ectoine,,"(6S)-2-methyl-1,4,5,6-tetrahydropyrimidine-6-carboxylic acid",WQXNXVUDBPYKBA-YFKPBYRVSA-N,CC1=NCCC(N1)C(=O)O
+197,Osmolyte,HILIC,Ectoine,,,,
+198,Osmolyte,HILIC,5-Hydroxyectoine,,"(5S,6S)-5-hydroxy-2-methyl-1,4,5,6-tetrahydropyrimidine-6-carboxylic acid",KIIBBJKLKFTNQO-WHFBIAKZSA-N,CC1=NCC(C(N1)C(=O)O)O
+199,Sulfur,HILIC,Ethanesulfonic acid,,ethanesulfonic acid,CCIVGXIOQKPBKL-UHFFFAOYSA-N,CCS(=O)(=O)O
+200,Lignin,HILIC,Ethyl aminobenzoate,,ethyl 4-aminobenzoate,BLFLLBZGZJTVJG-UHFFFAOYSA-N,CCOC(=O)C1=CC=C(C=C1)N
+202,Lignin,HILIC,Ethyl dihydroxybenzoate,,"ethyl 3,5-dihydroxybenzoate",APHYVLPIZUVDTK-UHFFFAOYSA-N,CCOC(=O)C1=CC(=CC(=C1)O)O
+203,Redox,HILIC,Flavin adenine dinucleotide,,"[[(2R,3S,4R,5R)-5-(6-aminopurin-9-yl)-3,4-dihydroxyoxolan-2-yl]methoxy-hydroxyphosphoryl] [(2R,3S,4S)-5-(7,8-dimethyl-2,4-dioxobenzo[g]pteridin-10-yl)-2,3,4-trihydroxypentyl] hydrogen phosphate",VWWQXMAJTJZDQX-UYBVJOGSSA-N,CC1=CC2=C(C=C1C)N(C3=NC(=O)NC(=O)C3=N2)CC(C(C(COP(=O)(O)OP(=O)(O)OCC4C(C(C(O4)N5C=NC6=C(N=CN=C65)N)O)O)O)O)O
+204,Sugar phosphate,HILIC,D-Fructose 6-phosphate,,"[(2R,3R,4S)-2,3,4,6-tetrahydroxy-5-oxohexyl] dihydrogen phosphate",GSXOAOHZAIYLCY-HSUXUTPPSA-N,C(C(C(C(C(=O)CO)O)O)O)OP(=O)(O)O
+205,Organic Acid,HILIC,Fumaric acid,,(E)-but-2-enedioic acid,VZCYOOQTPOCHFL-OWOJBTEDSA-N,C(=CC(=O)O)C(=O)O
+206,Organic Acid,HILIC,D-Gluconic acid,,"(2R,3S,4R,5R)-2,3,4,5,6-pentahydroxyhexanoic acid",RGHNJXZEOKUKBD-SQOUGZDYSA-N,C(C(C(C(C(C(=O)O)O)O)O)O)O
+207,New2,HILIC,Glucosamine,,"(3R,4R,5S,6R)-3-amino-6-(hydroxymethyl)oxane-2,4,5-triol",MSWZFWKMSRAUBD-IVMDWMLBSA-N,C(C1C(C(C(C(O1)O)N)O)O)O
+208,Sugar phosphate,HILIC,D-Glucose 1-phosphate,,"[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl] dihydrogen phosphate",HXXFSFRBOHSIMQ-VFUOTHLCSA-N,C(C1C(C(C(C(O1)OP(=O)(O)O)O)O)O)O
+209,Sugar phosphate,HILIC,D-Glucose 6-phosphate,,"[(2R,3R,4S,5R)-2,3,4,5-tetrahydroxy-6-oxohexyl] dihydrogen phosphate",VFRROHXSMXFLSN-SLPGGIOYSA-N,C(C(C(C(C(C=O)O)O)O)O)OP(=O)(O)O
+210,Osmolyte,HILIC,2-O-alpha-D-Glucosylglycerol,,"(2S,3R,4S,5S,6R)-2-(1,3-dihydroxypropan-2-yloxy)-6-(hydroxymethyl)oxane-3,4,5-triol",AQTKXCPRNZDOJU-ZEBDFXRSSA-N,C(C1C(C(C(C(O1)OC(CO)CO)O)O)O)O
+211,Amino Acid,HILIC,L-Glutamic acid,,(2S)-2-aminopentanedioic acid,WHUUTDBJXJRKMK-VKHMYHEASA-N,C(CC(=O)O)C(C(=O)O)N
+212,Amino Acid,HILIC,L-Glutamine,,"(2S)-2,5-diamino-5-oxopentanoic acid",ZDXPYRJPNDTMRX-VKHMYHEASA-N,C(CC(=O)N)C(C(=O)O)N
+213,Antioxidant,HILIC,Glutathione,,(2S)-2-amino-5-[[(2R)-1-(carboxymethylamino)-1-oxo-3-sulfanylpropan-2-yl]amino]-5-oxopentanoic acid,RWSXRVCMGQZWBV-WDSKDSINSA-N,C(CC(=O)NC(CS)C(=O)NCC(=O)O)C(C(=O)O)N
+214,Sulfur,HILIC,Glutathione disulfide,,(2S)-2-amino-5-[[(2R)-3-[[(2R)-2-[[(4S)-4-amino-4-carboxybutanoyl]amino]-3-(carboxymethylamino)-3-oxopropyl]disulfanyl]-1-(carboxymethylamino)-1-oxopropan-2-yl]amino]-5-oxopentanoic acid,YPZRWBKMTBYPTK-BJDJZHNGSA-N,C(CC(=O)NC(CSSCC(C(=O)NCC(=O)O)NC(=O)CCC(C(=O)O)N)C(=O)NCC(=O)O)C(C(=O)O)N
+215,Redox,HILIC,Glycerophosphoric acid,,"2,3-dihydroxypropyl dihydrogen phosphate",AWUCVROLDVIAJX-UHFFFAOYSA-N,C(C(COP(=O)(O)O)O)O
+216,New2,HILIC,Glycerophosphocholine,,"[(2R)-2,3-dihydroxypropyl] 2-(trimethylazaniumyl)ethyl phosphate",SUHOQUVVVLNYQR-MRVPVSSYSA-N,C[N+](C)(C)CCOP(=O)([O-])OCC(CO)O
+217,Amino Acid,HILIC,Glycine,,2-aminoacetic acid,DHMQDGOQFOQNFH-UHFFFAOYSA-N,C(C(=O)O)N
+218,Energy charge,HILIC,Guanosine monophosphate,,"[(2R,3S,4R,5R)-5-(2-amino-6-oxo-1H-purin-9-yl)-3,4-dihydroxyoxolan-2-yl]methyl dihydrogen phosphate",RQFCJASXJCIDSX-UUOKFMHZSA-N,C1=NC2=C(N1C3C(C(C(O3)COP(=O)(O)O)O)O)N=C(NC2=O)N
+219,Energy charge,HILIC,Guanosine triphosphate,,"[[(2R,3S,4R,5R)-5-(2-amino-6-oxo-1H-purin-9-yl)-3,4-dihydroxyoxolan-2-yl]methoxy-hydroxyphosphoryl] phosphono hydrogen phosphate",XKMLYUALXHKNFT-UUOKFMHZSA-N,C1=NC2=C(N1C3C(C(C(O3)COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O)O)N=C(NC2=O)N
+220,Nucleic Acid,HILIC,Guanine,,"2-amino-1,7-dihydropurin-6-one",UYTPUPDQBNUYGX-UHFFFAOYSA-N,C1=NC2=C(N1)C(=O)NC(=N2)N
+221,Nucleic Acid,HILIC,Guanine,,,,
+222,Nucleoside,HILIC,Guanosine,,"2-amino-9-[(2R,3R,4S,5R)-3,4-dihydroxy-5-(hydroxymethyl)oxolan-2-yl]-1H-purin-6-one",NYHBQMYGNKIUIF-UUOKFMHZSA-N,C1=NC2=C(N1C3C(C(C(O3)CO)O)O)N=C(NC2=O)N
+223,Nucleoside,HILIC,Guanosine,,,,
+224,Internal Standard,HILIC,"GMP, 15N5",,,,
+225,Amino Acid,HILIC,L-Histidine,,(2S)-2-amino-3-(1H-imidazol-5-yl)propanoic acid,HNDVDQJCIGZPNO-YFKPBYRVSA-N,C1=C(NC=N1)CC(C(=O)O)N
+226,Osmolyte,HILIC,Homarine,,1-methylpyridin-1-ium-2-carboxylate,BRTLKRNVNFIOPJ-UHFFFAOYSA-N,C[N+]1=CC=CC=C1C(=O)[O-]
+227,New,HILIC,Homocysteine thiolactone,,(3S)-3-aminothiolan-2-one,KIWQWJKWBHZMDT-VKHMYHEASA-N,C1CSC(=O)C1N
+228,New,HILIC,L-Homocystine,,(2S)-2-amino-4-[[(3S)-3-amino-3-carboxypropyl]disulfanyl]butanoic acid,ZTVZLYBCZNMWCF-WDSKDSINSA-N,C(CSSCCC(C(=O)O)N)C(C(=O)O)N
+229,New,HILIC,L-Homoserine,,(2S)-2-amino-4-hydroxybutanoic acid,UKAUYVFTDYCKQA-VKHMYHEASA-N,C(CO)C(C(=O)O)N
+230,Co-enzyme A,HILIC,(S)-3-Hydroxybutyryl-CoA,,"S-[2-[3-[[4-[[[(2R,3S,4R,5R)-5-(6-aminopurin-9-yl)-4-hydroxy-3-phosphonooxyoxolan-2-yl]methoxy-hydroxyphosphoryl]oxy-hydroxyphosphoryl]oxy-2-hydroxy-3,3-dimethylbutanoyl]amino]propanoylamino]ethyl] (3S)-3-hydroxybutanethioate",QHHKKMYHDBRONY-BEVJUKKNSA-N,CC(CC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O)O
+231,Amino Acid - collagen,HILIC,L-Hydroxylysine,,"(2S,5R)-2,6-diamino-5-hydroxyhexanoic acid",YSMODUONRAFBET-UHNVWZDZSA-N,C(CC(C(=O)O)N)C(CN)O
+232,Sulfur,HILIC,Hypotaurine,,2-aminoethanesulfinic acid,VVIUBCNYACGLLV-UHFFFAOYSA-N,C(CS(=O)O)N
+233,Phytohormone,HILIC,Indole-3-carbinol,,1H-indol-3-ylmethanol,IVYPNXXAYMYVSP-UHFFFAOYSA-N,C1=CC=C2C(=C1)C(=CN2)CO
+234,Phytohormone,HILIC,Indolepyruvic acid,,3-(1H-indol-3-yl)-2-oxopropanoic acid,RSTKLPZEZYGQPY-UHFFFAOYSA-N,C1=CC=C2C(=C1)C(=CN2)CC(=O)C(=O)O
+235,Sulfur,HILIC,Isethionic acid,,2-hydroxyethanesulfonic acid,SUMDYPCJJOFFON-UHFFFAOYSA-N,C(CS(=O)(=O)O)O
+236,Internal Standard,HILIC,"Isethionic acid, 13C2",,,,
+237,Organic Acid,HILIC,Isocitric acid,,"1-hydroxypropane-1,2,3-tricarboxylic acid",ODBLHEXUDAPZAU-UHFFFAOYSA-N,C(C(C(C(=O)O)O)C(=O)O)C(=O)O
+238,Amino Acid,HILIC,L-Isoleucine,,"(2S,3S)-2-amino-3-methylpentanoic acid",AGPKZVBTJJNPAG-WHFBIAKZSA-N,CCC(C)C(C(=O)O)N
+239,New,HILIC,2-keto-4-methylthiobutyric acid,,4-methylsulfanyl-2-oxobutanoic acid,SXFSQZDSUWACKX-UHFFFAOYSA-N,CSCCC(=O)C(=O)O
+240,Organic Acid,HILIC,2-Ketoglutaric acid,,2-oxopentanedioic acid,KPGXRSRHYNQIFN-UHFFFAOYSA-N,C(CC(=O)O)C(=O)C(=O)O
+241,Amino Acid,HILIC,L-Kynurenine,,(2S)-2-amino-4-(2-aminophenyl)-4-oxobutanoic acid,YGPSJZOEDVAXAB-QMMMGPOBSA-N,C1=CC=C(C(=C1)C(=O)CC(C(=O)O)N)N
+242,Internal Standard,HILIC,"L-Cysteic acid, 2H3",,,,
+243,Amino Acid,HILIC,L-Leucine,,(2S)-2-amino-4-methylpentanoic acid,ROHFNLRQFUQHCH-YFKPBYRVSA-N,CC(C)CC(C(=O)O)N
+244,Amino Acid synthesis,HILIC,L-Homocysteine,,(2S)-2-amino-4-sulfanylbutanoic acid,FFFHZYDWPBMWHY-VKHMYHEASA-N,C(CS)C(C(=O)O)N
+245,Organic Acid,HILIC,Lipoic acid,,5-[(3R)-dithiolan-3-yl]pentanoic acid,AGBQKNBQESQNJD-SSDOTTSWSA-N,C1CSSC1CCCCC(=O)O
+246,Internal Standard,HILIC,"L-Isoleucine, 15N",,,,
+247,Internal Standard,HILIC,"L-Methionine, 2H3",,,,
+248,New2,HILIC,5-Oxoproline,,(2S)-5-oxopyrrolidine-2-carboxylic acid,ODHCTXKNWHHXJC-VKHMYHEASA-N,C1CC(=O)NC1C(=O)O
+249,New2,HILIC,5-Oxoproline,,,,
+250,Amino Acid,HILIC,L-Lysine,,"(2S)-2,6-diaminohexanoic acid",KDXKERNSBIXSRK-YFKPBYRVSA-N,C(CCN)CC(C(=O)O)N
+251,Organic Acid,HILIC,Malic acid,,2-hydroxybutanedioic acid,BJEPYKJPYRNKOW-UHFFFAOYSA-N,C(C(C(=O)O)O)C(=O)O
+252,Co-enzyme A,HILIC,Malonyl-CoA,,"3-[2-[3-[[(2R)-4-[[[(2R,3S,4R,5R)-5-(6-aminopurin-9-yl)-4-hydroxy-3-phosphonooxyoxolan-2-yl]methoxy-hydroxyphosphoryl]oxy-hydroxyphosphoryl]oxy-2-hydroxy-3,3-dimethylbutanoyl]amino]propanoylamino]ethylsulfanyl]-3-oxopropanoic acid",LTYOQGRJFJAKNA-DVVLENMVSA-N,CC(C)(COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)C(C(=O)NCCC(=O)NCCSC(=O)CC(=O)O)O
+253,New2,HILIC,Maltotetraose,,"(2R,3R,4S,5S,6R)-2-[(2R,3S,4R,5R,6R)-6-[(2R,3S,4R,5R,6R)-4,5-dihydroxy-2-(hydroxymethyl)-6-[(2R,3S,4R,5R,6S)-4,5,6-trihydroxy-2-(hydroxymethyl)oxan-3-yl]oxyoxan-3-yl]oxy-4,5-dihydroxy-2-(hydroxymethyl)oxan-3-yl]oxy-6-(hydroxymethyl)oxane-3,4,5-triol",LUEWUZLMQUOBSB-ZLBHSGTGSA-N,C(C1C(C(C(C(O1)OC2C(OC(C(C2O)O)OC3C(OC(C(C3O)O)OC4C(OC(C(C4O)O)O)CO)CO)CO)O)O)O)O
+254,New2,HILIC,Maltotriose,,"(2R,3R,4S,5S,6R)-2-[(2R,3S,4R,5R,6R)-4,5-dihydroxy-2-(hydroxymethyl)-6-[(2R,3S,4R,5R)-4,5,6-trihydroxy-2-(hydroxymethyl)oxan-3-yl]oxyoxan-3-yl]oxy-6-(hydroxymethyl)oxane-3,4,5-triol",FYGDTMLNYKFZSV-DZOUCCHMSA-N,C(C1C(C(C(C(O1)OC2C(OC(C(C2O)O)OC3C(OC(C(C3O)O)O)CO)CO)O)O)O)O
+255,Sulfur,HILIC,Sodium 2-mercaptoethanesulfonate,,sodium;2-sulfanylethanesulfonate,XOGTZOOQQBDUSI-UHFFFAOYSA-M,C(CS(=O)(=O)[O-])S.[Na+]
+256,Amino Acid,HILIC,L-Methionine,,(2S)-2-amino-4-methylsulfanylbutanoic acid,FFEARJCKVFRZRR-BYPYZUCNSA-N,CSCCC(C(=O)O)N
+257,New,HILIC,L-Methionine S-oxide,,(2S)-2-amino-4-methylsulfinylbutanoic acid,QEFRNWWLZKMPFJ-YGVKFDHGSA-N,CS(=O)CCC(C(=O)O)N
+258,Co-enzyme A,HILIC,D-Methylmalonyl-CoA,,"(2S)-3-[2-[3-[[(2R)-4-[[[(2R,3S,4R,5R)-5-(6-aminopurin-9-yl)-4-hydroxy-3-phosphonooxyoxolan-2-yl]methoxy-hydroxyphosphoryl]oxy-hydroxyphosphoryl]oxy-2-hydroxy-3,3-dimethylbutanoyl]amino]propanoylamino]ethylsulfanyl]-2-methyl-3-oxopropanoic acid",MZFOKIKEPGUZEN-IBNUZSNCSA-N,CC(C(=O)O)C(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O
+259,Organic Acid,HILIC,Methylphosphonic acid,,methylphosphonic acid,YACKEPLHDIMKIO-UHFFFAOYSA-N,CP(=O)(O)O
+260,Peptidoglycan,HILIC,Muramic acid,,"(2R)-2-[(3R,4R,5S,6R)-3-amino-2,5-dihydroxy-6-(hydroxymethyl)oxan-4-yl]oxypropanoic acid",MSFSPUZXLOGKHJ-PGYHGBPZSA-N,CC(C(=O)O)OC1C(C(OC(C1O)CO)O)N
+261,New,HILIC,N6-Acetyl-L-lysine,,(2S)-6-acetamido-2-aminohexanoic acid,DTERQYGMUDWYAZ-ZETCQYMHSA-N,CC(=O)NCCCCC(C(=O)O)N
+262,New,HILIC,O-Acetyl-L-serine,,(2S)-3-acetyloxy-2-aminopropanoic acid,VZXPDPZARILFQX-BYPYZUCNSA-N,CC(=O)OCC(C(=O)O)N
+263,Sulfur,HILIC,N-Acetyltaurine,,2-acetamidoethanesulfonic acid,CXJAAWRLVGAKDV-UHFFFAOYSA-N,CC(=O)NCCS(=O)(=O)O
+264,Redox,HILIC,NAD,,"[[(2R,3S,4R,5R)-5-(6-aminopurin-9-yl)-3,4-dihydroxyoxolan-2-yl]methoxy-hydroxyphosphoryl] [(2R,3S,4R,5R)-5-(3-carbamoylpyridin-1-ium-1-yl)-3,4-dihydroxyoxolan-2-yl]methyl phosphate",BAWFJGJZGIEFAR-NNYOXOHSSA-N,C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)([O-])OP(=O)(O)OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O)C(=O)N
+265,Redox,HILIC,NADH,,"[[(2R,3S,4R,5R)-5-(6-aminopurin-9-yl)-3,4-dihydroxyoxolan-2-yl]methoxy-hydroxyphosphoryl] [(2R,3S,4R,5R)-5-(3-carbamoyl-4H-pyridin-1-yl)-3,4-dihydroxyoxolan-2-yl]methyl hydrogen phosphate",BOPGDPNILDQYTO-NNYOXOHSSA-N,C1C=CN(C=C1C(=O)N)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O
+266,Redox,HILIC,NADP,,"[[(2R,3R,4R,5R)-5-(6-aminopurin-9-yl)-3-hydroxy-4-phosphonooxyoxolan-2-yl]methoxy-hydroxyphosphoryl] [(2R,3S,4R,5R)-5-(3-carbamoylpyridin-1-ium-1-yl)-3,4-dihydroxyoxolan-2-yl]methyl hydrogen phosphate",XJLXINKUBYWONI-NNYOXOHSSA-O,C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)OP(=O)(O)O)O)O)O)C(=O)N
+267,Redox,HILIC,NADPH,,"[[(2R,3R,4R,5R)-5-(6-aminopurin-9-yl)-3-hydroxy-4-phosphonooxyoxolan-2-yl]methoxy-hydroxyphosphoryl] [(2R,3S,4R,5R)-5-(3-carbamoyl-4H-pyridin-1-yl)-3,4-dihydroxyoxolan-2-yl]methyl hydrogen phosphate",ACFIXJIJDZMPPO-NNYOXOHSSA-N,C1C=CN(C=C1C(=O)N)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)OP(=O)(O)O)O)O)O
+268,Sulfur,HILIC,N-Methyltaurine,,2-(methylamino)ethanesulfonic acid,SUZRRICLUFMAQD-UHFFFAOYSA-N,CNCCS(=O)(=O)O
+269,New2,HILIC,Ophthalmic acid,,(2S)-2-amino-5-[[(2S)-1-(carboxymethylamino)-1-oxobutan-2-yl]amino]-5-oxopentanoic acid,JCMUOFQHZLPHQP-BQBZGAKWSA-N,CCC(C(=O)NCC(=O)O)NC(=O)CCC(C(=O)O)N
+270,New,HILIC,L-Ornithine,,"(2S)-2,5-diaminopentanoic acid",AHLPHDHHMVZTML-BYPYZUCNSA-N,C(CC(C(=O)O)N)CN
+271,Organic Acid,HILIC,Orotic acid,,"2,4-dioxo-1H-pyrimidine-6-carboxylic acid",PXQPEWDEAKTCGB-UHFFFAOYSA-N,C1=C(NC(=O)NC1=O)C(=O)O
+272,Organic Acid,HILIC,Oxalic acid,,Oxalic acid,MUBZPKHOEPUJKR-UHFFFAOYSA-N,C(=O)(C(=O)O)O
+273,Organic Acid,HILIC,Phosphoenolpyruvic acid,,2-phosphonooxyprop-2-enoic acid,DTBNBXWJWCWCIK-UHFFFAOYSA-N,C=C(C(=O)O)OP(=O)(O)O
+274,Sugar phosphate,HILIC,3-Phosphoglycerate,,2-hydroxy-3-phosphonooxypropanoic acid,OSJPPGNTCRNQQC-UHFFFAOYSA-N,C(C(C(=O)O)O)OP(=O)(O)O
+275,Quorum sensing,HILIC,2-Heptyl-3-hydroxy-quinolone,,2-heptyl-3-hydroxy-1H-quinolin-4-one,CEIUIHOQDSVZJQ-UHFFFAOYSA-N,CCCCCCCC1=C(C(=O)C2=CC=CC=C2N1)O
+276,Amino Acid,HILIC,L-Proline,,(2S)-pyrrolidine-2-carboxylic acid,ONIBWKKTOPOVIA-BYPYZUCNSA-N,C1CC(NC1)C(=O)O
+277,Sulfur,HILIC,1-Propanesulfonate,,propane-1-sulfonate,KCXFHTAICRTXLI-UHFFFAOYSA-M,CCCS(=O)(=O)[O-]
+278,Co-enzyme A,HILIC,Propanoyl-CoA,,"S-[2-[3-[[(2R)-4-[[[(2R,3S,4R,5R)-5-(6-aminopurin-9-yl)-4-hydroxy-3-phosphonooxyoxolan-2-yl]methoxy-hydroxyphosphoryl]oxy-hydroxyphosphoryl]oxy-2-hydroxy-3,3-dimethylbutanoyl]amino]propanoylamino]ethyl] propanethioate",QAQREVBBADEHPA-IEXPHMLFSA-N,CCC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O
+279,New2,HILIC,O-Propionylcarnitine,,3-propanoyloxy-4-(trimethylazaniumyl)butanoate,UFAHZIUFPNSHSL-UHFFFAOYSA-N,CCC(=O)OC(CC(=O)[O-])C[N+](C)(C)C
+280,Lignin,HILIC,"2,5-Dihydroxybenzoic acid",,"2,5-dihydroxybenzoic acid",WXTMDXOMEHJXQO-UHFFFAOYSA-N,C1=CC(=C(C=C1O)C(=O)O)O
+281,Redox,HILIC,Riboflavin-5-phosphate,,"[(2R,3S,4S)-5-(7,8-dimethyl-2,4-dioxobenzo[g]pteridin-10-yl)-2,3,4-trihydroxypentyl] dihydrogen phosphate",FVTCRASFADXXNN-SCRDCRAPSA-N,CC1=CC2=C(C=C1C)N(C3=NC(=O)NC(=O)C3=N2)CC(C(C(COP(=O)(O)O)O)O)O
+282,Redox,HILIC,Riboflavin-5-phosphate,,,,
+283,Sugar phosphate,HILIC,D-Ribose 5-phosphate,,"[(2R,3S,4R)-3,4,5-trihydroxyoxolan-2-yl]methyl dihydrogen phosphate",KTVPXOYAKDPRHY-SOOFDHNKSA-N,C(C1C(C(C(O1)O)O)O)OP(=O)(O)O
+284,Antioxidant,HILIC,Salicylic acid,,2-hydroxybenzoic acid,YGSDEFSMJLZEOE-UHFFFAOYSA-N,C1=CC=C(C(=C1)C(=O)O)O
+285,Glycine metabolite,HILIC,Sarcosine,,2-(methylamino)acetic acid,FSYKKLYZXJSNPZ-UHFFFAOYSA-N,CNCC(=O)O
+286,Amino Acid,HILIC,L-Serine,,(2S)-2-amino-3-hydroxypropanoic acid,MTCFGRXMJLQNBG-REOHCLBHSA-N,C(C(C(=O)O)N)O
+287,New2,HILIC,S-Farnesyl-L-cysteine methyl ester,,"methyl (2R)-2-amino-3-[(2E,6E)-3,7,11-trimethyldodeca-2,6,10-trienyl]sulfanylpropanoate",SIEHZFPZQUNSAS-GCVUPTOQSA-N,CC(=CCCC(=CCCC(=CCSCC(C(=O)OC)N)C)C)C
+288,Amino Acid synthesis,HILIC,Shikimic acid,,"(3R,4S,5R)-3,4,5-trihydroxycyclohexene-1-carboxylic acid",JXOHGGNKMLTUBP-HSUXUTPPSA-N,C1C(C(C(C=C1C(=O)O)O)O)O
+289,New,HILIC,Proline betaine,,"(2S)-1,1-dimethylpyrrolidin-1-ium-2-carboxylate",CMUNUTVVOOHQPW-LURJTMIESA-N,C[N+]1(CCCC1C(=O)[O-])C
+290,Organic Acid,HILIC,Succinic acid,,butanedioic acid,KDYFGRWQOYBRFD-UHFFFAOYSA-N,C(CC(=O)O)C(=O)O
+291,Internal Standard,HILIC,"Succinic acid, 2H4",,,,
+292,Co-enzyme A,HILIC,Succinyl-CoA,,"4-[2-[3-[[(2R)-4-[[[(2R,3S,4R,5R)-5-(6-aminopurin-9-yl)-4-hydroxy-3-phosphonooxyoxolan-2-yl]methoxy-hydroxyphosphoryl]oxy-hydroxyphosphoryl]oxy-2-hydroxy-3,3-dimethylbutanoyl]amino]propanoylamino]ethylsulfanyl]-4-oxobutanoic acid",VNOYUJKHFWYWIR-ITIYDSSPSA-N,CC(C)(COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)C(C(=O)NCCC(=O)NCCSC(=O)CCC(=O)O)O
+293,New,HILIC,Sucrose,,"(2R,3R,4S,5S,6R)-2-[(2S,3S,4S,5R)-3,4-dihydroxy-2,5-bis(hydroxymethyl)oxolan-2-yl]oxy-6-(hydroxymethyl)oxane-3,4,5-triol",CZMRCDWAGMRECN-UGDNZRGBSA-N,C(C1C(C(C(C(O1)OC2(C(C(C(O2)CO)O)O)CO)O)O)O)O
+294,Internal Standard,HILIC,"Sucrose, 13C",,,,
+295,Sulfur,HILIC,Sulfoacetic acid,,2-sulfoacetic acid,AGGIJOLULBJGTQ-UHFFFAOYSA-N,C(C(=O)O)S(=O)(=O)O
+296,Internal Standard,HILIC,"Sulfoacetic acid, 13C2",,,,
+297,Sulfur,HILIC,Sulfolactic Acid,,2-hydroxy-2-sulfopropanoic acid,COMVEZIIQHBEJL-UHFFFAOYSA-N,CC(C(=O)O)(O)S(=O)(=O)O
+298,Internal Standard,HILIC,"3-Sulfolactate, 13C3",,,,
+299,Sulfur,HILIC,Taurine,,2-aminoethanesulfonic acid,XOAAWQZATWQOTB-UHFFFAOYSA-N,C(CS(=O)(=O)O)N
+300,Sulfur,HILIC,Taurine,,,,
+301,Internal Standard,HILIC,"Taurine, 2H4",,,,
+302,Vitamin (B1-derivative),HILIC,Thiamine monophosphate,,"2-[3-[(4-amino-2-methylpyrimidin-5-yl)methyl]-4-methyl-1,3-thiazol-3-ium-5-yl]ethyl dihydrogen phosphate",HZSAJDVWZRBGIF-UHFFFAOYSA-O,CC1=C(SC=[N+]1CC2=CN=C(N=C2N)C)CCOP(=O)(O)O
+303,Vitamin (B1-derivative),HILIC,Thiamine diphosphate,,"2-[3-[(4-amino-2-methylpyrimidin-5-yl)methyl]-4-methyl-1,3-thiazol-3-ium-5-yl]ethyl phosphono hydrogen phosphate",AYEKOFBPNLCAJY-UHFFFAOYSA-O,CC1=C(SC=[N+]1CC2=CN=C(N=C2N)C)CCOP(=O)(O)OP(=O)(O)O
+304,Amino Acid,HILIC,L-Threonine,,"(2S,3R)-2-amino-3-hydroxybutanoic acid",AYFVYJQAPQTCCC-GBXIJSLDSA-N,CC(C(C(=O)O)N)O
+305,Nucleoside,HILIC,Thymidine,,"1-[(2R,4S,5R)-4-hydroxy-5-(hydroxymethyl)oxolan-2-yl]-5-methylpyrimidine-2,4-dione",IQFYYKKMVGJFEH-XLPZGREQSA-N,CC1=CN(C(=O)NC1=O)C2CC(C(O2)CO)O
+306,Nucleic Acid,HILIC,Thymine,,"5-methyl-1H-pyrimidine-2,4-dione",RWQNBRDOKXIBIV-UHFFFAOYSA-N,CC1=CNC(=O)NC1=O
+307,Nucleic Acid,HILIC,Thymine,,,,
+308,Amino Acid - collagen,HILIC,Hydroxyproline,,"(2S,4R)-4-hydroxypyrrolidine-2-carboxylic acid",PMMYEEVYMWASQN-DMTCNVIQSA-N,C1C(CNC1C(=O)O)O
+309,Antioxidant,HILIC,Trehalose,,"(2R,3S,4S,5R,6R)-2-(hydroxymethyl)-6-[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyoxane-3,4,5-triol",HDTRYLNUVZCQOY-LIZSDCNHSA-N,C(C1C(C(C(C(O1)OC2C(C(C(C(O2)CO)O)O)O)O)O)O)O
+310,Internal Standard,HILIC,"Trehalose, 13C",,,,
+311,New,HILIC,Trigonelline,,1-methylpyridin-1-ium-3-carboxylate,WWNNZCOKKKDOPX-UHFFFAOYSA-N,C[N+]1=CC=CC(=C1)C(=O)[O-]
+312,New2,HILIC,Trimethylamine,,"N,N-dimethylmethanamine",GETQZCLCWQTVFV-UHFFFAOYSA-N,CN(C)C
+313,New2,HILIC,Trimethylamine N-oxide,,"N,N-dimethylmethanamine oxide",UYPYRKYUKCHHIB-UHFFFAOYSA-N,C[N+](C)(C)[O-]
+314,Amino Acid,HILIC,L-Tyrosine,,(2S)-2-amino-3-(4-hydroxyphenyl)propanoic acid,OUYCCCASQSFEME-QMMMGPOBSA-N,C1=CC(=CC=C1CC(C(=O)O)N)O
+315,Nucleotide sugar,HILIC,UDP-N-acetylglucosamine,,"[(2R,3R,4R,5S,6R)-3-acetamido-4,5-dihydroxy-6-(hydroxymethyl)oxan-2-yl] [[(2R,3S,4R,5R)-5-(2,4-dioxopyrimidin-1-yl)-3,4-dihydroxyoxolan-2-yl]methoxy-hydroxyphosphoryl] hydrogen phosphate",LFTYTUAZOPRMMI-CFRASDGPSA-N,CC(=O)NC1C(C(C(OC1OP(=O)(O)OP(=O)(O)OCC2C(C(C(O2)N3C=CC(=O)NC3=O)O)O)CO)O)O
+316,Nucleotide sugar,HILIC,UDP-glucose,,"[[(2R,3S,4R,5R)-5-(2,4-dioxopyrimidin-1-yl)-3,4-dihydroxyoxolan-2-yl]methoxy-hydroxyphosphoryl] [(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl] hydrogen phosphate",HSCJRCZFDFQWRP-JZMIEXBBSA-N,C1=CN(C(=O)NC1=O)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)OC3C(C(C(C(O3)CO)O)O)O)O)O
+317,Nucleic Acid,HILIC,Uracil,,"1H-pyrimidine-2,4-dione",ISAKRJDGNUQOIC-UHFFFAOYSA-N,C1=CNC(=O)NC1=O
+318,Nucleoside,HILIC,Uridine,,"1-[(2R,3R,4S,5R)-3,4-dihydroxy-5-(hydroxymethyl)oxolan-2-yl]pyrimidine-2,4-dione",DRTQHJPVMGBUCF-XVFCMESISA-N,C1=CN(C(=O)NC1=O)C2C(C(C(O2)CO)O)O
+319,Amino Acid,HILIC,L-Valine,,(2S)-2-amino-3-methylbutanoic acid,KZSNJWFQEVHDMF-BYPYZUCNSA-N,CC(C)C(C(=O)O)N
+320,Vitamin,HILIC,Nicotinic acid,,pyridine-3-carboxylic acid,PVNIIMVLHYAWGP-UHFFFAOYSA-N,C1=CC(=CN=C1)C(=O)O
+321,New3,HILIC,Dimethylsulfonioacetate,,2-dimethylsulfonioacetate,PSBDWGZCVUAZQS-UHFFFAOYSA-N,C[S+](C)CC(=O)[O-]
+322,New3,HILIC,Gonyol,,(3S)-5-(Dimethylsulfonio)-3-hydroxypentanoate,BGFHLXJVANJCHK-ZCFIWIBFSA-N,C[S+](C)CCC(CC(=O)[O-])O
+323,New3,HILIC,Turicine,,"(2R,4R)-4-hydroxy-1,1-dimethylpyrrolidin-1-ium-2-carboxylate",MUNWAHDYFVYIKH-PHDIDXHHSA-N,C[N+]1(CC(CC1C(=O)[O-])O)C
+324,New3,HILIC,Betonicine,,"(2S,4R)-4-hydroxy-1,1-dimethylpyrrolidin-1-ium-2-carboxylate",MUNWAHDYFVYIKH-RITPCOANSA-N,C[N+]1(CC(CC1C(=O)[O-])O)C
+325,New3,HILIC,O-Methylmalonyl-L-carnitine,,(3R)-3-(2-carboxypropanoyloxy)-4-(trimethylazaniumyl)butanoate,XROYFEWIXXCPAW-BRFYHDHCSA-N,CC(C(=O)O)C(=O)OC(CC(=O)[O-])C[N+](C)(C)C
+326,New3,HILIC,Succinic semialdehyde,,4-oxobutanoic acid,UIUJIQZEACWQSV-UHFFFAOYSA-N,C(CC(=O)O)C=O
+327,New3,HILIC,Arsenobetaine,,2-trimethylarsoniumylacetate,SPTHHTGLGVZZRH-UHFFFAOYSA-N,C[As+](C)(C)CC(=O)[O-]
+328,New3,RP,Arsenobetaine,,2-trimethylarsoniumylacetate,SPTHHTGLGVZZRH-UHFFFAOYSA-N,C[As+](C)(C)CC(=O)[O-]
+329,New3,HILIC,Dexpanthenol,,"(2R)-2,4-dihydroxy-N-(3-hydroxypropyl)-3,3-dimethylbutanamide",SNPLKNRPJHDVJA-ZETCQYMHSA-N,CC(C)(CO)C(C(=O)NCCCO)O
+330,New3,RP,Dexpanthenol,,"(2R)-2,4-dihydroxy-N-(3-hydroxypropyl)-3,3-dimethylbutanamide",SNPLKNRPJHDVJA-ZETCQYMHSA-N,CC(C)(CO)C(C(=O)NCCCO)O
+331,New3,HILIC,Sulfanilic acid,,4-aminobenzenesulfonic acid,HVBSAKJJOYLTQU-UHFFFAOYSA-N,C1=CC(=CC=C1N)S(=O)(=O)O
+332,New3,HILIC,Inosine,,"9-[(2R,3R,4S,5R)-3,4-dihydroxy-5-(hydroxymethyl)oxolan-2-yl]-1H-purin-6-one",UGQMRVRMYYASKQ-KQYNXXCUSA-N,C1=NC2=C(C(=O)N1)N=CN2C3C(C(C(O3)CO)O)O
+333,New3,HILIC,Inosine,,,,
+334,New3,RP,Inosine,,"9-[(2R,3R,4S,5R)-3,4-dihydroxy-5-(hydroxymethyl)oxolan-2-yl]-1H-purin-6-one",UGQMRVRMYYASKQ-KQYNXXCUSA-N,C1=NC2=C(C(=O)N1)N=CN2C3C(C(C(O3)CO)O)O
+335,New3,HILIC,Hordenine,,4-[2-(dimethylamino)ethyl]phenol,KUBCEEMXQZUPDQ-UHFFFAOYSA-N,CN(C)CCC1=CC=C(C=C1)O
+336,New3,RP,Hordenine,,4-[2-(dimethylamino)ethyl]phenol,KUBCEEMXQZUPDQ-UHFFFAOYSA-N,CN(C)CCC1=CC=C(C=C1)O
+337,New3,HILIC,Allopurinol,,"1,5-dihydropyrazolo[3,4-d]pyrimidin-4-one",OFCNXPDARWKPPY-UHFFFAOYSA-N,C1=NNC2=C1C(=O)NC=N2
+338,New3,HILIC,Allopurinol,,,,
+339,New3,RP,Allopurinol,,"1,5-dihydropyrazolo[3,4-d]pyrimidin-4-one",OFCNXPDARWKPPY-UHFFFAOYSA-N,C1=NNC2=C1C(=O)NC=N2
+340,New3,HILIC,Urocanic acid,,(E)-3-(1H-imidazol-5-yl)prop-2-enoic acid,LOIYMIARKYCTBW-OWOJBTEDSA-N,C1=C(NC=N1)C=CC(=O)O
+341,New3,HILIC,Urocanic acid,,,,
+342,New3,HILIC,Hydroxyisoleucine,,"(2S,3R,4S)-2-amino-4-hydroxy-3-methylpentanoic acid",OSCCDBFHNMXNME-YUPRTTJUSA-N,CC(C(C)O)C(C(=O)O)N
+343,New3,HILIC,Hydroxyisoleucine,,,,
+344,New3,HILIC,Deoxyadenosine,,"(2R,3S,5R)-5-(6-aminopurin-9-yl)-2-(hydroxymethyl)oxolan-3-ol",OLXZPDWKRNYJJZ-RRKCRQDMSA-N,C1C(C(OC1N2C=NC3=C(N=CN=C32)N)CO)O
+345,New3,RP,Deoxyadenosine,,"(2R,3S,5R)-5-(6-aminopurin-9-yl)-2-(hydroxymethyl)oxolan-3-ol",OLXZPDWKRNYJJZ-RRKCRQDMSA-N,C1C(C(OC1N2C=NC3=C(N=CN=C32)N)CO)O
+346,New3,HILIC,beta-Alanine,,3-aminopropanoic acid,UCMIRNVEIXFBKS-UHFFFAOYSA-N,C(CN)C(=O)O
+347,New3,HILIC,Melamine,,"1,3,5-triazine-2,4,6-triamine",JDSHMPZPIAZGSV-UHFFFAOYSA-N,C1(=NC(=NC(=N1)N)N)N
+348,New3,HILIC,Maltose,,"(2R,3S,4S,5R,6R)-2-(hydroxymethyl)-6-[(2R,3S,4R,5R,6R)-4,5,6-trihydroxy-2-(hydroxymethyl)oxan-3-yl]oxyoxane-3,4,5-triol",GUBGYTABKSRVRQ-QUYVBRFLSA-N,C(C1C(C(C(C(O1)OC2C(OC(C(C2O)O)O)CO)O)O)O)O
+349,New3,HILIC,Lactose,,"(2R,3R,4S,5R,6S)-2-(hydroxymethyl)-6-[(2R,3S,4R,5R,6R)-4,5,6-trihydroxy-2-(hydroxymethyl)oxan-3-yl]oxyoxane-3,4,5-triol",GUBGYTABKSRVRQ-DCSYEGIMSA-N,C(C1C(C(C(C(O1)OC2C(OC(C(C2O)O)O)CO)O)O)O)O
+350,New3,HILIC,Lactose,,,,
+351,New4,HILIC,Acetylcholine,,2-acetyloxyethyl(trimethyl)azanium,OIPILFWXSMYKGL-UHFFFAOYSA-N,CC(=O)OCC[N+](C)(C)C
+352,New4,HILIC,L-Cysteinesulfinic acid,,(2R)-2-amino-3-sulfinopropanoic acid,ADVPTQAUNPRNPO-REOHCLBHSA-N,C(C(C(=O)O)N)S(=O)O
+353,New4,HILIC,L-Cysteinesulfinic acid,,,,
+354,New4,HILIC,beta-Alaninebetaine,,3-(trimethylazaniumyl)propanoate,ACZVSMNFVFBOTM-UHFFFAOYSA-N,C[N+](C)(C)CCC(=O)[O-]
+355,New5,HILIC,5-Methylcytosine,,6-amino-5-methyl-1H-pyrimidin-2-one,LRSASMSXMSNRBT-UHFFFAOYSA-N,CC1=C(NC(=O)N=C1)N
+356,New5,HILIC,N6-Methyladenine,,N-methyl-7H-purin-6-amine,CKOMXBHMKXXTNW-UHFFFAOYSA-N,CNC1=NC=NC2=C1NC=N2
+357,New5,HILIC,Carnosine,,(2S)-2-(3-aminopropanoylamino)-3-(1H-imidazol-5-yl)propanoic acid,CQOVPNPJLQNMDC-ZETCQYMHSA-N,C1=C(NC=N1)CC(C(=O)O)NC(=O)CCN
+358,New5,HILIC,Carnosine,,,,
+359,New5,HILIC,N-Acetyl-D-glucosamine,,"N-[(3R,4R,5S,6R)-2,4,5-trihydroxy-6-(hydroxymethyl)oxan-3-yl]acetamide",OVRNDRQMDRJTHS-RTRLPJTCSA-N,CC(=O)NC1C(C(C(OC1O)CO)O)O
+360,New5,HILIC,"N6,N6,N6-Trimethyl-L-lysine",,(2S)-2-amino-6-(trimethylazaniumyl)hexanoate,MXNRLFUSFKVQSK-QMMMGPOBSA-N,C[N+](C)(C)CCCCC(C(=O)[O-])N
+361,New5,HILIC,beta-Glutamic acid,,3-aminopentanedioic acid,BBJIPMIXTXKYLZ-UHFFFAOYSA-N,C(C(CC(=O)O)N)C(=O)O
+362,New5,HILIC,Anserine,,(2S)-2-(3-aminopropanoylamino)-3-(3-methylimidazol-4-yl)propanoic acid,MYYIAHXIVFADCU-QMMMGPOBSA-N,CN1C=NC=C1CC(C(=O)O)NC(=O)CCN
+363,New5,HILIC,Anserine,,,,
+364,New5,HILIC,N-Acetylmuramic acid,,"(2R)-2-[(3R,4R,5S,6R)-3-acetamido-2,5-dihydroxy-6-(hydroxymethyl)oxan-4-yl]oxypropanoic acid",MNLRQHMNZILYPY-MKFCKLDKSA-N,CC(C(=O)O)OC1C(C(OC(C1O)CO)O)NC(=O)C
+365,New5,HILIC,N-Acetylmuramic acid,,,,
+366,New5,HILIC,Hypoxanthine,,"1,7-dihydropurin-6-one",FDGQSTZJBFJUBT-UHFFFAOYSA-N,C1=NC2=C(N1)C(=O)NC=N2
+367,New5,HILIC,Hypoxanthine,,,,
+368,Internal Standard,HILIC,"Glycine betaine, 13C5, 15N",,,,
+369,Internal Standard,HILIC,"Adenine, 15N2",,,,
+370,Internal Standard,HILIC,"Cytosine, 13C2, 15N3",,,,
+371,Internal Standard,HILIC,"Guanine, 13C, 15N2",,,,
+372,Internal Standard,HILIC,"Thymine, 2H4",,,,
+373,Internal Standard,HILIC,"Uracil, 15N2, 2H2",,,,
+374,New6,HILIC,Threonic acid,,"(2S,3R)-2,3,4-trihydroxybutanoic acid",JPIJQSOTBSSVTP-GBXIJSLDSA-N,C(C(C(C(=O)O)O)O)O
+375,New6,HILIC,Propionylglycine,,2-(propanoylamino)acetic acid,WOMAZEJKVZLLFE-UHFFFAOYSA-N,CCC(=O)NCC(=O)O
+376,New6,HILIC,Succinylglycine,,4-(carboxymethylamino)-4-oxobutanoic acid,HQESMQVYRAJTEA-UHFFFAOYSA-N,C(CC(=O)O)C(=O)NCC(=O)O
+377,New6,HILIC,Acetylglycine,,2-acetamidoacetic acid,OKJIRPAQVSHGFK-UHFFFAOYSA-N,CC(=O)NCC(=O)O
+378,New6,HILIC,Butyrylglycine,,2-(butanoylamino)acetic acid,WPSSBBPLVMTKRN-UHFFFAOYSA-N,CCCC(=O)NCC(=O)O
+379,New6,HILIC,Ergothioneine,,"(2S)-3-(2-sulfanylidene-1,3-dihydroimidazol-4-yl)-2-(trimethylazaniumyl)propanoate",SSISHJJTAXXQAX-ZETCQYMHSA-N,C[N+](C)(C)C(CC1=CNC(=S)N1)C(=O)[O-]
+380,New6,HILIC,"2,3-Pyridinedicarboxylic acid",,"pyridine-2,3-dicarboxylic acid",GJAWHXHKYYXBSV-UHFFFAOYSA-N,C1=CC(=C(N=C1)C(=O)O)C(=O)O
+381,New6,HILIC,Glutamylphenylalanine,,(2S)-2-amino-5-[[(1S)-1-carboxy-2-phenylethyl]amino]-5-oxopentanoic acid,XHHOHZPNYFQJKL-QWRGUYRKSA-N,C1=CC=C(C=C1)CC(C(=O)O)NC(=O)CCC(C(=O)O)N
+382,New6,HILIC,Glutamylphenylalanine,,,,
+383,New6,HILIC,N-Acetyl-L-glutamic acid,,(2S)-2-acetamidopentanedioic acid,RFMMMVDNIPUKGG-YFKPBYRVSA-N,CC(=O)NC(CCC(=O)O)C(=O)O
+384,New6,HILIC,N-Acetyl-L-glutamic acid,,,,
+385,New6,HILIC,(3-Carboxypropyl)trimethylammonium,,,,
+386,Internal Standard,HILIC,"Arsenobetaine, 13C2",,,,
