@@ -99,7 +99,7 @@ write.csv(Ingalls_Lab_Standards_Extras, "Ingalls_Lab_Standards_NEW.csv")
 
 -----
 
-```{r Source Figures Names code, incldue=TRUE}
+```{r Source Figures Names code, include=TRUE}
 
 source("src/Figure_Names.R")
 
