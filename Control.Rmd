@@ -72,7 +72,6 @@ All symbols that are part of the KEGG name will remain in place. A syntactically
 5/28/20: Bug fixes in final names.
 5/28/20: First suggestions for Figure Name column.
 6/3/20: Final Figure Names decided.
-7/20/20: ChEBI IDs modified, new column added.
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -105,6 +104,7 @@ write.csv(Ingalls_Lab_Standards_Extras, "Ingalls_Lab_Standards_NEW.csv")
 source("src/Figure_Names.R")
 
 write.csv(Ingalls_Lab_Standards_FigNames, "Ingalls_Lab_Standards_NEW.csv")
+
 
 ```
 
