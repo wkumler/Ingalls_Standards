@@ -43,6 +43,11 @@ All symbols that are part of the KEGG name will remain in place. A syntactically
 
 *Figure Names column added*
 * Add in a Figure Name column.  
+* Replace vitamins with full names.
+* Bug fixes in primary and figure name columns.
+
+
+#### Changes made in v3.0
 
 
 #### Long-term Changes
@@ -103,12 +108,3 @@ write.csv(Ingalls_Lab_Standards_FigNames, "Ingalls_Lab_Standards_NEW.csv")
 
 ```
 
------
-
-```{r Source ChEBI ID code, incldue=TRUE}
-
-source("src/ChEBI.R")
-
-write.csv(Ingalls_Lab_Standards_ChEBI, "Ingalls_Lab_Standards_NEW.csv")
-
-```
