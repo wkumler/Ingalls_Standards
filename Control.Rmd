@@ -48,6 +48,8 @@ All symbols that are part of the KEGG name will remain in place. A syntactically
 
 
 #### Changes made in v3.0
+* ChEBI names added (Jul 20)
+* ChEBI names fixed! (Jul 31)
 
 
 #### Long-term Changes
@@ -104,7 +106,13 @@ write.csv(Ingalls_Lab_Standards_Extras, "Ingalls_Lab_Standards_NEW.csv")
 source("src/Figure_Names.R")
 
 write.csv(Ingalls_Lab_Standards_FigNames, "Ingalls_Lab_Standards_NEW.csv")
-
-
 ```
 
+-----
+
+```{r Source ChEBI code, include=TRUE}
+
+source("src/CHEBI_check.R")
+
+write.csv(Ingalls_Lab_Standards_ChEBI, "Ingalls_Lab_Standards_NEW.csv")
+```
