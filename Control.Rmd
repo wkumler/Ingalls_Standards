@@ -76,6 +76,7 @@ All symbols that are part of the KEGG name will remain in place. A syntactically
 6/3/20: Final Figure Names decided.
 7/30/20: ChEBI names scraped from website and added in new column.
 8/3/20: IUPAC, InCHI, and SMILES columns added to standards.
+8/10/20: Classyfire classifications added for those compounds that have them.
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -126,4 +127,18 @@ write.csv(Ingalls_Lab_Standards_ChEBI, "Ingalls_Lab_Standards_NEW.csv")
 source("src/IUPAC_InChl_Smiles.R")
 
 write.csv(Ingalls_Lab_Standards_IUPAC.InCHI.SMILES, "Ingalls_Lab_Standards_NEW.csv")
+```
+
+-----
+
+The next section deals with the ClassyFire ID section. 
+The source code for creating the ClassyFire IDs commented out: *DO NOT RUN THE COMMENTED LINE UNLESS YOU ARE STARTING THE PROJECT FROM SCRATCH!!* It can take several hours just to complete that function.
+
+```{r Source Classyfire code, include=TRUE}
+
+### source("src/High_Class_Function_062220.R") ###
+source("src/Classyfire_column.R")
+
+write.csv(Ingalls_Lab_Standards_Classyfire, "")
+
 ```

@@ -7,16 +7,15 @@
 #School of Oceanography, University of Washington
 #06/22/20
 
-#The function is called high_class() where the input is a tibble of 1 column where each observation 
+# The function is called high_class() where the input is a tibble of 1 column where each observation 
 # is the InChI Key of a compound you are interested in classifying (the InChI Keys for a compound
 # can be found on sites like pubchem). The output is a tibble of 4 columns (key,Level,Classification,CHEMONT)
 # where each observation corresponds to a compound (identified by its InChI key), a level within the ClassyFire
-# classification system (ex. subclass), the classifcation of the compound at that level (ex. Fatty Acid Esters)
-# and the ChemOnt-ID # for that classifaction. The other functions present are adapted from the ClassyFire_R package
+# classification system (ex. subclass), the classification of the compound at that level (ex. Fatty Acid Esters)
+# and the ChemOnt-ID # for that classification. The other functions present are adapted from the ClassyFire_R package
 # and have been modified and included in the high_class function.
 
 #Required packages
-install.packages("clisymbols")
 
 library(clisymbols)
 
