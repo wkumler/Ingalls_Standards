@@ -139,5 +139,5 @@ The source code for creating the ClassyFire IDs commented out: *DO NOT RUN THE C
 ### source("src/High_Class_Function_062220.R") ###
 source("src/Classyfire_column.R")
 
-write.csv(Ingalls_Lab_Standards_Classyfire, "Ingalls_Lab_Standards_NEW.csv")
+write.csv(Ingalls_Lab_Standards_Classyfire, "Ingalls_Lab_Standards_NEW.csv", row.names = FALSE)
 ```
