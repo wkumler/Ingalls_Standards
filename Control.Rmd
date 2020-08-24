@@ -96,13 +96,12 @@ for (i in filenames) {
   filepath <- file.path("data_raw", paste(i, ".csv", sep = ""))
   assign(make.names(i), read.csv(filepath, stringsAsFactors = FALSE, fileEncoding = "latin1"))
 }
+
 source("src/Primary_ID.R")
 
 write.csv(Ingalls_Lab_Standards_Extras, "Ingalls_Lab_Standards_NEW.csv")
 
 ```
-
------
 
 ```{r Source Figures Names code, include=TRUE}
 
@@ -132,12 +131,15 @@ write.csv(Ingalls_Lab_Standards_IUPAC.InCHI.SMILES, "Ingalls_Lab_Standards_NEW.c
 -----
 
 The next section deals with the ClassyFire ID section. 
-The source code for creating the ClassyFire IDs commented out: *DO NOT RUN THE COMMENTED LINE UNLESS YOU ARE STARTING THE PROJECT FROM SCRATCH!!* It can take several hours just to complete that function.
+The source code for creating the ClassyFire IDs commented out: *DO NOT RUN THE High Class Function LINE UNLESS YOU ARE STARTING THE PROJECT FROM SCRATCH!!* It can take several hours just to complete that function.
 
 ```{r Source Classyfire code, include=TRUE}
 
 ### source("src/High_Class_Function_062220.R") ###
 source("src/Classyfire_column.R")
+
+Ingalls_Lab_Standards_Classyfire$m.z <- sub("188.055899Â", "188.055899",
+                                            Ingalls_Lab_Standards_Classyfire$m.z)
 
 write.csv(Ingalls_Lab_Standards_Classyfire, "Ingalls_Lab_Standards_NEW.csv", row.names = FALSE)
 ```
