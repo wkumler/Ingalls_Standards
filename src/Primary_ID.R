@@ -64,8 +64,6 @@ Ingalls_Lab_Standards_Abbr <- Ingalls_Lab_Standards_IS %>%
   mutate(Compound.Name = ifelse(is.na(Compound.Name), Compound.Name_new, Compound.Name)) %>%
   select(Compound.Type, Column, everything(), -Compound.Name_new) 
 
-#write.csv(Ingalls_Lab_Standards_Abbr, "Ingalls_Lab_Standards_NEW.csv")
-
 ## Isolate different capitalizations of compounds
 Capitalizations <- Ingalls_Lab_Standards_LauraEdit %>%
   select(Compound.Name_new, Compound.Name_old) %>%
@@ -98,8 +96,6 @@ Ingalls_Lab_Standards_Caps <- Ingalls_Lab_Standards_Abbr %>%
   mutate(Compound.Name = ifelse(is.na(Compound.Name), Compound.Name_new, Compound.Name)) %>%
   select(Compound.Type, Column, everything(), -Compound.Name_new) %>%
   unique()
-
-#write.csv(Ingalls_Lab_Standards_Caps, "Ingalls_Lab_Standards_NEW.csv")
 
 # Isolate Symbols  
 Symbols <- Ingalls_Lab_Standards_Caps %>%

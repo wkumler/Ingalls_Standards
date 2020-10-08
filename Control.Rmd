@@ -51,6 +51,8 @@ All symbols that are part of the KEGG name will remain in place. A syntactically
 * ChEBI names added (Jul 20)
 * ChEBI names fixed! (Jul 31)
 
+#### Changes made in v4.0
+
 
 #### Long-term Changes
 * Include a column for syntactically correct names, which may or may not be the primary name.
@@ -68,7 +70,7 @@ All symbols that are part of the KEGG name will remain in place. A syntactically
 4/22/20: Added or removed symbols as required by KEGG names.  
 4/23/20: Update last compounds not falling into the above groups.
 4/23/20: Complete renaming of compounds, including those that didn't change from the original names.
-4/28/20: Adjust vitmins to descriptive names.
+4/28/20: Adjust vitamins to descriptive names.
 4/29/20: Adjust abbreviations for consistency.
 5/8/20: FINAL NAMES DECIDED FOR PRIMARY ID.
 5/28/20: Bug fixes in final names.
@@ -131,7 +133,7 @@ write.csv(Ingalls_Lab_Standards_IUPAC.InCHI.SMILES, "Ingalls_Lab_Standards_NEW.c
 -----
 
 The next section deals with the ClassyFire ID section. 
-The source code for creating the ClassyFire IDs commented out: *DO NOT RUN THE High Class Function LINE UNLESS YOU ARE STARTING THE PROJECT FROM SCRATCH!!* It can take several hours just to complete that function.
+The source code for creating the ClassyFire IDs commented out: *DO NOT RUN THE High Class Function LINE UNLESS YOU ARE STARTING THE PROJECT FROM SCRATCH!!* It can take several hours just to complete.
 
 ```{r Source Classyfire code, include=TRUE}
 
@@ -142,4 +144,15 @@ Ingalls_Lab_Standards_Classyfire$m.z <- sub("188.055899Â", "188.055899",
                                             Ingalls_Lab_Standards_Classyfire$m.z)
 
 write.csv(Ingalls_Lab_Standards_Classyfire, "Ingalls_Lab_Standards_NEW.csv", row.names = FALSE)
+```
+
+-----
+
+```{r Source SQL-Safe code, include=TRUE}
+
+### source("src/High_Class_Function_062220.R") ###
+source("src/SQL-Safe.R")
+
+
+write.csv(Ingalls_Lab_Standards_SQLSafe, "Ingalls_Lab_Standards_NEW.csv", row.names = FALSE)
 ```
