@@ -52,10 +52,16 @@ All symbols that are part of the KEGG name will remain in place. A syntactically
 * ChEBI names fixed! (Jul 31)
 
 #### Changes made in v4.0
+* Add column with IUPAC, InCHI, SMILES names.
 
+#### Changes made in v5.0
+* Incorporate known Classyfire compound designation column.
+
+#### Changes made in v6.0
+* Create new column with SQL-safe compound names, no special characters.
+* Update a few figure names in the Fig Names column.
 
 #### Long-term Changes
-* Include a column for syntactically correct names, which may or may not be the primary name.
 * Possibly include a column of annotation, depending on size/how much info is in that column.
 * Set up system to keep note of changes to official KEGG compound names whether or not those changes are enacted.  
 * Add stereoisomer orientation column.  
