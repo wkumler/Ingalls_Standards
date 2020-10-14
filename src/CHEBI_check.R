@@ -5,15 +5,16 @@ library(dplyr) # For piping and data shaping
 # the ChEBI id found on the KEGG webpage. If there are multiple, return the
 # first one. If not found, return NA.
 grabChEBI <- function(compound_id){
-  if(is.na(compound_id)){
+  if(is.na(compound_id)) {
     return(NA)
   }
   ChEBI <- compound_id %>%
     paste0("http://rest.kegg.jp/get/", .) %>%
     GET() %>%
     content() %>%
-    unlist(strsplit(., "\\n")) %>%
-    #unlist() %>%
+    as.character() %>%
+    strsplit(., "\\n") %>%
+    unlist() %>%
     grep(pattern = "ChEBI", value = TRUE) %>%
     gsub(pattern = " *ChEBI: ", replacement = "") %>%
     gsub(pattern = " .*", replacement = "")
@@ -31,7 +32,7 @@ new_ChEBI <- sapply(unique(latest.standards$C0), grabChEBI)
 # Replace the item with the obnoxious name <NA> with the character "NA"
 names(new_ChEBI)[which(is.na(names(new_ChEBI)))] <- "NA"
 
-#Merge with standards for comparison
+# Merge with standards for comparison
 ChEBI_comparison <- new_ChEBI %>%
   data.frame(C0=names(.), new_ChEBI=paste0("CHEBI:", .)) %>%
   left_join(latest.standards, ., by="C0")
