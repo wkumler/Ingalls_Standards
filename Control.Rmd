@@ -151,6 +151,7 @@ write.csv(Ingalls_Lab_Standards_Classyfire, "Ingalls_Lab_Standards_NEW.csv", row
 ```{r Source SQL-Safe code, include=TRUE}
 
 source("src/SQL_Safe.R")
+Ingalls_Lab_Standards_SQLSafe$Compound.Name_SQL <- gsub("Vit", "Vitamin", Ingalls_Lab_Standards_SQLSafe$Compound.Name_SQL)
 
 write.csv(Ingalls_Lab_Standards_SQLSafe, "Ingalls_Lab_Standards_NEW.csv", row.names = FALSE)
 ```

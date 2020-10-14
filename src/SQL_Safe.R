@@ -36,7 +36,16 @@ Last.Fixes <- Replace.Long %>%
                                     "N e  Acetyl Lysine" = "Ne Acetyl lysine")) %>%
   mutate_at(c("Compound.Name_SQL"), replace_double_spaces)
 
+
 Ingalls_Lab_Standards_SQLSafe <- Ingalls_Lab_Standards_Classyfire %>%
   left_join(Last.Fixes, by = c("Compound.Name", "Compound.Name_figure")) %>%
+  mutate(Fig.SpecialCharacter = ifelse(str_detect(Compound.Name_figure, "[^[:alnum:] ]"), TRUE, FALSE),
+         Long.SpecialCharacter = ifelse(str_detect(Compound.Name, "[^[:alnum:] ]"), TRUE, FALSE)) %>%
+  mutate(Compound.Name_SQL = ifelse(Fig.SpecialCharacter == FALSE & Long.SpecialCharacter == FALSE, 
+                                    Compound.Name, Compound.Name_SQL),
+         Compound.Name_SQL = ifelse(Fig.SpecialCharacter == FALSE, 
+                                    Compound.Name_figure, Compound.Name_SQL),
+         Compound.Name_SQL = ifelse(Long.SpecialCharacter == FALSE, 
+                                    Compound.Name, Compound.Name_SQL)) %>%
   select(Compound.Type:Compound.Name_figure, Compound.Name_SQL, QE.LinRange:Classyfire)
 
