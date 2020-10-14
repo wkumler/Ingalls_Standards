@@ -36,6 +36,7 @@ Last.Fixes <- Replace.Long %>%
                                     "N e  Acetyl Lysine" = "Ne Acetyl lysine")) %>%
   mutate_at(c("Compound.Name_SQL"), replace_double_spaces)
 
-Ingalls_Lab_Standards_SQLSafe <- Ingalls_Lab_Standards_NEW %>%
-  left_join(Last.Fixes, by = "Compound.Name")
+Ingalls_Lab_Standards_SQLSafe <- Ingalls_Lab_Standards_Classyfire %>%
+  left_join(Last.Fixes, by = c("Compound.Name", "Compound.Name_figure")) %>%
+  select(Compound.Type:Compound.Name_figure, Compound.Name_SQL, QE.LinRange:Classyfire)
 
