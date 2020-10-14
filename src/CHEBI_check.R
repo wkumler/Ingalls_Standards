@@ -12,8 +12,8 @@ grabChEBI <- function(compound_id){
     paste0("http://rest.kegg.jp/get/", .) %>%
     GET() %>%
     content() %>%
-    strsplit("\\n") %>%
-    unlist() %>%
+    unlist(strsplit(., "\\n")) %>%
+    #unlist() %>%
     grep(pattern = "ChEBI", value = TRUE) %>%
     gsub(pattern = " *ChEBI: ", replacement = "") %>%
     gsub(pattern = " .*", replacement = "")

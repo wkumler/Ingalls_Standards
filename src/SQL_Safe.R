@@ -1,7 +1,6 @@
 # Script for SQL-Safe, CMAP-Friendly compound names
 library(tidyverse)
 
-
 replace_special_characters <- function(x) (gsub("[^[:alnum:] ]", " ", x))
 replace_double_spaces <- function(x) (gsub("  ", " ", x))
 
@@ -37,4 +36,6 @@ Last.Fixes <- Replace.Long %>%
                                     "N e  Acetyl Lysine" = "Ne Acetyl lysine")) %>%
   mutate_at(c("Compound.Name_SQL"), replace_double_spaces)
 
+Ingalls_Lab_Standards_SQLSafe <- Ingalls_Lab_Standards_NEW %>%
+  left_join(Last.Fixes, by = "Compound.Name")
 
