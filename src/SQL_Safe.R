@@ -4,7 +4,6 @@ library(tidyverse)
 replace_special_characters <- function(x) (gsub("[^[:alnum:] ]", " ", x))
 replace_double_spaces <- function(x) (gsub("  ", " ", x))
 
-
 Special.Names <- read.csv("Ingalls_Lab_Standards_NEW.csv", stringsAsFactors = FALSE) %>%
   select(Compound.Name, Compound.Name_figure) %>%
   filter_all(any_vars(str_detect(., "[^[:alnum:] ]"))) %>%
@@ -17,10 +16,11 @@ Replace.Long <- Special.Names %>%
   mutate_at(c("Compound.Name_SQL"), replace_special_characters) %>%
   filter(Fig.SpecialCharacter == TRUE & Long.SpecialCharacter == TRUE)
 
-Last.Fixes <- Replace.Long %>%
+Replace.Specifics <- Replace.Long %>%
   mutate(Compound.Name_SQL = recode(Compound.Name_SQL,
                                     # Small fixes
                                     "2 Hydroxy 4  methylthio butyric acid" = "2 Hydroxy 4 methylthio butyric acid",
+                                    "4 Hydroxybenzaldehyde" = "4 hydroxybenzaldehyde",
                                     "7 DHC" = "7 Dehydrocholesterol",
                                     "a Tocotrienol" = "alpha Tocotrienal",
                                     "b Alanine" = "beta Alanine",
@@ -36,9 +36,11 @@ Last.Fixes <- Replace.Long %>%
                                     "N e  Acetyl Lysine" = "Ne Acetyl lysine")) %>%
   mutate_at(c("Compound.Name_SQL"), replace_double_spaces)
 
-
-Ingalls_Lab_Standards_SQLSafe <- Ingalls_Lab_Standards_Classyfire %>%
-  left_join(Last.Fixes, by = c("Compound.Name", "Compound.Name_figure")) %>%
+LauraEditsSQL <- read.csv("data_raw/Standards_LeadingNumbers_LTC.csv") %>%
+  select(Compound.Name_SQL, Compound.Name_SQL_LTC)
+  
+Last.Fixes <- Ingalls_Lab_Standards_Classyfire %>%
+  left_join(Replace.Specifics, by = c("Compound.Name", "Compound.Name_figure")) %>%
   mutate(Fig.SpecialCharacter = ifelse(str_detect(Compound.Name_figure, "[^[:alnum:] ]"), TRUE, FALSE),
          Long.SpecialCharacter = ifelse(str_detect(Compound.Name, "[^[:alnum:] ]"), TRUE, FALSE)) %>%
   mutate(Compound.Name_SQL = ifelse(Fig.SpecialCharacter == FALSE & Long.SpecialCharacter == FALSE, 
@@ -48,4 +50,10 @@ Ingalls_Lab_Standards_SQLSafe <- Ingalls_Lab_Standards_Classyfire %>%
          Compound.Name_SQL = ifelse(Long.SpecialCharacter == FALSE, 
                                     Compound.Name, Compound.Name_SQL)) %>%
   select(Compound.Type:Compound.Name_figure, Compound.Name_SQL, QE.LinRange:Classyfire)
+
+Ingalls_Lab_Standards_SQLSafe <- Last.Fixes %>%
+  left_join(LauraEditsSQL) %>%
+  mutate(Compound.Name_SQL = ifelse(is.na(Compound.Name_SQL_LTC), Compound.Name_SQL, Compound.Name_SQL_LTC)) %>%
+  select(-Compound.Name_SQL_LTC)
+  
 

@@ -85,6 +85,7 @@ All symbols that are part of the KEGG name will remain in place. A syntactically
 7/30/20: ChEBI names scraped from website and added in new column.
 8/3/20: IUPAC, InCHI, and SMILES columns added to standards.
 8/10/20: Classyfire classifications added for those compounds that have them.
+10/14/20: First version of SQL-safe names introduced. 
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
