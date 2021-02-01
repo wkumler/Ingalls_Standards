@@ -1,0 +1,18 @@
+---
+title: "Ingalls Standards Project: Small Changes"
+author: "R.Lionheart"
+date: "02/01/2020"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+source("src/Functions.R")
+
+library(tidyverse)
+```
+
+------
+
