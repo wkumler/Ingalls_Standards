@@ -14,9 +14,12 @@ source("src/Functions.R")
 library(tidyverse)
 ```
 
+## Change Log
+02/01/21: Remove Fraction1 and Fraction2 columns. Fix NADH and Riboflavin-5-phosphate ionization forms and z charges.
+
 ------
-# Check out SHA 51d3d3c for correct timeline of changes.
-```{r}
+# Check out SHA 51d3d3c for correct version of changes.
+
 # Drop Fraction1 and Fraction2 columns.
 Ingalls_Lab_Standards_dropFractions <- read.csv("Ingalls_Lab_Standards_NEW.csv") %>% 
   select(-Fraction1, -Fraction2)
@@ -28,6 +31,6 @@ Ingalls_Lab_Standards_dropFractions$ionization_form[which(Ingalls_Lab_Standards_
 Ingalls_Lab_Standards_dropFractions$z[which(Ingalls_Lab_Standards_dropFractions$Compound.Name == "Riboflavin-5-phosphate" &
                                                       Ingalls_Lab_Standards_dropFractions$ionization_form == "[M-H]")] <- "-1"
 
-
 write.csv(Ingalls_Lab_Standards_dropFractions, "Ingalls_Lab_Standards_NEW.csv", row.names = FALSE)
+-----
 ```

@@ -16,6 +16,25 @@ library(tidyverse)
 ```
 
 This markdown document controls the original large structural changes initiated at the beginning of the repository (March 2020). "Large Structural Changes" include the creation of new columns, multi-group name changes of compounds, etc.
+
+## Change Log
+4/8/20: Internal standards updated to reflect consistent naming scheme.  
+4/20/20: Abbreviated compounds switched to full-length KEGG names.  
+4/20/20: Adjusted compounds with incorrect capitalization.  
+4/22/20: Added or removed symbols as required by KEGG names.  
+4/23/20: Update last compounds not falling into the above groups.
+4/23/20: Complete renaming of compounds, including those that didn't change from the original names.
+4/28/20: Adjust vitamins to descriptive names.
+4/29/20: Adjust abbreviations for consistency.
+5/8/20: FINAL NAMES DECIDED FOR PRIMARY ID.
+5/28/20: Bug fixes in final names.
+5/28/20: First suggestions for Figure Name column.
+6/3/20: Final Figure Names decided.
+7/30/20: ChEBI names scraped from website and added in new column.
+8/3/20: IUPAC, InCHI, and SMILES columns added to standards.
+8/10/20: Classyfire classifications added for those compounds that have them.
+10/14/20: First version of SQL-safe names introduced. 
+10/22/20: Remove all trailing numbers from SQL-safe names. This is the column to be used for CMAP.
 ------
 
 ```{r Source Primary ID code, include=TRUE}
