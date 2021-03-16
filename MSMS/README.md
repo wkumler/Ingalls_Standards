@@ -22,4 +22,5 @@ simple output .csv file containing compound name, fragmentation energy, and frag
  - Ingalls_Lab_Standards_MSMS.csv: The file produced by extract_DDA.R, containing 
 compound name, fragmentation energy (aka voltage), and the actual fragments observed.
 The fragment data is encoded as a single string per compound and voltage as `fragment 
-mass, intensity;`.
+mass, intensity;`. Charge (z) is included as a a disambiguating column between
+fragments from positive and negative mode.
