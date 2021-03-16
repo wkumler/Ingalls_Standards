@@ -14,10 +14,10 @@ library(tidyverse)
 ing_stans <- read.csv("../Ingalls_Lab_Standards_NEW.csv")
 clean_stans <- ing_stans %>%
   filter(Column=="HILIC") %>%
-  select(compound_name="Compound.Name", mz="m.z", polarity="z",
+  select(compound_name="Compound.Name", mz="m.z", z,
          mix="HILICMix", rt="RT..min.") %>%
   mutate(across(.cols = one_of("mz", "rt"), as.numeric)) %>%
-  mutate(polarity = ifelse(polarity>0, "pos", "neg")) %>%
+  mutate(polarity = ifelse(z>0, "pos", "neg")) %>%
   filter(!is.na(mz))
 
 
@@ -97,8 +97,9 @@ MSMS_data <- mapply(extractMSMSdata, SIMPLIFY = FALSE,
   rbindlist()
 
 output_df <- clean_stans %>%
-  select(compound_name, polarity) %>%
-  left_join(MSMS_data, by=c("compound_name", "polarity"))
+  select(compound_name, z, polarity) %>%
+  left_join(MSMS_data, by=c("compound_name", "polarity")) %>%
+  select(-polarity)
 
 write.csv(output_df, file = "data_processed/Ingalls_Lab_Standards_MSMS.csv", 
           row.names = FALSE)
@@ -111,4 +112,6 @@ if(file.size("data_processed/Ingalls_Lab_Standards_MSMS.csv")/1e6 > 5){
 
 
 library(git2r)
-git2r::add()
+repo <- repository()
+add(repo, path = "data_processed")
+commit(repo, message = "Updated MSMS sheet automatically")
