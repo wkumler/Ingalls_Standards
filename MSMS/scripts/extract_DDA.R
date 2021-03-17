@@ -1,68 +1,20 @@
-
-
 # Setup ----
 ## Set absolute path because this script should only live in one place
-setwd("G:\\Shared drives\\Ingalls Lab\\Collaborative_Projects\\Standards\\Ingalls_Standards\\MSMS")
+## Ensure the setwd() command properly connects to the shared Drive from your filepath!
+
+# setwd("G:\\Shared drives\\Ingalls Lab\\Collaborative_Projects\\Standards\\Ingalls_Standards\\MSMS")
+setwd("/Volumes/GoogleDrive/Shared drives/Ingalls Lab/Collaborative_Projects/Standards/Ingalls_Standards/MSMS/")
 
 ## Load necessary packages
-library(RaMS)
 library(data.table)
+library(RaMS)
 library(tidyverse)
 
-
-# Grab list of standards from the Ingalls Standards folder
-ing_stans <- read.csv("../Ingalls_Lab_Standards_NEW.csv")
-clean_stans <- ing_stans %>%
-  filter(Column=="HILIC") %>%
-  select(compound_name="Compound.Name", mz="m.z", z,
-         mix="HILICMix", rt="RT..min.") %>%
-  mutate(across(.cols = one_of("mz", "rt"), as.numeric)) %>%
-  mutate(polarity = ifelse(z>0, "pos", "neg")) %>%
-  filter(!is.na(mz))
-
-
-
-# Settings ----
-
-## How far away can a DDA scan be from the provided RT, in minutes?
-rt_window <- 0.2
-
-## What's the farthest a precursor mass can be from the provided
-## molecule's mass? (in parts-per-million)
-ppm <- 10
-
-## How many decimals of accuracy in mass do you need? (helps clean up output)
-mz_digits <- 5
-
-## How many decimals of accuracy in intensity do you need?
-int_digits <- 0
-
-
-
-
-
-DDA_pos_files <- list.files("data_raw", pattern = "pos", full.names = TRUE)
-msdata_pos <- grabMSdata(files = DDA_pos_files, grab_what = c("EIC", "EIC_MS2"),
-                     mz=unique(clean_stans$mz), ppm = ppm, verbosity=2)
-msdata_pos$EIC <- cbind(msdata_pos$EIC, polarity="pos")
-msdata_pos$EIC_MS2 <- cbind(msdata_pos$EIC_MS2, polarity="pos")
-
-DDA_neg_files <- list.files("data_raw", pattern = "neg", full.names = TRUE)
-msdata_neg <- grabMSdata(files = DDA_neg_files, grab_what = c("EIC", "EIC_MS2"),
-                         mz=unique(clean_stans$mz), ppm = ppm, verbosity=2)
-msdata_neg$EIC <- cbind(msdata_neg$EIC, polarity="neg")
-msdata_neg$EIC_MS2 <- cbind(msdata_neg$EIC_MS2, polarity="neg")
-
-msdata <- list(
-  EIC=rbind(msdata_pos$EIC, msdata_neg$EIC),
-  EIC_MS2=rbind(msdata_pos$EIC_MS2, msdata_neg$EIC_MS2)
-)
-
-
+## Define functions
 extractMSMSdata <- function(cmpd_name, mz_i, rt_i, ppm, rt_window, polarity_i){
   cmpd_ms2 <- msdata$EIC_MS2[rt%between%c(rt_i-rt_window, rt_i+rt_window) & 
-                        premz%between%pmppm(mz_i, ppm) & 
-                          polarity==polarity_i]
+                               premz%between%pmppm(mz_i, ppm) & 
+                               polarity==polarity_i]
   if(nrow(cmpd_ms2)==0){
     print(paste("No MSMS for", cmpd_name))
     return(NULL)
@@ -80,14 +32,69 @@ extractMSMSdata <- function(cmpd_name, mz_i, rt_i, ppm, rt_window, polarity_i){
     mutate(polarity=polarity_i)
 }
 
-extractMSMSdata(cmpd_name = clean_stans$compound_name[167],
-                mz_i = clean_stans$mz[167],
-                rt_i = clean_stans$rt[167],
+# Grab list of standards from the Ingalls Standards folder
+ing_stans <- read.csv("../Ingalls_Lab_Standards_NEW.csv") # Change this to pattern detection, not filepath
+clean_stans <- ing_stans %>%
+  filter(Column=="HILIC") %>%
+  select(compound_name="Compound.Name", mz="m.z", z,
+         mix="HILICMix", rt="RT..min.") %>%
+  mutate(across(.cols = one_of("mz", "rt"), as.numeric)) %>%
+  mutate(polarity = ifelse(z>0, "pos", "neg")) %>% # Redundant? Combine the two mutates. Look into warning.
+  filter(!is.na(mz))
+
+# Settings ----
+# I have been exclusively working in seconds for RT. Open to making that standard?
+## How far away can a DDA scan be from the provided RT, in minutes?
+rt_window <- 0.2
+
+## What's the farthest a precursor mass can be from the provided
+## molecule's mass? (in parts-per-million)
+ppm <- 10
+
+## How many decimals of accuracy in mass do you need? (helps clean up output)
+mz_digits <- 5
+
+## How many decimals of accuracy in intensity do you need?
+int_digits <- 0
+
+
+# GrabMSData ----
+
+# I would like to loop/function the retrieval of these files, no need to write it out twice. 
+
+# Positive
+DDA_pos_files <- list.files("data_raw", pattern = "pos", full.names = TRUE)
+system.time(
+  msdata_pos <- grabMSdata(files = DDA_pos_files, grab_what = c("EIC", "EIC_MS2"),
+                           mz=unique(clean_stans$mz), ppm = ppm, verbosity=2)
+)
+msdata_pos$EIC <- cbind(msdata_pos$EIC, polarity="pos")
+msdata_pos$EIC_MS2 <- cbind(msdata_pos$EIC_MS2, polarity="pos")
+
+# Negative
+DDA_neg_files <- list.files("data_raw", pattern = "neg", full.names = TRUE)
+system.time(
+  msdata_neg <- grabMSdata(files = DDA_neg_files, grab_what = c("EIC", "EIC_MS2"),
+                           mz=unique(clean_stans$mz), ppm = ppm, verbosity=2)
+)
+msdata_neg$EIC <- cbind(msdata_neg$EIC, polarity="neg")
+msdata_neg$EIC_MS2 <- cbind(msdata_neg$EIC_MS2, polarity="neg")
+
+# Combine
+msdata <- list(
+  EIC=rbind(msdata_pos$EIC, msdata_neg$EIC),
+  EIC_MS2=rbind(msdata_pos$EIC_MS2, msdata_neg$EIC_MS2)
+)
+
+# Test run of MSMS data extraction for known compound
+extractMSMSdata(cmpd_name = clean_stans$compound_name[49],
+                mz_i = clean_stans$mz[49],
+                rt_i = clean_stans$rt[49],
                 ppm = ppm,
                 rt_window = rt_window,
-                polarity_i = clean_stans$polarity[167])
+                polarity_i = clean_stans$polarity[49])
 
-MSMS_data <- mapply(extractMSMSdata, SIMPLIFY = FALSE,
+MSMS_data <- mapply(extractMSMSdata, SIMPLIFY = FALSE, # I might also make a df of the "No MSMSM for ____" output so you can check.
        cmpd_name = clean_stans$compound_name,
        mz_i = clean_stans$mz,
        rt_i = clean_stans$rt,
