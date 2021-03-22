@@ -85,8 +85,8 @@ mz_digits <- 5
 int_digits <- 0
 
 ## Grab MS data
-msdata.pos <- RetrieveDDAFiles(pattern = "pos")
-msdata.neg <- RetrieveDDAFiles(pattern = "neg")
+msdata.pos <- RetrieveDDAFiles(pattern = "pos.*mzML")
+msdata.neg <- RetrieveDDAFiles(pattern = "neg.*mzML")
 msdata <- list(
   EIC=rbind(msdata.pos$EIC, msdata.neg$EIC),
   EIC_MS2=rbind(msdata.pos$EIC_MS2, msdata.neg$EIC_MS2)
