@@ -1,124 +1,138 @@
-# Setup ----
-## Set absolute path because this script should only live in one place
-## Ensure the setwd() command properly connects to the shared Drive from your filepath!
-
-# setwd("G:\\Shared drives\\Ingalls Lab\\Collaborative_Projects\\Standards\\Ingalls_Standards\\MSMS")
-setwd("/Volumes/GoogleDrive/Shared drives/Ingalls Lab/Collaborative_Projects/Standards/Ingalls_Standards/MSMS/")
-
-## Load necessary packages
 library(data.table)
 library(RaMS)
 library(tidyverse)
 
-## Define functions
-extractMSMSdata <- function(cmpd_name, mz_i, rt_i, ppm, rt_window, polarity_i){
-  cmpd_ms2 <- msdata$EIC_MS2[rt%between%c(rt_i-rt_window, rt_i+rt_window) & 
-                               premz%between%pmppm(mz_i, ppm) & 
-                               polarity==polarity_i]
-  if(nrow(cmpd_ms2)==0){
-    print(paste("No MSMS for", cmpd_name))
-    return(NULL)
-  }
-  cmpd_ms2 %>%
-    group_by(voltage, premz) %>%
-    summarize(frags=paste0(
-      round(fragmz, digits = mz_digits), ", ", round(int, digits = int_digits)
-    ), .groups="drop") %>%
-    group_by(voltage) %>%
-    summarize(frags=paste0(
-      frags, collapse = "; "
-    ), .groups="drop") %>%
-    mutate(compound_name=cmpd_name) %>%
-    mutate(polarity=polarity_i)
+# Setup ----
+
+## Set absolute path to the Google Drive. The MS2 files live there and you must have your working directory 
+## Ensure the getwd() command properly connects to the shared Drive from your filepath!
+
+# setwd("G:\\Shared drives\\Ingalls Lab\\Collaborative_Projects\\Standards\\Ingalls_Standards\\MSMS") # Windows
+setwd("/Volumes/GoogleDrive/Shared drives/Ingalls Lab/Collaborative_Projects/Standards/Ingalls_Standards/MSMS/") # Mac
+
+## Check for correct working directory.
+if(str_detect(getwd(), "Ingalls_Standards/MSMS")) {
+  print("Good job, you're in the right directory!")
+} else {
+  stop("You may not be in the correct directory. Check your path and try again.")
 }
 
-# Grab list of standards from the Ingalls Standards folder
-ing_stans <- read.csv("../Ingalls_Lab_Standards_NEW.csv") # Change this to pattern detection, not filepath
-clean_stans <- ing_stans %>%
-  filter(Column=="HILIC") %>%
-  select(compound_name="Compound.Name", mz="m.z", z,
-         mix="HILICMix", rt="RT..min.") %>%
+## Define functions
+extractMSMSdata <- function(compound.name, mz.standard, rt.standard, polarity.standard, ppm, rt.flex) {
+  # Isolate MS2 data from the Ingalls Standards MS2 data.
+  # 
+  # Args
+  #   compound.name, mz.standard, rt.standard, polarity.standard: Parameters of the compound to retrieve MS2 for.
+  #   ppm, rt.flex: User-defined flexibility for parameter selection windows.
+  #
+  # Returns
+  #   compound.ms2: data.table of MSMS data in long format.
+  potential.ms2 <- msdata$EIC_MS2[rt %between% c(rt.standard - rt.flex, rt.standard + rt.flex) & 
+                             premz %between% pmppm(mz.standard, ppm) & 
+                             polarity == polarity.standard]
+  
+  if (nrow(potential.ms2) == 0) {
+    print(paste("No MSMS for", compound.name))
+  }
+
+  compound.ms2 <- potential.ms2 %>%
+    group_by(voltage, premz) %>%
+    summarize(MS2 = paste0(round(fragmz, digits = mz_digits), ", ", round(int, digits = int_digits)),
+              .groups = "drop") %>%
+    group_by(voltage) %>%
+    summarize(MS2 = paste0(MS2, collapse = "; "), 
+              .groups = "drop") %>%
+    mutate(compound_name = compound.name) %>%
+    mutate(polarity = polarity.standard)
+  
+  return(compound.ms2)
+}
+
+RetrieveDDAFiles <- function(pattern) {
+  
+  DDA.files <- list.files("data_raw", pattern = pattern, full.names = TRUE)
+  msdata <- grabMSdata(files = DDA.files, grab_what = c("EIC", "EIC_MS2"),
+                       mz = unique(Ingalls.standards$mz), ppm = ppm, verbosity=2)
+  msdata$EIC <- cbind(msdata$EIC, polarity = pattern)
+  msdata$EIC_MS2 <- cbind(msdata$EIC_MS2, polarity = pattern)
+  
+  return(msdata)
+}
+
+## Grab most recent list of standards from the Ingalls Standards folder
+Ingalls.standards <- read.csv("../Ingalls_Lab_Standards_NEW.csv") %>%
+  filter(Column == "HILIC") %>%
+  select(compound_name = "Compound.Name", 
+         mz = "m.z", 
+         z,
+         mix = "HILICMix", 
+         rt = "RT..min.") %>%
   mutate(across(.cols = one_of("mz", "rt"), as.numeric)) %>%
-  mutate(polarity = ifelse(z>0, "pos", "neg")) %>% # Redundant? Combine the two mutates. Look into warning.
+  mutate(polarity = ifelse(z > 0, "pos", "neg")) %>% 
   filter(!is.na(mz))
 
-# Settings ----
-# I have been exclusively working in seconds for RT. Open to making that standard?
-## How far away can a DDA scan be from the provided RT, in minutes?
-rt_window <- 0.2
+## Define parameter flexibility
+# How far away can a DDA scan be from the provided RT, in minutes?
+rt.flex <- 0.2
 
-## What's the farthest a precursor mass can be from the provided
-## molecule's mass? (in parts-per-million)
+# What's the farthest a precursor mass can be from the provided molecule's mass? (in parts-per-million)
 ppm <- 10
 
-## How many decimals of accuracy in mass do you need? (helps clean up output)
+# How many decimals of accuracy in mass do you need? (helps clean up output)
 mz_digits <- 5
 
-## How many decimals of accuracy in intensity do you need?
+# How many decimals of accuracy in intensity do you need?
 int_digits <- 0
 
-
-# GrabMSData ----
-
-# I would like to loop/function the retrieval of these files, no need to write it out twice. 
-
-# Positive
-DDA_pos_files <- list.files("data_raw", pattern = "pos", full.names = TRUE)
-system.time(
-  msdata_pos <- grabMSdata(files = DDA_pos_files, grab_what = c("EIC", "EIC_MS2"),
-                           mz=unique(clean_stans$mz), ppm = ppm, verbosity=2)
-)
-msdata_pos$EIC <- cbind(msdata_pos$EIC, polarity="pos")
-msdata_pos$EIC_MS2 <- cbind(msdata_pos$EIC_MS2, polarity="pos")
-
-# Negative
-DDA_neg_files <- list.files("data_raw", pattern = "neg", full.names = TRUE)
-system.time(
-  msdata_neg <- grabMSdata(files = DDA_neg_files, grab_what = c("EIC", "EIC_MS2"),
-                           mz=unique(clean_stans$mz), ppm = ppm, verbosity=2)
-)
-msdata_neg$EIC <- cbind(msdata_neg$EIC, polarity="neg")
-msdata_neg$EIC_MS2 <- cbind(msdata_neg$EIC_MS2, polarity="neg")
-
-# Combine
+## Grab MS data
+msdata.pos <- RetrieveDDAFiles(pattern = "pos")
+msdata.neg <- RetrieveDDAFiles(pattern = "neg")
 msdata <- list(
-  EIC=rbind(msdata_pos$EIC, msdata_neg$EIC),
-  EIC_MS2=rbind(msdata_pos$EIC_MS2, msdata_neg$EIC_MS2)
+  EIC=rbind(msdata.pos$EIC, msdata.neg$EIC),
+  EIC_MS2=rbind(msdata.pos$EIC_MS2, msdata.neg$EIC_MS2)
 )
 
 # Test run of MSMS data extraction for known compound
-extractMSMSdata(cmpd_name = clean_stans$compound_name[49],
-                mz_i = clean_stans$mz[49],
-                rt_i = clean_stans$rt[49],
-                ppm = ppm,
-                rt_window = rt_window,
-                polarity_i = clean_stans$polarity[49])
+sarcosine <- extractMSMSdata(compound.name = Ingalls.standards$compound_name[49],
+                             mz.standard = Ingalls.standards$mz[49],
+                             rt.standard = Ingalls.standards$rt[49],
+                             ppm = ppm,
+                             rt.flex = rt.flex,
+                             polarity.standard = Ingalls.standards$polarity[49])
 
-MSMS_data <- mapply(extractMSMSdata, SIMPLIFY = FALSE, # I might also make a df of the "No MSMSM for ____" output so you can check.
-       cmpd_name = clean_stans$compound_name,
-       mz_i = clean_stans$mz,
-       rt_i = clean_stans$rt,
+MSMS.data <- mapply(extractMSMSdata, SIMPLIFY = FALSE,
+       compound.name = Ingalls.standards$compound_name,
+       mz.standard = Ingalls.standards$mz,
+       rt.standard = Ingalls.standards$rt,
        ppm = ppm,
-       rt_window = rt_window,
-       polarity_i = clean_stans$polarity) %>%
+       rt.flex = rt.flex,
+       polarity.standard = Ingalls.standards$polarity) %>%
   rbindlist()
 
-output_df <- clean_stans %>%
+final.MS2 <- Ingalls.standards %>%
   select(compound_name, z, polarity) %>%
-  left_join(MSMS_data, by=c("compound_name", "polarity")) %>%
+  left_join(MSMS.data, by = c("compound_name", "polarity")) %>%
   select(-polarity)
 
-write.csv(output_df, file = "data_processed/Ingalls_Lab_Standards_MSMS.csv", 
+write.csv(final.MS2, file = "data_processed/Ingalls_Lab_Standards_MSMS.csv", 
           row.names = FALSE)
 
-if(file.size("data_processed/Ingalls_Lab_Standards_MSMS.csv")/1e6 > 5){
+if (file.size("data_processed/Ingalls_Lab_Standards_MSMS.csv") / 1e6 > 5) {
   stop("Beware! The output file is larger than 5MB - be careful pushing to GitHub.")
 }
+
+
+# Make additional dataframe for missing compounds
+missing_cmpds <- final.MS2 %>%
+  filter(!is.na(MS2)) %>%
+  anti_join(Ingalls.standards, ., by=c("compound_name", "z"))
+
 
 
 
 
 library(git2r)
+
 repo <- repository()
 add(repo, path = "data_processed")
 commit(repo, message = "Updated MSMS sheet automatically")
