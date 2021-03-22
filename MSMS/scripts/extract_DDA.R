@@ -18,11 +18,11 @@ if(str_detect(getwd(), "Ingalls_Standards/MSMS")) {
 }
 
 ## Define functions
-extractMSMSdata <- function(compound.name, mz.standard, rt.standard, polarity.standard, filename.standard, ppm, rt.flex) {
+extractMSMSdata <- function(compound.name, mz.standard, rt.standard, filename.standard, ppm, rt.flex) {
   # Isolate MS2 data from the Ingalls Standards MS2 data.
   # Needs to be updated!
   # Args
-  #   compound.name, mz.standard, rt.standard, polarity.standard: Parameters of the compound to retrieve MS2 for.
+  #   compound.name, mz.standard, rt.standard: Parameters of the compound to retrieve MS2 for.
   #   ppm, rt.flex: User-defined flexibility for parameter selection windows.
   #
   # Returns
@@ -77,7 +77,6 @@ compound.data <- read.csv("data_raw/HILICpos_StandardMixes_All-CEs.csv") %>%
          mz="Precursor.Mz") %>% 
   mutate(rt=as.numeric(rt)) %>%
   mutate(filename=paste0(filename, ".mzML")) %>%
-  mutate(polarity=str_extract(filename, "pos|neg")) %>%
   filter(!is.na(rt))
 
 
@@ -122,7 +121,7 @@ MSMS.data <- mapply(extractMSMSdata, SIMPLIFY = FALSE,
 
 
 
-write.csv(final.MS2, file = "data_processed/Ingalls_Lab_Standards_MSMS.csv", 
+write.csv(MSMS.data, file = "data_processed/Ingalls_Lab_Standards_MSMS.csv", 
           row.names = FALSE)
 
 if (file.size("data_processed/Ingalls_Lab_Standards_MSMS.csv") / 1e6 > 5) {
@@ -131,7 +130,7 @@ if (file.size("data_processed/Ingalls_Lab_Standards_MSMS.csv") / 1e6 > 5) {
 
 
 # Make additional dataframe for missing compounds
-missing.cmpds <- final.MS2 %>%
+missing.cmpds <- MSMS.data %>%
   filter(!is.na(MS2)) %>%
   anti_join(compound.data, ., by=c("compound_name")) %>%
   distinct(compound_name, mz, rt)
