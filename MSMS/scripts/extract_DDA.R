@@ -34,8 +34,7 @@ extractMSMSdata <- function(compound.name, mz.standard, rt.standard, polarity.st
   if (nrow(potential.ms2) == 0) {
     print(paste("No MSMS for", compound.name))
   }
-  no.msms <- as.tibble(compound.name)
-  
+
   compound.ms2 <- potential.ms2 %>%
     group_by(voltage, premz) %>%
     summarize(MS2 = paste0(round(fragmz, digits = mz_digits), ", ", round(int, digits = int_digits)),
@@ -101,7 +100,7 @@ sarcosine <- extractMSMSdata(compound.name = Ingalls.standards$compound_name[49]
                              rt.flex = rt.flex,
                              polarity.standard = Ingalls.standards$polarity[49])
 
-MSMS.data <- mapply(extractMSMSdata, SIMPLIFY = FALSE, # I might also make a df of the "No MSMS for ____" output so you can check.
+MSMS.data <- mapply(extractMSMSdata, SIMPLIFY = FALSE,
        compound.name = Ingalls.standards$compound_name,
        mz.standard = Ingalls.standards$mz,
        rt.standard = Ingalls.standards$rt,
@@ -121,6 +120,13 @@ write.csv(final.MS2, file = "data_processed/Ingalls_Lab_Standards_MSMS.csv",
 if (file.size("data_processed/Ingalls_Lab_Standards_MSMS.csv") / 1e6 > 5) {
   stop("Beware! The output file is larger than 5MB - be careful pushing to GitHub.")
 }
+
+
+# Make additional dataframe for missing compounds
+missing_cmpds <- final.MS2 %>%
+  filter(!is.na(MS2)) %>%
+  anti_join(Ingalls.standards, ., by=c("compound_name", "z"))
+
 
 
 
