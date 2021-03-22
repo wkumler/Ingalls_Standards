@@ -18,9 +18,9 @@ if(str_detect(getwd(), "Ingalls_Standards/MSMS")) {
 }
 
 ## Define functions
-extractMSMSdata <- function(compound.name, mz.standard, rt.standard, polarity.standard, ppm, rt.flex) {
+extractMSMSdata <- function(compound.name, mz.standard, rt.standard, polarity.standard, filename.standard, ppm, rt.flex) {
   # Isolate MS2 data from the Ingalls Standards MS2 data.
-  # 
+  # Needs to be updated!
   # Args
   #   compound.name, mz.standard, rt.standard, polarity.standard: Parameters of the compound to retrieve MS2 for.
   #   ppm, rt.flex: User-defined flexibility for parameter selection windows.
@@ -29,21 +29,18 @@ extractMSMSdata <- function(compound.name, mz.standard, rt.standard, polarity.st
   #   compound.ms2: data.table of MSMS data in long format.
   potential.ms2 <- msdata$EIC_MS2[rt %between% c(rt.standard - rt.flex, rt.standard + rt.flex) & 
                              premz %between% pmppm(mz.standard, ppm) & 
-                             polarity == polarity.standard]
+                             filename == filename.standard]
   
-  if (nrow(potential.ms2) == 0) {
-    print(paste("No MSMS for", compound.name))
-  }
-
   compound.ms2 <- potential.ms2 %>%
     group_by(voltage, premz) %>%
-    summarize(MS2 = paste0(round(fragmz, digits = mz_digits), ", ", round(int, digits = int_digits)),
+    summarize(MS2 = paste0(round(fragmz, digits = mz_digits), ", ", 
+                           round(int, digits = int_digits)),
               .groups = "drop") %>%
     group_by(voltage) %>%
     summarize(MS2 = paste0(MS2, collapse = "; "), 
               .groups = "drop") %>%
     mutate(compound_name = compound.name) %>%
-    mutate(polarity = polarity.standard)
+    mutate(filename = filename.standard)
   
   return(compound.ms2)
 }
@@ -52,7 +49,7 @@ RetrieveDDAFiles <- function(pattern) {
   
   DDA.files <- list.files("data_raw", pattern = pattern, full.names = TRUE)
   msdata <- grabMSdata(files = DDA.files, grab_what = c("EIC", "EIC_MS2"),
-                       mz = unique(Ingalls.standards$mz), ppm = ppm, verbosity=2)
+                       mz = unique(compound.data$mz), ppm = ppm, verbosity=2)
   msdata$EIC <- cbind(msdata$EIC, polarity = pattern)
   msdata$EIC_MS2 <- cbind(msdata$EIC_MS2, polarity = pattern)
   
@@ -70,6 +67,20 @@ Ingalls.standards <- read.csv("../Ingalls_Lab_Standards_NEW.csv") %>%
   mutate(across(.cols = one_of("mz", "rt"), as.numeric)) %>%
   mutate(polarity = ifelse(z > 0, "pos", "neg")) %>% 
   filter(!is.na(mz))
+
+## Grab manual standard retention times
+compound.data <- read.csv("data_raw/HILICpos_StandardMixes_All-CEs.csv") %>%
+  rbind(read.csv("data_raw/HILICneg_StandardMixes_All-CEs.csv")) %>%
+  select(compound_name="Precursor.Ion.Name",
+         rt="Retention.Time",
+         filename="Replicate.Name",
+         mz="Precursor.Mz") %>% 
+  mutate(rt=as.numeric(rt)) %>%
+  mutate(filename=paste0(filename, ".mzML")) %>%
+  mutate(polarity=str_extract(filename, "pos|neg")) %>%
+  filter(!is.na(rt))
+
+
 
 ## Define parameter flexibility
 # How far away can a DDA scan be from the provided RT, in minutes?
@@ -92,27 +103,24 @@ msdata <- list(
   EIC_MS2=rbind(msdata.pos$EIC_MS2, msdata.neg$EIC_MS2)
 )
 
-# Test run of MSMS data extraction for known compound
-sarcosine <- extractMSMSdata(compound.name = Ingalls.standards$compound_name[49],
-                             mz.standard = Ingalls.standards$mz[49],
-                             rt.standard = Ingalls.standards$rt[49],
+# Test run of MSMS data extraction for known compound and filename
+tmab.data <- extractMSMSdata(compound.name = compound.data$compound_name[1],
+                             mz.standard = compound.data$mz[1],
+                             rt.standard = compound.data$rt[1],
                              ppm = ppm,
                              rt.flex = rt.flex,
-                             polarity.standard = Ingalls.standards$polarity[49])
+                             filename.standard = compound.data$filename[1])
 
 MSMS.data <- mapply(extractMSMSdata, SIMPLIFY = FALSE,
-       compound.name = Ingalls.standards$compound_name,
-       mz.standard = Ingalls.standards$mz,
-       rt.standard = Ingalls.standards$rt,
+       compound.name = compound.data$compound_name,
+       mz.standard = compound.data$mz,
+       rt.standard = compound.data$rt,
        ppm = ppm,
        rt.flex = rt.flex,
-       polarity.standard = Ingalls.standards$polarity) %>%
+       filename.standard = compound.data$filename) %>%
   rbindlist()
 
-final.MS2 <- Ingalls.standards %>%
-  select(compound_name, z, polarity) %>%
-  left_join(MSMS.data, by = c("compound_name", "polarity")) %>%
-  select(-polarity)
+
 
 write.csv(final.MS2, file = "data_processed/Ingalls_Lab_Standards_MSMS.csv", 
           row.names = FALSE)
@@ -123,9 +131,11 @@ if (file.size("data_processed/Ingalls_Lab_Standards_MSMS.csv") / 1e6 > 5) {
 
 
 # Make additional dataframe for missing compounds
-missing_cmpds <- final.MS2 %>%
+missing.cmpds <- final.MS2 %>%
   filter(!is.na(MS2)) %>%
-  anti_join(Ingalls.standards, ., by=c("compound_name", "z"))
+  anti_join(compound.data, ., by=c("compound_name")) %>%
+  distinct(compound_name, mz, rt)
+
 
 
 
