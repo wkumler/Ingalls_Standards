@@ -114,6 +114,12 @@ final.MS2 <- Ingalls.standards %>%
   left_join(MSMS.data, by = c("compound_name", "polarity")) %>%
   select(-polarity)
 
+# Make additional dataframe for missing compounds
+missing.cmpds <- final.MS2 %>%
+  filter(!is.na(MS2)) %>%
+  anti_join(Ingalls.standards, ., by = c("compound_name", "z"))
+
+
 write.csv(final.MS2, file = "data_processed/Ingalls_Lab_Standards_MSMS.csv", 
           row.names = FALSE)
 
@@ -122,17 +128,10 @@ if (file.size("data_processed/Ingalls_Lab_Standards_MSMS.csv") / 1e6 > 5) {
 }
 
 
-# Make additional dataframe for missing compounds
-missing_cmpds <- final.MS2 %>%
-  filter(!is.na(MS2)) %>%
-  anti_join(Ingalls.standards, ., by=c("compound_name", "z"))
-
-
-
-
 
 library(git2r)
 
 repo <- repository()
-add(repo, path = "data_processed")
+add(repo, "Ingalls_Lab_Standards_MSMS.csv")
+status(repo)
 commit(repo, message = "Updated MSMS sheet automatically")
