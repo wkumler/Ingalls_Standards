@@ -120,28 +120,24 @@ MSMS.data <- mapply(extractMSMSdata, SIMPLIFY = FALSE,
   rbindlist()
 
 
-
 write.csv(MSMS.data, file = "data_processed/Ingalls_Lab_Standards_MSMS.csv", 
+          
+# Make additional dataframe for missing compounds
+missing.cmpds <- final.MS2 %>%
+  filter(!is.na(MS2)) %>%
+  anti_join(Ingalls.standards, ., by = c("compound_name", "z"))
+
+
+write.csv(final.MS2, file = "data_processed/Ingalls_Lab_Standards_MSMS.csv", 
           row.names = FALSE)
 
 if (file.size("data_processed/Ingalls_Lab_Standards_MSMS.csv") / 1e6 > 5) {
   stop("Beware! The output file is larger than 5MB - be careful pushing to GitHub.")
 }
 
-
-# Make additional dataframe for missing compounds
-missing.cmpds <- MSMS.data %>%
-  filter(!is.na(MS2)) %>%
-  anti_join(compound.data, ., by=c("compound_name")) %>%
-  distinct(compound_name, mz, rt)
-
-
-
-
-
-
 library(git2r)
 
 repo <- repository()
-add(repo, path = "data_processed")
+add(repo, "Ingalls_Lab_Standards_MSMS.csv")
+status(repo)
 commit(repo, message = "Updated MSMS sheet automatically")
