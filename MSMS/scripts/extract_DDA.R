@@ -2,7 +2,7 @@ library(data.table)
 library(RaMS)
 library(tidyverse)
 
-# Setup ----
+## Setup ----
 
 ## Set absolute path to the Google Drive. The MS2 files live there and you must have your working directory 
 ## Ensure the getwd() command properly connects to the shared Drive from your filepath!
@@ -17,7 +17,7 @@ if(str_detect(getwd(), "Ingalls_Standards/MSMS")) {
   stop("You may not be in the correct directory. Check your path and try again.")
 }
 
-## Define functions
+# Define functions ----
 extractMSMSdata <- function(compound.name, mz.standard, rt.standard, filename.standard, ppm, rt.flex) {
   # Isolate MS2 data from the Ingalls Standards MS2 data.
   # Needs to be updated!
@@ -69,7 +69,7 @@ compound.data <- read.csv("data_raw/HILICpos_StandardMixes_All-CEs.csv") %>%
 
 
 
-## Define parameter flexibility
+## Define parameter flexibility ----
 # How far away can a DDA scan be from the provided RT, in minutes?
 rt.flex <- 0.2
 
@@ -126,6 +126,7 @@ if (file.size("data_processed/Ingalls_Lab_Standards_MSMS.csv") / 1e6 > 5) {
 library(git2r)
 
 repo <- repository()
-add(repo, "data_processed")
+add(repo, "data_processed/Ingalls_Lab_Standards_MSMS.csv")
+add(repo, "data_processed/missing_cmpds.csv")
 status(repo)
 commit(repo, message = "Updated data output automatically")
