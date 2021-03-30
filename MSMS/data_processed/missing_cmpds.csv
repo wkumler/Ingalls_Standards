@@ -1,24 +1,24 @@
-"compound_name","rt","filename","mz"
-"Glutamylphenylalanine",6.89,"210204_Std_4uMStdsMix1InH2O_pos1.mzML",295.129398
-"Glutamylphenylalanine",6.94,"210204_Std_4uMStdsMix1InH2O_pos2.mzML",295.129398
-"Glycine",11.14,"210204_Std_4uMStdsMix1InH2O_pos1.mzML",76.039854
-"Glycine",11.19,"210204_Std_4uMStdsMix1InH2O_pos2.mzML",76.039854
-"Glycine",9.45,"210204_Std_4uMStdsMix2InH2O_pos1.mzML",76.039854
-"Glycine",9.07,"210204_Std_4uMStdsMix2InH2O_pos2.mzML",76.039854
-"L-Hydroxylysine",16.9,"210204_Std_4uMStdsMix1InH2O_pos1.mzML",163.108268
-"L-Hydroxylysine",16.99,"210204_Std_4uMStdsMix1InH2O_pos2.mzML",163.108268
-"Hypotaurine",9.87,"210204_Std_4uMStdsMix2InH2O_pos1.mzML",110.027576
-"Hypotaurine",10.35,"210204_Std_4uMStdsMix2InH2O_pos2.mzML",110.027576
-"L-Lysine",19.18,"210204_Std_4uMStdsMix1InH2O_pos1.mzML",147.113353
-"L-Lysine",19.24,"210204_Std_4uMStdsMix1InH2O_pos2.mzML",147.113353
-"Dihydroxyacetone phosphate",12.3,"210204_Std_4uMStdsMix1InH2O_neg1.mzML",168.990203
-"Dihydroxyacetone phosphate",12.42,"210204_Std_4uMStdsMix1InH2O_neg2.mzML",168.990203
-"Dihydroxyacetone phosphate",10.98,"210204_Std_4uMStdsMix2InH2O_neg1.mzML",168.990203
-"Dihydroxyacetone phosphate",10.7,"210204_Std_4uMStdsMix2InH2O_neg2.mzML",168.990203
-"Guanosine triphosphate",14.66,"210204_Std_4uMStdsMix2InH2O_neg1.mzML",521.982844
-"Guanosine triphosphate",14.58,"210204_Std_4uMStdsMix2InH2O_neg2.mzML",521.982844
-"NADPH",12.95,"210204_Std_4uMStdsMix2InH2O_neg1.mzML",744.083287
-"NADPH",12.89,"210204_Std_4uMStdsMix2InH2O_neg2.mzML",744.083287
-"Sulfolactic Acid",12.55,"210204_Std_4uMStdsMix1InH2O_neg1.mzML",168.980687
-"Sulfolactic Acid",11.03,"210204_Std_4uMStdsMix2InH2O_neg1.mzML",168.980687
-"Sulfolactic Acid",10.81,"210204_Std_4uMStdsMix2InH2O_neg2.mzML",168.980687
+compound_name,rt,filename,mz
+Glutamylphenylalanine,6.89,210204_Std_4uMStdsMix1InH2O_pos1.mzML,295.129398
+Glutamylphenylalanine,6.94,210204_Std_4uMStdsMix1InH2O_pos2.mzML,295.129398
+Glycine,11.14,210204_Std_4uMStdsMix1InH2O_pos1.mzML,76.039854
+Glycine,11.19,210204_Std_4uMStdsMix1InH2O_pos2.mzML,76.039854
+Glycine,9.45,210204_Std_4uMStdsMix2InH2O_pos1.mzML,76.039854
+Glycine,9.07,210204_Std_4uMStdsMix2InH2O_pos2.mzML,76.039854
+L-Hydroxylysine,16.9,210204_Std_4uMStdsMix1InH2O_pos1.mzML,163.108268
+L-Hydroxylysine,16.99,210204_Std_4uMStdsMix1InH2O_pos2.mzML,163.108268
+Hypotaurine,9.87,210204_Std_4uMStdsMix2InH2O_pos1.mzML,110.027576
+Hypotaurine,10.35,210204_Std_4uMStdsMix2InH2O_pos2.mzML,110.027576
+L-Lysine,19.18,210204_Std_4uMStdsMix1InH2O_pos1.mzML,147.113353
+L-Lysine,19.24,210204_Std_4uMStdsMix1InH2O_pos2.mzML,147.113353
+Dihydroxyacetone phosphate,12.3,210204_Std_4uMStdsMix1InH2O_neg1.mzML,168.990203
+Dihydroxyacetone phosphate,12.42,210204_Std_4uMStdsMix1InH2O_neg2.mzML,168.990203
+Dihydroxyacetone phosphate,10.98,210204_Std_4uMStdsMix2InH2O_neg1.mzML,168.990203
+Dihydroxyacetone phosphate,10.7,210204_Std_4uMStdsMix2InH2O_neg2.mzML,168.990203
+Guanosine triphosphate,14.66,210204_Std_4uMStdsMix2InH2O_neg1.mzML,521.982844
+Guanosine triphosphate,14.58,210204_Std_4uMStdsMix2InH2O_neg2.mzML,521.982844
+NADPH,12.95,210204_Std_4uMStdsMix2InH2O_neg1.mzML,744.083287
+NADPH,12.89,210204_Std_4uMStdsMix2InH2O_neg2.mzML,744.083287
+Sulfolactic Acid,12.55,210204_Std_4uMStdsMix1InH2O_neg1.mzML,168.980687
+Sulfolactic Acid,11.03,210204_Std_4uMStdsMix2InH2O_neg1.mzML,168.980687
+Sulfolactic Acid,10.81,210204_Std_4uMStdsMix2InH2O_neg2.mzML,168.980687
