@@ -1,4 +1,5 @@
 library(data.table)
+library(git2r)
 library(RaMS)
 library(tidyverse)
 
@@ -123,8 +124,8 @@ if (file.size("data_processed/Ingalls_Lab_Standards_MSMS.csv") / 1e6 > 5) {
   stop("Beware! The output file is larger than 5MB - be careful pushing to GitHub.")
 }
 
-library(git2r)
 
+# Automatically commit changes to the Ingalls Standards github
 repo <- repository()
 add(repo, ".gitignore.txt")
 add(repo, "data_processed/Ingalls_Lab_Standards_MSMS.csv")
