@@ -1,0 +1,285 @@
+Protein Name,Replicate Name,Precursor Ion Name,Retention Time,Area,Background,Height,Precursor Mz
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,2-Hydroxy-4-(methylthio)butyric acid,2.15,460838560,6237730,89142560,149.027242
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,2-Hydroxy-4-(methylthio)butyric acid,2.16,463804832,8300435,92830176,149.027242
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,2-Hydroxy-4-(methylthio)butyric acid,2.19,128791,0,177630,149.027242
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,2-Hydroxy-4-(methylthio)butyric acid,2.15,187291,0,132615,149.027242
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,3-Sulfopyruvic acid,#N/A,#N/A,#N/A,#N/A,166.965037
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,3-Sulfopyruvic acid,#N/A,#N/A,#N/A,#N/A,166.965037
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,3-Sulfopyruvic acid,11.69,14853214,0,423067,166.965037
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,3-Sulfopyruvic acid,11.7,14991083,0,461684,166.965037
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,N-Acetyl-L-glutamic acid,8.68,308063968,0,14575342,188.055899
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,N-Acetyl-L-glutamic acid,8.71,367963520,0,17570676,188.055899
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,N-Acetyl-L-glutamic acid,#N/A,#N/A,#N/A,#N/A,188.055899
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,N-Acetyl-L-glutamic acid,#N/A,#N/A,#N/A,#N/A,188.055899
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,Acetylglycine,3.51,117912400,0,2566319,116.034769
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,Acetylglycine,3.62,119087888,0,2560943,116.034769
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,Acetylglycine,7.35,76439,0,160223,116.034769
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,Acetylglycine,#N/A,#N/A,#N/A,#N/A,116.034769
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,cis-Aconitic acid,12.96,365673760,0,15183896,173.008615
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,cis-Aconitic acid,12.94,384592640,0,15892540,173.008615
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,cis-Aconitic acid,#N/A,#N/A,#N/A,#N/A,173.008615
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,cis-Aconitic acid,#N/A,#N/A,#N/A,#N/A,173.008615
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,Adenosine diphosphate,12.09,13481,0,46521,426.021596
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,Adenosine diphosphate,12.68,15669,0,37770,426.021596
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,Adenosine diphosphate,11.7,26320162,0,509370,426.021596
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,Adenosine diphosphate,11.47,30137130,0,482471,426.021596
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,Allopurinol,#N/A,#N/A,#N/A,#N/A,135.030686
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,Allopurinol,#N/A,#N/A,#N/A,#N/A,135.030686
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,Allopurinol,4.6,114606080,0,6546286,135.030686
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,Allopurinol,4.61,111772008,0,5977758,135.030686
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,Amino Propanesulfonic Acid,#N/A,#N/A,#N/A,#N/A,138.022491
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,Amino Propanesulfonic Acid,#N/A,#N/A,#N/A,#N/A,138.022491
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,Amino Propanesulfonic Acid,10.85,78719288,0,4559826,138.022491
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,Amino Propanesulfonic Acid,10.86,79567160,0,4620138,138.022491
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,Adenosine monophosphate,#N/A,#N/A,#N/A,#N/A,346.055262
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,Adenosine monophosphate,#N/A,#N/A,#N/A,#N/A,346.055262
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,Adenosine monophosphate,9.51,98012168,0,3188203,346.055262
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,Adenosine monophosphate,9.5,98864056,0,3228940,346.055262
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,Adenosine triphosphate,#N/A,#N/A,#N/A,#N/A,505.987929
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,Adenosine triphosphate,#N/A,#N/A,#N/A,#N/A,505.987929
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,Adenosine triphosphate,12.64,9881654,0,404131,505.987929
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,Adenosine triphosphate,12.62,11615639,0,421049,505.987929
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,Butyrylglycine,2.4,330863456,5344097,69039536,144.066069
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,Butyrylglycine,2.4,342438528,3344732,70820808,144.066069
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,Butyrylglycine,#N/A,#N/A,#N/A,#N/A,144.066069
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,Butyrylglycine,#N/A,#N/A,#N/A,#N/A,144.066069
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,"3',5'-Cyclic AMP",#N/A,#N/A,#N/A,#N/A,328.044698
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,"3',5'-Cyclic AMP",#N/A,#N/A,#N/A,#N/A,328.044698
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,"3',5'-Cyclic AMP",4.32,508414592,0,8143809,328.044698
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,"3',5'-Cyclic AMP",4.3,518894976,0,7576325,328.044698
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,"3',5'-Cyclic GMP",8.91,43224444,8781487,1961110,344.039613
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,"3',5'-Cyclic GMP",8.96,18354924,12795637,1500857,344.039613
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,"3',5'-Cyclic GMP",8.17,212630000,379991,18121342,344.039613
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,"3',5'-Cyclic GMP",8.18,218457072,2882648,18277814,344.039613
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,Citric acid,15.53,529764,0,101152,191.01918
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,Citric acid,15.58,493134,0,101796,191.01918
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,Citric acid,13.44,50185020,0,2207307,191.01918
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,Citric acid,13.39,59288856,0,2264931,191.01918
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,"3',5'-Cyclic diGMP",#N/A,#N/A,#N/A,#N/A,689.087051
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,"3',5'-Cyclic diGMP",#N/A,#N/A,#N/A,#N/A,689.087051
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,"3',5'-Cyclic diGMP",12.94,20828880,0,1553865,689.087051
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,"3',5'-Cyclic diGMP",12.91,21281602,0,1709459,689.087051
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,L-Cysteic acid,#N/A,#N/A,#N/A,#N/A,167.996671
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,L-Cysteic acid,12.72,9736,0,42546,167.996671
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,L-Cysteic acid,9.84,102421248,0,3538128,167.996671
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,L-Cysteic acid,9.9,104469192,0,3348307,167.996671
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,L-Cysteinesulfinic acid,#N/A,#N/A,#N/A,#N/A,152.001756
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,L-Cysteinesulfinic acid,#N/A,#N/A,#N/A,#N/A,152.001756
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,L-Cysteinesulfinic acid,9.46,44493724,0,2000979,152.001756
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,L-Cysteinesulfinic acid,9.5,44729996,0,1922527,152.001756
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,Dihydroxyacetone phosphate,12.3,159582,0,105625,168.990203
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,Dihydroxyacetone phosphate,12.42,312003,0,99485,168.990203
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,Dihydroxyacetone phosphate,10.98,10166973,0,328295,168.990203
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,Dihydroxyacetone phosphate,10.7,10490062,0,354775,168.990203
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,"(R)-2,3-Dihydroxypropane-1-sulfonate",#N/A,#N/A,#N/A,#N/A,155.001422
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,"(R)-2,3-Dihydroxypropane-1-sulfonate",#N/A,#N/A,#N/A,#N/A,155.001422
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,"(R)-2,3-Dihydroxypropane-1-sulfonate",4.95,637398592,0,31584446,155.001422
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,"(R)-2,3-Dihydroxypropane-1-sulfonate",4.94,639860928,0,30739642,155.001422
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,Ethanesulfonic acid,4.34,14363,0,35419,108.995942
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,Ethanesulfonic acid,3.9,42923,0,63295,108.995942
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,Ethanesulfonic acid,2.69,399937408,0,83707680,108.995942
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,Ethanesulfonic acid,2.68,419022528,0,88008752,108.995942
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,Ethyl dihydroxybenzoate,#N/A,#N/A,#N/A,#N/A,181.050085
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,Ethyl dihydroxybenzoate,2.3,14921,0,41613,181.050085
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,Ethyl dihydroxybenzoate,2.11,171812368,0,28349412,181.050085
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,Ethyl dihydroxybenzoate,2.11,174523776,2631691,27647690,181.050085
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,Flavin adenine dinucleotide,#N/A,#N/A,#N/A,#N/A,784.149317
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,Flavin adenine dinucleotide,#N/A,#N/A,#N/A,#N/A,784.149317
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,Flavin adenine dinucleotide,7.73,60310036,368906,3919980,784.149317
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,Flavin adenine dinucleotide,7.73,63843060,0,3863788,784.149317
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,D-Fructose 6-phosphate,11.72,28172194,0,1262732,259.021897
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,D-Fructose 6-phosphate,11.68,31174954,0,1201602,259.021897
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,D-Fructose 6-phosphate,12.71,1124234,127607,154122,259.021897
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,D-Fructose 6-phosphate,12.72,625913,0,121455,259.021897
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,Fumaric acid,10.28,54013948,7303067,1371759,115.003135
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,Fumaric acid,10.27,54650028,9550459,1342014,115.003135
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,Fumaric acid,11.86,226878,0,97912,115.003135
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,Fumaric acid,#N/A,#N/A,#N/A,#N/A,115.003135
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,D-Gluconic acid,10.98,22091,0,53679,195.05048
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,D-Gluconic acid,11.07,11289,0,38586,195.05048
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,D-Gluconic acid,8.59,396521344,851164,17487368,195.05048
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,D-Gluconic acid,8.57,419160160,7648614,18469436,195.05048
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,D-Glucose 1-phosphate,13.48,753831,9647,146068,259.021897
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,D-Glucose 1-phosphate,11.68,30405796,0,1201602,259.021897
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,D-Glucose 1-phosphate,11.82,47975560,0,1409689,259.021897
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,D-Glucose 1-phosphate,11.82,49960652,0,1488855,259.021897
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,D-Glucose 6-phosphate,12.5,35555748,7011514,1468853,259.021897
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,D-Glucose 6-phosphate,12.48,37285536,8163543,1466757,259.021897
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,D-Glucose 6-phosphate,#N/A,#N/A,#N/A,#N/A,259.021897
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,D-Glucose 6-phosphate,#N/A,#N/A,#N/A,#N/A,259.021897
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,Glycerophosphoric acid,11.43,19525864,0,1788279,171.005853
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,Glycerophosphoric acid,11.41,19745270,0,1838435,171.005853
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,Glycerophosphoric acid,#N/A,#N/A,#N/A,#N/A,171.005853
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,Glycerophosphoric acid,#N/A,#N/A,#N/A,#N/A,171.005853
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,Guanosine monophosphate,14.59,8827,0,24297,362.050178
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,Guanosine monophosphate,#N/A,#N/A,#N/A,#N/A,362.050178
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,Guanosine monophosphate,12.6,25129472,0,974578,362.050178
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,Guanosine monophosphate,12.52,26021762,0,1017593,362.050178
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,Guanosine triphosphate,#N/A,#N/A,#N/A,#N/A,521.982844
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,Guanosine triphosphate,#N/A,#N/A,#N/A,#N/A,521.982844
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,Guanosine triphosphate,14.66,3634359,0,211151,521.982844
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,Guanosine triphosphate,14.58,4310553,0,219346,521.982844
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,Urocanic acid,#N/A,#N/A,#N/A,#N/A,137.035103
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,Urocanic acid,8.16,14560,0,48538,137.035103
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,Urocanic acid,5.17,324762112,0,9373066,137.035103
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,Urocanic acid,5.21,314275552,0,8931810,137.035103
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,Inosine,8.27,14908,0,51367,267.072946
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,Inosine,#N/A,#N/A,#N/A,#N/A,267.072946
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,Inosine,7.1,381209600,4520058,18810900,267.072946
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,Inosine,7.09,374021664,699175,18201582,267.072946
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,Isethionic acid,#N/A,#N/A,#N/A,#N/A,124.990857
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,Isethionic acid,#N/A,#N/A,#N/A,#N/A,124.990857
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,Isethionic acid,3.9,623371776,0,31332930,124.990857
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,Isethionic acid,3.92,628746624,0,30745032,124.990857
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,Isocitric acid,13.57,108307912,0,4718058,191.01918
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,Isocitric acid,13.58,115575648,0,4952540,191.01918
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,Isocitric acid,13.44,47808940,0,2207307,191.01918
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,Isocitric acid,13.39,56062764,0,2264931,191.01918
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,2-keto-4-methylthiobutyric acid,1.95,85144464,1614311,16581898,147.011592
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,2-keto-4-methylthiobutyric acid,1.95,85044776,1095313,16240901,147.011592
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,2-keto-4-methylthiobutyric acid,2.46,18739,0,67058,147.011592
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,2-keto-4-methylthiobutyric acid,#N/A,#N/A,#N/A,#N/A,147.011592
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,2-Ketoglutaric acid,9.4,97671304,0,3845333,145.0137
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,2-Ketoglutaric acid,9.43,108924808,0,4314049,145.0137
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,2-Ketoglutaric acid,11.78,11905,0,44629,145.0137
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,2-Ketoglutaric acid,10.1,13539,0,45185,145.0137
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,Lipoic acid,1.89,66826784,0,14105096,205.035699
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,Lipoic acid,1.9,67495448,0,13675450,205.035699
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,Lipoic acid,#N/A,#N/A,#N/A,#N/A,205.035699
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,Lipoic acid,#N/A,#N/A,#N/A,#N/A,205.035699
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,5-Oxoproline,3.84,419327808,6701888,8551170,128.034768
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,5-Oxoproline,3.88,440346880,2286792,8897312,128.034768
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,5-Oxoproline,7.94,67281,0,47976,128.034768
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,5-Oxoproline,#N/A,#N/A,#N/A,#N/A,128.034768
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,Malic acid,10.5,378674528,53911536,11157007,133.0137
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,Malic acid,10.5,412594752,45052612,12385203,133.0137
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,Malic acid,11.91,1095407,1933978,265408,133.0137
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,Malic acid,11.7,3166161,7505947,313825,133.0137
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,Sodium 2-mercaptoethanesulfonate,#N/A,#N/A,#N/A,#N/A,140.968013
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,Sodium 2-mercaptoethanesulfonate,#N/A,#N/A,#N/A,#N/A,140.968013
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,Sodium 2-mercaptoethanesulfonate,2.35,309369696,1745193,39446328,140.968013
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,Sodium 2-mercaptoethanesulfonate,2.34,324927488,1211039,43276060,140.968013
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,Methylphosphonic acid,8.56,70737096,0,2931162,94.989808
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,Methylphosphonic acid,8.59,72507392,0,3092266,94.989808
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,Methylphosphonic acid,#N/A,#N/A,#N/A,#N/A,94.989808
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,Methylphosphonic acid,#N/A,#N/A,#N/A,#N/A,94.989808
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,N-Acetyltaurine,#N/A,#N/A,#N/A,#N/A,166.017406
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,N-Acetyltaurine,#N/A,#N/A,#N/A,#N/A,166.017406
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,N-Acetyltaurine,2.7,436620992,0,101296320,166.017406
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,N-Acetyltaurine,2.7,414749408,1938671,106519896,166.017406
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,NAD,#N/A,#N/A,#N/A,#N/A,662.101304
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,NAD,#N/A,#N/A,#N/A,#N/A,662.101304
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,NAD,10.71,35598472,0,1456043,662.101304
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,NAD,10.55,35707384,0,1513386,662.101304
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,NADH,#N/A,#N/A,#N/A,#N/A,664.116954
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,NADH,#N/A,#N/A,#N/A,#N/A,664.116954
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,NADH,8.63,50192888,0,2604786,664.116954
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,NADH,8.6,51893264,0,2612356,664.116954
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,NADP,12.86,12865,0,42547,742.067637
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,NADP,#N/A,#N/A,#N/A,#N/A,742.067637
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,NADP,12.91,14643670,0,908180,742.067637
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,NADP,12.88,15087601,0,882296,742.067637
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,NADPH,#N/A,#N/A,#N/A,#N/A,744.083287
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,NADPH,#N/A,#N/A,#N/A,#N/A,744.083287
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,NADPH,12.95,298554,0,87833,744.083287
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,NADPH,12.89,250038,0,78439,744.083287
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,Orotic acid,3.53,469755136,3923775,16321843,155.009283
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,Orotic acid,3.56,496630112,3169682,16725763,155.009283
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,Orotic acid,#N/A,#N/A,#N/A,#N/A,155.009283
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,Orotic acid,#N/A,#N/A,#N/A,#N/A,155.009283
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,Oxalic acid,12.43,36952544,11141544,831792,88.987485
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,Oxalic acid,12.45,36429892,14865508,968294,88.987485
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,Oxalic acid,13.22,113185,0,121835,88.987485
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,Oxalic acid,13.24,237630,0,144532,88.987485
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,Phosphoenolpyruvic acid,13,9393058,0,492022,166.974553
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,Phosphoenolpyruvic acid,12.98,9786570,0,464898,166.974553
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,Phosphoenolpyruvic acid,#N/A,#N/A,#N/A,#N/A,166.974553
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,Phosphoenolpyruvic acid,#N/A,#N/A,#N/A,#N/A,166.974553
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,3-Phosphoglycerate,12.57,30464438,0,1396568,184.985118
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,3-Phosphoglycerate,12.56,31716400,0,1406331,184.985118
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,3-Phosphoglycerate,#N/A,#N/A,#N/A,#N/A,184.985118
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,3-Phosphoglycerate,#N/A,#N/A,#N/A,#N/A,184.985118
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,1-Propanesulfonate,#N/A,#N/A,#N/A,#N/A,123.011592
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,1-Propanesulfonate,3.14,4830,0,23219,123.011592
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,1-Propanesulfonate,2.23,595862400,10611615,104187328,123.011592
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,1-Propanesulfonate,2.23,619363136,9089606,105668688,123.011592
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,Propionylglycine,2.68,198120160,0,89023056,130.050419
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,Propionylglycine,2.68,196787472,0,89715240,130.050419
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,Propionylglycine,5.15,22690,0,75495,130.050419
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,Propionylglycine,#N/A,#N/A,#N/A,#N/A,130.050419
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,"2,5-Dihydroxybenzoic acid",4.04,12801,0,46529,153.018785
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,"2,5-Dihydroxybenzoic acid",3.94,11061,0,40389,153.018785
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,"2,5-Dihydroxybenzoic acid",2.58,479340896,0,66683996,153.018785
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,"2,5-Dihydroxybenzoic acid",2.58,506555936,0,71232912,153.018785
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,D-Ribose 5-phosphate,13.43,6869,0,31774,229.011333
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,D-Ribose 5-phosphate,13.8,12117,0,47997,229.011333
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,D-Ribose 5-phosphate,11.45,26415312,0,746392,229.011333
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,D-Ribose 5-phosphate,11.51,28001202,0,797160,229.011333
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,Salicylic acid,1.84,529812320,9906088,107540808,137.02387
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,Salicylic acid,1.85,541200384,4588465,111671464,137.02387
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,Salicylic acid,1.86,69263112,934356,12484276,137.02387
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,Salicylic acid,1.85,68250184,0,12382923,137.02387
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,Shikimic acid,8.68,109638248,0,6424712,173.045
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,Shikimic acid,8.71,115150528,0,7097245,173.045
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,Shikimic acid,#N/A,#N/A,#N/A,#N/A,173.045
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,Shikimic acid,10.97,25881,0,80945,173.045
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,Succinic acid,9.73,85241056,11828002,3574707,117.018785
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,Succinic acid,9.73,86146456,9719893,3711190,117.018785
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,Succinic acid,11.9,320868,5617642,137367,117.018785
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,Succinic acid,11.67,1280853,10594095,222743,117.018785
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,Succinic semialdehyde,6.61,873076,839585,115836,101.02387
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,Succinic semialdehyde,6.56,716217,231925,117843,101.02387
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,Succinic semialdehyde,3.8,67594297344,2710723584,882204672,101.02387
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,Succinic semialdehyde,3.74,65031278592,4193735936,833666944,101.02387
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,Sucrose,11.71,73299928,0,6262608,341.10839
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,Sucrose,11.71,76524448,0,6589311,341.10839
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,Sucrose,12.55,67629160,667446,4768014,341.10839
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,Sucrose,12.13,1970909,0,353314,341.10839
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,Sulfanilic acid,8.12,11234,0,39060,172.006841
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,Sulfanilic acid,8.15,12076,0,45611,172.006841
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,Sulfanilic acid,3.86,452716256,0,26203926,172.006841
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,Sulfanilic acid,3.84,445460352,0,25640294,172.006841
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,Sulfoacetic acid,#N/A,#N/A,#N/A,#N/A,138.970122
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,Sulfoacetic acid,13.62,8881,0,29566,138.970122
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,Sulfoacetic acid,12.11,58751292,0,1891798,138.970122
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,Sulfoacetic acid,12.08,61311276,0,1958126,138.970122
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,Sulfolactic Acid,12.55,21125,0,53656,168.980687
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,Sulfolactic Acid,#N/A,#N/A,#N/A,#N/A,168.980687
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,Sulfolactic Acid,11.03,367167,0,88943,168.980687
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,Sulfolactic Acid,10.81,395858,0,74233,168.980687
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,Taurine,10.23,15884,0,52210,124.006841
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,Taurine,11.4,19997,0,40086,124.006841
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,Taurine,7.6,428846272,0,29682394,124.006841
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,Taurine,7.61,430516704,3675188,29219900,124.006841
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,Threonic acid,7,332150592,0,11250741,135.02935
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,Threonic acid,7.01,396062464,0,12769395,135.02935
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,Threonic acid,#N/A,#N/A,#N/A,#N/A,135.02935
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,Threonic acid,#N/A,#N/A,#N/A,#N/A,135.02935
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,Thymidine,3.31,74941400,0,2737707,241.082448
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,Thymidine,3.37,79021296,0,2811487,241.082448
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,Thymidine,#N/A,#N/A,#N/A,#N/A,241.082448
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,Thymidine,2.72,56283,0,163271,241.082448
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,Thymine,3.31,229551344,0,7722929,125.035103
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,Thymine,3.37,242058192,840563,8225620,125.035103
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,Thymine,3.46,99691272,0,5923709,125.035103
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,Thymine,3.47,102232424,0,5795709,125.035103
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,Trehalose,#N/A,#N/A,#N/A,#N/A,341.10839
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,Trehalose,12.79,17447,0,67800,341.10839
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,Trehalose,12.55,67629160,667446,4768014,341.10839
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,Trehalose,12.55,66143040,0,4845760,341.10839
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,UDP-N-acetylglucosamine,#N/A,#N/A,#N/A,#N/A,606.073753
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,UDP-N-acetylglucosamine,#N/A,#N/A,#N/A,#N/A,606.073753
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,UDP-N-acetylglucosamine,10.87,45867212,0,1979918,606.073753
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,UDP-N-acetylglucosamine,10.87,46423812,0,1703892,606.073753
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,UDP-glucose,#N/A,#N/A,#N/A,#N/A,565.047204
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,UDP-glucose,#N/A,#N/A,#N/A,#N/A,565.047204
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,UDP-glucose,12.07,37626300,0,2263542,565.047204
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,UDP-glucose,12.06,39124484,0,2419872,565.047204
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,Uracil,3.5,321840768,2634459,11160832,111.019453
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,Uracil,3.46,342210528,0,11463668,111.019453
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,Uracil,4.17,90494048,0,5527002,111.019453
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,Uracil,4.17,91515224,0,5600752,111.019453
+molecules1,210204_Std_4uMStdsMix1InH2O_neg1,Uridine,#N/A,#N/A,#N/A,#N/A,243.061713
+molecules1,210204_Std_4uMStdsMix1InH2O_neg2,Uridine,#N/A,#N/A,#N/A,#N/A,243.061713
+molecules1,210204_Std_4uMStdsMix2InH2O_neg1,Uridine,5.86,125022936,0,5229385,243.061713
+molecules1,210204_Std_4uMStdsMix2InH2O_neg2,Uridine,5.86,125603400,0,5302955,243.061713
