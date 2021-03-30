@@ -126,7 +126,6 @@ if (file.size("data_processed/Ingalls_Lab_Standards_MSMS.csv") / 1e6 > 5) {
 library(git2r)
 
 repo <- repository()
-add(repo, "data_raw/*.mzML")
 add(repo, "data_processed/Ingalls_Lab_Standards_MSMS.csv")
 add(repo, "data_processed/missing_cmpds.csv")
 status(repo)
