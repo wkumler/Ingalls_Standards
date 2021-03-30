@@ -7,8 +7,8 @@ library(tidyverse)
 ## Set absolute path to the Google Drive. The MS2 files live there and you must have your working directory 
 ## Ensure the getwd() command properly connects to the shared Drive from your filepath!
 
-setwd("G:\\Shared drives\\Ingalls Lab\\Collaborative_Projects\\Standards\\Ingalls_Standards\\MSMS") # Windows
-# setwd("/Volumes/GoogleDrive/Shared drives/Ingalls Lab/Collaborative_Projects/Standards/Ingalls_Standards/MSMS/") # Mac
+# setwd("G:\\Shared drives\\Ingalls Lab\\Collaborative_Projects\\Standards\\Ingalls_Standards\\MSMS") # Windows
+setwd("~/Google Drive/Shared drives/Ingalls Lab/Collaborative_Projects/Standards/Ingalls_Standards/MSMS/") # Mac
 
 ## Check for correct working directory.
 if(str_detect(getwd(), "Ingalls_Standards/MSMS")) {
