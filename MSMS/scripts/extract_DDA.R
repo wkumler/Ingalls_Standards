@@ -69,7 +69,6 @@ compound.data <- read.csv("data_raw/HILICpos_StandardMixes_All-CEs.csv") %>%
   filter(!is.na(rt))
 
 
-
 ## Define parameter flexibility ----
 # How far away can a DDA scan be from the provided RT, in minutes?
 rt.flex <- 0.2
@@ -127,7 +126,6 @@ if (file.size("data_processed/Ingalls_Lab_Standards_MSMS.csv") / 1e6 > 5) {
 
 # Automatically commit changes to the Ingalls Standards github
 repo <- repository()
-add(repo, ".gitignore.txt")
 add(repo, "data_processed/Ingalls_Lab_Standards_MSMS.csv")
 add(repo, "data_processed/missing_cmpds.csv")
 status(repo)
