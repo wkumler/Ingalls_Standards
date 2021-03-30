@@ -56,18 +56,6 @@ RetrieveDDAFiles <- function(pattern) {
   return(msdata)
 }
 
-## Grab most recent list of standards from the Ingalls Standards folder
-Ingalls.standards <- read.csv("../Ingalls_Lab_Standards_NEW.csv") %>%
-  filter(Column == "HILIC") %>%
-  select(compound_name = "Compound.Name", 
-         mz = "m.z", 
-         z,
-         mix = "HILICMix", 
-         rt = "RT..min.") %>%
-  mutate(across(.cols = one_of("mz", "rt"), as.numeric)) %>%
-  mutate(polarity = ifelse(z > 0, "pos", "neg")) %>% 
-  filter(!is.na(mz))
-
 ## Grab manual standard retention times
 compound.data <- read.csv("data_raw/HILICpos_StandardMixes_All-CEs.csv") %>%
   rbind(read.csv("data_raw/HILICneg_StandardMixes_All-CEs.csv")) %>%
@@ -120,24 +108,24 @@ MSMS.data <- mapply(extractMSMSdata, SIMPLIFY = FALSE,
   rbindlist()
 
 
-write.csv(MSMS.data, file = "data_processed/Ingalls_Lab_Standards_MSMS.csv", 
-          
+write.csv(MSMS.data, file = "data_processed/Ingalls_Lab_Standards_MSMS.csv", row.names=FALSE)
+
 # Make additional dataframe for missing compounds
-missing.cmpds <- final.MS2 %>%
+missing.cmpds <- MSMS.data %>%
   filter(!is.na(MS2)) %>%
-  anti_join(Ingalls.standards, ., by = c("compound_name", "z"))
+  anti_join(compound.data, ., by = c("compound_name"))
 
 
-write.csv(final.MS2, file = "data_processed/Ingalls_Lab_Standards_MSMS.csv", 
+write.csv(missing.cmpds, file = "data_processed/missing_cmpds.csv", 
           row.names = FALSE)
 
 if (file.size("data_processed/Ingalls_Lab_Standards_MSMS.csv") / 1e6 > 5) {
   stop("Beware! The output file is larger than 5MB - be careful pushing to GitHub.")
 }
 
-library(git2r)
-
-repo <- repository()
-add(repo, "Ingalls_Lab_Standards_MSMS.csv")
-status(repo)
-commit(repo, message = "Updated MSMS sheet automatically")
+# library(git2r)
+# 
+# repo <- repository()
+# add(repo, "MSMS/Ingalls_Lab_Standards_MSMS.csv")
+# status(repo)
+# commit(repo, message = "Updated MSMS sheet automatically")
