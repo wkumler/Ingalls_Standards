@@ -1,5 +1,5 @@
 ---
-title: "README"
+title: "Ingalls Standards Repository"
 author: "RLionheart"
 date: "6/3/2020"
 output: github_document
@@ -9,7 +9,7 @@ output: github_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Ingalls Standards Repository
+<!--This document was created by knitting the README.Rmd file. Please edit that instead.-->
 
 This repository contains all the relevant information for most recent list of the Ingalls Lab Standards. This includes the original standards list (titled "Ingalls_Lab_Standards.csv") in the data_raw/ directory, and the new standards list (titled "Ingalls_Lab_Standards_NEW.csv").
 
