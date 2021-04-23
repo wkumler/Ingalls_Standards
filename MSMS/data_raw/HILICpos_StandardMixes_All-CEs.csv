@@ -1,0 +1,393 @@
+Protein Name,Replicate Name,Precursor Ion Name,Retention Time,Area,Background,Height,Precursor Mz
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,(3-Carboxypropyl)trimethylammonium,10.28,1600985600,17447454,133590016,146.118104
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,(3-Carboxypropyl)trimethylammonium,10.29,1875196032,19750406,150248496,146.118104
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,(3-Carboxypropyl)trimethylammonium,#N/A,#N/A,#N/A,#N/A,146.118104
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,(3-Carboxypropyl)trimethylammonium,#N/A,#N/A,#N/A,#N/A,146.118104
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,Hydroxyisoleucine,8.59,13534,0,29023,148.097369
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,Hydroxyisoleucine,8.13,14996,0,52206,148.097369
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,Hydroxyisoleucine,7.48,104203624,14017188,5756192,148.097369
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,Hydroxyisoleucine,7.48,92125160,10688677,5205269,148.097369
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,5-Methylcytosine,5.53,61138,0,68153,126.066737
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,5-Methylcytosine,5.88,120283,0,48994,126.066737
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,5-Methylcytosine,6.19,1305620352,12879948,56374280,126.066737
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,5-Methylcytosine,6.2,1206036224,12150621,51945768,126.066737
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,N6-Methyladenine,3.94,35927,0,23760,150.07797
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,N6-Methyladenine,3.96,8211,0,15617,150.07797
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,N6-Methyladenine,3.94,2090486400,23000120,100845888,150.07797
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,N6-Methyladenine,3.95,1852836480,16913824,92603288,150.07797
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,Acetylcholine,13.31,126634,173831,45487,146.118104
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,Acetylcholine,13.3,459014,497471,102124,146.118104
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,Acetylcholine,13.81,962672320,13037565,45726512,146.118104
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,Acetylcholine,13.83,779311552,9551797,36328904,146.118104
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,O-Acetylcarnitine,8.06,3035376128,33667492,174836720,204.123584
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,O-Acetylcarnitine,8.08,3224355072,39376888,181985056,204.123584
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,O-Acetylcarnitine,7.22,7314,0,32345,204.123584
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,O-Acetylcarnitine,7.82,69199,0,74684,204.123584
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,Adenine,5.28,1544722304,22269780,65803208,136.06232
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,Adenine,5.29,1467891840,22941616,62370408,136.06232
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,Adenine,4.25,580330432,19310732,22696204,136.06232
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,Adenine,4.33,481301824,17882254,19324856,136.06232
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,Adenosine,#N/A,#N/A,#N/A,#N/A,268.10458
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,Adenosine,#N/A,#N/A,#N/A,#N/A,268.10458
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,Adenosine,5.21,1099859840,14351238,37699704,268.10458
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,Adenosine,5.21,1024049984,14420678,36353992,268.10458
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,L-Alanine,10.43,25111690,0,1271604,90.055504
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,L-Alanine,10.47,25834376,0,1260459,90.055504
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,L-Alanine,10.74,34353,322296,22632,90.055504
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,L-Alanine,10.78,98546,330260,163585,90.055504
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,4-Aminobutyric acid,11.65,148549264,38223412,10940986,104.071154
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,4-Aminobutyric acid,11.7,156710256,30261704,11240236,104.071154
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,4-Aminobutyric acid,10.5,23831966,40287380,862278,104.071154
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,4-Aminobutyric acid,10.78,20828798,30739062,882406,104.071154
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,Anserine,#N/A,#N/A,#N/A,#N/A,241.130066
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,Anserine,#N/A,#N/A,#N/A,#N/A,241.130066
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,Anserine,9.36,214086592,0,8962384,241.130066
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,Anserine,9.38,208517136,0,8923133,241.130066
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,L-Arginine,19.89,109786552,0,2598683,175.119501
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,L-Arginine,20.04,118235200,0,2834455,175.119501
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,L-Arginine,#N/A,#N/A,#N/A,#N/A,175.119501
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,L-Arginine,#N/A,#N/A,#N/A,#N/A,175.119501
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,L-Arginosuccinic acid,12.67,49460576,0,2167096,291.13046
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,L-Arginosuccinic acid,12.59,52634500,0,2282432,291.13046
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,L-Arginosuccinic acid,#N/A,#N/A,#N/A,#N/A,291.13046
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,L-Arginosuccinic acid,#N/A,#N/A,#N/A,#N/A,291.13046
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,Arsenobetaine,#N/A,#N/A,#N/A,#N/A,179.005326
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,Arsenobetaine,#N/A,#N/A,#N/A,#N/A,179.005326
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,Arsenobetaine,7.71,3996163328,57228856,229328384,179.005326
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,Arsenobetaine,7.72,3167441152,39260912,182743920,179.005326
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,L-Asparagine,9.44,55033060,0,1513915,133.061318
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,L-Asparagine,9.45,55965900,0,1567228,133.061318
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,L-Asparagine,11.64,2860,0,8305,133.061318
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,L-Asparagine,12.22,2862,0,11220,133.061318
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,L-Aspartic acid,10.18,18582912,0,684945,134.045334
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,L-Aspartic acid,10.25,19523258,0,880465,134.045334
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,L-Aspartic acid,12.69,2963,0,9306,134.045334
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,L-Aspartic acid,#N/A,#N/A,#N/A,#N/A,134.045334
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,beta-Alanine,11.18,8618397,86418,747878,90.055504
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,beta-Alanine,11.24,9399000,0,793810,90.055504
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,beta-Alanine,11.5,73403480,628987,5592906,90.055504
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,beta-Alanine,11.5,61571768,691135,4949663,90.055504
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,beta-Glutamic acid,#N/A,#N/A,#N/A,#N/A,148.060984
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,beta-Glutamic acid,#N/A,#N/A,#N/A,#N/A,148.060984
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,beta-Glutamic acid,9.74,111062032,0,4938859,148.060984
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,beta-Glutamic acid,9.74,102487584,0,4787423,148.060984
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,Glycine betaine,7.82,2943459584,54635556,169319568,118.086804
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,Glycine betaine,7.8,3147499520,58012368,185282864,118.086804
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,Glycine betaine,8.44,5069960,17108374,375110,118.086804
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,Glycine betaine,7.85,607736,2085896,192398,118.086804
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,Betonicine,8.86,15923,0,29958,160.097369
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,Betonicine,8.28,6992,0,21767,160.097369
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,Betonicine,8.95,3850377984,45923072,261628320,160.097369
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,Betonicine,8.95,3269961472,30346034,213912336,160.097369
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,Butyrylcarnitine,5.54,7281872896,22492928,185773744,232.154884
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,Butyrylcarnitine,5.52,7559540736,0,190416288,232.154884
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,Butyrylcarnitine,#N/A,#N/A,#N/A,#N/A,232.154884
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,Butyrylcarnitine,#N/A,#N/A,#N/A,#N/A,232.154884
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,Carnitine,10.11,682977792,7664785,56029264,162.113019
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,Carnitine,10.12,770364288,10000914,62907292,162.113019
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,Carnitine,10.12,254731392,2320298,20490560,162.113019
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,Carnitine,10.12,206416544,0,17011372,162.113019
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,Carnosine,11.02,53433,0,32632,227.114416
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,Carnosine,11.1,75121,0,42020,227.114416
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,Carnosine,11.03,151968736,1576528,8161065,227.114416
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,Carnosine,11.02,147128720,1070345,7795400,227.114416
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,Chitobiose,#N/A,#N/A,#N/A,#N/A,425.177138
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,Chitobiose,10.53,2044,0,9810,425.177138
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,Chitobiose,10.15,60473300,0,2384379,425.177138
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,Chitobiose,10.12,57672644,0,2231431,425.177138
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,Choline,17.6,1180038400,6357691,48233228,104.107539
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,Choline,17.84,1299271168,6523028,51915392,104.107539
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,Choline,17.86,211120912,5591146,8768031,104.107539
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,Choline,17.86,163835840,6314920,6716857,104.107539
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,Citrulline,11.63,75905792,0,3516550,176.103517
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,Citrulline,11.66,77927184,0,3736719,176.103517
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,Citrulline,11.87,5566,0,13246,176.103517
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,Citrulline,12.03,2500,0,7736,176.103517
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,Creatine,11.18,708588864,7491840,63135324,132.077302
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,Creatine,11.21,756206784,8800741,63763224,132.077302
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,Creatine,11.01,7257,0,13849,132.077302
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,Creatine,11.35,5056,0,15437,132.077302
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,"Cys-Gly, oxidized",8.53,183203584,0,6963348,355.074605
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,"Cys-Gly, oxidized",8.63,172518608,0,6110532,355.074605
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,"Cys-Gly, oxidized",#N/A,#N/A,#N/A,#N/A,355.074605
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,"Cys-Gly, oxidized",#N/A,#N/A,#N/A,#N/A,355.074605
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,L-Cystathionine,#N/A,#N/A,#N/A,#N/A,223.075255
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,L-Cystathionine,#N/A,#N/A,#N/A,#N/A,223.075255
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,L-Cystathionine,11.93,30554656,0,807365,223.075255
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,L-Cystathionine,11.91,31339938,0,786781,223.075255
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,L-Cystine,10.06,28990914,0,780707,241.031677
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,L-Cystine,10.11,31634154,0,874661,241.031677
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,L-Cystine,8.64,1741734,0,143399,241.031677
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,L-Cystine,8.65,2142611,0,131050,241.031677
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,Cytidine,#N/A,#N/A,#N/A,#N/A,244.093347
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,Cytidine,#N/A,#N/A,#N/A,#N/A,244.093347
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,Cytidine,8.42,179064064,1754177,12327994,244.093347
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,Cytidine,8.42,167168976,1698122,10422363,244.093347
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,Cytosine,7.39,71309,1532,44478,112.051087
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,Cytosine,7.42,22384,0,46758,112.051087
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,Cytosine,7.29,872469632,9357560,49808536,112.051087
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,Cytosine,7.3,830531456,11055212,48857200,112.051087
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,Deoxyadenosine,#N/A,#N/A,#N/A,#N/A,252.109665
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,Deoxyadenosine,#N/A,#N/A,#N/A,#N/A,252.109665
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,Deoxyadenosine,4.32,1943852416,20488956,73084272,252.109665
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,Deoxyadenosine,4.33,1649138816,18739946,63832372,252.109665
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,Dimethylglycine,8.04,376300480,101905368,22801026,104.071154
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,Dimethylglycine,8.07,371688608,91610784,22393188,104.071154
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,Dimethylglycine,#N/A,#N/A,#N/A,#N/A,104.071154
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,Dimethylglycine,#N/A,#N/A,#N/A,#N/A,104.071154
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,Dimethylsulfonioacetate,#N/A,#N/A,#N/A,#N/A,121.032327
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,Dimethylsulfonioacetate,#N/A,#N/A,#N/A,#N/A,121.032327
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,Dimethylsulfonioacetate,8.77,1177646976,17347888,86391728,121.032327
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,Dimethylsulfonioacetate,8.74,1021632000,13382014,72695552,121.032327
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,Dimethylsulfoniopropionate,10.11,111872,0,68724,135.047977
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,Dimethylsulfoniopropionate,10.15,47959,0,45474,135.047977
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,Dimethylsulfoniopropionate,10.12,1270014464,17000954,104285088,135.047977
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,Dimethylsulfoniopropionate,10.12,1160109568,17578002,98588736,135.047977
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,Ectoine,9.89,91455,280122,64044,143.082053
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,Ectoine,9.75,112909,8653,66100,143.082053
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,Ectoine,9.87,5758323712,70875400,438739168,143.082053
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,Ectoine,9.88,5297403392,62944388,401710752,143.082053
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,Ergothioneine,11.08,73406368,958277,6015443,230.096324
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,Ergothioneine,11.11,76197520,536091,5956443,230.096324
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,Ergothioneine,#N/A,#N/A,#N/A,#N/A,230.096324
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,Ergothioneine,#N/A,#N/A,#N/A,#N/A,230.096324
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,Glucosamine,10.29,91948992,1405037,6564327,180.087199
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,Glucosamine,10.3,95411888,1291552,6617911,180.087199
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,Glucosamine,#N/A,#N/A,#N/A,#N/A,180.087199
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,Glucosamine,#N/A,#N/A,#N/A,#N/A,180.087199
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,2-O-alpha-D-Glucosylglycerol,#N/A,#N/A,#N/A,#N/A,255.107995
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,2-O-alpha-D-Glucosylglycerol,#N/A,#N/A,#N/A,#N/A,255.107995
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,2-O-alpha-D-Glucosylglycerol,10.09,3554152,0,394399,255.107995
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,2-O-alpha-D-Glucosylglycerol,10.08,4163070,0,410368,255.107995
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,L-Glutamic acid,9.91,60311252,0,2509096,148.060984
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,L-Glutamic acid,9.98,59792704,0,2624805,148.060984
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,L-Glutamic acid,9.74,111229312,0,4938859,148.060984
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,L-Glutamic acid,9.74,102631080,0,4787423,148.060984
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,L-Glutamine,10.16,140696400,0,4576183,147.076968
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,L-Glutamine,10.2,136886928,0,4486167,147.076968
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,L-Glutamine,#N/A,#N/A,#N/A,#N/A,147.076968
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,L-Glutamine,#N/A,#N/A,#N/A,#N/A,147.076968
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,Glutamylphenylalanine,6.89,483523840,440346,6021847,295.129398
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,Glutamylphenylalanine,6.94,424799424,19113362,6124489,295.129398
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,Glutamylphenylalanine,#N/A,#N/A,#N/A,#N/A,295.129398
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,Glutamylphenylalanine,#N/A,#N/A,#N/A,#N/A,295.129398
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,Glutathione,9.7,91790464,0,3907572,308.091634
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,Glutathione,9.74,90478208,0,3809095,308.091634
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,Glutathione,#N/A,#N/A,#N/A,#N/A,308.091634
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,Glutathione,#N/A,#N/A,#N/A,#N/A,308.091634
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,Glutathione disulfide,15.73,2252,0,7699,613.159793
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,Glutathione disulfide,#N/A,#N/A,#N/A,#N/A,613.159793
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,Glutathione disulfide,13.32,17668560,0,1136179,613.159793
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,Glutathione disulfide,13.31,17137124,0,1137609,613.159793
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,Glycerophosphocholine,11.39,119258688,639673,10530318,258.110652
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,Glycerophosphocholine,11.45,128061960,1402876,11451764,258.110652
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,Glycerophosphocholine,#N/A,#N/A,#N/A,#N/A,258.110652
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,Glycerophosphocholine,#N/A,#N/A,#N/A,#N/A,258.110652
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,Glycine,11.14,4929208,0,260619,76.039854
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,Glycine,11.19,5144693,0,269035,76.039854
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,Glycine,9.45,42007,0,36445,76.039854
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,Glycine,9.07,13876,0,41243,76.039854
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,Gonyol,#N/A,#N/A,#N/A,#N/A,179.074191
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,Gonyol,10.53,4794,0,12139,179.074191
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,Gonyol,11.19,263464960,3174395,22781864,179.074191
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,Gonyol,11.19,206913840,2098495,17864908,179.074191
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,Guanine,8.59,8103,0,24659,152.057235
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,Guanine,8.5,4812,0,18845,152.057235
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,Guanine,8.5,154759856,2014064,9625550,152.057235
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,Guanine,8.48,166812880,1952033,10148016,152.057235
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,Guanosine,#N/A,#N/A,#N/A,#N/A,284.099495
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,Guanosine,#N/A,#N/A,#N/A,#N/A,284.099495
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,Guanosine,9.1,137282976,1413222,8548241,284.099495
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,Guanosine,9.09,130218936,1195556,8054792,284.099495
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,L-Histidine,9.8,492241504,3775070,9942284,156.077302
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,L-Histidine,9.81,497980288,0,10198972,156.077302
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,L-Histidine,11,151545,407242,76599,156.077302
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,L-Histidine,11.46,12645,0,19908,156.077302
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,Homarine,6.41,49710,0,25437,138.055503
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,Homarine,5.73,78200,0,27720,138.055503
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,Homarine,6.11,123869312,515628,5140140,138.055503
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,Homarine,6.09,104597448,0,4364815,138.055503
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,Homocysteine thiolactone,2.68,28920890,0,3769522,118.032661
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,Homocysteine thiolactone,2.68,23862258,1657195,3673190,118.032661
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,Homocysteine thiolactone,#N/A,#N/A,#N/A,#N/A,118.032661
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,Homocysteine thiolactone,#N/A,#N/A,#N/A,#N/A,118.032661
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,L-Homocystine,10.43,30265262,0,536457,269.062977
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,L-Homocystine,10.57,32078124,0,572902,269.062977
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,L-Homocystine,11.71,16852,0,25027,269.062977
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,L-Homocystine,11.73,23732,0,20972,269.062977
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,L-Homoserine,10.4,73116208,4112951,2862170,120.066069
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,L-Homoserine,10.41,72589312,3458403,2917450,120.066069
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,L-Homoserine,11.69,38718,0,18311,120.066069
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,L-Homoserine,11.82,50417,0,19659,120.066069
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,Hordenine,3.67,20389,0,16024,166.123189
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,Hordenine,4.26,6183,0,14909,166.123189
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,Hordenine,4.42,2924765184,14908316,687695680,166.123189
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,Hordenine,4.43,2408889088,28593624,604726912,166.123189
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,5-Hydroxyectoine,11.59,48906176,0,2253842,159.076968
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,5-Hydroxyectoine,11.67,50015432,0,2438177,159.076968
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,5-Hydroxyectoine,11.29,91399976,1736513,7851218,159.076968
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,5-Hydroxyectoine,11.28,87540160,2236420,7694419,159.076968
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,L-Hydroxylysine,16.9,16969888,0,323563,163.108268
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,L-Hydroxylysine,16.99,17420472,0,332542,163.108268
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,L-Hydroxylysine,#N/A,#N/A,#N/A,#N/A,163.108268
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,L-Hydroxylysine,#N/A,#N/A,#N/A,#N/A,163.108268
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,Hypotaurine,#N/A,#N/A,#N/A,#N/A,110.027576
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,Hypotaurine,#N/A,#N/A,#N/A,#N/A,110.027576
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,Hypotaurine,9.87,275319,0,62291,110.027576
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,Hypotaurine,10.35,258803,0,37118,110.027576
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,Hypoxanthine,5.27,10169,0,36139,137.046336
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,Hypoxanthine,5.41,9903,0,32557,137.046336
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,Hypoxanthine,5.68,687120832,5434283,30876752,137.046336
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,Hypoxanthine,5.68,650906816,7437540,28494272,137.046336
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,L-Isoleucine,6.82,206422896,20129094,8538626,132.102454
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,L-Isoleucine,6.83,180323056,20645998,7875677,132.102454
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,L-Isoleucine,8.53,335734,0,87593,132.102454
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,L-Isoleucine,8.35,280924,0,56819,132.102454
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,L-Leucine,6.33,229176368,0,7955424,132.102454
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,L-Leucine,6.33,212572352,0,7483005,132.102454
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,L-Leucine,7.14,268995,0,66622,132.102454
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,L-Leucine,6.96,248928,22020,59453,132.102454
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,L-Lysine,19.18,12537568,0,293956,147.113353
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,L-Lysine,19.24,12629578,0,313226,147.113353
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,L-Lysine,#N/A,#N/A,#N/A,#N/A,147.113353
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,L-Lysine,#N/A,#N/A,#N/A,#N/A,147.113353
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,Melamine,6.68,66074,0,47721,127.073219
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,Melamine,6.74,80897,0,76154,127.073219
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,Melamine,7.32,1871237248,24469714,96814872,127.073219
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,Melamine,7.35,1664466560,23226102,93075656,127.073219
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,L-Methionine,5.86,239776688,0,6673662,150.058876
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,L-Methionine,5.91,222013520,0,6272083,150.058876
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,L-Methionine,#N/A,#N/A,#N/A,#N/A,150.058876
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,L-Methionine,#N/A,#N/A,#N/A,#N/A,150.058876
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,L-Methionine S-oxide,7.71,219476784,0,9530373,166.053791
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,L-Methionine S-oxide,7.75,200032256,0,8561834,166.053791
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,L-Methionine S-oxide,#N/A,#N/A,#N/A,#N/A,166.053791
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,L-Methionine S-oxide,#N/A,#N/A,#N/A,#N/A,166.053791
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,O-Methylmalonyl-L-carnitine,9.36,3729,0,9593,262.129063
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,O-Methylmalonyl-L-carnitine,#N/A,#N/A,#N/A,#N/A,262.129063
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,O-Methylmalonyl-L-carnitine,7.98,2982477568,0,125440240,262.129063
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,O-Methylmalonyl-L-carnitine,7.98,2581730048,0,110072736,262.129063
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,Muramic acid,#N/A,#N/A,#N/A,#N/A,252.108329
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,Muramic acid,#N/A,#N/A,#N/A,#N/A,252.108329
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,Muramic acid,4.32,1963998336,0,73361904,252.108329
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,Muramic acid,4.33,1672717568,0,64087684,252.108329
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,N6-Acetyl-L-lysine,8.68,588534976,0,23663016,189.123918
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,N6-Acetyl-L-lysine,8.73,540779328,5965806,22787094,189.123918
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,N6-Acetyl-L-lysine,9.06,11373,0,45772,189.123918
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,N6-Acetyl-L-lysine,10.28,4995,0,14990,189.123918
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,N-Acetyl-D-glucosamine,#N/A,#N/A,#N/A,#N/A,222.097764
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,N-Acetyl-D-glucosamine,#N/A,#N/A,#N/A,#N/A,222.097764
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,N-Acetyl-D-glucosamine,8.53,30377532,0,3010412,222.097764
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,N-Acetyl-D-glucosamine,8.41,25162948,0,756874,222.097764
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,N-Acetylmuramic acid,2.44,414055,0,76305,294.118894
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,N-Acetylmuramic acid,2.51,361061,0,71878,294.118894
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,N-Acetylmuramic acid,4.69,157247472,0,2756408,294.118894
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,N-Acetylmuramic acid,4.64,141429408,0,2441170,294.118894
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,O-Acetyl-L-serine,4.43,61461796,0,1083297,148.060984
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,O-Acetyl-L-serine,4.42,56741916,0,1289776,148.060984
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,O-Acetyl-L-serine,4.11,41787,0,59337,148.060984
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,O-Acetyl-L-serine,3.99,183711,0,56849,148.060984
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,N-Methyltaurine,#N/A,#N/A,#N/A,#N/A,140.038141
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,N-Methyltaurine,5.45,15995,0,55390,140.038141
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,N-Methyltaurine,6.14,355629920,4603148,18886862,140.038141
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,N-Methyltaurine,6.16,325408704,4499631,17173574,140.038141
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,Ophthalmic acid,8.81,244361248,0,8733584,290.135212
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,Ophthalmic acid,8.84,237361552,373311,8726097,290.135212
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,Ophthalmic acid,#N/A,#N/A,#N/A,#N/A,290.135212
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,Ophthalmic acid,#N/A,#N/A,#N/A,#N/A,290.135212
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,L-Ornithine,16.85,24493882,0,506661,133.097703
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,L-Ornithine,16.9,25086184,0,533492,133.097703
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,L-Ornithine,16.91,5392,0,8751,133.097703
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,L-Ornithine,16.92,4135,0,16394,133.097703
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,2-Heptyl-3-hydroxy-quinolone,2.19,34852708,181398,3487809,260.165054
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,2-Heptyl-3-hydroxy-quinolone,2.21,37157396,1331749,3799039,260.165054
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,2-Heptyl-3-hydroxy-quinolone,#N/A,#N/A,#N/A,#N/A,260.165054
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,2-Heptyl-3-hydroxy-quinolone,#N/A,#N/A,#N/A,#N/A,260.165054
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,L-Proline,9.21,310440160,3608937,18688020,116.071154
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,L-Proline,9.21,307213920,2841641,18983598,116.071154
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,L-Proline,9.21,100506,12079,56280,116.071154
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,L-Proline,9.19,440102,0,57626,116.071154
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,O-Propionylcarnitine,6.9,2147103360,0,73824088,218.139234
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,O-Propionylcarnitine,6.83,2276728832,0,80485808,218.139234
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,O-Propionylcarnitine,#N/A,#N/A,#N/A,#N/A,218.139234
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,O-Propionylcarnitine,#N/A,#N/A,#N/A,#N/A,218.139234
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,"2,3-Pyridinedicarboxylic acid",10.77,50531788,0,2012537,168.029684
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,"2,3-Pyridinedicarboxylic acid",10.82,51644800,0,2144575,168.029684
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,"2,3-Pyridinedicarboxylic acid",#N/A,#N/A,#N/A,#N/A,168.029684
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,"2,3-Pyridinedicarboxylic acid",#N/A,#N/A,#N/A,#N/A,168.029684
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,Riboflavin-5-phosphate,8,1213001,0,292732,457.112444
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,Riboflavin-5-phosphate,8.08,2722819,0,316469,457.112444
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,Riboflavin-5-phosphate,7.89,116393320,18224378,3928434,457.112444
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,Riboflavin-5-phosphate,7.87,115929328,9137229,3308589,457.112444
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,Sarcosine,10.43,24974552,0,1271604,90.055504
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,Sarcosine,10.47,25617636,251400,1256481,90.055504
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,Sarcosine,10.1,87939912,0,5994347,90.055504
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,Sarcosine,10.12,75870048,0,5363525,90.055504
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,L-Serine,10.45,22991692,0,735516,106.050419
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,L-Serine,10.48,23085492,0,715117,106.050419
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,L-Serine,#N/A,#N/A,#N/A,#N/A,106.050419
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,L-Serine,11.59,2570,0,7918,106.050419
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,Proline betaine,7.24,497745216,7665696,25282028,144.102454
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,Proline betaine,7.23,531627872,9874174,27475412,144.102454
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,Proline betaine,7.1,171329,0,54439,144.102454
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,Proline betaine,7.2,163462,0,64204,144.102454
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,Succinylglycine,9.61,9830757,0,502174,176.055899
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,Succinylglycine,9.68,9623874,0,508217,176.055899
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,Succinylglycine,#N/A,#N/A,#N/A,#N/A,176.055899
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,Succinylglycine,#N/A,#N/A,#N/A,#N/A,176.055899
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,Thiamine monophosphate,10.83,74411320,0,1585985,345.078641
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,Thiamine monophosphate,10.83,82691264,0,1745851,345.078641
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,Thiamine monophosphate,#N/A,#N/A,#N/A,#N/A,345.078641
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,Thiamine monophosphate,#N/A,#N/A,#N/A,#N/A,345.078641
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,Thiamine diphosphate,11.29,15748545,0,352113,425.044974
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,Thiamine diphosphate,11.29,17883402,0,339319,425.044974
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,Thiamine diphosphate,#N/A,#N/A,#N/A,#N/A,425.044974
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,Thiamine diphosphate,#N/A,#N/A,#N/A,#N/A,425.044974
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,L-Threonine,8.49,67261512,0,3522424,120.066069
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,L-Threonine,8.54,63330912,0,3362194,120.066069
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,L-Threonine,10.33,38018,0,23296,120.066069
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,L-Threonine,10.37,30278,0,26267,120.066069
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,Hydroxyproline,10.45,147791584,0,8021615,132.066069
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,Hydroxyproline,10.49,149743200,0,7809548,132.066069
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,Hydroxyproline,10.45,48233,0,25360,132.066069
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,Hydroxyproline,10.57,37314,0,18012,132.066069
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,Trigonelline,8.38,325092192,3380653,22645084,138.055503
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,Trigonelline,8.38,345793856,3375399,23493642,138.055503
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,Trigonelline,8.42,10938796,0,797032,138.055503
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,Trigonelline,8.42,25002326,0,907558,138.055503
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,Trimethylamine,7.52,18069190,1995686,927465,60.081324
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,Trimethylamine,7.49,22171032,0,1054186,60.081324
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,Trimethylamine,#N/A,#N/A,#N/A,#N/A,60.081324
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,Trimethylamine,#N/A,#N/A,#N/A,#N/A,60.081324
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,Trimethylamine N-oxide,7.42,738233024,8121785,40870852,76.076239
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,Trimethylamine N-oxide,7.42,793045184,11373224,43835104,76.076239
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,Trimethylamine N-oxide,#N/A,#N/A,#N/A,#N/A,76.076239
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,Trimethylamine N-oxide,#N/A,#N/A,#N/A,#N/A,76.076239
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,beta-Alaninebetaine,9.48,118541,1195226,30393,132.1018
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,beta-Alaninebetaine,9.75,47847,1341049,19398,132.1018
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,beta-Alaninebetaine,9.91,1311285760,17046502,102945040,132.1018
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,beta-Alaninebetaine,9.92,1185932800,15488524,92986888,132.1018
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,"N6,N6,N6-Trimethyl-L-lysine",#N/A,#N/A,#N/A,#N/A,189.160303
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,"N6,N6,N6-Trimethyl-L-lysine",17.39,3173,0,12124,189.160303
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,"N6,N6,N6-Trimethyl-L-lysine",17.37,229614272,3741636,7320612,189.160303
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,"N6,N6,N6-Trimethyl-L-lysine",17.4,237745824,3485325,7673274,189.160303
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,Turicine,8.86,15923,0,29958,160.097369
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,Turicine,8.28,6992,0,21767,160.097369
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,Turicine,8.95,3850377984,45923072,261628320,160.097369
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,Turicine,8.95,3269961472,30346034,213912336,160.097369
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,L-Tyrosine,7.79,157617024,0,9898473,182.081719
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,L-Tyrosine,7.83,151534640,0,9427253,182.081719
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,L-Tyrosine,9.68,4413,0,20306,182.081719
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,L-Tyrosine,8.81,8051,0,24707,182.081719
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,L-Valine,8.78,5913154,32274052,1700182,118.086804
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,L-Valine,8.34,4558167,22100754,953675,118.086804
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,L-Valine,9.34,2453440,24734856,216806,118.086804
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,L-Valine,9.06,782558,3292980,245184,118.086804
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,S-Adenosylhomocysteine,8.88,241994336,12777779,6526861,385.129416
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,S-Adenosylhomocysteine,8.92,254973504,0,7061176,385.129416
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,S-Adenosylhomocysteine,#N/A,#N/A,#N/A,#N/A,385.129416
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,S-Adenosylhomocysteine,#N/A,#N/A,#N/A,#N/A,385.129416
+molecules1,210204_Std_4uMStdsMix1InH2O_pos1,S-Adenosylmethionine,12.77,75407136,923768,2945444,399.145066
+molecules1,210204_Std_4uMStdsMix1InH2O_pos2,S-Adenosylmethionine,12.83,84797104,250818,3172357,399.145066
+molecules1,210204_Std_4uMStdsMix2InH2O_pos1,S-Adenosylmethionine,12.92,29328,0,20821,399.145066
+molecules1,210204_Std_4uMStdsMix2InH2O_pos2,S-Adenosylmethionine,13.07,4112,0,7044,399.145066

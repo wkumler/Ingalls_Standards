@@ -1,0 +1,36 @@
+---
+title: "Ingalls Standards Project: Small Changes"
+author: "R.Lionheart"
+date: "02/01/2020"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+source("src/Functions.R")
+
+library(tidyverse)
+```
+
+## Change Log
+02/01/21: Remove Fraction1 and Fraction2 columns. Fix NADH and Riboflavin-5-phosphate ionization forms and z charges.
+
+------
+# Check out SHA 51d3d3c for correct version of changes.
+
+# Drop Fraction1 and Fraction2 columns.
+Ingalls_Lab_Standards_dropFractions <- read.csv("Ingalls_Lab_Standards_NEW.csv") %>% 
+  select(-Fraction1, -Fraction2)
+
+# Switch an accidental [M+H] ionization form to the appropriate [M-H]
+Ingalls_Lab_Standards_dropFractions$ionization_form[which(Ingalls_Lab_Standards_dropFractions$Compound.Name == "NADH")] <- "[M-H]"
+
+# Switch an accidental z charge of -1 to the appropriate z charge of 1.
+Ingalls_Lab_Standards_dropFractions$z[which(Ingalls_Lab_Standards_dropFractions$Compound.Name == "Riboflavin-5-phosphate" &
+                                                      Ingalls_Lab_Standards_dropFractions$ionization_form == "[M-H]")] <- "-1"
+
+write.csv(Ingalls_Lab_Standards_dropFractions, "Ingalls_Lab_Standards_NEW.csv", row.names = FALSE)
+-----
+```
